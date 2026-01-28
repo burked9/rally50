@@ -23,6 +23,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
+    ('Archive', '/pages/archive.html'),
     ('Articles', '/category/articles.html'),
     ('Announcements', '/category/announcements.html'),
     ('Photos', '/pages/photos.html'),
