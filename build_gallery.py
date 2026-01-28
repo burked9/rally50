@@ -5,7 +5,7 @@ from PIL.ExifTags import TAGS
 # Configuration
 IMAGE_DIR = 'content/images/rallies/2005'
 OUTPUT_FILE = 'content/archive/rallies/2005/index.md'
-SITE_URL_PREFIX = '{filename}/images/rallies/2005/'
+SITE_URL_PREFIX = '{static}/images/rallies/2005/'
 
 def get_exif_data(image_path):
     """Extract basic EXIF data (Date, Camera Model) if available."""

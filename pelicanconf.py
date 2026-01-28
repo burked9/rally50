@@ -4,6 +4,9 @@ SITEURL = ''
 
 PATH = 'content'
 
+ARTICLE_PATHS = ['articles', 'announcements']
+PAGE_PATHS = ['pages', 'archive']
+
 TIMEZONE = 'Europe/Dublin'
 
 DEFAULT_LANG = 'en'
