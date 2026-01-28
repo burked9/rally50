@@ -36,28 +36,9 @@ body {
 
 /* --- Header Styles --- */
 .l-site-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 46px 20px 52px;
-  /* Added horizontal padding to match container if needed, or rely on container */
-  max-width: 100%;
-  /* Ensure full width background if needed, but the HTML structure has container wrapping header. 
-  Wait, struct is <div class="l-container"><header ...></div>. So header is inside container. 
-  To make full width black bar, we need to target the container or wrap it differently?
-  JamieOnKeys has white page. 
-  User said "change the colour of the header and footer to black". 
-  If I change .l-site-head bg to black, it will be a black box inside user's container (870px max-width).
-  The footer is outside content? No: <footer class="site-footer"><div class="l-container">...
-  Footer is 100% width. Header is inside .l-container in the base.html I wrote? 
-  Let's check base.html again.
-  */
   background-color: #000;
-  color: #fff;
-  padding: 20px;
-  /* Adjust padding */
-  border-radius: 4px;
-  /* Optional, maybe not */
+  padding: 0;
+  width: 100%;
 }
 
 /* Wait, looking at base.html:
@@ -74,15 +55,7 @@ body {
    If I just color them black, it will be black.
 */
 
-.l-site-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 20px;
-  background-color: #000;
-  color: #fff;
-  /* If inside container, this will be boxy. Let it be for now. */
-}
+
 
 .site-title {
   font-size: 1.25rem;
