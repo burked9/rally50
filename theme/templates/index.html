@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="latest-articles">
+    <h2>Latest Articles</h2>
+    <div class="home-page-blog-grid cols-3">
+        {% for article in articles %}
+        <div class="home-page-blog-post">
+            <a href="{{ SITEURL }}/{{ article.url }}">
+                <div class="home-page-blog-image">
+                    {% if article.image %}
+                    <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}">
+                    {% else %}
+                    <!-- Placeholder if no image defined -->
+                    <img src="{{ SITEURL }}/theme/images/banner.png" alt="{{ article.title }}">
+                    {% endif %}
+                </div>
+                <p class="home-page-blog-title">{{ article.title }}</p>
+                <p class="home-page-blog-date">{{ article.date|strftime('%B %d, %Y') }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
