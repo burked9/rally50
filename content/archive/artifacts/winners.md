@@ -9,7 +9,7 @@ URL: archive/artifacts/winners/index.html
 Explore the history of our trophies and their winners.
 
 **Jump to:**
-{", ".join([f"<a href='#{t['id']}'>{t['name']}</a>" for t in trophies])}
+<a href='#estemaid'>Estemaid Trophy (Committee Prize)</a>, <a href='#boyle'>Boyle Trophy (Barge Race)</a>, <a href='#benjamin'>Benjamin Cup (Recovery of a Cruiser)</a>, <a href='#nm_barge'>NM Barge Trophy (NM Barge Hand)</a>, <a href='#wynn_juba'>Wynn Juba Cup (Orienteering)</a>, <a href='#jj_kineally'>JJ Kineally Perpetual Cup (Overall Team Event)</a>, <a href='#friendship'>Friendship Cup</a>, <a href='#bob_hughes'>Bob Hughes Perpetual Trophy (Boat Inspection)</a>, <a href='#ann_clarke'>Ann Clarke Cup (Junior Friendship)</a>, <a href='#newman'>Newman Cup (Surprise Boat Inspection)</a>, <a href='#jimmy_leyden'>The Jimmy Leyden Perpetual Trophy (Best Endeavour)</a>, <a href='#dennis_byrne'>Dennis Byrne Cup (Best Newcomer)</a>, <a href='#finton_harold'>Finton Harold M.P. Cup (Line Heaving Mens)</a>, <a href='#mccormack'>The McCormack Plate (Line Heaving Womens)</a>, <a href='#dennis_juba'>Dennis Juba Perpetual Cup (Man Over Board)</a>, <a href='#westpark'>Westpark Cup (Boat Handling)</a>, <a href='#eric_timon'>Eric Timon Ditty Perpetual Cup</a>, <a href='#tavern'>Tavern Cup (Time Trial)</a>, <a href='#scarriff'>Scarriff Shield (Barge Handling)</a>, <a href='#jh_stimpson'>JH Stimpson Perpetual Cup (Sailing Competition)</a>, <a href='#benson'>Benson Shield (Young Bosun)</a>
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">

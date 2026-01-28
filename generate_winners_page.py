@@ -27,6 +27,9 @@ OUTPUT_FILE = 'content/archive/artifacts/winners.md'
 
 def generate_markdown():
     # Frontmatter
+    jump_links = ", ".join([f"<a href='#{t['id']}'>{t['name']}</a>" for t in trophies])
+
+    # Frontmatter
     md = """Title: Hall of Fame (Trophy Winners)
 Date: 2024-01-28
 Slug: archive/artifacts/winners
@@ -38,7 +41,9 @@ URL: archive/artifacts/winners/index.html
 Explore the history of our trophies and their winners.
 
 **Jump to:**
-{", ".join([f"<a href='#{t['id']}'>{t['name']}</a>" for t in trophies])}
+"""
+    md += jump_links
+    md += """
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
