@@ -4,40 +4,42 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="i4fbofHAWd-gZzRUjtFy7JbixZ6M3BZoQ3pKpviT_Bw" />
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Open+Sans:wght@300;400&family=Nunito:wght@300;700&display=swap"
-        rel="stylesheet">
+    <!-- Borna font replacement (using system fonts stack mostly, but could use Inter/Roboto as similar) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+        :root {
+            --font-main: 'Inter', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="container">
-            <a href="{{ SITEURL }}/" class="site-logo-link">
-                <img src="{{ SITEURL }}/theme/images/logo.png" alt="{{ SITENAME }} Logo" class="site-logo">
-                <span class="site-title">{{ SITENAME }}</span>
+    <div class="l-container">
+        <header class="l-site-head">
+            <a href="{{ SITEURL }}/" class="site-title">
+                {{ SITENAME }}
             </a>
+
             <nav>
-                <ul>
+                <ul class="l-navigation">
                     {% for title, link in MENUITEMS %}
                     <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
                     {% endfor %}
                 </ul>
             </nav>
-        </div>
-    </header>
+        </header>
+    </div>
 
-    <main class="container">
+    <main>
         {% block content %}
         {% endblock %}
     </main>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="l-container">
             <p>&copy; 2027 {{ SITENAME }}. All rights reserved.</p>
         </div>
     </footer>

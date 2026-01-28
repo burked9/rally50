@@ -1,25 +1,39 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="latest-articles">
-    <h2>Latest Articles</h2>
-    <div class="home-page-blog-grid cols-3">
-        {% for article in articles %}
-        <div class="home-page-blog-post">
-            <a href="{{ SITEURL }}/{{ article.url }}">
-                <div class="home-page-blog-image">
-                    {% if article.image %}
-                    <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.title }}">
-                    {% else %}
-                    <!-- Placeholder if no image defined -->
-                    <img src="{{ SITEURL }}/theme/images/banner.png" alt="{{ article.title }}">
-                    {% endif %}
-                </div>
-                <p class="home-page-blog-title">{{ article.title }}</p>
-                <p class="home-page-blog-date">{{ article.date|strftime('%B %d, %Y') }}</p>
-            </a>
+<!-- Intro / Jumbo Section -->
+<section class="theme-secondary theme-bg">
+    <div class="l-container l-jumbo">
+        <div class="bg-rainbow-avatar">
+            <!-- Using logo as avatar -->
+            <img src="{{ SITEURL }}/theme/images/logo.png" alt="Rally 50 Logo">
         </div>
-        {% endfor %}
+        <div class="l-stack l-measure">
+            <p style="font-size: 1.5rem; font-weight: 700;">Welcome to the 50th Anniversary Rally.</p>
+            <p>Celebrating 50 years of the IWAI Lough Derg Rally in 2027. Join us as we look back at our history and
+                look forward to the future.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Content -->
+<section class="l-container" style="margin-top: 66px;">
+    <div class="l-stack">
+        <h2 class="h1">Latest Updates</h2>
+        <ul class="l-post-stack">
+            {% for article in articles %}
+            <li class="post-stack-item">
+                <h3 class="h4">
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
+                </h3>
+                <p class="post-meta"><time datetime="{{ article.date }}">{{ article.date|strftime('%d %B %Y') }}</time>
+                </p>
+                <div class="post-summary">
+                    {{ article.summary }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </section>
 {% endblock %}
