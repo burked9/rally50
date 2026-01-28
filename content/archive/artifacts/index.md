@@ -4,7 +4,7 @@ Slug: archive/artifacts
 Save_as: archive/artifacts/index.html
 URL: archive/artifacts/index.html
 
-# Artifacts
+
 
 ## [Hall of Fame (Trophy Winners)]({filename}/archive/artifacts/winners.md)
 ## [Rally Brochures]({filename}/archive/artifacts/brochures.md)

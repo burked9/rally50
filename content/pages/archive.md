@@ -1,9 +1,7 @@
-Title: Archive
+Title: The Rally 50 Archive
 Date: 2024-01-28
 Slug: archive
 Template: page
-
-# The Rally 50 Archive
 
 Welcome to the digital archive of the IWAI Lough Derg Rally. Here you will find a treasure trove of history, memories, and artifacts from the past 50 years.
 

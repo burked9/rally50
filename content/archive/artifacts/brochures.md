@@ -1,10 +1,8 @@
-Title: Rally Brochures
+Title: Rally Brochures and Magazines
 Date: 2024-01-28
 Slug: archive/artifacts/brochures
 Save_as: archive/artifacts/brochures/index.html
 URL: archive/artifacts/brochures/index.html
-
-# Rally Brochures & Magazines
 
 Browse through the digital collection of rally brochures from the past. Click on a cover to view the full PDF.
 
@@ -184,10 +182,6 @@ const magazines = [
     {
         "name": "Derg Rally 44",
         "id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH"
-    },
-    {
-        "name": "Old Rally Magazines",
-        "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU"
     }
 ];
 

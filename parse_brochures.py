@@ -346,10 +346,7 @@ raw_json = """
     "name": "Derg Rally 44",
     "id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH"
   },
-  {
-    "name": "Old Rally Magazines",
-    "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU"
-  }
+
 ]
 """
 

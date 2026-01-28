@@ -4,7 +4,6 @@ Slug: archive/artifacts/winners
 Save_as: archive/artifacts/winners/index.html
 URL: archive/artifacts/winners/index.html
 
-# Hall of Fame
 
 Explore the history of our trophies and their winners.
 
