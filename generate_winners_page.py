@@ -1,11 +1,11 @@
 # Trophy Definitions (ID, Name, Description Placeholder)
 trophies = [
-    {"id": "jj_kineally", "name": "JJ Kineally Perpetual Cup (Overall Team Event)", "desc": "Awarded to the team with the highest overall score across all competitions."},
     {"id": "estemaid", "name": "Estemaid Trophy (Committee Prize)", "desc": "Awarded by the committee for a special contribution to the rally."},
     {"id": "boyle", "name": "Boyle Trophy (Barge Race)", "desc": "Awarded to the winner of the annual Barge Race."},
     {"id": "benjamin", "name": "Benjamin Cup (Recovery of a Cruiser)", "desc": "Awarded for the best recovery of a cruiser under simulated conditions."},
     {"id": "nm_barge", "name": "NM Barge Trophy (NM Barge Hand)", "desc": "Awarded for excellence in barge handling by a non-owner/crew member."},
     {"id": "wynn_juba", "name": "Wynn Juba Cup (Orienteering)", "desc": "Awarded to the winner of the marine orienteering competition."},
+    {"id": "jj_kineally", "name": "JJ Kineally Perpetual Cup (Overall Team Event)", "desc": "Awarded to the team with the highest overall score across all competitions."},
     {"id": "friendship", "name": "Friendship Cup", "desc": "Awarded to the boat or crew that best embodies the spirit of friendship."},
     {"id": "bob_hughes", "name": "Bob Hughes Perpetual Trophy (Boat Inspection)", "desc": "Awarded for the highest standard of boat presentation and safety."},
     {"id": "ann_clarke", "name": "Ann Clarke Cup (Junior Friendship)", "desc": "Awarded to a junior member who displays outstanding friendship and spirit."},

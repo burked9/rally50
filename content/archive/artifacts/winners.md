@@ -23,23 +23,6 @@ table.dataTable { font-size: 0.9rem; }
 
 <div class="l-stack">
 
-    <div class="trophy-section" id="jj_kineally">
-        <h2>JJ Kineally Perpetual Cup (Overall Team Event)</h2>
-        <div class="trophy-desc">
-            <p><strong>History:</strong> Awarded to the team with the highest overall score across all competitions.</p>
-            <p>This trophy has been contested since the early days of the rally. [More history to be added...]</p>
-        </div>
-        <table id="table_jj_kineally" class="display responsive nowrap" style="width:100%">
-            <thead>
-                <tr>
-                    <th data-priority="1">Year</th>
-                    <th data-priority="3">Rally No.</th>
-                    <th data-priority="2">Winner</th>
-                </tr>
-            </thead>
-        </table>
-    </div>
-
     <div class="trophy-section" id="estemaid">
         <h2>Estemaid Trophy (Committee Prize)</h2>
         <div class="trophy-desc">
@@ -115,6 +98,23 @@ table.dataTable { font-size: 0.9rem; }
             <p>This trophy has been contested since the early days of the rally. [More history to be added...]</p>
         </div>
         <table id="table_wynn_juba" class="display responsive nowrap" style="width:100%">
+            <thead>
+                <tr>
+                    <th data-priority="1">Year</th>
+                    <th data-priority="3">Rally No.</th>
+                    <th data-priority="2">Winner</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div class="trophy-section" id="jj_kineally">
+        <h2>JJ Kineally Perpetual Cup (Overall Team Event)</h2>
+        <div class="trophy-desc">
+            <p><strong>History:</strong> Awarded to the team with the highest overall score across all competitions.</p>
+            <p>This trophy has been contested since the early days of the rally. [More history to be added...]</p>
+        </div>
+        <table id="table_jj_kineally" class="display responsive nowrap" style="width:100%">
             <thead>
                 <tr>
                     <th data-priority="1">Year</th>
@@ -391,22 +391,6 @@ table.dataTable { font-size: 0.9rem; }
 <script>
 $(document).ready(function() {
 
-    $('#table_jj_kineally').DataTable({
-        data: trophyData,
-        columns: [
-            { data: 'year' },
-            { data: 'rally' },
-            { data: 'jj_kineally' }
-        ],
-        responsive: true,
-        order: [[ 0, "desc" ]],
-        pageLength: 10,
-        language: {
-            search: "_INPUT_",
-            searchPlaceholder: "Filter..."
-        }
-    });
-
     $('#table_estemaid').DataTable({
         data: trophyData,
         columns: [
@@ -477,6 +461,22 @@ $(document).ready(function() {
             { data: 'year' },
             { data: 'rally' },
             { data: 'wynn_juba' }
+        ],
+        responsive: true,
+        order: [[ 0, "desc" ]],
+        pageLength: 10,
+        language: {
+            search: "_INPUT_",
+            searchPlaceholder: "Filter..."
+        }
+    });
+
+    $('#table_jj_kineally').DataTable({
+        data: trophyData,
+        columns: [
+            { data: 'year' },
+            { data: 'rally' },
+            { data: 'jj_kineally' }
         ],
         responsive: true,
         order: [[ 0, "desc" ]],
