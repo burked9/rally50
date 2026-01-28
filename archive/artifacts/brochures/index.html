@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rally Brochures - IWAI Lough Derg Rally 50</title>
+    <link rel="stylesheet" href="https://burked9.github.io/rally50/theme/css/style.css" />
+    <!-- Borna font replacement (using system fonts stack mostly, but could use Inter/Roboto as similar) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+        :root {
+            --font-main: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="l-container">
+        <header class="l-site-head">
+            <a href="https://burked9.github.io/rally50/" class="site-title">
+                IWAI Lough Derg Rally 50
+            </a>
+
+            <nav>
+                <ul class="l-navigation">
+                    <li><a href="https://burked9.github.io/rally50/">Home</a></li>
+                    <li><a href="https://burked9.github.io/rally50/pages/about.html">About</a></li>
+                    <li><a href="https://burked9.github.io/rally50/pages/archive.html">Archive</a></li>
+                    <li><a href="https://burked9.github.io/rally50/category/articles.html">Articles</a></li>
+                    <li><a href="https://burked9.github.io/rally50/category/announcements.html">Announcements</a></li>
+                    <li><a href="https://burked9.github.io/rally50/pages/photos.html">Photos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+<div class="l-container" style="padding-top: 40px; padding-bottom: 66px;">
+    <article class="page l-measure">
+        <header>
+            <h1 class="h1">Rally Brochures</h1>
+        </header>
+        <div class="entry-content l-stack">
+            <h1>Rally Brochures &amp; Magazines</h1>
+<p>Browse through the digital collection of rally brochures from the past. Click on a cover to view the full PDF.</p>
+<div id="magazine-grid" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px;"></div>
+
+<script>
+// Data: List of Rally Magazines
+const magazines = [
+    {
+        "name": "Derg Rally 02",
+        "id": "0B4ubLJPS0mdTMnNzS0lXTy1FQWM"
+    },
+    {
+        "name": "Derg Rally 03",
+        "id": "0B4ubLJPS0mdTbWRBTndEeW43ekk"
+    },
+    {
+        "name": "Derg Rally 04",
+        "id": "0B4ubLJPS0mdTWE5uR3FMaWVUNWc"
+    },
+    {
+        "name": "Derg Rally 05",
+        "id": "0B4ubLJPS0mdTTzc4eC1jXzU0QVU"
+    },
+    {
+        "name": "Derg Rally 06",
+        "id": "0B4ubLJPS0mdTcmFheWphX1ZZUjQ"
+    },
+    {
+        "name": "Derg Rally 07",
+        "id": "0B4ubLJPS0mdTeklUc0FZQXJjVEU"
+    },
+    {
+        "name": "Derg Rally 08",
+        "id": "0B4ubLJPS0mdTYUl5ckdvWnlFZHc"
+    },
+    {
+        "name": "Derg Rally 09",
+        "id": "0B4ubLJPS0mdTZTZaeVVGMjFJR2s"
+    },
+    {
+        "name": "Derg Rally 10",
+        "id": "0B4ubLJPS0mdTZ2FrVXhoVHV5ejQ"
+    },
+    {
+        "name": "Derg Rally 11",
+        "id": "0B4ubLJPS0mdTMDhPNktIQVZueXM"
+    },
+    {
+        "name": "Derg Rally 12",
+        "id": "0B4ubLJPS0mdTaVo1NW5sQnNPbFk"
+    },
+    {
+        "name": "Derg Rally 13",
+        "id": "0B4ubLJPS0mdTU1dUbnd0Q2pjb1k"
+    },
+    {
+        "name": "Derg Rally 14",
+        "id": "0B4ubLJPS0mdTeHR4NThVd2sxS0U"
+    },
+    {
+        "name": "Derg Rally 15",
+        "id": "0B4ubLJPS0mdTVEdpMXFqNjhTbmc"
+    },
+    {
+        "name": "Derg Rally 16",
+        "id": "0B4ubLJPS0mdTN29uckVick1UeUk"
+    },
+    {
+        "name": "Derg Rally 17",
+        "id": "0B4ubLJPS0mdTQ0ZHdVBlOGlpbkU"
+    },
+    {
+        "name": "Derg Rally 18",
+        "id": "0B4ubLJPS0mdTemRxa29EN3hKX1E"
+    },
+    {
+        "name": "Derg Rally 19",
+        "id": "0B4ubLJPS0mdTQXlhel9XNG0tUHc"
+    },
+    {
+        "name": "Derg Rally 20",
+        "id": "0B4ubLJPS0mdTVHJDalF2Wi1zYmc"
+    },
+    {
+        "name": "Derg Rally 21",
+        "id": "0B4ubLJPS0mdTMTYwUTM2MVNWVnM"
+    },
+    {
+        "name": "Derg Rally 22",
+        "id": "0B4ubLJPS0mdTSzdwMjhrbEFId2c"
+    },
+    {
+        "name": "Derg Rally 23",
+        "id": "0B4ubLJPS0mdTZUpCSkRCWE04Vkk"
+    },
+    {
+        "name": "Derg Rally 24",
+        "id": "0B4ubLJPS0mdTTXR4RXMtSmhfWXc"
+    },
+    {
+        "name": "Derg Rally 25",
+        "id": "0B4ubLJPS0mdTMy14eG4wNkxVM3c"
+    },
+    {
+        "name": "Derg Rally 26",
+        "id": "0B4ubLJPS0mdTTUhQSklPTjZvSk0"
+    },
+    {
+        "name": "Derg Rally 27",
+        "id": "0B4ubLJPS0mdTWWFaakR5QUstRlU"
+    },
+    {
+        "name": "Derg Rally 28",
+        "id": "0B4ubLJPS0mdTUWpRS3haTks5NXc"
+    },
+    {
+        "name": "Derg Rally 29",
+        "id": "0B4ubLJPS0mdTc3FXaVBkNXlVZzA"
+    },
+    {
+        "name": "Derg Rally 30",
+        "id": "0B4ubLJPS0mdTMmFUOC16d2dkcEE"
+    },
+    {
+        "name": "Derg Rally 31",
+        "id": "0B4ubLJPS0mdTYlpVSmRtMWp5ekU"
+    },
+    {
+        "name": "Derg Rally 32",
+        "id": "0B4ubLJPS0mdTajl1WWNXbWc3MVU"
+    },
+    {
+        "name": "Derg Rally 33",
+        "id": "0B4ubLJPS0mdTWDVEeFlSSGNqLUE"
+    },
+    {
+        "name": "Derg Rally 34",
+        "id": "0B4ubLJPS0mdTREwxejdpckV4X2c"
+    },
+    {
+        "name": "Derg Rally 35",
+        "id": "0B4ubLJPS0mdTWHUtTlVtWEpOTFU"
+    },
+    {
+        "name": "Derg Rally 36",
+        "id": "0B4ubLJPS0mdTTGdXazVtbVNXYjA"
+    },
+    {
+        "name": "Derg Rally 37",
+        "id": "0B4ubLJPS0mdTMFZNaHcySWhOWmc"
+    },
+    {
+        "name": "Derg Rally 38",
+        "id": "0B4ubLJPS0mdTTmROUlBGTHpFbGc"
+    },
+    {
+        "name": "Derg Rally 39",
+        "id": "0B4ubLJPS0mdTY05IQ3BaR2dpQ3c"
+    },
+    {
+        "name": "Derg Rally 40",
+        "id": "0B4ubLJPS0mdTTFFWMUZzalJtaDg"
+    },
+    {
+        "name": "Derg Rally 41",
+        "id": "0B4ubLJPS0mdTRGZMLTlYSUNIaG8"
+    },
+    {
+        "name": "Derg Rally 42",
+        "id": "1e9QjP4ojAxLjnj2m_nmTnvkDyisMOtHr"
+    },
+    {
+        "name": "Derg Rally 43",
+        "id": "1YI7sgI0LnIK91tf6X_M9hELcCHhdF0SV"
+    },
+    {
+        "name": "Derg Rally 44",
+        "id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH"
+    },
+    {
+        "name": "Old Rally Magazines",
+        "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU"
+    }
+];
+
+const grid = document.getElementById('magazine-grid');
+
+magazines.forEach(mag => {
+    // Generate the URL for the first page thumbnail
+    const thumbUrl = `https://drive.google.com/thumbnail?id=${mag.id}&sz=w400`;
+    // Generate the URL to view the PDF
+    const viewUrl = `https://drive.google.com/file/d/${mag.id}/view?usp=sharing`;
+
+    const card = `
+        <div class="mag-card" style="width: 200px; text-align: center; font-family: sans-serif;">
+            <a href="${viewUrl}" target="_blank" style="text-decoration: none; color: inherit;">
+                <img src="${thumbUrl}" alt="${mag.name}" style="width: 100%; border: 1px solid #ddd; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); border-radius: 4px; transition: transform 0.2s;">
+                <p style="margin-top: 10px; font-weight: bold; font-size: 0.9rem;">${mag.name}</p>
+            </a>
+        </div>
+    `;
+    grid.innerHTML += card;
+});
+</script>
+
+<style>
+    /* Subtle hover effect for the magazines */
+    .mag-card img:hover {
+        transform: scale(1.05);
+        border-color: #004a99;
+    }
+</style>
+        </div>
+    </article>
+</div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="l-container">
+            <p>&copy; 2027 IWAI Lough Derg Rally 50. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
