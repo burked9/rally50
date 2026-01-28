@@ -6,5 +6,6 @@ URL: archive/people/index.html
 
 # People
 
+## [List of Commodores]({filename}/archive/people/commodores.md)
 ## [Memorials]({filename}/archive/people/memorials/index.md)
 ## [Generations]({filename}/archive/people/generations/index.md)
