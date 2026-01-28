@@ -75,7 +75,7 @@ Slug: archive/people/commodores
 Save_as: archive/people/commodores/index.html
 URL: archive/people/commodores/index.html
 
-Honoring the Commodores who have led the Lough Derg Rally over the past 50 years.
+Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus years.
 
 <div class="l-stack">
     <table class="display responsive nowrap" style="width:100%">
