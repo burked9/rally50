@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero full-width-banner">
+    <div class="hero-content">
+        <h1>Welcome to {{ SITENAME }}</h1>
+        <p class="tagline">Navigating the Future of Aviation with AI</p>
+    </div>
+</section>
+
+<div class="home-content">
+    {% if pages %}
+    {% for page in pages %}
+    {% if page.slug == 'home' %}
+    {{ page.content }}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
