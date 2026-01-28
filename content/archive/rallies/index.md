@@ -2,6 +2,7 @@ Title: Rallies Archive
 Date: 2024-01-28
 Slug: archive/rallies
 Save_as: archive/rallies/index.html
+URL: archive/rallies/index.html
 
 # Rallies Archive
 

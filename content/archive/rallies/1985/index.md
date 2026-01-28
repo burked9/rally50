@@ -1,12 +1,13 @@
-Title: 1985 Rally
-Date: 2024-01-28
+Title: 1985 Rally (No. 10)
+Date: 1985-01-01
 Slug: archive/rallies/1985
 Save_as: archive/rallies/1985/index.html
+URL: archive/rallies/1985/index.html
 
-# 1985 Rally
+# 1985 Rally (No. 10)
 
 ## Photos
-*Lightbox gallery placeholder*
+*No photos yet.*
 
-## Brochures & Tickets
-*PDF Flipbook placeholder*
+## Documents
+*No documents yet.*

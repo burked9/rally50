@@ -2,6 +2,7 @@ Title: Artifacts Archive
 Date: 2024-01-28
 Slug: archive/artifacts
 Save_as: archive/artifacts/index.html
+URL: archive/artifacts/index.html
 
 # Artifacts
 
