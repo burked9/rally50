@@ -6,7 +6,10 @@ URL: archive/artifacts/winners/index.html
 
 # Hall of Fame
 
-Explore the history of our trophies and their winners over the past 50 years.
+Explore the history of our trophies and their winners.
+
+**Jump to:**
+{", ".join([f"<a href='#{t['id']}'>{t['name']}</a>" for t in trophies])}
 
 <!-- DataTables CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
