@@ -4,8 +4,6 @@ Slug: archive/rallies/1982
 Save_as: archive/rallies/1982/index.html
 URL: archive/rallies/1982/index.html
 
-# 1982 Rally (No. 7)
-
 ## Photos
 *No photos yet.*
 

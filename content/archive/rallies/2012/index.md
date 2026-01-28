@@ -4,8 +4,6 @@ Slug: archive/rallies/2012
 Save_as: archive/rallies/2012/index.html
 URL: archive/rallies/2012/index.html
 
-# 2012 Rally (No. 37)
-
 ## Photos
 *No photos yet.*
 

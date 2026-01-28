@@ -4,8 +4,6 @@ Slug: archive/rallies/1989
 Save_as: archive/rallies/1989/index.html
 URL: archive/rallies/1989/index.html
 
-# 1989 Rally (No. 14)
-
 ## Photos
 *No photos yet.*
 

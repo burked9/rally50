@@ -4,8 +4,6 @@ Slug: archive/rallies/2027
 Save_as: archive/rallies/2027/index.html
 URL: archive/rallies/2027/index.html
 
-# 2027 Rally (No. 50)
-
 ## Photos
 *No photos yet.*
 

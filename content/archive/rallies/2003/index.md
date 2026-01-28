@@ -4,8 +4,6 @@ Slug: archive/rallies/2003
 Save_as: archive/rallies/2003/index.html
 URL: archive/rallies/2003/index.html
 
-# 2003 Rally (No. 28)
-
 ## Photos
 *No photos yet.*
 

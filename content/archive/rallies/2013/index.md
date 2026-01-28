@@ -4,8 +4,6 @@ Slug: archive/rallies/2013
 Save_as: archive/rallies/2013/index.html
 URL: archive/rallies/2013/index.html
 
-# 2013 Rally (No. 38)
-
 ## Photos
 *No photos yet.*
 

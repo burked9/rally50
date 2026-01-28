@@ -4,8 +4,6 @@ Slug: archive/rallies/1996
 Save_as: archive/rallies/1996/index.html
 URL: archive/rallies/1996/index.html
 
-# 1996 Rally (No. 21)
-
 ## Photos
 *No photos yet.*
 

@@ -4,8 +4,6 @@ Slug: archive/rallies/2026
 Save_as: archive/rallies/2026/index.html
 URL: archive/rallies/2026/index.html
 
-# 2026 Rally (No. 49)
-
 ## Photos
 *No photos yet.*
 

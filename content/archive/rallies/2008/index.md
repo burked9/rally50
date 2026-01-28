@@ -4,8 +4,6 @@ Slug: archive/rallies/2008
 Save_as: archive/rallies/2008/index.html
 URL: archive/rallies/2008/index.html
 
-# 2008 Rally (No. 33)
-
 ## Photos
 *No photos yet.*
 

@@ -4,8 +4,6 @@ Slug: archive/rallies/2018
 Save_as: archive/rallies/2018/index.html
 URL: archive/rallies/2018/index.html
 
-# 2018 Rally (No. 43)
-
 ## Photos
 *No photos yet.*
 

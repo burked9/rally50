@@ -4,8 +4,6 @@ Slug: archive/rallies/2000
 Save_as: archive/rallies/2000/index.html
 URL: archive/rallies/2000/index.html
 
-# 2000 Rally (No. 25)
-
 ## Photos
 *No photos yet.*
 

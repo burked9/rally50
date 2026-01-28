@@ -4,8 +4,6 @@ Slug: archive/rallies/2023
 Save_as: archive/rallies/2023/index.html
 URL: archive/rallies/2023/index.html
 
-# 2023 Rally (No. 46)
-
 ## Photos
 *No photos yet.*
 

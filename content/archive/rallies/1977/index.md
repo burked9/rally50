@@ -4,8 +4,6 @@ Slug: archive/rallies/1977
 Save_as: archive/rallies/1977/index.html
 URL: archive/rallies/1977/index.html
 
-# 1977 Rally (No. 3)
-
 ## Photos
 *No photos yet.*
 

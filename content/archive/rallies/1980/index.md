@@ -4,8 +4,6 @@ Slug: archive/rallies/1980
 Save_as: archive/rallies/1980/index.html
 URL: archive/rallies/1980/index.html
 
-# 1980 Rally (No. 5)
-
 ## Photos
 *No photos yet.*
 

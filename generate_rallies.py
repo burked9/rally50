@@ -65,8 +65,6 @@ Slug: archive/rallies/{year}
 Save_as: archive/rallies/{year}/index.html
 URL: archive/rallies/{year}/index.html
 
-# {year} Rally (No. {num})
-
 ## Photos
 *No photos yet.*
 
@@ -86,8 +84,6 @@ Date: 2024-01-28
 Slug: archive/rallies
 Save_as: archive/rallies/index.html
 URL: archive/rallies/index.html
-
-# Rallies Archive
 
 Explore the history of the rally year by year.
 

@@ -4,8 +4,6 @@ Slug: archive/rallies/2017
 Save_as: archive/rallies/2017/index.html
 URL: archive/rallies/2017/index.html
 
-# 2017 Rally (No. 42)
-
 ## Photos
 *No photos yet.*
 

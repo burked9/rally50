@@ -4,8 +4,6 @@ Slug: archive/rallies/1990
 Save_as: archive/rallies/1990/index.html
 URL: archive/rallies/1990/index.html
 
-# 1990 Rally (No. 15)
-
 ## Photos
 *No photos yet.*
 

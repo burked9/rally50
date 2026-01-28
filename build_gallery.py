@@ -32,8 +32,6 @@ Slug: archive/rallies/2005
 Save_as: archive/rallies/2005/index.html
 URL: archive/rallies/2005/index.html
 
-# 2005 Rally Archive
-
 Explore the photos from the 2005 Rally.
 
 <div class="gallery-grid">

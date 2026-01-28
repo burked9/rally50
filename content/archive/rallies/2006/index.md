@@ -4,8 +4,6 @@ Slug: archive/rallies/2006
 Save_as: archive/rallies/2006/index.html
 URL: archive/rallies/2006/index.html
 
-# 2006 Rally (No. 31)
-
 ## Photos
 *No photos yet.*
 

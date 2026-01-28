@@ -4,8 +4,6 @@ Slug: archive/rallies/2010
 Save_as: archive/rallies/2010/index.html
 URL: archive/rallies/2010/index.html
 
-# 2010 Rally (No. 35)
-
 ## Photos
 *No photos yet.*
 

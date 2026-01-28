@@ -4,8 +4,6 @@ Slug: archive/rallies/1984
 Save_as: archive/rallies/1984/index.html
 URL: archive/rallies/1984/index.html
 
-# 1984 Rally (No. 9)
-
 ## Photos
 *No photos yet.*
 

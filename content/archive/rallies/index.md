@@ -4,8 +4,6 @@ Slug: archive/rallies
 Save_as: archive/rallies/index.html
 URL: archive/rallies/index.html
 
-# Rallies Archive
-
 Explore the history of the rally year by year.
 
 <div class="l-post-stack">

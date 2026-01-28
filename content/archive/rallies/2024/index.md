@@ -4,8 +4,6 @@ Slug: archive/rallies/2024
 Save_as: archive/rallies/2024/index.html
 URL: archive/rallies/2024/index.html
 
-# 2024 Rally (No. 47)
-
 ## Photos
 *No photos yet.*
 

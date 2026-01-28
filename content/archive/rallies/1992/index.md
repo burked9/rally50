@@ -4,8 +4,6 @@ Slug: archive/rallies/1992
 Save_as: archive/rallies/1992/index.html
 URL: archive/rallies/1992/index.html
 
-# 1992 Rally (No. 17)
-
 ## Photos
 *No photos yet.*
 

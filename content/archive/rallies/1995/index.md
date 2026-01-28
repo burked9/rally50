@@ -4,8 +4,6 @@ Slug: archive/rallies/1995
 Save_as: archive/rallies/1995/index.html
 URL: archive/rallies/1995/index.html
 
-# 1995 Rally (No. 20)
-
 ## Photos
 *No photos yet.*
 
