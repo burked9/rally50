@@ -44,5 +44,5 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # Static paths
-STATIC_PATHS = ['images', 'js', 'extra/CNAME']
+STATIC_PATHS = ['images', 'js', 'data', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
