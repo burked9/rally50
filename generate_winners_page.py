@@ -71,7 +71,7 @@ OUTPUT_MD_FILE = 'content/archive/artifacts/winners.md'
 TEMPLATE_FILE = 'theme/templates/hall_of_fame.html'
 
 def generate_markdown():
-    template_content = """{% extends "page.html" %}
+    template_content = \"\"\"{% extends "page.html" %}
 
 {% block content %}
 <div class="l-container">
@@ -105,7 +105,7 @@ def generate_markdown():
         /* Trophy Grid */
         .trophy-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
             gap: 30px;
             margin-top: 30px;
         }
@@ -113,7 +113,7 @@ def generate_markdown():
             background: #fff;
             border: 1px solid #eee;
             border-radius: 8px;
-            padding: 20px;
+            padding: 24px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             transition: transform 0.2s;
@@ -127,8 +127,8 @@ def generate_markdown():
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .trophy-icon {
-            width: 64px;
-            height: 64px;
+            width: 72px;
+            height: 72px;
             margin-bottom: 15px;
             object-fit: contain;
         }
@@ -141,16 +141,17 @@ def generate_markdown():
         }
         .trophy-title {
             font-weight: bold;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
         }
         .trophy-short-desc {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             color: #666;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 6;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            line-height: 1.5;
         }
 
         /* Modal */
@@ -210,26 +211,26 @@ def generate_markdown():
 
         <!-- Grid -->
         <div class="trophy-grid">
-"""
+\"\"\"
 
     for t in trophies:
-        template_content += f"""
+        template_content += f\"\"\"
             <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
                 <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
                 <span class="trophy-category">{t['category']}</span>
                 <div class="trophy-title">{t['name']}</div>
                 <div class="trophy-short-desc">{t['desc']}</div>
             </div>
-"""
+\"\"\"
     
-    template_content += """
+    template_content += \"\"\"
         </div>
 
         <!-- Modals -->
-"""
+\"\"\"
 
     for t in trophies:
-        template_content += f"""
+        template_content += f\"\"\"
         <div id="modal-{t['id']}" class="modal-overlay" onclick="closeModal(event, '{t['id']}')">
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, '{t['id']}')">&times;</span>
@@ -253,9 +254,9 @@ def generate_markdown():
                 </table>
             </div>
         </div>
-"""
+\"\"\"
 
-    template_content += """
+    template_content += \"\"\"
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
@@ -297,10 +298,10 @@ def generate_markdown():
 
         $(document).ready(function() {
             // Initialize DataTables
-"""
+\"\"\"
 
     for t in trophies:
-        template_content += f"""
+        template_content += f\"\"\"
             $('#table_{t['id']}').DataTable({{
                 data: trophyData,
                 columns: [
@@ -313,15 +314,15 @@ def generate_markdown():
                 pageLength: 10,
                 language: {{ search: "_INPUT_", searchPlaceholder: "Filter..." }}
             }});
-"""
+\"\"\"
 
-    template_content += """
+    template_content += \"\"\"
         });
         </script>
     </div>
 </div>
 {% endblock %}
-"""
+\"\"\"
 
     with open(TEMPLATE_FILE, 'w') as f:
         f.write(template_content)
