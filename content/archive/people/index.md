@@ -8,4 +8,20 @@ URL: archive/people/index.html
 
 ## [List of Commodores]({filename}/archive/people/commodores.md)
 ## [Memorials]({filename}/archive/people/memorials/index.md)
-## [Generations]({filename}/archive/people/generations/index.md)
+## Generations
+
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/generations/eamon-egan.md" class="gallery-item">
+        <img src="{static}/images/people/eamon_egan_scan.png" alt="Eamon Egan">
+        <div class="gallery-caption">Legends of the Lake: Eamon Egan</div>
+    </a>
+    <a href="#" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Article 2">
+        <div class="gallery-caption">Generations Article 2</div>
+    </a>
+    <a href="#" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Article 3">
+        <div class="gallery-caption">Generations Article 3</div>
+    </a>
+</div>
+
