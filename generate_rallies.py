@@ -32,10 +32,11 @@ def generate_pages():
         dir_path = os.path.join(BASE_DIR, str(year))
         file_path = os.path.join(dir_path, 'index.md')
         
-        # Skip if 2005 already exists (preserve our gallery work)
-        if year == 2005 and os.path.exists(file_path):
-            print(f"Skipping 2005 (Preserving existing content)")
+        # Skip if 2005 or 2023 already exists (preserve our gallery work)
+        if year in [2005, 2023] and os.path.exists(file_path):
+            print(f"Skipping {year} (Preserving existing content)")
             continue
+
 
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
