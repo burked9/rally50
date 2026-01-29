@@ -4,6 +4,6 @@ Slug: photos
 
 # Event Photos
 
-A collection of photos from the IWAI Lough Derg Rally 50 will be displayed here.
+A select collection of photos for the IWAI Lough Derg Rally 50 will be displayed here.
 
 *Stay tuned for updates!*
