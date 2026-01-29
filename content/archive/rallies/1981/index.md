@@ -3,9 +3,7 @@ Date: 1981-01-01
 Slug: archive/rallies/1981
 Save_as: archive/rallies/1981/index.html
 URL: archive/rallies/1981/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*

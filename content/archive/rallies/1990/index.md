@@ -3,9 +3,7 @@ Date: 1990-01-01
 Slug: archive/rallies/1990
 Save_as: archive/rallies/1990/index.html
 URL: archive/rallies/1990/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*

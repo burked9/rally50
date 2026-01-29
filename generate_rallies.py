@@ -32,31 +32,25 @@ def generate_pages():
         dir_path = os.path.join(BASE_DIR, str(year))
         file_path = os.path.join(dir_path, 'index.md')
         
-        # Skip if 2005 or 2023 already exists (preserve our gallery work)
-        if year in [2005, 2023] and os.path.exists(file_path):
-            print(f"Skipping {year} (Preserving existing content)")
-            continue
-
-
         if not os.path.exists(dir_path):
             os.makedirs(dir_path)
             
-        if not os.path.exists(file_path):
-            content = f"""Title: {year} Rally (No. {num})
+        # Standard content for ALL years.
+        # The dynamic template handles checking for JSON data.
+        content = f"""Title: {year} Rally (No. {num})
 Date: {year}-01-01
 Slug: archive/rallies/{year}
 Save_as: archive/rallies/{year}/index.html
 URL: archive/rallies/{year}/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*
 """
-            with open(file_path, 'w') as f:
-                f.write(content)
-            print(f"Created {year}")
+        # Always overwrite to ensure latest template usage
+        with open(file_path, 'w') as f:
+            f.write(content)
+        print(f"Generated {year}")
 
 def generate_gallery_template():
     # We will generate a Template that contains the card grid.

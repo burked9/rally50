@@ -3,9 +3,7 @@ Date: 1975-01-01
 Slug: archive/rallies/1975
 Save_as: archive/rallies/1975/index.html
 URL: archive/rallies/1975/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*

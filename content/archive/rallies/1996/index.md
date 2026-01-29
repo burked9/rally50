@@ -3,9 +3,7 @@ Date: 1996-01-01
 Slug: archive/rallies/1996
 Save_as: archive/rallies/1996/index.html
 URL: archive/rallies/1996/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*

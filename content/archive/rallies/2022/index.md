@@ -3,9 +3,7 @@ Date: 2022-01-01
 Slug: archive/rallies/2022
 Save_as: archive/rallies/2022/index.html
 URL: archive/rallies/2022/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*

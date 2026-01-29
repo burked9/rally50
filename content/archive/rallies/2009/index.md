@@ -3,9 +3,7 @@ Date: 2009-01-01
 Slug: archive/rallies/2009
 Save_as: archive/rallies/2009/index.html
 URL: archive/rallies/2009/index.html
-
-## Photos
-*No photos yet.*
+Template: rally_dynamic
 
 ## Documents
 *No documents yet.*
