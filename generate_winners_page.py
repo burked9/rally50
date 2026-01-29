@@ -205,15 +205,15 @@ Use the buttons below to filter the awards.
     # Generate Grid Cards
     for t in trophies:
         md += f"""
-    <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
-        <img src="{STATIC_IMG_PATH}{t['image']}" class="trophy-icon" alt="{t['name']}">
-        <span class="trophy-category">{t['category']}</span>
-        <div class="trophy-title">{t['name']}</div>
-        <div class="trophy-short-desc">{t['desc']}</div>
-    </div>
+<div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
+    <img src="{STATIC_IMG_PATH}{t['image']}" class="trophy-icon" alt="{t['name']}">
+    <span class="trophy-category">{t['category']}</span>
+    <div class="trophy-title">{t['name']}</div>
+    <div class="trophy-short-desc">{t['desc']}</div>
+</div>
 """
     
-    md += "</div>\\n\\n"
+    md += "</div>\n\n"
 
     # Generate Modals
     for t in trophies:
