@@ -139,154 +139,154 @@ Use the buttons below to filter the awards.
 <div class="trophy-grid">
 
 <div class="trophy-card category-premier" onclick="openModal('jj_kineally')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="JJ Kenneally Perpetual Challenge Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="JJ Kenneally Perpetual Challenge Cup">
     <span class="trophy-category">premier</span>
     <div class="trophy-title">JJ Kenneally Perpetual Challenge Cup</div>
     <div class="trophy-short-desc">This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.</div>
 </div>
 
 <div class="trophy-card category-spirit" onclick="openModal('jimmy_leyden')">
-    <img src="{static}/images/trophy_shield.png" class="trophy-icon" alt="The Jimmy Leyden Perpetual Trophy">
+    <img src="../../../images/trophy_shield.png" class="trophy-icon" alt="The Jimmy Leyden Perpetual Trophy">
     <span class="trophy-category">spirit</span>
     <div class="trophy-title">The Jimmy Leyden Perpetual Trophy</div>
     <div class="trophy-short-desc">Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally.</div>
 </div>
 
 <div class="trophy-card category-spirit" onclick="openModal('friendship')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="Friendship Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="Friendship Cup">
     <span class="trophy-category">spirit</span>
     <div class="trophy-title">Friendship Cup</div>
     <div class="trophy-short-desc">Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally.</div>
 </div>
 
 <div class="trophy-card category-spirit" onclick="openModal('ann_clarke')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="Anne Clarke Trophy">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="Anne Clarke Trophy">
     <span class="trophy-category">spirit</span>
     <div class="trophy-title">Anne Clarke Trophy</div>
     <div class="trophy-short-desc">Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship).</div>
 </div>
 
 <div class="trophy-card category-spirit" onclick="openModal('estemaid')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Eistemaid Trophy">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Eistemaid Trophy">
     <span class="trophy-category">spirit</span>
     <div class="trophy-title">The Eistemaid Trophy</div>
     <div class="trophy-short-desc">Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!</div>
 </div>
 
 <div class="trophy-card category-newcomer" onclick="openModal('dennis_byrne')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Denis Byrne Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Denis Byrne Cup">
     <span class="trophy-category">newcomer</span>
     <div class="trophy-title">The Denis Byrne Cup</div>
     <div class="trophy-short-desc">Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition.</div>
 </div>
 
 <div class="trophy-card category-newcomer" onclick="openModal('church_bay')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Church Bay Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Church Bay Cup">
     <span class="trophy-category">newcomer</span>
     <div class="trophy-title">The Church Bay Cup</div>
     <div class="trophy-short-desc">Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</div>
 </div>
 
 <div class="trophy-card category-barge" onclick="openModal('boyle')">
-    <img src="{static}/images/trophy_barge.png" class="trophy-icon" alt="The Boyle Trophy">
+    <img src="../../../images/trophy_barge.png" class="trophy-icon" alt="The Boyle Trophy">
     <span class="trophy-category">barge</span>
     <div class="trophy-title">The Boyle Trophy</div>
     <div class="trophy-short-desc">Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</div>
 </div>
 
 <div class="trophy-card category-barge" onclick="openModal('scarriff')">
-    <img src="{static}/images/trophy_barge.png" class="trophy-icon" alt="The Scarriff Perpetual Shield">
+    <img src="../../../images/trophy_barge.png" class="trophy-icon" alt="The Scarriff Perpetual Shield">
     <span class="trophy-category">barge</span>
     <div class="trophy-title">The Scarriff Perpetual Shield</div>
     <div class="trophy-short-desc">Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage.</div>
 </div>
 
 <div class="trophy-card category-barge" onclick="openModal('nm_barge')">
-    <img src="{static}/images/trophy_barge.png" class="trophy-icon" alt="New Metal Barge Trophy">
+    <img src="../../../images/trophy_barge.png" class="trophy-icon" alt="New Metal Barge Trophy">
     <span class="trophy-category">barge</span>
     <div class="trophy-title">New Metal Barge Trophy</div>
     <div class="trophy-short-desc">Presented to the branch for the winner of the Barge Handling competition for modern-built barges.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('westpark')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Westpark Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Westpark Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Westpark Cup</div>
     <div class="trophy-short-desc">The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('wynn_juba')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Wynn Juba Perpetual Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Wynn Juba Perpetual Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Wynn Juba Perpetual Cup</div>
     <div class="trophy-short-desc">Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('tavern')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Tavern Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Tavern Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Tavern Cup</div>
     <div class="trophy-short-desc">Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('dennis_juba')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Denis Juba Perpetual Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Denis Juba Perpetual Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Denis Juba Perpetual Cup</div>
     <div class="trophy-short-desc">Awarded to the winner of the Man Overboard competition.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('benjamin')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Benjamin Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Benjamin Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Benjamin Cup</div>
     <div class="trophy-short-desc">This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('bob_hughes')">
-    <img src="{static}/images/trophy_plaque.png" class="trophy-icon" alt="The Hughes Perpetual Trophy">
+    <img src="../../../images/trophy_plaque.png" class="trophy-icon" alt="The Hughes Perpetual Trophy">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Hughes Perpetual Trophy</div>
     <div class="trophy-short-desc">Presented to the branch by Bob and Rita Hughes. Awarded for the Boat Inspection competition.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('newman')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Newman Perpetual Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Newman Perpetual Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Newman Perpetual Cup</div>
     <div class="trophy-short-desc">Presented by Frank and Louise Newman. Awarded to the winner of a surprise boat inspection.</div>
 </div>
 
 <div class="trophy-card category-skill" onclick="openModal('jh_stimpson')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Stimpson Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Stimpson Cup">
     <span class="trophy-category">skill</span>
     <div class="trophy-title">The Stimpson Cup</div>
     <div class="trophy-short-desc">Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way.</div>
 </div>
 
 <div class="trophy-card category-fun" onclick="openModal('eric_timon')">
-    <img src="{static}/images/trophy_cup.png" class="trophy-icon" alt="The Ditty Cup">
+    <img src="../../../images/trophy_cup.png" class="trophy-icon" alt="The Ditty Cup">
     <span class="trophy-category">fun</span>
     <div class="trophy-title">The Ditty Cup</div>
     <div class="trophy-short-desc">Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening.</div>
 </div>
 
 <div class="trophy-card category-fun" onclick="openModal('finton_harold')">
-    <img src="{static}/images/trophy_shield.png" class="trophy-icon" alt="The Harold Memorial Perpetual Trophy">
+    <img src="../../../images/trophy_shield.png" class="trophy-icon" alt="The Harold Memorial Perpetual Trophy">
     <span class="trophy-category">fun</span>
     <div class="trophy-title">The Harold Memorial Perpetual Trophy</div>
     <div class="trophy-short-desc">Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</div>
 </div>
 
 <div class="trophy-card category-fun" onclick="openModal('mccormack')">
-    <img src="{static}/images/trophy_plaque.png" class="trophy-icon" alt="The Jane McCormack Salver">
+    <img src="../../../images/trophy_plaque.png" class="trophy-icon" alt="The Jane McCormack Salver">
     <span class="trophy-category">fun</span>
     <div class="trophy-title">The Jane McCormack Salver</div>
     <div class="trophy-short-desc">Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition.</div>
 </div>
 
 <div class="trophy-card category-fun" onclick="openModal('benson')">
-    <img src="{static}/images/trophy_shield.png" class="trophy-icon" alt="The Benson Perpetual Shield">
+    <img src="../../../images/trophy_shield.png" class="trophy-icon" alt="The Benson Perpetual Shield">
     <span class="trophy-category">fun</span>
     <div class="trophy-title">The Benson Perpetual Shield</div>
     <div class="trophy-short-desc">Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</div>
@@ -298,7 +298,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'jj_kineally')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="JJ Kenneally Perpetual Challenge Cup">
+            <img src="../../../images/trophy_cup.png" alt="JJ Kenneally Perpetual Challenge Cup">
             <h2>JJ Kenneally Perpetual Challenge Cup</h2>
         </div>
         <div class="modal-history">
@@ -322,7 +322,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'jimmy_leyden')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_shield.png" alt="The Jimmy Leyden Perpetual Trophy">
+            <img src="../../../images/trophy_shield.png" alt="The Jimmy Leyden Perpetual Trophy">
             <h2>The Jimmy Leyden Perpetual Trophy</h2>
         </div>
         <div class="modal-history">
@@ -346,7 +346,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'friendship')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="Friendship Cup">
+            <img src="../../../images/trophy_cup.png" alt="Friendship Cup">
             <h2>Friendship Cup</h2>
         </div>
         <div class="modal-history">
@@ -370,7 +370,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'ann_clarke')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="Anne Clarke Trophy">
+            <img src="../../../images/trophy_cup.png" alt="Anne Clarke Trophy">
             <h2>Anne Clarke Trophy</h2>
         </div>
         <div class="modal-history">
@@ -394,7 +394,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'estemaid')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Eistemaid Trophy">
+            <img src="../../../images/trophy_cup.png" alt="The Eistemaid Trophy">
             <h2>The Eistemaid Trophy</h2>
         </div>
         <div class="modal-history">
@@ -418,7 +418,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'dennis_byrne')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Denis Byrne Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Denis Byrne Cup">
             <h2>The Denis Byrne Cup</h2>
         </div>
         <div class="modal-history">
@@ -442,7 +442,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'church_bay')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Church Bay Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Church Bay Cup">
             <h2>The Church Bay Cup</h2>
         </div>
         <div class="modal-history">
@@ -466,7 +466,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'boyle')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_barge.png" alt="The Boyle Trophy">
+            <img src="../../../images/trophy_barge.png" alt="The Boyle Trophy">
             <h2>The Boyle Trophy</h2>
         </div>
         <div class="modal-history">
@@ -490,7 +490,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'scarriff')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_barge.png" alt="The Scarriff Perpetual Shield">
+            <img src="../../../images/trophy_barge.png" alt="The Scarriff Perpetual Shield">
             <h2>The Scarriff Perpetual Shield</h2>
         </div>
         <div class="modal-history">
@@ -514,7 +514,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'nm_barge')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_barge.png" alt="New Metal Barge Trophy">
+            <img src="../../../images/trophy_barge.png" alt="New Metal Barge Trophy">
             <h2>New Metal Barge Trophy</h2>
         </div>
         <div class="modal-history">
@@ -538,7 +538,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'westpark')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Westpark Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Westpark Cup">
             <h2>The Westpark Cup</h2>
         </div>
         <div class="modal-history">
@@ -562,7 +562,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'wynn_juba')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Wynn Juba Perpetual Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Wynn Juba Perpetual Cup">
             <h2>The Wynn Juba Perpetual Cup</h2>
         </div>
         <div class="modal-history">
@@ -586,7 +586,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'tavern')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Tavern Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Tavern Cup">
             <h2>The Tavern Cup</h2>
         </div>
         <div class="modal-history">
@@ -610,7 +610,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'dennis_juba')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Denis Juba Perpetual Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Denis Juba Perpetual Cup">
             <h2>The Denis Juba Perpetual Cup</h2>
         </div>
         <div class="modal-history">
@@ -634,7 +634,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'benjamin')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Benjamin Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Benjamin Cup">
             <h2>The Benjamin Cup</h2>
         </div>
         <div class="modal-history">
@@ -658,7 +658,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'bob_hughes')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_plaque.png" alt="The Hughes Perpetual Trophy">
+            <img src="../../../images/trophy_plaque.png" alt="The Hughes Perpetual Trophy">
             <h2>The Hughes Perpetual Trophy</h2>
         </div>
         <div class="modal-history">
@@ -682,7 +682,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'newman')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Newman Perpetual Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Newman Perpetual Cup">
             <h2>The Newman Perpetual Cup</h2>
         </div>
         <div class="modal-history">
@@ -706,7 +706,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'jh_stimpson')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Stimpson Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Stimpson Cup">
             <h2>The Stimpson Cup</h2>
         </div>
         <div class="modal-history">
@@ -730,7 +730,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'eric_timon')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_cup.png" alt="The Ditty Cup">
+            <img src="../../../images/trophy_cup.png" alt="The Ditty Cup">
             <h2>The Ditty Cup</h2>
         </div>
         <div class="modal-history">
@@ -754,7 +754,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'finton_harold')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_shield.png" alt="The Harold Memorial Perpetual Trophy">
+            <img src="../../../images/trophy_shield.png" alt="The Harold Memorial Perpetual Trophy">
             <h2>The Harold Memorial Perpetual Trophy</h2>
         </div>
         <div class="modal-history">
@@ -778,7 +778,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'mccormack')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_plaque.png" alt="The Jane McCormack Salver">
+            <img src="../../../images/trophy_plaque.png" alt="The Jane McCormack Salver">
             <h2>The Jane McCormack Salver</h2>
         </div>
         <div class="modal-history">
@@ -802,7 +802,7 @@ Use the buttons below to filter the awards.
     <div class="modal-content" onclick="event.stopPropagation()">
         <span class="modal-close" onclick="closeModal(event, 'benson')">&times;</span>
         <div class="modal-header">
-            <img src="{static}/images/trophy_shield.png" alt="The Benson Perpetual Shield">
+            <img src="../../../images/trophy_shield.png" alt="The Benson Perpetual Shield">
             <h2>The Benson Perpetual Shield</h2>
         </div>
         <div class="modal-history">
@@ -826,7 +826,7 @@ Use the buttons below to filter the awards.
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-<script src="{static}/js/winners_data.js"></script>
+<script src="../../../theme/js/winners_data.js"></script>
 
 <script>
 // Filter Logic

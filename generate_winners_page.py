@@ -58,7 +58,7 @@ trophies = [
 ]
 
 OUTPUT_FILE = 'content/archive/artifacts/winners.md'
-STATIC_IMG_PATH = '{static}/images/'
+STATIC_IMG_PATH = '../../../images/'
 
 def generate_markdown():
     md = """Title: Hall of Fame (Trophy Winners)
@@ -249,7 +249,7 @@ Use the buttons below to filter the awards.
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-<script src="{{static}}/js/winners_data.js"></script>
+<script src="../../../theme/js/winners_data.js"></script>
 
 <script>
 // Filter Logic
