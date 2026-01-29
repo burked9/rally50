@@ -39,75 +39,158 @@
     <main>
 <div class="l-container">
     <div class="entry-content">
-        <p>A selection of photos from the 2023 Rally. Click to view larger.</p>
+        <h2>Documents</h2>
+<p><em>No documents yet.</em></p>
 
-        <div id="rally-46-gallery" class="gallery-grid"></div>
+        <h2>Photos</h2>
+        <div id="rally-gallery-container">
+            <div id="gallery-grid" class="gallery-grid"></div>
+            <div id="loading-indicator" style="text-align:center; padding: 20px; display:none;">Loading...</div>
+            <button id="load-more-btn" class="load-more-btn" style="display:none;">Load More Photos</button>
+        </div>
 
         <style>
             .gallery-grid {
                 display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-                gap: 15px;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                /* Smaller min-width for mobile */
+                gap: 5px;
+                /* Tighter gap */
                 padding: 20px 0;
-                /* Adjusted padding */
+            }
+
+            .gallery-item-wrapper {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 1/1;
+                /* Lock aspect ratio */
+                overflow: hidden;
+                background-color: #f0f0f0;
+                /* Placeholder color before load */
+                border-radius: 4px;
+                /* Slight rounding */
             }
 
             .gallery-item {
                 width: 100%;
-                height: 200px;
+                height: 100%;
                 object-fit: cover;
-                border-radius: 8px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s ease;
                 cursor: pointer;
                 display: block;
-                /* Ensure no inline spacing gaps */
             }
 
             .gallery-item:hover {
                 transform: scale(1.03);
             }
+
+            .load-more-btn {
+                display: block;
+                margin: 30px auto;
+                padding: 12px 30px;
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 25px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: background-color 0.2s;
+            }
+
+            .load-more-btn:hover {
+                background-color: #555;
+            }
         </style>
 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                const container = document.getElementById('rally-46-gallery');
-                const dataUrl = 'https://burked9.github.io/rally50/data/rally46_photos.json';
+                const container = document.getElementById('gallery-grid');
+                const loadMoreBtn = document.getElementById('load-more-btn');
+                const loadingIndicator = document.getElementById('loading-indicator');
 
-                // Fetch the photo data from the JSON file
+                // Extract year from URL or metadata. simpler: use the slug or specific logic
+                // Assuming URL pattern archive/rallies/YYYY/index.html
+                // Or passed via context. But Jinja2 is static.
+                // We can determine the year from the page URL for fetching the JSON.
+                // URL ends in: .../archive/rallies/2023/index.html
+
+                const pathSegments = window.location.pathname.split('/');
+                // Look for a year (4 digits) in the path
+                const yearSegment = pathSegments.find(s => /^\d{4}$/.test(s));
+
+                if (!yearSegment) {
+                    console.log("No year found in URL, skipping gallery load.");
+                    return;
+                }
+
+                const dataUrl = `https://burked9.github.io/rally50/data/rally_${yearSegment}.json`;
+
+                // Pagination Configuration
+                const ITEMS_PER_PAGE = 24;
+                let allPhotos = [];
+                let currentIndex = 0;
+
+                function renderBatch() {
+                    const nextBatch = allPhotos.slice(currentIndex, currentIndex + ITEMS_PER_PAGE);
+
+                    nextBatch.forEach(photo => {
+                        const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`; // Optimization: w400
+                        const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
+
+                        const itemHtml = `
+                    <div class="gallery-item-wrapper">
+                        <a href="${fullUrl}" target="_blank">
+                            <img class="gallery-item" 
+                                 src="${thumbUrl}" 
+                                 alt="${photo.alt || 'Rally Photo'}" 
+                                 loading="lazy">
+                        </a>
+                    </div>
+                    `;
+                        container.innerHTML += itemHtml;
+                    });
+
+                    currentIndex += nextBatch.length;
+
+                    // Hide button if no more photos
+                    if (currentIndex >= allPhotos.length) {
+                        loadMoreBtn.style.display = 'none';
+                    } else {
+                        loadMoreBtn.style.display = 'block';
+                    }
+                }
+
+                // Fetch Data
+                loadingIndicator.style.display = 'block';
                 fetch(dataUrl)
                     .then(response => {
                         if (!response.ok) {
+                            if (response.status === 404) {
+                                // No data file for this year yet, just fail silently or show message
+                                throw new Error('No photos found for this year.');
+                            }
                             throw new Error('Network response was not ok');
                         }
                         return response.json();
                     })
-                    .then(rally46Photos => {
-                        rally46Photos.forEach(photo => {
-                            // Generate the URL for a large thumbnail (w1000 is good for viewing)
-                            const imgUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w1000`;
-                            const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
-
-                            const imgElement = `
-                            <a href="${fullUrl}" target="_blank">
-                                <img class="gallery-item" 
-                                     src="${imgUrl}" 
-                                     alt="${photo.alt || 'Rally Photo'}" 
-                                     loading="lazy">
-                            </a>
-                        `;
-                            container.innerHTML += imgElement;
-                        });
+                    .then(data => {
+                        allPhotos = data;
+                        loadingIndicator.style.display = 'none';
+                        if (allPhotos.length > 0) {
+                            renderBatch();
+                        } else {
+                            container.innerHTML = '<p>No photos available.</p>';
+                        }
                     })
                     .catch(error => {
-                        console.error('Error loading gallery data:', error);
-                        container.innerHTML = '<p>Error loading photos. Please try refreshing the page.</p>';
+                        console.log('Gallery info:', error.message);
+                        loadingIndicator.style.display = 'none';
+                        // Optional: container.innerHTML = '<p><em>No photos available for this year yet.</em></p>';
                     });
+
+                loadMoreBtn.addEventListener('click', renderBatch);
             });
         </script>
-
-        <h2>Documents</h2>
-        <p><em>No documents yet.</em></p>
     </div>
 </div>
     </main>
