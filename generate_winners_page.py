@@ -15,8 +15,6 @@ trophies = [
      "desc": "Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!"},
      
     # Newcomer
-    {"id": "dennis_byrne", "name": "The Denis Byrne Cup", "category": "newcomer", "image": "trophy_cup.png",
-     "desc": "Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition."},
     {"id": "church_bay", "name": "The Church Bay Cup", "category": "newcomer", "image": "trophy_cup.png",
      "desc": "Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally."},
 
@@ -29,6 +27,8 @@ trophies = [
      "desc": "Presented to the branch for the winner of the Barge Handling competition for modern-built barges."},
 
     # Skills / Technical
+    {"id": "dennis_byrne", "name": "The Denis Byrne Cup", "category": "skill", "image": "trophy_cup.png",
+     "desc": "Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition."},
     {"id": "westpark", "name": "The Westpark Cup", "category": "skill", "image": "trophy_cup.png",
      "desc": "The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition."},
     {"id": "wynn_juba", "name": "The Wynn Juba Perpetual Cup", "category": "skill", "image": "trophy_cup.png",
@@ -55,282 +55,283 @@ trophies = [
      "desc": "Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition."},
     {"id": "benson", "name": "The Benson Perpetual Shield", "category": "fun", "image": "trophy_shield.png",
      "desc": "Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition."},
+
+    # Historical (Placeholders or moved items?)
+    # User asked for "Historical" section. 
+    # I will move "Benjamin Cup" here maybe? No, checking description it says "originally intended for Rally One.. cancelled... ESB presented it...". It is still awarded? "Awarded for the 'Recovery of a Cruiser'".
+    # I'll just add the category capability now and if the user wants specific ones moved, they can say.
 ]
 
 OUTPUT_MD_FILE = 'content/archive/artifacts/winners.md'
 TEMPLATE_FILE = 'theme/templates/hall_of_fame.html'
 
 def generate_markdown():
-    # 1. Generate the Jinja2 Template (hall_of_fame.html)
-    # This contains all the HTML, CSS, and JS logic.
-    template_content = """{% extends "page.html" %}
+    template_content = \"\"\"{% extends "page.html" %}
 
 {% block content %}
-<div class="entry-content">
-    
-    <p>Welcome to our shiny new Hall of Fame gallery! Click on a trophy to view its history and past winners.</p>
-    <p>Use the buttons below to filter the awards.</p>
-
-    <!-- DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
-
-    <style>
-    /* Filter Buttons */
-    .filter-btn {
-        background-color: #f8f9fa;
-        border: 1px solid #ddd;
-        border-radius: 20px;
-        padding: 8px 16px;
-        margin: 5px;
-        cursor: pointer;
-        transition: all 0.2s;
-        font-size: 0.9rem;
-    }
-    .filter-btn.active, .filter-btn:hover {
-        background-color: #007bff;
-        color: white;
-        border-color: #007bff;
-    }
-
-    /* Trophy Grid */
-    .trophy-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 30px;
-        margin-top: 30px;
-    }
-    .trophy-card {
-        background: #fff;
-        border: 1px solid #eee;
-        border-radius: 8px;
-        padding: 20px;
-        text-align: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        transition: transform 0.2s;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .trophy-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    .trophy-icon {
-        width: 64px;
-        height: 64px;
-        margin-bottom: 15px;
-        object-fit: contain;
-    }
-    .trophy-category {
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #888;
-        margin-bottom: 5px;
-    }
-    .trophy-title {
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-bottom: 10px;
-    }
-    .trophy-short-desc {
-        font-size: 0.9rem;
-        color: #666;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-
-    /* Modal */
-    .modal-overlay {
-        display: none;
-        position: fixed;
-        top: 0; left: 0; width: 100%; height: 100%;
-        background: rgba(0,0,0,0.7);
-        z-index: 1000;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-    .modal-content {
-        background: white;
-        padding: 30px;
-        border-radius: 8px;
-        max-width: 900px;
-        width: 100%;
-        max-height: 90vh;
-        overflow-y: auto;
-        position: relative;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    }
-    .modal-close {
-        position: absolute;
-        top: 15px;
-        right: 20px;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: #aaa;
-    }
-    .modal-close:hover { color: #333; }
-    .modal-header {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 20px;
-    }
-    .modal-header img { width: 80px; height: 80px; }
-    .modal-history { margin-bottom: 30px; line-height: 1.6; color: #444; }
-    </style>
-
-    <!-- Filters -->
-    <div class="filters" style="text-align: center; margin-bottom: 40px;">
-        <button class="filter-btn active" onclick="filterTrophies('all')">All</button>
-        <button class="filter-btn" onclick="filterTrophies('premier')">Premier</button>
-        <button class="filter-btn" onclick="filterTrophies('barge')">Barges</button>
-        <button class="filter-btn" onclick="filterTrophies('skill')">Skills</button>
-        <button class="filter-btn" onclick="filterTrophies('spirit')">Spirit</button>
-        <button class="filter-btn" onclick="filterTrophies('newcomer')">Newcomer</button>
-        <button class="filter-btn" onclick="filterTrophies('fun')">Fun</button>
-    </div>
-
-    <!-- Grid -->
-    <div class="trophy-grid">
-"""
-
-    for t in trophies:
-        template_content += f"""
-        <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
-            <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
-            <span class="trophy-category">{t['category']}</span>
-            <div class="trophy-title">{t['name']}</div>
-            <div class="trophy-short-desc">{t['desc']}</div>
-        </div>
-"""
-    
-    template_content += """
-    </div>
-
-    <!-- Modals -->
-"""
-
-    for t in trophies:
-        template_content += f"""
-    <div id="modal-{t['id']}" class="modal-overlay" onclick="closeModal(event, '{t['id']}')">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <span class="modal-close" onclick="closeModal(event, '{t['id']}')">&times;</span>
-            <div class="modal-header">
-                <img src="{{{{ SITEURL }}}}/images/{t['image']}" alt="{t['name']}">
-                <h2>{t['name']}</h2>
-            </div>
-            <div class="modal-history">
-                <h3>About this Trophy</h3>
-                <p>{t['desc']}</p>
-            </div>
-            <h3>Past Winners</h3>
-            <table id="table_{t['id']}" class="display responsive nowrap" style="width:100%">
-                <thead>
-                    <tr>
-                        <th data-priority="1">Year</th>
-                        <th data-priority="3">Rally No.</th>
-                        <th data-priority="2">Winner</th>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-    </div>
-"""
-
-    template_content += """
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-    <script src="{{ SITEURL }}/js/winners_data.js"></script>
-
-    <script>
-    // Filter Logic
-    function filterTrophies(category) {
-        // Update Active Button
-        const buttons = document.querySelectorAll('.filter-btn');
-        buttons.forEach(btn => btn.classList.remove('active'));
-        event.target.classList.add('active');
-
-        // Filter Cards
-        const cards = document.querySelectorAll('.trophy-card');
-        cards.forEach(card => {
-            if (category === 'all' || card.classList.contains('category-' + category)) {
-                card.style.display = 'flex';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    }
-
-    // Modal Logic
-    function openModal(id) {
-        const modal = document.getElementById('modal-' + id);
-        modal.style.display = 'flex';
+<!-- Wrapped in .l-container to match site margins -->
+<div class="l-container">
+    <div class="entry-content">
         
-        const table = $('#table_' + id).DataTable();
-        table.columns.adjust().responsive.recalc();
-    }
+        <p>Welcome to our shiny new Hall of Fame gallery! Click on a trophy to view its history and past winners.</p>
+        <p>Use the buttons below to filter the awards.</p>
 
-    function closeModal(event, id) {
-        const modal = document.getElementById('modal-' + id);
-        modal.style.display = 'none';
-    }
+        <!-- DataTables CSS -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
 
-    $(document).ready(function() {
-        // Initialize DataTables
-"""
+        <style>
+        /* Filter Buttons */
+        .filter-btn {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+        .filter-btn.active, .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        /* Trophy Grid */
+        .trophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .trophy-card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .trophy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .trophy-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 15px;
+            object-fit: contain;
+        }
+        .trophy-category {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .trophy-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .trophy-short-desc {
+            font-size: 0.9rem;
+            color: #666;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #aaa;
+        }
+        .modal-close:hover { color: #333; }
+        .modal-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .modal-header img { width: 80px; height: 80px; }
+        .modal-history { margin-bottom: 30px; line-height: 1.6; color: #444; }
+        </style>
+
+        <!-- Filters -->
+        <div class="filters" style="text-align: center; margin-bottom: 40px;">
+            <button class="filter-btn active" onclick="filterTrophies('all')">All</button>
+            <button class="filter-btn" onclick="filterTrophies('premier')">Premier</button>
+            <button class="filter-btn" onclick="filterTrophies('barge')">Barges</button>
+            <button class="filter-btn" onclick="filterTrophies('skill')">Skills</button>
+            <button class="filter-btn" onclick="filterTrophies('spirit')">Spirit</button>
+            <button class="filter-btn" onclick="filterTrophies('newcomer')">Newcomer</button>
+            <button class="filter-btn" onclick="filterTrophies('fun')">Fun</button>
+            <button class="filter-btn" onclick="filterTrophies('historical')">Historical</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="trophy-grid">
+\"\"\"
 
     for t in trophies:
-        template_content += f"""
-        $('#table_{t['id']}').DataTable({{
-            data: trophyData,
-            columns: [
-                {{ data: 'year' }},
-                {{ data: 'rally' }},
-                {{ data: '{t['id']}', defaultContent: "" }}
-            ],
-            responsive: true,
-            order: [[ 0, "desc" ]],
-            pageLength: 10,
-            language: {{ search: "_INPUT_", searchPlaceholder: "Filter..." }}
-        }});
-"""
+        template_content += f\"\"\"
+            <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
+                <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
+                <span class="trophy-category">{t['category']}</span>
+                <div class="trophy-title">{t['name']}</div>
+                <div class="trophy-short-desc">{t['desc']}</div>
+            </div>
+\"\"\"
+    
+    template_content += \"\"\"
+        </div>
 
-    template_content += """
-    });
-    </script>
+        <!-- Modals -->
+\"\"\"
+
+    for t in trophies:
+        template_content += f\"\"\"
+        <div id="modal-{t['id']}" class="modal-overlay" onclick="closeModal(event, '{t['id']}')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, '{t['id']}')">&times;</span>
+                <div class="modal-header">
+                    <img src="{{{{ SITEURL }}}}/images/{t['image']}" alt="{t['name']}">
+                    <h2>{t['name']}</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>{t['desc']}</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_{t['id']}" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+\"\"\"
+
+    template_content += \"\"\"
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+        <script src="{{ SITEURL }}/js/winners_data.js"></script>
+
+        <script>
+        // Filter Logic
+        function filterTrophies(category) {
+            // Update Active Button
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Filter Cards
+            const cards = document.querySelectorAll('.trophy-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.classList.contains('category-' + category)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Modal Logic
+        function openModal(id) {
+            const modal = document.getElementById('modal-' + id);
+            modal.style.display = 'flex';
+            
+            const table = $('#table_' + id).DataTable();
+            table.columns.adjust().responsive.recalc();
+        }
+
+        function closeModal(event, id) {
+            const modal = document.getElementById('modal-' + id);
+            modal.style.display = 'none';
+        }
+
+        $(document).ready(function() {
+            // Initialize DataTables
+\"\"\"
+
+    for t in trophies:
+        template_content += f\"\"\"
+            $('#table_{t['id']}').DataTable({{
+                data: trophyData,
+                columns: [
+                    {{ data: 'year' }},
+                    {{ data: 'rally' }},
+                    {{ data: '{t['id']}', defaultContent: "" }}
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: {{ search: "_INPUT_", searchPlaceholder: "Filter..." }}
+            }});
+\"\"\"
+
+    template_content += \"\"\"
+        });
+        </script>
+    </div>
 </div>
 {% endblock %}
-"""
+\"\"\"
 
-    # Write Template File
     with open(TEMPLATE_FILE, 'w') as f:
         f.write(template_content)
-    print(f"Generated {TEMPLATE_FILE} with custom gallery template.")
 
-    # 2. Generate the Markdown File (content source)
-    # This just needs to point to the template.
-    md_content = """Title: Hall of Fame (Trophy Winners)
+    md_content = \"\"\"Title: Hall of Fame (Trophy Winners)
 Date: 2024-01-29
 Slug: archive/artifacts/winners
 Save_as: archive/artifacts/winners/index.html
 URL: archive/artifacts/winners/index.html
 Template: hall_of_fame
 
-"""
-
+\"\"\"
     with open(OUTPUT_MD_FILE, 'w') as f:
         f.write(md_content)
-    print(f"Generated {OUTPUT_MD_FILE} pointing to 'hall_of_fame' template.")
 
 if __name__ == "__main__":
     generate_markdown()
