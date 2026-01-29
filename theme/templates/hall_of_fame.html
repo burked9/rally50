@@ -32,7 +32,7 @@
         /* Trophy Grid */
         .trophy-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
             gap: 30px;
             margin-top: 30px;
         }
@@ -40,7 +40,7 @@
             background: #fff;
             border: 1px solid #eee;
             border-radius: 8px;
-            padding: 20px;
+            padding: 24px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             transition: transform 0.2s;
@@ -54,8 +54,8 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .trophy-icon {
-            width: 64px;
-            height: 64px;
+            width: 72px;
+            height: 72px;
             margin-bottom: 15px;
             object-fit: contain;
         }
@@ -68,16 +68,17 @@
         }
         .trophy-title {
             font-weight: bold;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
         }
         .trophy-short-desc {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             color: #666;
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 6;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            line-height: 1.5;
         }
 
         /* Modal */

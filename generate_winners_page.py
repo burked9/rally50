@@ -71,7 +71,7 @@ OUTPUT_MD_FILE = 'content/archive/artifacts/winners.md'
 TEMPLATE_FILE = 'theme/templates/hall_of_fame.html'
 
 def generate_markdown():
-    template_content = \"\"\"{% extends "page.html" %}
+    template_content = """{% extends "page.html" %}
 
 {% block content %}
 <div class="l-container">
@@ -211,26 +211,26 @@ def generate_markdown():
 
         <!-- Grid -->
         <div class="trophy-grid">
-\"\"\"
+"""
 
     for t in trophies:
-        template_content += f\"\"\"
+        template_content += f"""
             <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
                 <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
                 <span class="trophy-category">{t['category']}</span>
                 <div class="trophy-title">{t['name']}</div>
                 <div class="trophy-short-desc">{t['desc']}</div>
             </div>
-\"\"\"
+"""
     
-    template_content += \"\"\"
+    template_content += """
         </div>
 
         <!-- Modals -->
-\"\"\"
+"""
 
     for t in trophies:
-        template_content += f\"\"\"
+        template_content += f"""
         <div id="modal-{t['id']}" class="modal-overlay" onclick="closeModal(event, '{t['id']}')">
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, '{t['id']}')">&times;</span>
@@ -254,9 +254,9 @@ def generate_markdown():
                 </table>
             </div>
         </div>
-\"\"\"
+"""
 
-    template_content += \"\"\"
+    template_content += """
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
@@ -298,10 +298,10 @@ def generate_markdown():
 
         $(document).ready(function() {
             // Initialize DataTables
-\"\"\"
+"""
 
     for t in trophies:
-        template_content += f\"\"\"
+        template_content += f"""
             $('#table_{t['id']}').DataTable({{
                 data: trophyData,
                 columns: [
@@ -314,15 +314,15 @@ def generate_markdown():
                 pageLength: 10,
                 language: {{ search: "_INPUT_", searchPlaceholder: "Filter..." }}
             }});
-\"\"\"
+"""
 
-    template_content += \"\"\"
+    template_content += """
         });
         </script>
     </div>
 </div>
 {% endblock %}
-\"\"\"
+"""
 
     with open(TEMPLATE_FILE, 'w') as f:
         f.write(template_content)
