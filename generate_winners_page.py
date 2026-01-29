@@ -55,6 +55,16 @@ trophies = [
      "desc": "Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition."},
     {"id": "benson", "name": "The Benson Perpetual Shield", "category": "fun", "image": "trophy_shield.png",
      "desc": "Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition."},
+
+    # Historical
+    {"id": "derg_cup", "name": "The Derg Cup", "category": "historical", "image": "trophy_cup.png",
+     "desc": "Historical award for Sailing. Currently inactive."},
+    {"id": "goosander", "name": "The Goosander Perpetual Trophy", "category": "historical", "image": "trophy_cup.png",
+     "desc": "Historical award for Sailing. Currently inactive."},
+    {"id": "sean_kenny", "name": "The Sean Kenny Trophy", "category": "historical", "image": "trophy_cup.png",
+     "desc": "Historical award for Young Sailors. Currently inactive."},
+    {"id": "oconnor", "name": "The O'Connor Trophy", "category": "historical", "image": "trophy_cup.png",
+     "desc": "Historical award for Tall Ships. Currently inactive."},
 ]
 
 OUTPUT_MD_FILE = 'content/archive/artifacts/winners.md'

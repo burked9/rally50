@@ -292,6 +292,34 @@
                 <div class="trophy-short-desc">Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</div>
             </div>
 
+            <div class="trophy-card category-historical" onclick="openModal('derg_cup')">
+                <img src="{{ SITEURL }}/images/trophy_cup.png" class="trophy-icon" alt="The Derg Cup">
+                <span class="trophy-category">historical</span>
+                <div class="trophy-title">The Derg Cup</div>
+                <div class="trophy-short-desc">Historical award for Sailing. Currently inactive.</div>
+            </div>
+
+            <div class="trophy-card category-historical" onclick="openModal('goosander')">
+                <img src="{{ SITEURL }}/images/trophy_cup.png" class="trophy-icon" alt="The Goosander Perpetual Trophy">
+                <span class="trophy-category">historical</span>
+                <div class="trophy-title">The Goosander Perpetual Trophy</div>
+                <div class="trophy-short-desc">Historical award for Sailing. Currently inactive.</div>
+            </div>
+
+            <div class="trophy-card category-historical" onclick="openModal('sean_kenny')">
+                <img src="{{ SITEURL }}/images/trophy_cup.png" class="trophy-icon" alt="The Sean Kenny Trophy">
+                <span class="trophy-category">historical</span>
+                <div class="trophy-title">The Sean Kenny Trophy</div>
+                <div class="trophy-short-desc">Historical award for Young Sailors. Currently inactive.</div>
+            </div>
+
+            <div class="trophy-card category-historical" onclick="openModal('oconnor')">
+                <img src="{{ SITEURL }}/images/trophy_cup.png" class="trophy-icon" alt="The O'Connor Trophy">
+                <span class="trophy-category">historical</span>
+                <div class="trophy-title">The O'Connor Trophy</div>
+                <div class="trophy-short-desc">Historical award for Tall Ships. Currently inactive.</div>
+            </div>
+
         </div>
 
         <!-- Modals -->
@@ -824,6 +852,102 @@
             </div>
         </div>
 
+        <div id="modal-derg_cup" class="modal-overlay" onclick="closeModal(event, 'derg_cup')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'derg_cup')">&times;</span>
+                <div class="modal-header">
+                    <img src="{{ SITEURL }}/images/trophy_cup.png" alt="The Derg Cup">
+                    <h2>The Derg Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Historical award for Sailing. Currently inactive.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_derg_cup" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-goosander" class="modal-overlay" onclick="closeModal(event, 'goosander')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'goosander')">&times;</span>
+                <div class="modal-header">
+                    <img src="{{ SITEURL }}/images/trophy_cup.png" alt="The Goosander Perpetual Trophy">
+                    <h2>The Goosander Perpetual Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Historical award for Sailing. Currently inactive.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_goosander" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-sean_kenny" class="modal-overlay" onclick="closeModal(event, 'sean_kenny')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'sean_kenny')">&times;</span>
+                <div class="modal-header">
+                    <img src="{{ SITEURL }}/images/trophy_cup.png" alt="The Sean Kenny Trophy">
+                    <h2>The Sean Kenny Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Historical award for Young Sailors. Currently inactive.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_sean_kenny" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-oconnor" class="modal-overlay" onclick="closeModal(event, 'oconnor')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'oconnor')">&times;</span>
+                <div class="modal-header">
+                    <img src="{{ SITEURL }}/images/trophy_cup.png" alt="The O'Connor Trophy">
+                    <h2>The O'Connor Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Historical award for Tall Ships. Currently inactive.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_oconnor" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
@@ -1145,6 +1269,58 @@
                     { data: 'year' },
                     { data: 'rally' },
                     { data: 'benson', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_derg_cup').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'derg_cup', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_goosander').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'goosander', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_sean_kenny').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'sean_kenny', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_oconnor').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'oconnor', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
