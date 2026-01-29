@@ -5,7 +5,11 @@ Save_as: archive/people/generations/eamon-egan.html
 URL: archive/people/generations/eamon-egan.html
 Summary: Eamon Egan in interview with Ivan Thornbury. "I grew up around Shannonbridge where my Dad had a fishing boat..."
 
-# Legends of the Lake
+
+*Written in 2019 for Rally Magazine 44.*
+
+<img src="{static}/images/people/eamon_egan_scan.png" alt="Eamon Egan" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
 ## Eamon Egan in interview with Ivan Thornbury
 
 **When did you first get interested in boats?**
