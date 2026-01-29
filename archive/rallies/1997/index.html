@@ -49,6 +49,23 @@
             <button id="load-more-btn" class="load-more-btn" style="display:none;">Load More Photos</button>
         </div>
 
+        <!-- Floating Status Bar -->
+        <div id="gallery-status" style="display:none;">
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div id="status-text">
+                <span id="loaded-count">0</span> / <span id="total-count">0</span> Photos
+            </div>
+            <div style="margin-bottom: 8px;">
+                <select id="jump-to-year" onchange="jumpToYear(this.value)"
+                    style="width: 100%; padding: 4px; border-radius: 4px; color: #333;">
+                    <option value="">Jump to Year...</option>
+                </select>
+            </div>
+            <button id="backToTop" onclick="scrollToTop()">↑ Back to Top</button>
+        </div>
+
         <style>
             .gallery-grid {
                 display: grid;
@@ -100,96 +117,220 @@
             .load-more-btn:hover {
                 background-color: #555;
             }
+
+            /* Floating Status Bar */
+            #gallery-status {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: rgba(0, 74, 153, 0.9);
+                /* Aviation Blue */
+                color: white;
+                padding: 15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                font-family: sans-serif;
+                z-index: 1000;
+                min-width: 160px;
+                text-align: center;
+                backdrop-filter: blur(5px);
+            }
+
+            #progress-container {
+                width: 100%;
+                background: rgba(255, 255, 255, 0.3);
+                height: 6px;
+                border-radius: 3px;
+                margin-bottom: 8px;
+                overflow: hidden;
+            }
+
+            #progress-bar {
+                width: 0%;
+                height: 100%;
+                background: #00ffcc;
+                /* High visibility contrast */
+                transition: width 0.2s;
+            }
+
+            #status-text {
+                font-size: 0.85rem;
+                margin-bottom: 10px;
+            }
+
+            #backToTop {
+                background: white;
+                color: #004a99;
+                border: none;
+                padding: 6px 12px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+            #backToTop:hover {
+                background: #f0f0f0;
+            }
+
+            /* Hide status bar on very small screens if needed, or adjust positioning */
+            @media (max-width: 400px) {
+                #gallery-status {
+                    right: 10px;
+                    bottom: 10px;
+                    min-width: 140px;
+                    padding: 10px;
+                }
+            }
         </style>
 
         <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const container = document.getElementById('gallery-grid');
-                const loadMoreBtn = document.getElementById('load-more-btn');
-                const loadingIndicator = document.getElementById('loading-indicator');
+        // Global Jump Function
+        function jumpToYear(year) {
+            if (year) {
+                window.location.href = `https://burked9.github.io/rally50/archive/rallies/${year}/index.html`;
+            }
+        }
 
-                // Extract year from URL or metadata. simpler: use the slug or specific logic
-                // Assuming URL pattern archive/rallies/YYYY/index.html
-                // Or passed via context. But Jinja2 is static.
-                // We can determine the year from the page URL for fetching the JSON.
-                // URL ends in: .../archive/rallies/2023/index.html
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
 
-                const pathSegments = window.location.pathname.split('/');
-                // Look for a year (4 digits) in the path
-                const yearSegment = pathSegments.find(s => /^\d{4}$/.test(s));
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('gallery-grid');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const statusPanel = document.getElementById('gallery-status');
+            const jumpSelect = document.getElementById('jump-to-year');
+            
+            // Populate Jump to Year Dropdown
+            // Range 1975-2027. Gaps: 1979, 2020, 2021
+            // Optional: Mark current year as selected.
+            // Using page title to guess current year simpler than URL parsing in some contexts
+            const pageTitle = "1997 Rally (No. 22)"; 
+            const currentYearMatch = pageTitle.match(/^\d{4}/);
+            const currentYear = currentYearMatch ? parseInt(currentYearMatch[0]) : 0;
+            
+            for (let y = 2027; y >= 1975; y--) {
+                if (y === 1979 || y === 2020 || y === 2021) continue;
+                const option = document.createElement('option');
+                option.value = y;
+                option.textContent = y;
+                if (y === currentYear) option.selected = true;
+                jumpSelect.appendChild(option);
+            }
 
-                if (!yearSegment) {
-                    console.log("No year found in URL, skipping gallery load.");
-                    return;
-                }
 
-                const dataUrl = `https://burked9.github.io/rally50/data/rally_${yearSegment}.json`;
+            const pathSegments = window.location.pathname.split('/');
+            const yearSegment = pathSegments.find(s => /^\d{4}$/.test(s));
+            
+            if (!yearSegment) {
+                console.log("No year found in URL, skipping gallery load.");
+                return;
+            }
+            
+            const dataUrl = `https://burked9.github.io/rally50/data/rally_${yearSegment}.json`;
+            
+            // Pagination Configuration
+            const ITEMS_PER_PAGE = 24;
+            let allPhotos = [];
+            let currentIndex = 0;
+            
+            // Intersection Observer for counting viewed images
+            // We need to track actual NEW viewers. A set of observed IDs is safer.
+            let observedIds = new Set();
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.dataset.photoId;
+                        if (id && !observedIds.has(id)) {
+                            observedIds.add(id);
+                            document.getElementById('loaded-count').innerText = observedIds.size;
+                            observer.unobserve(entry.target);
+                        }
+                    }
+                });
+            }, { threshold: 0.1 });
 
-                // Pagination Configuration
-                const ITEMS_PER_PAGE = 24;
-                let allPhotos = [];
-                let currentIndex = 0;
 
-                function renderBatch() {
-                    const nextBatch = allPhotos.slice(currentIndex, currentIndex + ITEMS_PER_PAGE);
-
-                    nextBatch.forEach(photo => {
-                        const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`; // Optimization: w400
-                        const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
-
-                        const itemHtml = `
-                    <div class="gallery-item-wrapper">
+            function renderBatch() {
+                const nextBatch = allPhotos.slice(currentIndex, currentIndex + ITEMS_PER_PAGE);
+                
+                nextBatch.forEach(photo => {
+                    const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`;
+                    const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
+                    
+                    const div = document.createElement('div');
+                    div.className = 'gallery-item-wrapper';
+                    div.innerHTML = `
                         <a href="${fullUrl}" target="_blank">
                             <img class="gallery-item" 
                                  src="${thumbUrl}" 
                                  alt="${photo.alt || 'Rally Photo'}" 
+                                 data-photo-id="${photo.id}"
                                  loading="lazy">
                         </a>
-                    </div>
                     `;
-                        container.innerHTML += itemHtml;
-                    });
-
-                    currentIndex += nextBatch.length;
-
-                    // Hide button if no more photos
-                    if (currentIndex >= allPhotos.length) {
-                        loadMoreBtn.style.display = 'none';
-                    } else {
-                        loadMoreBtn.style.display = 'block';
-                    }
+                    container.appendChild(div);
+                    
+                    // Observe the image for the "Viewed" counter
+                    const img = div.querySelector('img');
+                    if(img) observer.observe(img);
+                });
+                
+                currentIndex += nextBatch.length;
+                
+                if (currentIndex >= allPhotos.length) {
+                    loadMoreBtn.style.display = 'none';
+                } else {
+                    loadMoreBtn.style.display = 'block';
                 }
+            }
 
-                // Fetch Data
-                loadingIndicator.style.display = 'block';
-                fetch(dataUrl)
-                    .then(response => {
-                        if (!response.ok) {
-                            if (response.status === 404) {
-                                // No data file for this year yet, just fail silently or show message
-                                throw new Error('No photos found for this year.');
-                            }
-                            throw new Error('Network response was not ok');
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        allPhotos = data;
-                        loadingIndicator.style.display = 'none';
-                        if (allPhotos.length > 0) {
-                            renderBatch();
-                        } else {
-                            container.innerHTML = '<p>No photos available.</p>';
-                        }
-                    })
-                    .catch(error => {
-                        console.log('Gallery info:', error.message);
-                        loadingIndicator.style.display = 'none';
-                        // Optional: container.innerHTML = '<p><em>No photos available for this year yet.</em></p>';
-                    });
-
-                loadMoreBtn.addEventListener('click', renderBatch);
+            // Scroll Progress Logic
+            window.addEventListener('scroll', function() {
+                let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                let scrolled = (winScroll / height) * 100;
+                document.getElementById("progress-bar").style.width = scrolled + "%";
             });
+
+            // Fetch Data
+            loadingIndicator.style.display = 'block';
+            fetch(dataUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        if (response.status === 404) {
+                            throw new Error('No photos found for this year.');
+                        }
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    allPhotos = data;
+                    loadingIndicator.style.display = 'none';
+                    
+                    if (allPhotos.length > 0) {
+                        // Initialize Status Bar
+                        document.getElementById('total-count').innerText = allPhotos.length;
+                        statusPanel.style.display = 'block';
+                        
+                        renderBatch();
+                    } else {
+                        container.innerHTML = '<p>No photos available.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.log('Gallery info:', error.message);
+                    loadingIndicator.style.display = 'none';
+                    // Optional: container.innerHTML = '<p><em>No photos available for this year yet.</em></p>';
+                });
+
+            loadMoreBtn.addEventListener('click', renderBatch);
+        });
         </script>
     </div>
 </div>
