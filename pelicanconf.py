@@ -26,7 +26,6 @@ MENUITEMS = (
     ('Archive', '/pages/archive.html'),
     ('Articles', '/category/articles.html'),
     ('Announcements', '/category/announcements.html'),
-    ('Photos', '/pages/photos.html'),
 )
 
 # Theme
