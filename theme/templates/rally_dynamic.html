@@ -278,7 +278,7 @@
 
                         // Check for metadata
                         let infoHtml = '';
-                        if (photo.People || photo.Boat || photo.Location) {
+                        if (photo.People || photo.Boat || photo.Location || photo.Category || photo.Memory_Story) {
                             infoHtml = `
                             <div class="info-icon">i</div>
                             <div class="photo-info-overlay">
@@ -286,7 +286,9 @@
                                     ${photo.Boat ? `<strong>Boat:</strong> ${photo.Boat}<br>` : ''}
                                     ${photo.People ? `<strong>People:</strong> ${photo.People}<br>` : ''}
                                     ${photo.Location ? `<strong>Loc:</strong> ${photo.Location}<br>` : ''}
-                                    ${photo.Caption ? `<em>${photo.Caption}</em>` : ''}
+                                    ${photo.Category ? `<strong>Cat:</strong> ${photo.Category}<br>` : ''}
+                                    ${photo.Caption ? `<em>${photo.Caption}</em><br>` : ''}
+                                    ${photo.Memory_Story ? `<hr style="margin: 4px 0; border-color: rgba(255,255,255,0.2);"><em>"${photo.Memory_Story}"</em>` : ''}
                                 </div>
                             </div>
                         `;
