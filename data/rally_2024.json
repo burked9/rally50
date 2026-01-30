@@ -5,7 +5,9 @@
         "People": "Gerry Burke",
         "Boat": "68M",
         "Location": "Mountshannon",
-        "Caption": "Sample Entry 1"
+        "Caption": "Sample Entry 1",
+        "Category": "Social",
+        "Memory_Story": "This was the night the band played until 4am!"
     },
     {
         "id": "1562F1aXAwd7nyFlUQlHnRR_b-AXp4jtg",
@@ -13,7 +15,9 @@
         "People": "Matt McGrory",
         "Boat": "Lady Diva",
         "Location": "Terryglass",
-        "Caption": "Sample Entry 2"
+        "Caption": "Sample Entry 2",
+        "Category": "Handling",
+        "Memory_Story": "First time docking without hitting the pier."
     },
     {
         "id": "1AfryMmVM5ttLBLtzGssZdzhpZ42byWZp",
@@ -21,7 +25,9 @@
         "People": "Emily Moore",
         "Boat": "Carna Bay",
         "Location": "Portumna",
-        "Caption": "Sample Entry 3"
+        "Caption": "Sample Entry 3",
+        "Category": "Sailing",
+        "Memory_Story": "Wind was gusting Force 6."
     },
     {
         "id": "18qWLuU_02ox8Suy6apL9jwk95RqFrKw6",
@@ -29,7 +35,9 @@
         "People": "Liam Power",
         "Boat": "Reflection",
         "Location": "Kilgarvan",
-        "Caption": "Sample Entry 4"
+        "Caption": "Sample Entry 4",
+        "Category": "Junior",
+        "Memory_Story": ""
     },
     {
         "id": "19gIKsf_u9yGYvnWy1KiF6lo82u7Fvi6e",
@@ -37,7 +45,9 @@
         "People": "Sarah Brislane",
         "Boat": "Affaja",
         "Location": "Mountshannon",
-        "Caption": "Sample Entry 5"
+        "Caption": "Sample Entry 5",
+        "Category": "Social",
+        "Memory_Story": "Great barbecue weather."
     },
     {
         "id": "1dZ2Xd5b9P_1xAWW98vCmCIC6KS9Ctw_G",
