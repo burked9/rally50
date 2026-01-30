@@ -240,6 +240,19 @@
             .gallery-item-wrapper:active .photo-info-overlay {
                 transform: translateY(0);
             }
+
+            /* Filename Caption */
+            .gallery-filename {
+                font-size: 0.75rem;
+                color: #666;
+                text-align: center;
+                margin-top: 4px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 100%;
+                font-family: monospace;
+            }
         </style>
 
         <script>
@@ -319,9 +332,9 @@
                         const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`;
                         const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
 
-                        // Check for metadata
+                        // Check for metadata or Unknown status
                         let infoHtml = '';
-                        if (photo.People || photo.Boat || photo.Location || photo.Category || photo.Memory_Story) {
+                        if (photo.People || photo.Boat || photo.Location || photo.Category || photo.Memory_Story || photo.Unknown) {
                             infoHtml = `
                             <div class="info-icon">i</div>
                             <div class="photo-info-overlay">
@@ -338,9 +351,14 @@
                         `;
                         }
 
-                        const div = document.createElement('div');
-                        div.className = 'gallery-item-wrapper';
-                        div.innerHTML = `
+                        // Create Card Container
+                        const card = document.createElement('div');
+                        card.className = 'gallery-card';
+
+                        // Create Image Wrapper
+                        const wrapper = document.createElement('div');
+                        wrapper.className = 'gallery-item-wrapper';
+                        wrapper.innerHTML = `
                         <a href="${fullUrl}" target="_blank">
                             <img class="gallery-item" 
                                  src="${thumbUrl}" 
@@ -350,10 +368,19 @@
                         </a>
                         ${infoHtml}
                     `;
-                        container.appendChild(div);
+
+                        // Filename Caption
+                        const caption = document.createElement('div');
+                        caption.className = 'gallery-filename';
+                        caption.textContent = photo.alt || photo.id;
+
+                        // Assemble
+                        card.appendChild(wrapper);
+                        card.appendChild(caption);
+                        container.appendChild(card);
 
                         // Observe the image for the "Viewed" counter
-                        const img = div.querySelector('img');
+                        const img = wrapper.querySelector('img');
                         if (img) observer.observe(img);
                     });
 
