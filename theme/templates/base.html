@@ -26,7 +26,18 @@
             <nav>
                 <ul class="l-navigation">
                     {% for title, link in MENUITEMS %}
+                    {% if title == 'Archive' %}
+                    <li class="dropdown">
+                        <a href="{{ SITEURL }}{{ link }}" class="dropbtn">Archive ▾</a>
+                        <div class="dropdown-content">
+                            <a href="{{ SITEURL }}/archive/rallies/index.html">Rallies</a>
+                            <a href="{{ SITEURL }}/archive/artifacts/index.html">Artifacts</a>
+                            <a href="{{ SITEURL }}/archive/people/index.html">People</a>
+                        </div>
+                    </li>
+                    {% else %}
                     <li><a href="{{ SITEURL }}{{ link }}">{{ title }}</a></li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </nav>
