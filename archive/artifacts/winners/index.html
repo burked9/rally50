@@ -45,7 +45,7 @@
     <main>
 <div class="l-container">
     <div class="entry-content">
-        
+
         <p>Welcome to our shiny new Hall of Fame gallery! Click on a trophy to view its history and past winners.</p>
         <p>Use the buttons below to filter the awards.</p>
 
@@ -54,116 +54,175 @@
         <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
 
         <style>
-        /* Filter Buttons */
-        .filter-btn {
-            background-color: #f8f9fa;
-            border: 1px solid #ddd;
-            border-radius: 20px;
-            padding: 8px 16px;
-            margin: 5px;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.9rem;
-        }
-        .filter-btn.active, .filter-btn:hover {
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
+            /* Filter Buttons */
+            .filter-btn {
+                background-color: #f8f9fa;
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                padding: 8px 16px;
+                margin: 5px;
+                cursor: pointer;
+                transition: all 0.2s;
+                font-size: 0.9rem;
+            }
 
-        /* Trophy Grid */
-        .trophy-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 30px;
-            margin-top: 30px;
-        }
-        .trophy-card {
-            background: #fff;
-            border: 1px solid #eee;
-            border-radius: 8px;
-            padding: 24px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            transition: transform 0.2s;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .trophy-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .trophy-icon {
-            width: 72px;
-            height: 72px;
-            margin-bottom: 15px;
-            object-fit: contain;
-        }
-        .trophy-category {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #888;
-            margin-bottom: 5px;
-        }
-        .trophy-title {
-            font-weight: bold;
-            font-size: 1.2rem;
-            margin-bottom: 12px;
-        }
-        .trophy-short-desc {
-            font-size: 0.95rem;
-            color: #666;
-            display: -webkit-box;
-            -webkit-line-clamp: 6;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            line-height: 1.5;
-        }
+            .filter-btn.active,
+            .filter-btn:hover {
+                background-color: #007bff;
+                color: white;
+                border-color: #007bff;
+            }
 
-        /* Modal */
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.7);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-        .modal-content {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            max-width: 900px;
-            width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
-            position: relative;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
-        .modal-close {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: #aaa;
-        }
-        .modal-close:hover { color: #333; }
-        .modal-header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-        .modal-header img { width: 80px; height: 80px; }
-        .modal-history { margin-bottom: 30px; line-height: 1.6; color: #444; }
+            /* Trophy Grid */
+            .trophy-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+                gap: 30px;
+                margin-top: 30px;
+            }
+
+            .trophy-card {
+                background: #fff;
+                border: 1px solid #eee;
+                border-radius: 8px;
+                padding: 24px;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+                transition: transform 0.2s;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .trophy-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .trophy-icon {
+                width: 72px;
+                height: 72px;
+                margin-bottom: 15px;
+                object-fit: contain;
+            }
+
+            .trophy-category {
+                font-size: 0.75rem;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #888;
+                margin-bottom: 5px;
+            }
+
+            .trophy-title {
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-bottom: 12px;
+            }
+
+            .trophy-short-desc {
+                font-size: 0.95rem;
+                color: #666;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                line-height: 1.5;
+            }
+
+            /* Modal */
+            .modal-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                z-index: 1000;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .modal-content {
+                background: white;
+                padding: 30px;
+                border-radius: 8px;
+                max-width: 900px;
+                width: 100%;
+                max-height: 90vh;
+                overflow-y: auto;
+                position: relative;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            }
+
+            .modal-close {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                font-size: 1.5rem;
+                cursor: pointer;
+                color: #aaa;
+            }
+
+            .modal-close:hover {
+                color: #333;
+            }
+
+            .modal-header {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 20px;
+            }
+
+            .modal-header img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .modal-history {
+                margin-bottom: 30px;
+                line-height: 1.6;
+                color: #444;
+            }
+
+            /* New Container for Side-by-Side Images */
+            .trophy-visuals {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 15px;
+                height: 100px;
+                /* Fixed height to align items */
+            }
+
+            .trophy-icon {
+                width: 72px;
+                height: 72px;
+                object-fit: contain;
+                opacity: 0.8;
+                /* Slightly fade the icon to emphasize the photo */
+            }
+
+            /* Override default trophy-icon margin since it's now wrapped */
+            .trophy-visuals .trophy-icon {
+                margin-bottom: 0;
+            }
+
+            .trophy-real-photo {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                border-radius: 6px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+                border: 2px solid white;
+            }
         </style>
 
         <!-- Filters -->
@@ -182,94 +241,121 @@
         <div class="trophy-grid">
 
             <div class="trophy-card category-premier" onclick="openModal('jj_kineally')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="JJ Kenneally Perpetual Challenge Cup">
+                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon"
+                    alt="JJ Kenneally Perpetual Challenge Cup">
                 <span class="trophy-category">premier</span>
                 <div class="trophy-title">JJ Kenneally Perpetual Challenge Cup</div>
-                <div class="trophy-short-desc">This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.</div>
+                <div class="trophy-short-desc">This cup was presented by the well-known Limerick jeweller, JJ Kenneally,
+                    in the early years of the rally. JJ was a great supporter of the branch and for many years his shop
+                    window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the
+                    rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.
+                </div>
             </div>
 
             <div class="trophy-card category-spirit" onclick="openModal('jimmy_leyden')">
-                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Jimmy Leyden Perpetual Trophy">
+                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon"
+                    alt="The Jimmy Leyden Perpetual Trophy">
                 <span class="trophy-category">spirit</span>
                 <div class="trophy-title">The Jimmy Leyden Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally.</div>
+                <div class="trophy-short-desc">Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder
+                    member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the
+                    recipient is chosen by the Commodore of the rally.</div>
             </div>
 
             <div class="trophy-card category-spirit" onclick="openModal('friendship')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Friendship Cup">
                 <span class="trophy-category">spirit</span>
                 <div class="trophy-title">Friendship Cup</div>
-                <div class="trophy-short-desc">Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally.</div>
+                <div class="trophy-short-desc">Presented to the branch by the Northern Ireland Branch of the IWAI in
+                    2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for
+                    representing the spirit of the rally.</div>
             </div>
 
             <div class="trophy-card category-spirit" onclick="openModal('ann_clarke')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Anne Clarke Trophy">
                 <span class="trophy-category">spirit</span>
                 <div class="trophy-title">Anne Clarke Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship).</div>
+                <div class="trophy-short-desc">Presented to the branch by the Clarke family. Awarded to the young person
+                    who best represents the 'Spirit of the Rally' (Junior Friendship).</div>
             </div>
 
             <div class="trophy-card category-spirit" onclick="openModal('estemaid')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Eistemaid Trophy">
                 <span class="trophy-category">spirit</span>
                 <div class="trophy-title">The Eistemaid Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!</div>
+                <div class="trophy-short-desc">Presented to the branch by Fr. Paddy Dowling, a founder member of the
+                    branch. This is a competition for committee members only and is usually held on the morning after
+                    the dinner dance!</div>
             </div>
 
             <div class="trophy-card category-newcomer" onclick="openModal('church_bay')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Church Bay Cup">
                 <span class="trophy-category">newcomer</span>
                 <div class="trophy-title">The Church Bay Cup</div>
-                <div class="trophy-short-desc">Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</div>
+                <div class="trophy-short-desc">Presented to the branch in 2018 by the Burke family in memory of Billy
+                    and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</div>
             </div>
 
             <div class="trophy-card category-barge" onclick="openModal('boyle')">
                 <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="The Boyle Trophy">
                 <span class="trophy-category">barge</span>
                 <div class="trophy-title">The Boyle Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</div>
+                <div class="trophy-short-desc">Presented to the branch by Chris Boyle in 1986. At that time, many
+                    members were beginning to restore old canal boats (barges) and Chris presented the trophy to
+                    encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</div>
             </div>
 
             <div class="trophy-card category-barge" onclick="openModal('scarriff')">
-                <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="The Scarriff Perpetual Shield">
+                <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon"
+                    alt="The Scarriff Perpetual Shield">
                 <span class="trophy-category">barge</span>
                 <div class="trophy-title">The Scarriff Perpetual Shield</div>
-                <div class="trophy-short-desc">Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage.</div>
+                <div class="trophy-short-desc">Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It
+                    is awarded for Barge Handling – Heritage.</div>
             </div>
 
             <div class="trophy-card category-barge" onclick="openModal('nm_barge')">
                 <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="New Metal Barge Trophy">
                 <span class="trophy-category">barge</span>
                 <div class="trophy-title">New Metal Barge Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch for the winner of the Barge Handling competition for modern-built barges.</div>
+                <div class="trophy-short-desc">Presented to the branch for the winner of the Barge Handling competition
+                    for modern-built barges.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('dennis_byrne')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Denis Byrne Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Denis Byrne Cup</div>
-                <div class="trophy-short-desc">Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition.</div>
+                <div class="trophy-short-desc">Presented to the branch by David Knight and Frank Van Den Berg in memory
+                    of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on
+                    their boats. He was a regular rally goer until his untimely death in a car accident. This cup is
+                    awarded to the winner of the 'First Mate' boat handling competition.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('westpark')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Westpark Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Westpark Cup</div>
-                <div class="trophy-short-desc">The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition.</div>
+                <div class="trophy-short-desc">The Westpark Hotel in Portumna was the base for many a rally in the
+                    1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling
+                    competition.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('wynn_juba')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Wynn Juba Perpetual Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Wynn Juba Perpetual Cup</div>
-                <div class="trophy-short-desc">Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</div>
+                <div class="trophy-short-desc">Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn
+                    were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering
+                    competition.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('tavern')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Tavern Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Tavern Cup</div>
-                <div class="trophy-short-desc">Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial.</div>
+                <div class="trophy-short-desc">Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the
+                    branch. It is awarded to the winner of the Time Trial.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('dennis_juba')">
@@ -283,56 +369,69 @@
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Benjamin Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Benjamin Cup</div>
-                <div class="trophy-short-desc">This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</div>
+                <div class="trophy-short-desc">This cup was originally intended for Rally One, but as that rally was
+                    cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser'
+                    competition.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('bob_hughes')">
                 <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" class="trophy-icon" alt="The Hughes Perpetual Trophy">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Hughes Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Bob and Rita Hughes. Awarded for the Boat Inspection competition.</div>
+                <div class="trophy-short-desc">Presented to the branch by Bob and Rita Hughes. Awarded for the Boat
+                    Inspection competition.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('newman')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Newman Perpetual Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Newman Perpetual Cup</div>
-                <div class="trophy-short-desc">Presented by Frank and Louise Newman. Awarded to the winner of a surprise boat inspection.</div>
+                <div class="trophy-short-desc">Presented by Frank and Louise Newman. Awarded to the winner of a surprise
+                    boat inspection.</div>
             </div>
 
             <div class="trophy-card category-skill" onclick="openModal('jh_stimpson')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Stimpson Cup">
                 <span class="trophy-category">skill</span>
                 <div class="trophy-title">The Stimpson Cup</div>
-                <div class="trophy-short-desc">Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way.</div>
+                <div class="trophy-short-desc">Awarded to the best 'Open Boat' entrant. In the early years, many
+                    ralliers did not have cruisers and took part in the rally using lake boats and camping in tents
+                    along the way.</div>
             </div>
 
             <div class="trophy-card category-fun" onclick="openModal('eric_timon')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Ditty Cup">
                 <span class="trophy-category">fun</span>
                 <div class="trophy-title">The Ditty Cup</div>
-                <div class="trophy-short-desc">Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening.</div>
+                <div class="trophy-short-desc">Presented by Eric Timon. This is one of the most popular competitions of
+                    the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it
+                    at the entertainment evening.</div>
             </div>
 
             <div class="trophy-card category-fun" onclick="openModal('finton_harold')">
-                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Harold Memorial Perpetual Trophy">
+                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon"
+                    alt="The Harold Memorial Perpetual Trophy">
                 <span class="trophy-category">fun</span>
                 <div class="trophy-title">The Harold Memorial Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</div>
+                <div class="trophy-short-desc">Presented to the branch in memory of Fintan Harold. Fintan was a
+                    long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's
+                    Line Heaving competition.</div>
             </div>
 
             <div class="trophy-card category-fun" onclick="openModal('mccormack')">
                 <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" class="trophy-icon" alt="The Jane McCormack Salver">
                 <span class="trophy-category">fun</span>
                 <div class="trophy-title">The Jane McCormack Salver</div>
-                <div class="trophy-short-desc">Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition.</div>
+                <div class="trophy-short-desc">Presented to the branch by Bill McCormack of Cormacruisers. Awarded to
+                    the winner of the Ladies Line Heaving competition.</div>
             </div>
 
             <div class="trophy-card category-fun" onclick="openModal('benson')">
                 <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Benson Perpetual Shield">
                 <span class="trophy-category">fun</span>
                 <div class="trophy-title">The Benson Perpetual Shield</div>
-                <div class="trophy-short-desc">Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</div>
+                <div class="trophy-short-desc">Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the
+                    'Young Bosun' competition.</div>
             </div>
 
             <div class="trophy-card category-historical" onclick="openModal('derg_cup')">
@@ -376,7 +475,10 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.</p>
+                    <p>This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of
+                        the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham
+                        Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the
+                        premier rally trophy and is awarded to the overall winning team of the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_jj_kineally" class="display responsive nowrap" style="width:100%">
@@ -400,7 +502,9 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally.</p>
+                    <p>Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a
+                        regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by
+                        the Commodore of the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_jimmy_leyden" class="display responsive nowrap" style="width:100%">
@@ -424,7 +528,9 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally.</p>
+                    <p>Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded
+                        to the person who receives the most nominations from fellow ralliers for representing the spirit
+                        of the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_friendship" class="display responsive nowrap" style="width:100%">
@@ -448,7 +554,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship).</p>
+                    <p>Presented to the branch by the Clarke family. Awarded to the young person who best represents the
+                        'Spirit of the Rally' (Junior Friendship).</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_ann_clarke" class="display responsive nowrap" style="width:100%">
@@ -472,7 +579,9 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!</p>
+                    <p>Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a
+                        competition for committee members only and is usually held on the morning after the dinner
+                        dance!</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_estemaid" class="display responsive nowrap" style="width:100%">
@@ -496,7 +605,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</p>
+                    <p>Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded
+                        to the 'Best Newcomer' to the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_church_bay" class="display responsive nowrap" style="width:100%">
@@ -520,7 +630,9 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</p>
+                    <p>Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to
+                        restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to
+                        enter the rally. It is awarded to the winner of the Barge Race.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_boyle" class="display responsive nowrap" style="width:100%">
@@ -544,7 +656,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage.</p>
+                    <p>Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge
+                        Handling – Heritage.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_scarriff" class="display responsive nowrap" style="width:100%">
@@ -568,7 +681,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch for the winner of the Barge Handling competition for modern-built barges.</p>
+                    <p>Presented to the branch for the winner of the Barge Handling competition for modern-built barges.
+                    </p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_nm_barge" class="display responsive nowrap" style="width:100%">
@@ -592,7 +706,10 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition.</p>
+                    <p>Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis
+                        was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a
+                        regular rally goer until his untimely death in a car accident. This cup is awarded to the winner
+                        of the 'First Mate' boat handling competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_dennis_byrne" class="display responsive nowrap" style="width:100%">
@@ -616,7 +733,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition.</p>
+                    <p>The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented
+                        this cup to the branch to be awarded to the winner of the Boat Handling competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_westpark" class="display responsive nowrap" style="width:100%">
@@ -640,7 +758,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</p>
+                    <p>Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers
+                        in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_wynn_juba" class="display responsive nowrap" style="width:100%">
@@ -664,7 +783,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial.</p>
+                    <p>Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded
+                        to the winner of the Time Trial.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_tavern" class="display responsive nowrap" style="width:100%">
@@ -712,7 +832,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</p>
+                    <p>This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB
+                        presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_benjamin" class="display responsive nowrap" style="width:100%">
@@ -784,7 +905,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way.</p>
+                    <p>Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers
+                        and took part in the rally using lake boats and camping in tents along the way.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_jh_stimpson" class="display responsive nowrap" style="width:100%">
@@ -808,7 +930,9 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening.</p>
+                    <p>Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are
+                        invited to compose a 'ditty' (a song or poem) about the rally and perform it at the
+                        entertainment evening.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_eric_timon" class="display responsive nowrap" style="width:100%">
@@ -832,7 +956,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</p>
+                    <p>Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch
+                        and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_finton_harold" class="display responsive nowrap" style="width:100%">
@@ -856,7 +981,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition.</p>
+                    <p>Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies
+                        Line Heaving competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_mccormack" class="display responsive nowrap" style="width:100%">
@@ -880,7 +1006,8 @@
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</p>
+                    <p>Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun'
+                        competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_benson" class="display responsive nowrap" style="width:100%">
@@ -998,380 +1125,427 @@
         <script src="https://burked9.github.io/rally50/js/winners_data.js"></script>
 
         <script>
-        // Filter Logic
-        function filterTrophies(category) {
-            // Update Active Button
-            const buttons = document.querySelectorAll('.filter-btn');
-            buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+            // Filter Logic
+            function filterTrophies(category) {
+                // Update Active Button
+                const buttons = document.querySelectorAll('.filter-btn');
+                buttons.forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
 
-            // Filter Cards
-            const cards = document.querySelectorAll('.trophy-card');
-            cards.forEach(card => {
-                if (category === 'all' || card.classList.contains('category-' + category)) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
+                // Filter Cards
+                const cards = document.querySelectorAll('.trophy-card');
+                cards.forEach(card => {
+                    if (category === 'all' || card.classList.contains('category-' + category)) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            // Modal Logic
+            function openModal(id) {
+                const modal = document.getElementById('modal-' + id);
+                modal.style.display = 'flex';
+
+                const table = $('#table_' + id).DataTable();
+                table.columns.adjust().responsive.recalc();
+            }
+
+            function closeModal(event, id) {
+                const modal = document.getElementById('modal-' + id);
+                modal.style.display = 'none';
+            }
+
+            $(document).ready(function () {
+                // Initialize DataTables
+
+                $('#table_jj_kineally').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'jj_kineally', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_jimmy_leyden').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'jimmy_leyden', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_friendship').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'friendship', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_ann_clarke').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'ann_clarke', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_estemaid').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'estemaid', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_church_bay').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'church_bay', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_boyle').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'boyle', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_scarriff').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'scarriff', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_nm_barge').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'nm_barge', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_dennis_byrne').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'dennis_byrne', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_westpark').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'westpark', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_wynn_juba').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'wynn_juba', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_tavern').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'tavern', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_dennis_juba').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'dennis_juba', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_benjamin').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'benjamin', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_bob_hughes').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'bob_hughes', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_newman').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'newman', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_jh_stimpson').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'jh_stimpson', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_eric_timon').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'eric_timon', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_finton_harold').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'finton_harold', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_mccormack').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'mccormack', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_benson').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'benson', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_derg_cup').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'derg_cup', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_goosander').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'goosander', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_sean_kenny').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'sean_kenny', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+                $('#table_oconnor').DataTable({
+                    data: trophyData,
+                    columns: [
+                        { data: 'year' },
+                        { data: 'rally' },
+                        { data: 'oconnor', defaultContent: "" }
+                    ],
+                    responsive: true,
+                    order: [[0, "desc"]],
+                    pageLength: 10,
+                    language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+                });
+
+            });
+        </script>
+
+        <!-- Load Trophy Photos Map -->
+        <script src="https://burked9.github.io/rally50/theme/static/js/trophy_photos.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Check if trophyPhotos is loaded
+                if (typeof trophyPhotos === 'undefined') {
+                    console.log("Trophy photos map not loaded");
+                    return;
+                }
+
+                // Loop through map and inject photos
+                for (const [slug, photoId] of Object.entries(trophyPhotos)) {
+                    // Find the card by its onclick attribute
+                    const card = document.querySelector(`.trophy-card[onclick*="'${slug}'"]`);
+
+                    if (card) {
+                        const icon = card.querySelector('.trophy-icon');
+
+                        // Create wrapper if not exists
+                        let visualContainer = card.querySelector('.trophy-visuals');
+                        if (!visualContainer) {
+                            visualContainer = document.createElement('div');
+                            visualContainer.className = 'trophy-visuals';
+
+                            // Move icon inside if it exists
+                            if (icon) {
+                                icon.parentNode.insertBefore(visualContainer, icon);
+                                visualContainer.appendChild(icon);
+                            } else {
+                                card.insertBefore(visualContainer, card.firstChild);
+                            }
+                        }
+
+                        // Create and append real photo
+                        const img = document.createElement('img');
+                        img.src = `https://drive.google.com/thumbnail?id=${photoId}&sz=w400`;
+                        img.className = 'trophy-real-photo';
+                        img.alt = "Real Trophy Photo";
+
+                        // Append to container
+                        visualContainer.appendChild(img);
+                    }
                 }
             });
-        }
-
-        // Modal Logic
-        function openModal(id) {
-            const modal = document.getElementById('modal-' + id);
-            modal.style.display = 'flex';
-            
-            const table = $('#table_' + id).DataTable();
-            table.columns.adjust().responsive.recalc();
-        }
-
-        function closeModal(event, id) {
-            const modal = document.getElementById('modal-' + id);
-            modal.style.display = 'none';
-        }
-
-        $(document).ready(function() {
-            // Initialize DataTables
-
-            $('#table_jj_kineally').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'jj_kineally', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_jimmy_leyden').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'jimmy_leyden', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_friendship').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'friendship', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_ann_clarke').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'ann_clarke', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_estemaid').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'estemaid', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_church_bay').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'church_bay', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_boyle').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'boyle', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_scarriff').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'scarriff', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_nm_barge').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'nm_barge', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_dennis_byrne').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'dennis_byrne', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_westpark').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'westpark', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_wynn_juba').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'wynn_juba', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_tavern').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'tavern', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_dennis_juba').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'dennis_juba', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_benjamin').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'benjamin', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_bob_hughes').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'bob_hughes', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_newman').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'newman', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_jh_stimpson').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'jh_stimpson', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_eric_timon').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'eric_timon', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_finton_harold').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'finton_harold', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_mccormack').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'mccormack', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_benson').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'benson', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_derg_cup').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'derg_cup', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_goosander').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'goosander', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_sean_kenny').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'sean_kenny', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_oconnor').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'oconnor', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-        });
         </script>
     </div>
 </div>
