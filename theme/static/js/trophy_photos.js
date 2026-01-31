@@ -1,0 +1,22 @@
+var trophyPhotos = {
+    "ann_clarke": "17HSXNo8Gk4Z39OjBp9x_GYM2WZExpVre",
+    "benjamin": "1mU2eGZk4ERVikOdp4Qlie4o2e30kijDG",
+    "boyle": "1377vuYqaozhM3Gex5gxq2R90WNC7SHFa",
+    "dennis_byrne": "1hgW5bjhg-EueahREe5VYzfCDTThkAVVg",
+    "dennis_juba": "11pLlcm-yzQH2v0EDgIitSGdgg4vgp67w",
+    "friendship": "1ajJQ-tyPGwtHMmfurICp_2NqZQj47bga",
+    "finton_harold": "1mbHzKisqQROX2Dp3CkdFp5GILe2on4SC",
+    "bob_hughes": "1hgwMh0hQPFUoYWa99GzH22sA9ogVF__8",
+    "jh_stimpson": "1uv-U7HOdqCZ7ylbCUUTKtoukTtOvj3Mu",
+    "jj_kineally": "1tgv3yQt_P4bqHoQu1YIP6lECS3qnl-Fr",
+    "jimmy_leyden": "1rw2kWWIRMO2GyjAtzQjm8n4h3PVi8LI-", # Leyden Shield
+    "mccormack": "14kVXqTTakDzFAWIN_D9eiyFJtSYwJHMd",
+    "nm_barge": "113S5hXS8ehpDVPtj8fmXrSXU2PHjJxQb",
+    "newman": "1xDy9Z6lG59illdaRZW1i1C621Goc1jrK",
+    "scarriff": "1swSbwDZPSI3SePF3qZE225EqndCn9_sP",
+    "tavern": "1sAD64byR23D6LuqNMfWtZXPujWjki-0X",
+    "eric_timon": "12cqRl4M2mxJI5vVi9_sc3XrJ3D3lDqLf",
+    "westpark": "1oUV-ymCk038gA5fbZYqNc58J6pO25kji",
+    "wynn_juba": "1OTYJd8wzr_HAJQymZlg7m_CYwmwj0lhO",
+    "benson": "133oLmWMpJ_DfI2MX9gsLUl_zoaLYZcld" # Young Bosun
+};
