@@ -185,6 +185,19 @@
                 height: 80px;
             }
 
+            /* Modal Photo */
+            .trophy-modal-photo {
+                display: block;
+                height: 150px;
+                /* 50% larger than 100px, as requested */
+                width: auto;
+                max-width: 100%;
+                object-fit: contain;
+                margin: 20px auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            }
+
             .modal-history {
                 margin-bottom: 30px;
                 line-height: 1.6;
@@ -1514,19 +1527,15 @@
 
                 // Loop through map and inject photos
                 for (const [slug, photoId] of Object.entries(trophyPhotos)) {
-                    // Find the card by its onclick attribute
+                    // 1. Grid Card Injection
                     const card = document.querySelector(`.trophy-card[onclick*="'${slug}'"]`);
-
                     if (card) {
                         const icon = card.querySelector('.trophy-icon');
-
-                        // Create wrapper if not exists
                         let visualContainer = card.querySelector('.trophy-visuals');
+
                         if (!visualContainer) {
                             visualContainer = document.createElement('div');
                             visualContainer.className = 'trophy-visuals';
-
-                            // Move icon inside if it exists
                             if (icon) {
                                 icon.parentNode.insertBefore(visualContainer, icon);
                                 visualContainer.appendChild(icon);
@@ -1535,14 +1544,33 @@
                             }
                         }
 
-                        // Create and append real photo
-                        const img = document.createElement('img');
-                        img.src = `https://drive.google.com/thumbnail?id=${photoId}&sz=w400`;
-                        img.className = 'trophy-real-photo';
-                        img.alt = "Real Trophy Photo";
+                        // Prevent duplicates if run multiple times
+                        if (!visualContainer.querySelector('.trophy-real-photo')) {
+                            const img = document.createElement('img');
+                            img.src = `https://drive.google.com/thumbnail?id=${photoId}&sz=w400`;
+                            img.className = 'trophy-real-photo';
+                            img.alt = "Real Trophy Photo";
+                            visualContainer.appendChild(img);
+                        }
+                    }
 
-                        // Append to container
-                        visualContainer.appendChild(img);
+                    // 2. Modal Injection
+                    // Find modal by ID (e.g. modal-jj_kineally)
+                    // Note: slugs in HTML id usually match, but let's verify format.
+                    // The IDs are like "modal-jj_kineally".
+                    const modal = document.getElementById(`modal-${slug}`);
+                    if (modal) {
+                        const historyDiv = modal.querySelector('.modal-history');
+                        // Avoid duplicates
+                        if (historyDiv && !modal.querySelector('.trophy-modal-photo')) {
+                            const modalImg = document.createElement('img');
+                            modalImg.src = `https://drive.google.com/thumbnail?id=${photoId}&sz=w400`;
+                            modalImg.className = 'trophy-modal-photo';
+                            modalImg.alt = "Trophy Photo";
+
+                            // Insert after historyDiv
+                            historyDiv.parentNode.insertBefore(modalImg, historyDiv.nextSibling);
+                        }
                     }
                 }
             });
