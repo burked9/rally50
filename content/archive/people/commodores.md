@@ -281,6 +281,24 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>Darrell Brislane</td>
                 <td>Gallifrey</td>
             </tr>
+            <tr>
+                <td>2019</td>
+                <td>44</td>
+                <td>Alan Lindley</td>
+                <td>Lady Lydia</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>-</td>
+                <td>No Rally</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>-</td>
+                <td>No Rally</td>
+                <td>—</td>
+            </tr>
         </tbody>
     </table>
 </div>
