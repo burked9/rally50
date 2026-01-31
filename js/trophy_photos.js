@@ -9,7 +9,7 @@ var trophyPhotos = {
     "bob_hughes": "1hgwMh0hQPFUoYWa99GzH22sA9ogVF__8",
     "jh_stimpson": "1uv-U7HOdqCZ7ylbCUUTKtoukTtOvj3Mu",
     "jj_kineally": "1tgv3yQt_P4bqHoQu1YIP6lECS3qnl-Fr",
-    "jimmy_leyden": "1rw2kWWIRMO2GyjAtzQjm8n4h3PVi8LI-", # Leyden Shield
+    "jimmy_leyden": "1rw2kWWIRMO2GyjAtzQjm8n4h3PVi8LI-",
     "mccormack": "14kVXqTTakDzFAWIN_D9eiyFJtSYwJHMd",
     "nm_barge": "113S5hXS8ehpDVPtj8fmXrSXU2PHjJxQb",
     "newman": "1xDy9Z6lG59illdaRZW1i1C621Goc1jrK",
@@ -18,5 +18,5 @@ var trophyPhotos = {
     "eric_timon": "12cqRl4M2mxJI5vVi9_sc3XrJ3D3lDqLf",
     "westpark": "1oUV-ymCk038gA5fbZYqNc58J6pO25kji",
     "wynn_juba": "1OTYJd8wzr_HAJQymZlg7m_CYwmwj0lhO",
-    "benson": "133oLmWMpJ_DfI2MX9gsLUl_zoaLYZcld" # Young Bosun
+    "benson": "133oLmWMpJ_DfI2MX9gsLUl_zoaLYZcld"
 };
