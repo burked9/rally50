@@ -51,7 +51,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>1980</td>
                 <td>5</td>
                 <td>Frank Van Den Berg</td>
-                <td>Argent Brack</td>
+                <td>Argent Brach</td>
             </tr>
             <tr>
                 <td>1981</td>
@@ -98,7 +98,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             <tr>
                 <td>1988</td>
                 <td>13</td>
-                <td>Tom Quinn</td>
+                <td>Tos Quinn</td>
                 <td>Abigail</td>
             </tr>
             <tr>
