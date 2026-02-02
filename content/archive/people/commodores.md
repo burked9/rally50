@@ -194,7 +194,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             <tr>
                 <td>2004</td>
                 <td>29</td>
-                <td>Fergal Kearney</td>
+                <td>Fergal Kerney</td>
                 <td>Tanjuan</td>
             </tr>
             <tr>
