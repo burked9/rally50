@@ -303,7 +303,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>2022</td>
                 <td>45</td>
                 <td>Aoife Geraghty</td>
-                <td>Affaja</td>
+                <td>Kerry Jane</td>
             </tr>
             <tr>
                 <td>2023</td>
@@ -321,7 +321,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>2025</td>
                 <td>48</td>
                 <td>Fergus Curtain</td>
-                <td>Lady Holden</td>
+                <td>Miss Chief</td>
             </tr>
             <tr>
                 <td>2026</td>
