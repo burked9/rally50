@@ -237,7 +237,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>2011</td>
                 <td>36</td>
                 <td>Rory Winston</td>
-                <td>Hylander</td>
+                <td>Highlander</td>
             </tr>
             <tr>
                 <td>2012</td>
