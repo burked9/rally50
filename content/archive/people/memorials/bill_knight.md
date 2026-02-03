@@ -2,6 +2,7 @@ Title: In Memory of Bill Knight - First Rally Commodore
 Date: 1980-01-01
 Slug: archive/people/memorials/bill_knight
 Save_as: archive/people/memorials/bill_knight.html
+URL: archive/people/memorials/bill_knight.html
 Summary: Remembering Bill Knight, the first Commodore of the Lough Derg Rally in 1975.
 Status: published
 
