@@ -45,3 +45,5 @@ DEFAULT_PAGINATION = False
 # Static paths
 STATIC_PATHS = ['images', 'js', 'data', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+
+# Trigger rebuild
