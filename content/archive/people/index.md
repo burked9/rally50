@@ -7,7 +7,15 @@ URL: archive/people/index.html
 
 
 ## [List of Commodores]({filename}/archive/people/commodores.md)
-## [Memorials]({filename}/archive/people/memorials/index.md)
+## Memorials
+
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/memorials/bill_knight.md" class="gallery-item">
+        <img src="{static}/images/people/memorials/bill_knight.png" alt="Bill Knight">
+        <div class="gallery-caption">First Rally Commodore: Bill Knight</div>
+    </a>
+</div>
+
 ## Generations
 
 <div class="gallery-grid">
