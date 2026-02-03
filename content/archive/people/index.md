@@ -7,12 +7,14 @@ URL: archive/people/index.html
 
 
 ## [List of Commodores]({filename}/archive/people/commodores.md)
-## Memorials
+
+## Commodore's Welcomes
 
 <div class="gallery-grid">
-    <a href="{filename}/archive/people/memorials/bill_knight.md" class="gallery-item">
-        <img src="{static}/images/people/memorials/bill_knight.png" alt="Bill Knight">
-        <div class="gallery-caption">First Rally Commodore: Bill Knight</div>
+    <!-- Items will be added here -->
+    <a href="#" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Welcome Article">
+        <div class="gallery-caption">Coming Soon</div>
     </a>
 </div>
 
@@ -33,3 +35,21 @@ URL: archive/people/index.html
     </a>
 </div>
 
+## Rally Memories
+
+<div class="gallery-grid">
+    <!-- Items will be added here -->
+    <a href="#" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Memory Article">
+        <div class="gallery-caption">Coming Soon</div>
+    </a>
+</div>
+
+## Memorials
+
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/memorials/bill_knight.md" class="gallery-item">
+        <img src="{static}/images/people/memorials/bill_knight.png" alt="Bill Knight">
+        <div class="gallery-caption">First Rally Commodore: Bill Knight</div>
+    </a>
+</div>
