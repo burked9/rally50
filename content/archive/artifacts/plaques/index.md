@@ -6,5 +6,8 @@ Summary: Archive of Rally Plaques.
 
 <div class="gallery-grid">
     <!-- Items will be added here -->
-    <p>Collection coming soon.</p>
+    <a href="{static}/images/rallies/2012/plaque.png" class="gallery-item" data-lightbox="plaques" data-title="Rally 37 (2012)">
+        <img src="{static}/images/rallies/2012/plaque.png" alt="Rally 37 Plaque">
+        <div class="gallery-caption">Rally 37 (2012)</div>
+    </a>
 </div>
