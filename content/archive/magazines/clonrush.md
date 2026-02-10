@@ -3,11 +3,14 @@ Date: 2003-01-01
 Slug: archive/magazines/clonrush
 Save_as: archive/magazines/clonrush.html
 URL: archive/magazines/clonrush.html
-Summary: "Everybody knows about the historical significance of the Abby in Portumna..." - An article from Derg Rally 23 (2003).
+Summary: "Everybody knows about the historical significance of the Abby in Portumna..." - An article from Derg Rally 28 (2003).
 
-<img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush Church Ruins" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div style="float: right; margin: 0 0 20px 20px; width: 300px; text-align: center;">
+    <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush Church Ruins" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <br><small><i>Artist's Impression of Clonrush Cemetery</i></small>
+</div>
 
-# CLONRUSH
+
 
 Everybody knows about the historical significance of the Abby in Portumna, Terryglass, Holy Island and Killaloe but to me the more interesting places are the less well-known places along the shores of our lake. Recently reading Michael Savage’s pilot book on the River Bann and Lough Neagh it reiterated the fact that we need to do a similar project on Lough Derg. I have always been an advocate of exploring around the lake and to me the most interesting places are inside the Red and Black navigation boys. One such place is Church Bay where Clonrush Church yard is located on the shore. The following is an extract from an article and has been reproduced with the kind permission of Gerard Madden of East Clare Heritage in Tuamgraney:
 
