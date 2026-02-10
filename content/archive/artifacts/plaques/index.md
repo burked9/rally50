@@ -28,3 +28,12 @@ Summary: Archive of Rally Plaques.
         <div class="gallery-caption">Rally 37 (2012)</div>
     </a>
 </div>
+
+<style>
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+    }
+    .gallery-item img {
+        height: 160px;
+    }
+</style>
