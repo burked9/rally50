@@ -5,7 +5,7 @@ Save_as: archive/magazines/index.html
 URL: archive/magazines/index.html
 
 
-## Magazine Articles
+
 
 <div class="gallery-grid">
     <a href="{filename}/archive/magazines/the-kingfisher.md" class="gallery-item">
