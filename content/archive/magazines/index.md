@@ -12,4 +12,8 @@ URL: archive/magazines/index.html
         <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher">
         <div class="gallery-caption">Rally Magazine 28 (2003): The Kingfisher</div>
     </a>
+    <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
+        <div class="gallery-caption">Derg Rally 23 (2003): Clonrush</div>
+    </a>
 </div>
