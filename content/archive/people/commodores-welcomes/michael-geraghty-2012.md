@@ -4,7 +4,7 @@ Slug: archive/people/commodores-welcomes/michael-geraghty-2012
 Save_as: archive/people/commodores-welcomes/michael-geraghty-2012.html
 Summary: "Hello and welcome to Lough Derg Rally 37!" - Michael Geraghty, Commodore of the 37th Lough Derg Rally in 2012.
 
-<img src="{static}/images/people_placeholder.png" alt="Michael Geraghty" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 # Commodore’s Message
 

@@ -12,7 +12,7 @@ URL: archive/people/index.html
 
 <div class="gallery-grid">
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Michael Geraghty">
+        <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
     </a>
 </div>
