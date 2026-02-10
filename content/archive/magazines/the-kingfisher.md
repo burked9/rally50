@@ -9,7 +9,7 @@ Summary: "The kingfisher is one of the many birds that can be found along the Ri
 
 <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-# The Kingfisher
+
 **Latin name: *Alcedo Atthis***
 
 The kingfisher is one of the many birds that can be found along the River Shannon. Their bodies are short and plump, and their legs and feet are small. It grows to be 16-17 cm of which the bill takes up about 4cm and it weighs 35-40grms. It is bright blue and green upper plumage, rusty orange beneath, pattern of red, white and blue on cheeks; bright red feet; long beak is black in males, has red underside in females.

@@ -20,11 +20,9 @@ View our collection of plaques, trophies, tankards, tickets, and flags.
 
 Remembering the people who made the rally what it is today, including memorials, articles written through the years, and our "Generations" project.
 
-## [Magazine Articles]({filename}/archive/magazines/index.md)
-<img src="{static}/images/archive/magazines/kingfisher.png" width="300" alt="Magazine Articles">
-
-A collection of articles from past Rally Magazines.
 
 **More to come, potentially select articles published in Magazines**
+
+
 
 

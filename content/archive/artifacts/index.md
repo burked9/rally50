@@ -1,4 +1,4 @@
-Title: Artifacts Archive
+Title: Artifacts
 Date: 2024-01-28
 Slug: archive/artifacts
 Save_as: archive/artifacts/index.html
@@ -12,3 +12,4 @@ URL: archive/artifacts/index.html
 ## [Commodores Tankards]({filename}/archive/artifacts/commodores-tankards/index.md)
 ## [Rally Mugs]({filename}/archive/artifacts/rally-mugs/index.md)
 ## [Flags]({filename}/archive/artifacts/flags/index.md)
+## [Magazine Articles]({filename}/archive/magazines/index.md)
