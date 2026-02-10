@@ -11,10 +11,9 @@ URL: archive/people/index.html
 ## Commodore's Welcomes
 
 <div class="gallery-grid">
-    <!-- Items will be added here -->
-    <a href="#" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Welcome Article">
-        <div class="gallery-caption">Coming Soon</div>
+    <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Michael Geraghty">
+        <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
     </a>
 </div>
 
