@@ -31,7 +31,12 @@ Summary: Archive of Rally Plaques.
 
 <style>
     .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 600px) {
+        .gallery-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
     .gallery-item img {
         height: 130px;
