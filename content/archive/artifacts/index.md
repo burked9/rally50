@@ -12,4 +12,5 @@ URL: archive/artifacts/index.html
 ## [Commodores Tankards]({filename}/archive/artifacts/commodores-tankards/index.md)
 ## [Rally Mugs]({filename}/archive/artifacts/rally-mugs/index.md)
 ## [Flags]({filename}/archive/artifacts/flags/index.md)
+## [Pookas]({filename}/archive/artifacts/pookas/index.md)
 ## [Magazine Articles]({filename}/archive/magazines/index.md)
