@@ -39,9 +39,9 @@ Summary: Archive of Rally Mugs.
 
 <style>
     .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
     .gallery-item img {
-        height: 160px;
+        height: 130px;
     }
 </style>
