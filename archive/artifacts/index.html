@@ -49,14 +49,91 @@
             <h1 class="h1">Artifacts</h1>
         </header>
         <div class="entry-content l-stack">
-            <h2><a href="https://burked9.github.io/rally50/archive/artifacts/winners/index.html">Hall of Fame (Trophy Winners)</a></h2>
-<h2><a href="https://burked9.github.io/rally50/archive/artifacts/brochures/index.html">Rally Brochures</a></h2>
-<h2><a href="https://burked9.github.io/rally50/archive/artifacts/plaques/index.html">Rally Plaques</a></h2>
-<h2><a href="https://burked9.github.io/rally50/pages/archive/artifacts/commodores-tankards.html">Commodores Tankards</a></h2>
-<h2><a href="https://burked9.github.io/rally50/archive/artifacts/rally-mugs/index.html">Rally Mugs</a></h2>
-<h2><a href="{filename}/archive/artifacts/flags/index.md">Flags</a></h2>
-<h2><a href="https://burked9.github.io/rally50/archive/artifacts/pookas/index.html">Pookas</a></h2>
-<h2><a href="https://burked9.github.io/rally50/archive/magazines/index.html">Magazine Articles</a></h2>
+            <p>Welcome to the Artifacts Archive. Explore our collection of historical items below.</p>
+<div class="artifact-grid">
+    <a href="https://burked9.github.io/rally50/archive/artifacts/winners/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/trophy_cup.png');"></div>
+        <h3>Hall of Fame</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/archive/artifacts/plaques/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/rallies/2012/plaque.png');"></div>
+        <h3>Rally Plaques</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/archive/artifacts/rally-mugs/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/rallies/2002/mug.jpg');"></div>
+        <h3>Rally Mugs</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/archive/artifacts/pookas/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/pookas/pooka_1.jpg');"></div>
+        <h3>Pookas</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/pages/archive/artifacts/commodores-tankards.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/commodores_tankard_placeholder.png');"></div>
+        <h3>Commodores Tankards</h3>
+    </a>
+
+     <a href="{filename}/archive/artifacts/flags/index.md" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/rally_flag_placeholder.png');"></div>
+        <h3>Flags</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/archive/magazines/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/archive/magazines/kingfisher.png');"></div>
+        <h3>Magazine Articles</h3>
+    </a>
+
+    <a href="https://burked9.github.io/rally50/archive/artifacts/brochures/index.html" class="artifact-tile">
+        <div class="tile-image" style="background-image: url('{filename}/images/rally_placeholder.png');"></div>
+        <h3>Rally Brochures</h3>
+    </a>
+</div>
+
+<style>
+    .artifact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .artifact-tile {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: var(--color-text);
+        border: 1px solid #eee;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.2s, box-shadow 0.2s;
+        background: #fff;
+    }
+
+    .artifact-tile:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        text-decoration: none;
+    }
+
+    .tile-image {
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .artifact-tile h3 {
+        margin: 15px;
+        font-size: 1.1rem;
+        text-align: center;
+        color: var(--primary-color);
+    }
+</style>
         </div>
     </article>
 </div>
