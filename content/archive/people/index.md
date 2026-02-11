@@ -42,6 +42,10 @@ URL: archive/people/index.html
         <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
         <div class="gallery-caption">Rally 37 (2012): Darrell Brislane</div>
     </a>
+    <a href="{filename}/archive/people/memories/galen-brislane.md" class="gallery-item">
+        <img src="{static}/images/people/memories/galen_brislane.png" alt="Galen Brislane">
+        <div class="gallery-caption">Rally 37 (2012): Galen Brislane</div>
+    </a>
 </div>
 
 ## Memorials
