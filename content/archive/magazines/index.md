@@ -17,4 +17,9 @@ URL: archive/magazines/index.html
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
     </a>
+    
+    <a href="{filename}/archive/magazines/irish-fleabane.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/irish_fleabane.png" alt="Irish Fleabane">
+        <div class="gallery-caption">Rally Magazine 37 (2013): Irish Fleabane</div>
+    </a>
 </div>
