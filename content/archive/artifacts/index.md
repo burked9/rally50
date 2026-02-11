@@ -9,42 +9,42 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
 
 <div class="artifact-grid">
     <a href="{filename}/archive/artifacts/winners.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/trophy_cup.png');"></div>
+        <img src="{filename}/images/trophy_cup.png" alt="Hall of Fame" class="tile-image">
         <h3>Hall of Fame</h3>
     </a>
     
     <a href="{filename}/archive/artifacts/plaques/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/rallies/2012/plaque.png');"></div>
+        <img src="{filename}/images/rallies/2012/plaque.png" alt="Rally Plaques" class="tile-image">
         <h3>Rally Plaques</h3>
     </a>
 
     <a href="{filename}/archive/artifacts/rally-mugs/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/rallies/2002/mug.jpg');"></div>
+        <img src="{filename}/images/rallies/2002/mug.jpg" alt="Rally Mugs" class="tile-image">
         <h3>Rally Mugs</h3>
     </a>
 
     <a href="{filename}/archive/artifacts/pookas/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/pookas/pooka_1.jpg');"></div>
+        <img src="{filename}/images/pookas/pooka_1.jpg" alt="Pookas" class="tile-image">
         <h3>Pookas</h3>
     </a>
     
     <a href="{filename}/archive/artifacts/commodores-tankards/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/commodores_tankard_placeholder.png');"></div>
+        <img src="{filename}/images/commodores_tankard_placeholder.png" alt="Commodores Tankards" class="tile-image">
         <h3>Commodores Tankards</h3>
     </a>
 
      <a href="{filename}/archive/artifacts/flags/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/rally_flag_placeholder.png');"></div>
+        <img src="{filename}/images/rally_flag_placeholder.png" alt="Flags" class="tile-image">
         <h3>Flags</h3>
     </a>
 
     <a href="{filename}/archive/magazines/index.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/archive/magazines/kingfisher.png');"></div>
+        <img src="{filename}/images/archive/magazines/kingfisher.png" alt="Magazine Articles" class="tile-image">
         <h3>Magazine Articles</h3>
     </a>
 
     <a href="{filename}/archive/artifacts/brochures.md" class="artifact-tile">
-        <div class="tile-image" style="background-image: url('{filename}/images/rally_placeholder.png');"></div>
+        <img src="{filename}/images/rally_placeholder.png" alt="Rally Brochures" class="tile-image">
         <h3>Rally Brochures</h3>
     </a>
 </div>
@@ -78,9 +78,8 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     .tile-image {
         width: 100%;
         height: 180px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
         border-bottom: 1px solid #f0f0f0;
     }
 
