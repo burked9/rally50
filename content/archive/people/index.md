@@ -38,9 +38,9 @@ URL: archive/people/index.html
 
 <div class="gallery-grid">
     <!-- Items will be added here -->
-    <a href="#" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Memory Article">
-        <div class="gallery-caption">Coming Soon</div>
+    <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
+        <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
+        <div class="gallery-caption">Rally 37 (2012): Darrell Brislane</div>
     </a>
 </div>
 
