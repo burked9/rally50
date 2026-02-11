@@ -46,6 +46,10 @@ URL: archive/people/index.html
         <img src="{static}/images/people/memories/galen_brislane.png" alt="Galen Brislane">
         <div class="gallery-caption">Rally 37 (2012): Galen Brislane</div>
     </a>
+    <a href="{filename}/archive/people/memories/mark-shanley.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Mark Shanley">
+        <div class="gallery-caption">Rally 37 (2012): Mark Shanley</div>
+    </a>
 </div>
 
 ## Memorials
