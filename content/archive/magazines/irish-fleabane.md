@@ -7,7 +7,7 @@ Summary: An article about the rare and protected plant found on the shores of Lo
 
 ![Irish Fleabane]({static}/images/archive/magazines/irish_fleabane.png)
 
-*Written for Lough Derg Rally Magazine 37 (2013)*
+*Written for Lough Derg Rally Magazine 37 (2012)*
 
 In Ireland Irish fleabane has only ever been recorded on the islands and shores of Lough Derg in north Tipperary and south-east Galway. The species was once found at quite a few sites along the shores of the lake but due to the impact of humans on its habitat the species is now only known to survive at one location. Due to its vulnerability Irish fleabane is protected in Ireland under the Wildlife (Amendment) Act 2000 and is listed as vulnerable in the Irish Red Data Book.
 

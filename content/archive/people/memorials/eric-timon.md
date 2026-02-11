@@ -7,7 +7,7 @@ Summary: A tribute to Eric Timon, a legendary figure in the Inland Waterways Ass
 
 ![Eric Timon]({static}/images/people/memorials/eric_timon.png)
 
-*From Rally Magazine 37 (2013)*
+*From Rally Magazine 37 (2012)*
 
 As a teenager in a barber shop at Sutton Cross, I was told the story of a boat builder who had named his creation AMOW (all my own work). I am sure because I was bending his ear about fishing off the Baily lighthouse in my father’s boat. It was some years before I was welcomed into a circle of ESB people that included Eric, who were involved in IWAI and all that went with it.
 

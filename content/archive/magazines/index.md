@@ -20,6 +20,6 @@ URL: archive/magazines/index.html
     
     <a href="{filename}/archive/magazines/irish-fleabane.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/irish_fleabane.png" alt="Irish Fleabane">
-        <div class="gallery-caption">Rally Magazine 37 (2013): Irish Fleabane</div>
+        <div class="gallery-caption">Rally Magazine 37 (2012): Irish Fleabane</div>
     </a>
 </div>
