@@ -35,7 +35,7 @@ Summary: Archive of Rally Plaques.
     }
     @media (min-width: 600px) {
         .gallery-grid {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
     }
     .gallery-item img {

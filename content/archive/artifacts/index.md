@@ -13,6 +13,11 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
         <h3>Hall of Fame</h3>
     </a>
     
+    <a href="{filename}/archive/artifacts/brochures.md" class="artifact-tile">
+        <img src="{filename}/images/rally_brochure_thumbnail.jpg" alt="Rally Brochures" class="tile-image">
+        <h3>Rally Brochures</h3>
+    </a>
+
     <a href="{filename}/archive/artifacts/plaques/index.md" class="artifact-tile">
         <img src="{filename}/images/rallies/2012/plaque.png" alt="Rally Plaques" class="tile-image">
         <h3>Rally Plaques</h3>
@@ -24,7 +29,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     </a>
 
     <a href="{filename}/archive/artifacts/pookas/index.md" class="artifact-tile">
-        <img src="{filename}/images/pookas/pooka_1.jpg" alt="Pookas" class="tile-image">
+        <img src="{filename}/images/pookas/pooka_3.png" alt="Pookas" class="tile-image">
         <h3>Pookas</h3>
     </a>
     
@@ -41,11 +46,6 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     <a href="{filename}/archive/magazines/index.md" class="artifact-tile">
         <img src="{filename}/images/archive/magazines/kingfisher.png" alt="Magazine Articles" class="tile-image">
         <h3>Magazine Articles</h3>
-    </a>
-
-    <a href="{filename}/archive/artifacts/brochures.md" class="artifact-tile">
-        <img src="{filename}/images/rally_placeholder.png" alt="Rally Brochures" class="tile-image">
-        <h3>Rally Brochures</h3>
     </a>
 </div>
 

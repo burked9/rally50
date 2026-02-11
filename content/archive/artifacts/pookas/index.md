@@ -41,7 +41,7 @@ These specific Pookas, however, are mysterious artifacts from the 90s, their ori
     }
     @media (min-width: 600px) {
         .gallery-grid {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
     }
     .gallery-item img {
