@@ -47,6 +47,10 @@ URL: archive/people/index.html
 ## Memorials
 
 <div class="gallery-grid">
+    <a href="{filename}/archive/people/memorials/eric-timon.md" class="gallery-item">
+        <img src="{static}/images/people/memorials/eric_timon.png" alt="Eric Timon">
+        <div class="gallery-caption">In Loving Memory: Eric Timon</div>
+    </a>
     <a href="{filename}/archive/people/memorials/bill_knight.md" class="gallery-item">
         <img src="{static}/images/people/memorials/bill_knight.png" alt="Bill Knight">
         <div class="gallery-caption">First Rally Commodore: Bill Knight</div>
