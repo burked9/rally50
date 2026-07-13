@@ -8,7 +8,10 @@ Summary: Archive of historical flags from the Lough Derg Rally.
 Welcome to the Rally Flags archive. Below is a collection of the beautiful flags that have flown over the Lough Derg Rally over the years.
 
 <div class="gallery-grid" id="flags-grid">
-    <!-- Flag items will be added here as images are provided -->
+    <a href="{filename}/images/flags/burgee_rally39.jpg" class="gallery-item" data-lightbox="flags" data-title="Burgee, Rally 39">
+        <img src="{filename}/images/flags/burgee_rally39_thumb.jpg" alt="Burgee, Rally 39">
+        <div class="gallery-caption">Burgee, Rally 39</div>
+    </a>
 </div>
 
 <style>
