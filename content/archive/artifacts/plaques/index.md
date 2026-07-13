@@ -188,3 +188,25 @@ Summary: Archive of Rally Plaques.
         object-fit: contain;
     }
 </style>
+
+<br>
+<hr>
+<br>
+
+## Missing Plaques
+We are currently missing photos for the following early Rally Plaques. If you have any of these, please let us know!
+<ul>
+    <li>Rally 1 (1975)</li>
+    <li>Rally 2 (1976)</li>
+    <li>Rally 3 (1977)</li>
+    <li>Rally 4 (1978)</li>
+    <li>Rally 5 (1980)</li>
+    <li>Rally 6 (1981)</li>
+    <li>Rally 7 (1982)</li>
+    <li>Rally 8 (1983)</li>
+    <li>Rally 9 (1984)</li>
+    <li>Rally 10 (1985)</li>
+    <li>Rally 11 (1986)</li>
+    <li>Rally 12 (1987)</li>
+</ul>
+<p><em>(Note: There was no rally in 1979)</em></p>
