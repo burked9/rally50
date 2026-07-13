@@ -29,7 +29,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     </a>
 
     <a href="{filename}/archive/artifacts/pookas/index.md" class="artifact-tile">
-        <img src="{filename}/images/pookas/Pooka41m_thumb.jpg" alt="Pookas" class="tile-image">
+        <img src="{filename}/images/pookas/Pooka41m_thumb.jpg" alt="Pookas" class="tile-image" style="object-position: top;">
         <h3>Pookas</h3>
     </a>
     
