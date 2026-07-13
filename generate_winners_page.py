@@ -77,6 +77,14 @@ def generate_markdown():
 <div class="l-container">
     <div class="entry-content">
         
+        <div style="text-align: center; margin-bottom: 20px; padding: 15px; background: #f0f8ff; border-radius: 8px;">
+            <a href="{{ SITEURL }}/archive/artifacts/trophy-donors.html" style="font-weight: bold; color: #0056b3; text-decoration: none;">📖 Read about the Trophies and their Donors here (Coming Soon)</a>
+        </div>
+
+        <div style="text-align: center; margin-bottom: 30px;">
+            <a href="{{ SITEURL }}/archive/artifacts/prizegiving/index.html" class="filter-btn" style="background-color: #28a745; color: white; text-decoration: none; border-color: #28a745; display: inline-block; padding: 10px 20px; font-weight: bold;">📸 View Prizegiving Galleries</a>
+        </div>
+
         <p>Welcome to our shiny new Hall of Fame gallery! Click on a trophy to view its history and past winners.</p>
         <p>Use the buttons below to filter the awards.</p>
 

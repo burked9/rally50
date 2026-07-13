@@ -19,7 +19,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     </a>
 
     <a href="{filename}/archive/artifacts/plaques/index.md" class="artifact-tile">
-        <img src="{filename}/images/rallies/2012/plaque.png" alt="Rally Plaques" class="tile-image">
+        <img src="{filename}/images/rallies/1993/plaque_thumb.png" alt="Rally Plaques" class="tile-image">
         <h3>Rally Plaques</h3>
     </a>
 
