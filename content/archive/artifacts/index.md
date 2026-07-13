@@ -47,6 +47,21 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
         <img src="{filename}/images/archive/magazines/kingfisher.png" alt="Magazine Articles" class="tile-image">
         <h3>Magazine Articles</h3>
     </a>
+
+    <a href="{filename}/archive/artifacts/commodores-plaques/index.md" class="artifact-tile">
+        <img src="{filename}/images/commodores_tankard_placeholder.png" alt="Commodores Plaques" class="tile-image">
+        <h3>Commodores Plaques</h3>
+    </a>
+
+    <a href="{filename}/archive/artifacts/misc/index.md" class="artifact-tile">
+        <img src="{filename}/images/rally_flag_placeholder.png" alt="Misc Artefacts" class="tile-image">
+        <h3>Misc Artefacts</h3>
+    </a>
+
+    <a href="{filename}/archive/artifacts/dinner-dance/index.md" class="artifact-tile">
+        <img src="{filename}/images/rally_flag_placeholder.png" alt="Dinner Dance Artefacts" class="tile-image">
+        <h3>Dinner Dance Artefacts</h3>
+    </a>
 </div>
 
 <style>

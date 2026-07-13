@@ -1,0 +1,58 @@
+Title: Commodores Plaques
+Date: 2024-01-29
+Slug: archive/artifacts/commodores-plaques
+Save_as: archive/artifacts/commodores-plaques/index.html
+URL: archive/artifacts/commodores-plaques/index.html
+Summary: Archive of Commodores Plaques.
+
+Welcome to the Commodores Plaques archive. Below is a collection of the beautiful plaques given to the Commodores over the years.
+
+<div class="gallery-grid" id="commodores-plaques-grid">
+    <!-- Items will be added here as images are provided -->
+</div>
+
+<style>
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-top: 30px;
+    }
+    @media (min-width: 600px) {
+        .gallery-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (min-width: 1024px) {
+        .gallery-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+    .gallery-item {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: inherit;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 10px;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .gallery-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        text-decoration: none;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    .gallery-caption {
+        text-align: center;
+        font-weight: 500;
+        color: #333;
+    }
+</style>
