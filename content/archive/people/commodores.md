@@ -6,12 +6,13 @@ URL: archive/people/commodores/index.html
 
 Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus years.
 
+## Rally Commodores
+
 <div class="l-stack">
     <table class="display responsive nowrap" style="width:100%">
         <thead>
             <tr>
                 <th style="text-align: left;">Year</th>
-                <th style="text-align: left;">Rally No.</th>
                 <th style="text-align: left;">Commodore</th>
                 <th style="text-align: left;">Boat</th>
             </tr>
@@ -19,315 +20,318 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
         <tbody>
             <tr>
                 <td>1975</td>
-                <td>1</td>
                 <td>William J. Knight</td>
                 <td>Golden Hours</td>
             </tr>
             <tr>
                 <td>1976</td>
-                <td>2</td>
                 <td>William Lysaght</td>
                 <td>Sunsasado</td>
             </tr>
             <tr>
                 <td>1977</td>
-                <td>3</td>
                 <td>David Knight</td>
                 <td>Humming Bird</td>
             </tr>
             <tr>
                 <td>1978</td>
-                <td>4</td>
                 <td>Richie O’Donoghue</td>
                 <td>Brijella</td>
             </tr>
             <tr>
                 <td>1979</td>
-                <td>-</td>
-                <td>No Rally</td>
+                <td>No Rally (Low Water)</td>
                 <td>—</td>
             </tr>
             <tr>
                 <td>1980</td>
-                <td>5</td>
                 <td>Frank Van Den Berg</td>
-                <td>Argent Brach</td>
+                <td>Argent Brack</td>
             </tr>
             <tr>
                 <td>1981</td>
-                <td>6</td>
                 <td>Thomas A. Duffy</td>
                 <td>Lotus Two</td>
             </tr>
             <tr>
                 <td>1982</td>
-                <td>7</td>
                 <td>Bryan Brislane</td>
                 <td>Lady Sarah</td>
             </tr>
             <tr>
                 <td>1983</td>
-                <td>8</td>
                 <td>Colin Becker</td>
                 <td>LadyG</td>
             </tr>
             <tr>
                 <td>1984</td>
-                <td>9</td>
                 <td>Maureen Duffy</td>
                 <td>Lotus Two</td>
             </tr>
             <tr>
                 <td>1985</td>
-                <td>10</td>
                 <td>Chris Boyle</td>
                 <td>Christina</td>
             </tr>
             <tr>
                 <td>1986</td>
-                <td>11</td>
                 <td>Joe Treacy</td>
                 <td>4E</td>
             </tr>
             <tr>
                 <td>1987</td>
-                <td>12</td>
                 <td>Albert Gill</td>
                 <td>Breakaway</td>
             </tr>
             <tr>
                 <td>1988</td>
-                <td>13</td>
-                <td>Tos Quinn</td>
+                <td>Tom Quinn</td>
                 <td>Abigail</td>
             </tr>
             <tr>
                 <td>1989</td>
-                <td>14</td>
                 <td>Mark Maguire</td>
                 <td>Maan of Derg</td>
             </tr>
             <tr>
                 <td>1990</td>
-                <td>15</td>
                 <td>Martin O’Brien</td>
                 <td>Ce Na Ri</td>
             </tr>
             <tr>
                 <td>1991</td>
-                <td>16</td>
                 <td>Eric Makim</td>
                 <td>Sunset</td>
             </tr>
             <tr>
                 <td>1992</td>
-                <td>17</td>
                 <td>Cathy Scotson</td>
                 <td>Ajenda</td>
             </tr>
             <tr>
                 <td>1993</td>
-                <td>18</td>
                 <td>Joe Treacy</td>
                 <td>4E</td>
             </tr>
             <tr>
                 <td>1994</td>
-                <td>19</td>
                 <td>Les Saunders</td>
                 <td>41M</td>
             </tr>
             <tr>
                 <td>1995</td>
-                <td>20</td>
                 <td>Mark Maguire, Jnr</td>
                 <td>Mann of Derg</td>
             </tr>
             <tr>
                 <td>1996</td>
-                <td>21</td>
                 <td>Eamon Egan</td>
                 <td>Hawthorn</td>
             </tr>
             <tr>
                 <td>1997</td>
-                <td>22</td>
                 <td>John Moore</td>
                 <td>Twenty Pence</td>
             </tr>
             <tr>
                 <td>1998</td>
-                <td>23</td>
                 <td>Oliver Kennedy</td>
                 <td>—</td>
             </tr>
             <tr>
                 <td>1999</td>
-                <td>24</td>
                 <td>Tom Moore</td>
                 <td>Jasmine</td>
             </tr>
             <tr>
                 <td>2000</td>
-                <td>25</td>
                 <td>Rory Stephens</td>
                 <td>Yali</td>
             </tr>
             <tr>
                 <td>2001</td>
-                <td>26</td>
                 <td>Lana Treacy</td>
                 <td>Crystal Heart</td>
             </tr>
             <tr>
                 <td>2002</td>
-                <td>27</td>
                 <td>Andy Roche</td>
                 <td>35M</td>
             </tr>
             <tr>
                 <td>2003</td>
-                <td>28</td>
                 <td>Geraldine Burke</td>
                 <td>68M</td>
             </tr>
             <tr>
                 <td>2004</td>
-                <td>29</td>
-                <td>Fergal Kerney</td>
+                <td>Fergal Kearney</td>
                 <td>Tanjuan</td>
             </tr>
             <tr>
                 <td>2005</td>
-                <td>30</td>
                 <td>Nicky Coady</td>
                 <td>My Little Boat</td>
             </tr>
             <tr>
                 <td>2006</td>
-                <td>31</td>
                 <td>Cathy Dwane</td>
                 <td>74M</td>
             </tr>
             <tr>
                 <td>2007</td>
-                <td>32</td>
                 <td>Clare Jordan</td>
                 <td>El-Roi</td>
             </tr>
             <tr>
                 <td>2008</td>
-                <td>33</td>
                 <td>Noel Griffin</td>
                 <td>Ocean Froggie</td>
             </tr>
             <tr>
                 <td>2009</td>
-                <td>34</td>
                 <td>Carmel Byrne</td>
                 <td>Desperado</td>
             </tr>
             <tr>
                 <td>2010</td>
-                <td>35</td>
                 <td>Jimmy Mac Farlane</td>
-                <td>Paradise</td>
+                <td>Paradijs</td>
             </tr>
             <tr>
                 <td>2011</td>
-                <td>36</td>
                 <td>Rory Winston</td>
-                <td>Highlander</td>
+                <td>Hylander</td>
             </tr>
             <tr>
                 <td>2012</td>
-                <td>37</td>
                 <td>Michael Geraghty</td>
                 <td>Affaja</td>
             </tr>
             <tr>
                 <td>2013</td>
-                <td>38</td>
                 <td>Robert Lambert</td>
                 <td>De Eems</td>
             </tr>
             <tr>
                 <td>2014</td>
-                <td>39</td>
                 <td>David Brassington</td>
                 <td>Peggy May</td>
             </tr>
             <tr>
                 <td>2015</td>
-                <td>40</td>
                 <td>Daniel Burke</td>
                 <td>77M</td>
             </tr>
             <tr>
                 <td>2016</td>
-                <td>41</td>
                 <td>Joe Leonard</td>
                 <td>Shanice</td>
             </tr>
             <tr>
                 <td>2017</td>
-                <td>42</td>
                 <td>Ivan Thornbury</td>
                 <td>Auburn</td>
             </tr>
             <tr>
                 <td>2018</td>
-                <td>43</td>
                 <td>Darrell Brislane</td>
                 <td>Gallifrey</td>
             </tr>
             <tr>
                 <td>2019</td>
-                <td>44</td>
-                <td>Alan Lindley</td>
-                <td>Lady Lydia</td>
+                <td>Holding Name</td>
+                <td>—</td>
             </tr>
             <tr>
                 <td>2020</td>
-                <td>-</td>
-                <td>No Rally</td>
+                <td>No Rally (COVID)</td>
                 <td>—</td>
             </tr>
             <tr>
                 <td>2021</td>
-                <td>-</td>
-                <td>No Rally</td>
+                <td>No Rally (COVID)</td>
                 <td>—</td>
             </tr>
             <tr>
                 <td>2022</td>
-                <td>45</td>
-                <td>Aoife Geraghty</td>
-                <td>Kerry Jane</td>
+                <td>Holding Name</td>
+                <td>—</td>
             </tr>
             <tr>
                 <td>2023</td>
-                <td>46</td>
-                <td>Colm Burke</td>
-                <td>69M</td>
+                <td>Holding Name</td>
+                <td>—</td>
             </tr>
             <tr>
                 <td>2024</td>
-                <td>47</td>
-                <td>Emily McGrory</td>
-                <td>Voyager</td>
+                <td>Holding Name</td>
+                <td>—</td>
             </tr>
             <tr>
                 <td>2025</td>
-                <td>48</td>
-                <td>Fergus Curtain</td>
-                <td>Miss Chief</td>
+                <td>Holding Name</td>
+                <td>—</td>
             </tr>
             <tr>
                 <td>2026</td>
-                <td>49</td>
-                <td>Brian Leahy</td>
-                <td>John Paul II</td>
+                <td>Holding Name</td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<br>
+<hr>
+<br>
+
+## Youth Commodores
+
+<div class="l-stack">
+    <table class="display responsive nowrap" style="width:100%">
+        <thead>
+            <tr>
+                <th style="text-align: left;">Year</th>
+                <th style="text-align: left;">Youth Commodore</th>
+                <th style="text-align: left;">Boat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020</td>
+                <td>No Rally (COVID)</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>No Rally (COVID)</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Holding Youth</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Holding Youth</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Holding Youth</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>Holding Youth</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Holding Youth</td>
+                <td>—</td>
             </tr>
         </tbody>
     </table>

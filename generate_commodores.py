@@ -1,4 +1,3 @@
-
 import csv
 import io
 
@@ -8,7 +7,7 @@ raw_data = """Year,Commodore,Boat
 1976,William Lysaght,Sunsasado
 1977,David Knight,Humming Bird
 1978,Richie O’Donoghue,Brijella
-1979,No Rally,—
+1979,No Rally (Low Water),—
 1980,Frank Van Den Berg,Argent Brack
 1981,Thomas A. Duffy,Lotus Two
 1982,Bryan Brislane,Lady Sarah
@@ -39,7 +38,7 @@ raw_data = """Year,Commodore,Boat
 2007,Clare Jordan,El-Roi
 2008,Noel Griffin,Ocean Froggie
 2009,Carmel Byrne,Desperado
-2010,Jimmy Mac Farlane,Paradise
+2010,Jimmy Mac Farlane,Paradijs
 2011,Rory Winston,Hylander
 2012,Michael Geraghty,Affaja
 2013,Robert Lambert,De Eems
@@ -47,27 +46,37 @@ raw_data = """Year,Commodore,Boat
 2015,Daniel Burke,77M
 2016,Joe Leonard,Shanice
 2017,Ivan Thornbury,Auburn
-2018,Darrell Brislane,Gallifrey"""
+2018,Darrell Brislane,Gallifrey
+2019,Holding Name,—
+2020,No Rally (COVID),—
+2021,No Rally (COVID),—
+2022,Holding Name,—
+2023,Holding Name,—
+2024,Holding Name,—
+2025,Holding Name,—
+2026,Holding Name,—"""
+
+youth_data = """Year,Commodore,Boat
+2020,No Rally (COVID),—
+2021,No Rally (COVID),—
+2022,Holding Youth,—
+2023,Holding Youth,—
+2024,Holding Youth,—
+2025,Holding Youth,—
+2026,Holding Youth,—"""
 
 # File path
 OUTPUT_FILE = 'content/archive/people/commodores.md'
 
 def generate_commodores_page():
     # Parse CSV data
-    f = io.StringIO(raw_data)
+    f = io.StringIO(raw_data.strip())
     reader = csv.DictReader(f)
     commodores = list(reader)
-    
-    # Sort by year descending (usually better for history) or ascending?
-    # User provided ascending. I'll stick to ascending as it flows through history, 
-    # but often lists like this are descending throughout the site (like rallies).
-    # Let's check Rallies... generated content is strictly year based index.
-    # User's list is ascending. I will output ascending as provided, unless I see a reason not to.
-    # Actually, let's do descending so recent ones are at top? 
-    # The user provided 1975 first. I'll stick to their order to be safe, or ask?
-    # Rallies index is usually chronological (1975 -> 2027). So ascending is consistent with Rallies index.
-    # Wait, the winners tables I made descending (2024 -> 1975).
-    # Let's keep it ascending as provided for now, it tells the story.
+
+    yf = io.StringIO(youth_data.strip())
+    youth_reader = csv.DictReader(yf)
+    youth_commodores = list(youth_reader)
     
     md = """Title: List of Commodores
 Date: 2024-01-28
@@ -76,6 +85,8 @@ Save_as: archive/people/commodores/index.html
 URL: archive/people/commodores/index.html
 
 Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus years.
+
+## Rally Commodores
 
 <div class="l-stack">
     <table class="display responsive nowrap" style="width:100%">
@@ -104,11 +115,41 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
     md += """        </tbody>
     </table>
 </div>
+
+<br>
+<hr>
+<br>
+
+## Youth Commodores
+
+<div class="l-stack">
+    <table class="display responsive nowrap" style="width:100%">
+        <thead>
+            <tr>
+                <th style="text-align: left;">Year</th>
+                <th style="text-align: left;">Youth Commodore</th>
+                <th style="text-align: left;">Boat</th>
+            </tr>
+        </thead>
+        <tbody>
+"""
+
+    for row in youth_commodores:
+        md += f"""            <tr>
+                <td>{row['Year']}</td>
+                <td>{row['Commodore']}</td>
+                <td>{row['Boat']}</td>
+            </tr>
+"""
+
+    md += """        </tbody>
+    </table>
+</div>
 """
 
     with open(OUTPUT_FILE, 'w') as f:
         f.write(md)
-    print(f"Generated {OUTPUT_FILE} with {len(commodores)} records.")
+    print(f"Generated {OUTPUT_FILE} with {len(commodores)} records and {len(youth_commodores)} youth records.")
 
 if __name__ == "__main__":
     generate_commodores_page()
