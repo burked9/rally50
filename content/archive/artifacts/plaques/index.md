@@ -156,6 +156,17 @@ Summary: Archive of Rally Plaques.
     </a>
 </div>
 
+<br>
+<hr>
+<br>
+
+<h2>Prize Plaques & Statuettes</h2>
+<p>This section is reserved for special prize plaques and statuettes. Images will be added here once available.</p>
+
+<div class="gallery-grid" id="prize-plaques-grid">
+    <!-- Prize plaques will be added here -->
+</div>
+
 <style>
     .gallery-grid {
         display: grid;
@@ -165,6 +176,11 @@ Summary: Archive of Rally Plaques.
     @media (min-width: 600px) {
         .gallery-grid {
             grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (min-width: 1024px) {
+        .gallery-grid {
+            grid-template-columns: repeat(5, 1fr);
         }
     }
     .gallery-item img {
