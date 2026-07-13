@@ -29,7 +29,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     </a>
 
     <a href="{filename}/archive/artifacts/pookas/index.md" class="artifact-tile">
-        <img src="{filename}/images/pookas/pooka_3.png" alt="Pookas" class="tile-image">
+        <img src="{filename}/images/pookas/Pooka41m_thumb.jpg" alt="Pookas" class="tile-image">
         <h3>Pookas</h3>
     </a>
     
@@ -39,7 +39,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
     </a>
 
      <a href="{filename}/archive/artifacts/flags/index.md" class="artifact-tile">
-        <img src="{filename}/images/rally_flag_placeholder.png" alt="Flags" class="tile-image">
+        <img src="{filename}/images/flags/burgee_rally39_thumb.jpg" alt="Flags" class="tile-image">
         <h3>Flags</h3>
     </a>
 

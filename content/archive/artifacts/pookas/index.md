@@ -18,10 +18,6 @@ These specific Pookas, however, are mysterious artifacts from the 90s, their ori
         <img src="{filename}/images/pookas/pooka_2.png" alt="Unknown 90s Pooka 68M">
         <div class="gallery-caption">Unknown 90s Pooka 68M</div>
     </a>
-    <a href="{filename}/images/pookas/pooka_3.png" class="gallery-item" data-lightbox="pookas" data-title="Unknown 90s Pooka 68M">
-        <img src="{filename}/images/pookas/pooka_3.png" alt="Unknown 90s Pooka 68M">
-        <div class="gallery-caption">Unknown 90s Pooka 68M</div>
-    </a>
     <a href="{filename}/images/pookas/pooka_4.jpg" class="gallery-item" data-lightbox="pookas" data-title="Unknown 90s Pooka 68M">
         <img src="{filename}/images/pookas/pooka_4.jpg" alt="Unknown 90s Pooka 68M">
         <div class="gallery-caption">Unknown 90s Pooka 68M</div>
