@@ -357,7 +357,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             <tr>
                 <td>2019</td>
                 <td>Eoin O'Reilly</td>
-                <td>Myles</td>
+                <td>Myls</td>
             </tr>
             <tr>
                 <td>2020</td>
@@ -377,7 +377,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             <tr>
                 <td>2023</td>
                 <td>Jenny O'Reilly</td>
-                <td>Myles</td>
+                <td>Myls</td>
             </tr>
             <tr>
                 <td>2024</td>
