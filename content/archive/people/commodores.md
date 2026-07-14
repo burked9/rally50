@@ -141,7 +141,7 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
                 <td>1995</td>
                 <td>20</td>
                 <td>Mark Maguire, Jnr</td>
-                <td>Mann of Derg</td>
+                <td>Maan of Derg</td>
             </tr>
             <tr>
                 <td>1996</td>
@@ -230,8 +230,8 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             <tr>
                 <td>2010</td>
                 <td>35</td>
-                <td>Jimmy Mac Farlane</td>
-                <td>Paradijs</td>
+                <td>Jimmy MacFarlane</td>
+                <td>ParadijsVogel</td>
             </tr>
             <tr>
                 <td>2011</td>
@@ -350,6 +350,16 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
         </thead>
         <tbody>
             <tr>
+                <td>2018</td>
+                <td>Emily McGrory</td>
+                <td>Voyager</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Eoin O'Reilly</td>
+                <td>Myles</td>
+            </tr>
+            <tr>
                 <td>2020</td>
                 <td>No Rally (COVID)</td>
                 <td>—</td>
@@ -361,28 +371,28 @@ Honoring the Commodores who have led the Lough Derg Rally over the past 50 plus 
             </tr>
             <tr>
                 <td>2022</td>
-                <td>Holding Youth</td>
-                <td>—</td>
+                <td>Rebecca Lindley</td>
+                <td>Lady Lydia</td>
             </tr>
             <tr>
                 <td>2023</td>
-                <td>Holding Youth</td>
-                <td>—</td>
+                <td>Jenny O'Reilly</td>
+                <td>Myles</td>
             </tr>
             <tr>
                 <td>2024</td>
-                <td>Holding Youth</td>
-                <td>—</td>
+                <td>Clodagh Lindley</td>
+                <td>Lady Lydia</td>
             </tr>
             <tr>
                 <td>2025</td>
-                <td>Holding Youth</td>
-                <td>—</td>
+                <td>Sarah Curtain</td>
+                <td>Miss Chief</td>
             </tr>
             <tr>
                 <td>2026</td>
-                <td>Holding Youth</td>
-                <td>—</td>
+                <td>Johannes Leahy</td>
+                <td>John Paul II</td>
             </tr>
         </tbody>
     </table>
