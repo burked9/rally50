@@ -7,6 +7,10 @@ Summary: Archive of Rally Mugs.
 
 <div class="gallery-grid">
     <!-- Items will be added here -->
+    <a href="{filename}/images/rallies/2026/rally49_mugs.jpg" class="gallery-item" data-lightbox="mugs" data-title="Rally 49 (2026)">
+        <img src="{filename}/images/rallies/2026/rally49_mugs_thumb.jpg" alt="Rally 49 (2026)">
+        <div class="gallery-caption">Rally 49 (2026)</div>
+    </a>
     <a href="{filename}/images/rallies/2002/mug.jpg" class="gallery-item" data-lightbox="mugs" data-title="Rally 27 (2002)">
         <img src="{filename}/images/rallies/2002/mug.jpg" alt="Rally 27 Mug">
         <div class="gallery-caption">Rally 27 (2002)</div>

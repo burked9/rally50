@@ -165,6 +165,30 @@ Summary: Archive of Rally Plaques.
 
 <div class="gallery-grid" id="prize-plaques-grid">
     <!-- Prize plaques will be added here -->
+    <a href="{filename}/images/prizes/rally13_barge_race_prize_ChangSha.jpg" class="gallery-item" data-lightbox="prizes" data-title="Rally 13 Barge Race Prize Changsha">
+        <img src="{filename}/images/prizes/rally13_barge_race_prize_ChangSha_thumb.jpg" alt="Rally 13 Barge Race Prize Changsha">
+        <div class="gallery-caption">Rally 13 Barge Race Prize Changsha</div>
+    </a>
+    <a href="{filename}/images/prizes/rally6_prize_plaque.jpg" class="gallery-item" data-lightbox="prizes" data-title="Rally 6 Prize Plaque">
+        <img src="{filename}/images/prizes/rally6_prize_plaque_thumb.jpg" alt="Rally 6 Prize Plaque">
+        <div class="gallery-caption">Rally 6 Prize Plaque</div>
+    </a>
+    <a href="{filename}/images/prizes/winners_plaque_earlyrally.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Earlyrally">
+        <img src="{filename}/images/prizes/winners_plaque_earlyrally_thumb.jpg" alt="Winners Plaque Earlyrally">
+        <div class="gallery-caption">Winners Plaque Earlyrally</div>
+    </a>
+    <a href="{filename}/images/prizes/winners_plaque_rally1.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 1">
+        <img src="{filename}/images/prizes/winners_plaque_rally1_thumb.jpg" alt="Winners Plaque Rally 1">
+        <div class="gallery-caption">Winners Plaque Rally 1</div>
+    </a>
+    <a href="{filename}/images/prizes/winners_plaque_rally2.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 2">
+        <img src="{filename}/images/prizes/winners_plaque_rally2_thumb.jpg" alt="Winners Plaque Rally 2">
+        <div class="gallery-caption">Winners Plaque Rally 2</div>
+    </a>
+    <a href="{filename}/images/prizes/winners_plaque_rally5.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 5">
+        <img src="{filename}/images/prizes/winners_plaque_rally5_thumb.jpg" alt="Winners Plaque Rally 5">
+        <div class="gallery-caption">Winners Plaque Rally 5</div>
+    </a>
 </div>
 
 <style>

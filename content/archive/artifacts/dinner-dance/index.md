@@ -9,6 +9,10 @@ Welcome to the Dinner Dance Artefacts archive. Below is a collection of vintage 
 
 <div class="gallery-grid" id="dinner-dance-grid">
     <!-- Items will be added here as images are provided -->
+    <a href="{filename}/images/dinner-dance/rally49_dinnerdance_menu.jpg" class="gallery-item" data-lightbox="dinner-dance" data-title="Rally 49 Dinnerdance Menu">
+        <img src="{filename}/images/dinner-dance/rally49_dinnerdance_menu_thumb.jpg" alt="Rally 49 Dinnerdance Menu">
+        <div class="gallery-caption">Rally 49 Dinnerdance Menu</div>
+    </a>
 </div>
 
 <style>
