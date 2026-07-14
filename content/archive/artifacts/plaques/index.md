@@ -173,9 +173,9 @@ Summary: Archive of Rally Plaques.
         <img src="{filename}/images/prizes/rally6_prize_plaque_thumb.jpg" alt="Rally 6 Prize Plaque">
         <div class="gallery-caption">Rally 6 Prize Plaque</div>
     </a>
-    <a href="{filename}/images/prizes/winners_plaque_earlyrally.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Earlyrally">
-        <img src="{filename}/images/prizes/winners_plaque_earlyrally_thumb.jpg" alt="Winners Plaque Earlyrally">
-        <div class="gallery-caption">Winners Plaque Earlyrally</div>
+    <a href="{filename}/images/prizes/winners_plaque_earlyrally.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Early Unconfirmed Rally, 40M.">
+        <img src="{filename}/images/prizes/winners_plaque_earlyrally_thumb.jpg" alt="Winners Plaque Early Unconfirmed Rally, 40M.">
+        <div class="gallery-caption">Winners Plaque Early Unconfirmed Rally, 40M.</div>
     </a>
     <a href="{filename}/images/prizes/winners_plaque_rally1.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 1">
         <img src="{filename}/images/prizes/winners_plaque_rally1_thumb.jpg" alt="Winners Plaque Rally 1">
