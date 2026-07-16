@@ -114,7 +114,16 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             color: #888;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+        }
+        .category-thumb {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
         }
         .trophy-title {
             font-weight: bold;
@@ -178,11 +187,10 @@
         <div class="filters" style="text-align: center; margin-bottom: 40px;">
             <button class="filter-btn active" onclick="filterTrophies('all')">All</button>
             <button class="filter-btn" onclick="filterTrophies('premier')">Premier</button>
+            <button class="filter-btn" onclick="filterTrophies('navigation')">Navigation</button>
             <button class="filter-btn" onclick="filterTrophies('barge')">Barges</button>
-            <button class="filter-btn" onclick="filterTrophies('skill')">Skills</button>
-            <button class="filter-btn" onclick="filterTrophies('spirit')">Spirit</button>
-            <button class="filter-btn" onclick="filterTrophies('newcomer')">Newcomer</button>
-            <button class="filter-btn" onclick="filterTrophies('fun')">Fun</button>
+            <button class="filter-btn" onclick="filterTrophies('junior')">Junior</button>
+            <button class="filter-btn" onclick="filterTrophies('community')">Community</button>
             <button class="filter-btn" onclick="filterTrophies('historical')">Historical</button>
         </div>
 
@@ -190,183 +198,271 @@
         <div class="trophy-grid">
 
             <div class="trophy-card category-premier" onclick="openModal('jj_kineally')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="JJ Kenneally Perpetual Challenge Cup">
-                <span class="trophy-category">premier</span>
+                <img src="https://burked9.github.io/rally50/images/JJ_KeneallyTrophy.jpg" class="trophy-icon" alt="JJ Kenneally Perpetual Challenge Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_premier.png" class="category-thumb" alt="premier">
+                    <span>Premier Awards & Boat Inspections</span>
+                </div>
                 <div class="trophy-title">JJ Kenneally Perpetual Challenge Cup</div>
-                <div class="trophy-short-desc">This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.</div>
+                <div class="trophy-short-desc">Generously presented by the Limerick jeweller JJ Kenneally, who served on the committee of early rallies and took part with his cruiser 'Carmel'. This has been the "Premier" rally trophy since its inception. (Note: this is a premier cup, and it has a lid). It is awarded to the overall winning team on the rally.</div>
             </div>
 
-            <div class="trophy-card category-spirit" onclick="openModal('jimmy_leyden')">
-                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Jimmy Leyden Perpetual Trophy">
-                <span class="trophy-category">spirit</span>
-                <div class="trophy-title">The Jimmy Leyden Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally.</div>
+            <div class="trophy-card category-premier" onclick="openModal('bob_hughes')">
+                <img src="https://burked9.github.io/rally50/images/BobHughsSalver.jpg" class="trophy-icon" alt="Hughes Perpetual Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_premier.png" class="category-thumb" alt="premier">
+                    <span>Premier Awards & Boat Inspections</span>
+                </div>
+                <div class="trophy-title">Hughes Perpetual Trophy</div>
+                <div class="trophy-short-desc">Presented by Bob and Rita Hughes who were long time rally supporters. Rita was a strong RNLI fundraiser on rallies. This trophy is awarded to the winner of the Boat Inspection competition. (An early description of this states, "points awarded for shipshape and Bristol fashion, completeness of equipment, warps, anchors, fire extinguishers etc...").</div>
             </div>
 
-            <div class="trophy-card category-spirit" onclick="openModal('friendship')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Friendship Cup">
-                <span class="trophy-category">spirit</span>
-                <div class="trophy-title">Friendship Cup</div>
-                <div class="trophy-short-desc">Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally.</div>
+            <div class="trophy-card category-premier" onclick="openModal('newman')">
+                <img src="https://burked9.github.io/rally50/images/NewmanPerpetualCup.jpg" class="trophy-icon" alt="Newman Perpetual Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_premier.png" class="category-thumb" alt="premier">
+                    <span>Premier Awards & Boat Inspections</span>
+                </div>
+                <div class="trophy-title">Newman Perpetual Cup</div>
+                <div class="trophy-short-desc">Presented by Frank and Louise Newman, who had returned from England and lived near the "look-out point" overlooking Lough Derg between Garrykennedy and Killaloe. The trophy was awarded to the winner of a surprise boat inspection. Rally #2 committee had Frank as secretary and Louise as treasurer. Awarded to the winner of the Surprise Boat Inspection, (determined by the Commodore on the Rally).</div>
             </div>
 
-            <div class="trophy-card category-spirit" onclick="openModal('ann_clarke')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Anne Clarke Trophy">
-                <span class="trophy-category">spirit</span>
-                <div class="trophy-title">Anne Clarke Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship).</div>
+            <div class="trophy-card category-navigation" onclick="openModal('tavern')">
+                <img src="https://burked9.github.io/rally50/images/TavernCup.jpg" class="trophy-icon" alt="Tavern Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Tavern Cup</div>
+                <div class="trophy-short-desc">Presented by Marty Mara, owner of "The Tavern" pub in Ballinderry. Marty would drive to Kilgarvan with groceries for ralliers in the early years. The Tavern cup is awarded to the winner of the Time Trial competition. Open to all boats on the rally.</div>
             </div>
 
-            <div class="trophy-card category-spirit" onclick="openModal('estemaid')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Eistemaid Trophy">
-                <span class="trophy-category">spirit</span>
-                <div class="trophy-title">The Eistemaid Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!</div>
+            <div class="trophy-card category-navigation" onclick="openModal('westpark')">
+                <img src="https://burked9.github.io/rally50/images/WestparkCup.jpg" class="trophy-icon" alt="Westpark Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Westpark Cup</div>
+                <div class="trophy-short-desc">The trophy was given by the Westpark hotel management in the 1980's in gratitude to the rallies promotion and use of Portumna and its facilities. Presented by the Westpark Hotel Portumna. Awarded to the winner of the Boat Handling competition.</div>
             </div>
 
-            <div class="trophy-card category-newcomer" onclick="openModal('church_bay')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Church Bay Cup">
-                <span class="trophy-category">newcomer</span>
-                <div class="trophy-title">The Church Bay Cup</div>
-                <div class="trophy-short-desc">Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</div>
+            <div class="trophy-card category-navigation" onclick="openModal('dennis_juba')">
+                <img src="https://burked9.github.io/rally50/images/DenisJubaCup.jpg" class="trophy-icon" alt="Denis Juba Perpetual Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Denis Juba Perpetual Cup</div>
+                <div class="trophy-short-desc">Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Man Overboard competition.</div>
             </div>
 
-            <div class="trophy-card category-barge" onclick="openModal('boyle')">
-                <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="The Boyle Trophy">
-                <span class="trophy-category">barge</span>
-                <div class="trophy-title">The Boyle Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</div>
+            <div class="trophy-card category-navigation" onclick="openModal('wynn_juba')">
+                <img src="https://burked9.github.io/rally50/images/WynnJubaCup.jpg" class="trophy-icon" alt="Wynn Juba Perpetual Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Wynn Juba Perpetual Cup</div>
+                <div class="trophy-short-desc">Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Orienteering competition. Orienteering may take many forms including picture orienteering.</div>
             </div>
 
-            <div class="trophy-card category-barge" onclick="openModal('scarriff')">
-                <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="The Scarriff Perpetual Shield">
-                <span class="trophy-category">barge</span>
-                <div class="trophy-title">The Scarriff Perpetual Shield</div>
-                <div class="trophy-short-desc">Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage.</div>
+            <div class="trophy-card category-navigation" onclick="openModal('mccormack')">
+                <img src="https://burked9.github.io/rally50/images/McCormackSalver.jpg" class="trophy-icon" alt="Jane Mc Cormack Salver">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Jane Mc Cormack Salver</div>
+                <div class="trophy-short-desc">Presented by Bill McCormack of Cormacruisers, Killaloe, an early hire-boat company. Originally Awarded to the winner of the Ladies Boat Handling competition but for many years now awarded to the winner of Ladies Line Heaving competition.</div>
+            </div>
+
+            <div class="trophy-card category-navigation" onclick="openModal('dennis_byrne')">
+                <img src="https://burked9.github.io/rally50/images/DenisByrneCup.jpg" class="trophy-icon" alt="Denis Byrne Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Denis Byrne Cup</div>
+                <div class="trophy-short-desc">Presented by David Knight (Opus 10) and Frank Van Den Berg (Argent Brach) in memory of Denis Byrne who was tragically lost over-board, in the mid-Shannon area. Awarded to the winner of the First Mate Boat Handling competition.</div>
+            </div>
+
+            <div class="trophy-card category-navigation" onclick="openModal('finton_harold')">
+                <img src="https://burked9.github.io/rally50/images/FintonHaroldCup.jpg" class="trophy-icon" alt="Harold Memorial Perpetual Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Harold Memorial Perpetual Trophy</div>
+                <div class="trophy-short-desc">To commemorate the memory of Fintan Harold, a Lough Derg veteran and founder member of Rally One. Awarded to the winner of the Line-heaving competition. (Later modified to Men's line heaving as a category was added for Ladies line heaving)</div>
+            </div>
+
+            <div class="trophy-card category-navigation" onclick="openModal('jh_stimpson')">
+                <img src="https://burked9.github.io/rally50/images/StimpsonCup.jpg" class="trophy-icon" alt="Stimpson Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_navigation.png" class="category-thumb" alt="navigation">
+                    <span>Navigation & Handling</span>
+                </div>
+                <div class="trophy-title">Stimpson Cup</div>
+                <div class="trophy-short-desc">Presented to the winner of the Open Boat competition</div>
             </div>
 
             <div class="trophy-card category-barge" onclick="openModal('nm_barge')">
-                <img src="https://burked9.github.io/rally50/images/trophy_barge.png" class="trophy-icon" alt="New Metal Barge Trophy">
-                <span class="trophy-category">barge</span>
+                <img src="https://burked9.github.io/rally50/images/NewBargeShield.jpg" class="trophy-icon" alt="New Metal Barge Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_barge.png" class="category-thumb" alt="barge">
+                    <span>Barge Competitions</span>
+                </div>
                 <div class="trophy-title">New Metal Barge Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch for the winner of the Barge Handling competition for modern-built barges.</div>
+                <div class="trophy-short-desc">As the Scarriff Shield is presented to Heritage Boats, the New Metal trophy was designed for Barge Handling for more modern built Barges. Awarded to the winner of Barge Handling Competition (New Metal)</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('dennis_byrne')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Denis Byrne Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Denis Byrne Cup</div>
-                <div class="trophy-short-desc">Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition.</div>
+            <div class="trophy-card category-barge" onclick="openModal('boyle')">
+                <img src="https://burked9.github.io/rally50/images/BoyleTrophy.jpg" class="trophy-icon" alt="Boyle Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_barge.png" class="category-thumb" alt="barge">
+                    <span>Barge Competitions</span>
+                </div>
+                <div class="trophy-title">Boyle Trophy</div>
+                <div class="trophy-short-desc">Presented by Chris Boyle in 1986, an original rally organiser, to encourage barge owners to enter the rally. Originally given to the winner of a barge race which for a few rallies involved four to six barges line up and race to another harbour. The start scene was a real spectacle to be observed but in time the participants "grew up". Awarded to the winner of the Barge Race.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('westpark')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Westpark Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Westpark Cup</div>
-                <div class="trophy-short-desc">The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition.</div>
+            <div class="trophy-card category-barge" onclick="openModal('scarriff')">
+                <img src="https://burked9.github.io/rally50/images/ScarriffShield.jpg" class="trophy-icon" alt="Scariff Perpetual Shield">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_barge.png" class="category-thumb" alt="barge">
+                    <span>Barge Competitions</span>
+                </div>
+                <div class="trophy-title">Scariff Perpetual Shield</div>
+                <div class="trophy-short-desc">Presented to the winner of the Barge Handling competition - Heritage by Dan McInerney who was the owner of the beautiful wooden boat "Scalpa" and an early branch/rally supporter.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('wynn_juba')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Wynn Juba Perpetual Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Wynn Juba Perpetual Cup</div>
-                <div class="trophy-short-desc">Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</div>
+            <div class="trophy-card category-junior" onclick="openModal('ann_clarke')">
+                <img src="https://burked9.github.io/rally50/images/Anne_ClarkeShield.jpg" class="trophy-icon" alt="Anne Clarke Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_junior.png" class="category-thumb" alt="junior">
+                    <span>Junior Category</span>
+                </div>
+                <div class="trophy-title">Anne Clarke Trophy</div>
+                <div class="trophy-short-desc">Presented by the family of the late Anne Clarke who attended many rallies with her husband Robert, travelling down from the Lough Erne region often with grandchildren aboard. Awarded to the young person who best represents the spirit of the rally, again by nomination. (Junior Friendship)</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('tavern')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Tavern Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Tavern Cup</div>
-                <div class="trophy-short-desc">Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial.</div>
+            <div class="trophy-card category-junior" onclick="openModal('helen_timon')">
+                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Helen Timon Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_junior.png" class="category-thumb" alt="junior">
+                    <span>Junior Category</span>
+                </div>
+                <div class="trophy-title">Helen Timon Cup</div>
+                <div class="trophy-short-desc">On Rally 46 due to the overwhelming talent shown by the younger generation in the Ditty competition a prize was given for Junior Ditty. A trophy was introduced on Rally 47 for this and was presented by Joe Tracey and Lana Leonard in memory of Helen Timon, daughter of Eric.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('dennis_juba')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Denis Juba Perpetual Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Denis Juba Perpetual Cup</div>
-                <div class="trophy-short-desc">Awarded to the winner of the Man Overboard competition.</div>
+            <div class="trophy-card category-junior" onclick="openModal('benson')">
+                <img src="https://burked9.github.io/rally50/images/BensonShield.jpg" class="trophy-icon" alt="Benson Perpetual Shield">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_junior.png" class="category-thumb" alt="junior">
+                    <span>Junior Category</span>
+                </div>
+                <div class="trophy-title">Benson Perpetual Shield</div>
+                <div class="trophy-short-desc">Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of "Marlou" a long time rally supporter. Awarded to the winner of the Young Bosun competition.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('benjamin')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Benjamin Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Benjamin Cup</div>
-                <div class="trophy-short-desc">This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</div>
+            <div class="trophy-card category-community" onclick="openModal('benjamin')">
+                <img src="https://burked9.github.io/rally50/images/BenjaminCup.jpg" class="trophy-icon" alt="Benjamin Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Benjamin Cup</div>
+                <div class="trophy-short-desc">In 1979 the Derg Rally was unfortunately cancelled because of a major problem at Ardnacrusha which necessitated the lowering of the lake drastically. The E.S.B. subsequently presented the branch with a trophy to be used at the branches discretion. Awarded to the winner of the Recovery of a Cruiser competition.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('bob_hughes')">
-                <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" class="trophy-icon" alt="The Hughes Perpetual Trophy">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Hughes Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch by Bob and Rita Hughes. Awarded for the Boat Inspection competition.</div>
+            <div class="trophy-card category-community" onclick="openModal('friendship')">
+                <img src="https://burked9.github.io/rally50/images/FriendshipCupCleaned.png" class="trophy-icon" alt="Friendship Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Friendship Cup</div>
+                <div class="trophy-short-desc">Presented to the Lough Derg Branch of the IWAI by the Northern Ireland Branch in 2002. This was following reciprocal visits of the branches, Lough Derg to Lough Neagh and River Bann while the NI branch came to Limerick and Lough Derg. Awarded to the person (adult) receiving most nominations for best representing the spirit of the rally. Friendship Cup (Adult)</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('newman')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Newman Perpetual Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Newman Perpetual Cup</div>
-                <div class="trophy-short-desc">Presented by Frank and Louise Newman. Awarded to the winner of a surprise boat inspection.</div>
+            <div class="trophy-card category-community" onclick="openModal('jimmy_leyden')">
+                <img src="https://burked9.github.io/rally50/images/JimmyLeydenTrophy.jpg" class="trophy-icon" alt="Leyden Shield">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Leyden Shield</div>
+                <div class="trophy-short-desc">Presented in memory of Jimmy Leyden a past rallier in his boat Geraldine II, and father of Des Leyden a past President of IWAI. Awarded for the Best Endeavour.</div>
             </div>
 
-            <div class="trophy-card category-skill" onclick="openModal('jh_stimpson')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Stimpson Cup">
-                <span class="trophy-category">skill</span>
-                <div class="trophy-title">The Stimpson Cup</div>
-                <div class="trophy-short-desc">Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way.</div>
+            <div class="trophy-card category-community" onclick="openModal('eric_timon')">
+                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Ditty Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Ditty Cup</div>
+                <div class="trophy-short-desc">Presented by Eric Timon who rallied from the start. Annually Eric wrote a ditty telling the story of the rally and getting as many boat names in as possible. He presented a cup to enable ralliers compose their own ditty and compete. Awarded to the winner of the Ditty competition, and presented on the night, at the ditty competition.</div>
             </div>
 
-            <div class="trophy-card category-fun" onclick="openModal('eric_timon')">
-                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Ditty Cup">
-                <span class="trophy-category">fun</span>
-                <div class="trophy-title">The Ditty Cup</div>
-                <div class="trophy-short-desc">Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening.</div>
+            <div class="trophy-card category-community" onclick="openModal('estemaid')">
+                <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="Eistamaid Trophy">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Eistamaid Trophy</div>
+                <div class="trophy-short-desc">Fr. Paddy Dowling on his boat 'Eistamaid' was a long-time rally supporter. He presented this trophy to the rally, for a competition exclusively for committee members. This competition is held on the morning after the dinner dance, the final competition of the rally.</div>
             </div>
 
-            <div class="trophy-card category-fun" onclick="openModal('finton_harold')">
-                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Harold Memorial Perpetual Trophy">
-                <span class="trophy-category">fun</span>
-                <div class="trophy-title">The Harold Memorial Perpetual Trophy</div>
-                <div class="trophy-short-desc">Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</div>
-            </div>
-
-            <div class="trophy-card category-fun" onclick="openModal('mccormack')">
-                <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" class="trophy-icon" alt="The Jane McCormack Salver">
-                <span class="trophy-category">fun</span>
-                <div class="trophy-title">The Jane McCormack Salver</div>
-                <div class="trophy-short-desc">Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition.</div>
-            </div>
-
-            <div class="trophy-card category-fun" onclick="openModal('benson')">
-                <img src="https://burked9.github.io/rally50/images/trophy_shield.png" class="trophy-icon" alt="The Benson Perpetual Shield">
-                <span class="trophy-category">fun</span>
-                <div class="trophy-title">The Benson Perpetual Shield</div>
-                <div class="trophy-short-desc">Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</div>
+            <div class="trophy-card category-community" onclick="openModal('church_bay')">
+                <img src="https://burked9.github.io/rally50/images/ChurchBayTrophy.jpg" class="trophy-icon" alt="Church Bay Cup">
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_community.png" class="category-thumb" alt="community">
+                    <span>Community & Spirit</span>
+                </div>
+                <div class="trophy-title">Church Bay Cup</div>
+                <div class="trophy-short-desc">Presented by Gerry Burke and Family in 2018 in honour of Gerry's parents. The Church Bay Cup is awarded to the Best Newcomer.</div>
             </div>
 
             <div class="trophy-card category-historical" onclick="openModal('derg_cup')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Derg Cup">
-                <span class="trophy-category">historical</span>
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_historical.png" class="category-thumb" alt="historical">
+                    <span>Historical</span>
+                </div>
                 <div class="trophy-title">The Derg Cup</div>
                 <div class="trophy-short-desc">Historical award for Sailing. Currently inactive.</div>
             </div>
 
             <div class="trophy-card category-historical" onclick="openModal('goosander')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Goosander Perpetual Trophy">
-                <span class="trophy-category">historical</span>
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_historical.png" class="category-thumb" alt="historical">
+                    <span>Historical</span>
+                </div>
                 <div class="trophy-title">The Goosander Perpetual Trophy</div>
                 <div class="trophy-short-desc">Historical award for Sailing. Currently inactive.</div>
             </div>
 
             <div class="trophy-card category-historical" onclick="openModal('sean_kenny')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The Sean Kenny Trophy">
-                <span class="trophy-category">historical</span>
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_historical.png" class="category-thumb" alt="historical">
+                    <span>Historical</span>
+                </div>
                 <div class="trophy-title">The Sean Kenny Trophy</div>
                 <div class="trophy-short-desc">Historical award for Young Sailors. Currently inactive.</div>
             </div>
 
             <div class="trophy-card category-historical" onclick="openModal('oconnor')">
                 <img src="https://burked9.github.io/rally50/images/trophy_cup.png" class="trophy-icon" alt="The O'Connor Trophy">
-                <span class="trophy-category">historical</span>
+                <div class="trophy-category">
+                    <img src="https://burked9.github.io/rally50/images/category_historical.png" class="category-thumb" alt="historical">
+                    <span>Historical</span>
+                </div>
                 <div class="trophy-title">The O'Connor Trophy</div>
                 <div class="trophy-short-desc">Historical award for Tall Ships. Currently inactive.</div>
             </div>
@@ -379,351 +475,15 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'jj_kineally')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="JJ Kenneally Perpetual Challenge Cup">
+                    <img src="https://burked9.github.io/rally50/images/JJ_KeneallyTrophy.jpg" alt="JJ Kenneally Perpetual Challenge Cup">
                     <h2>JJ Kenneally Perpetual Challenge Cup</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally.</p>
+                    <p>Generously presented by the Limerick jeweller JJ Kenneally, who served on the committee of early rallies and took part with his cruiser 'Carmel'. This has been the "Premier" rally trophy since its inception. (Note: this is a premier cup, and it has a lid). It is awarded to the overall winning team on the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_jj_kineally" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-jimmy_leyden" class="modal-overlay" onclick="closeModal(event, 'jimmy_leyden')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'jimmy_leyden')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_shield.png" alt="The Jimmy Leyden Perpetual Trophy">
-                    <h2>The Jimmy Leyden Perpetual Trophy</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_jimmy_leyden" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-friendship" class="modal-overlay" onclick="closeModal(event, 'friendship')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'friendship')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="Friendship Cup">
-                    <h2>Friendship Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_friendship" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-ann_clarke" class="modal-overlay" onclick="closeModal(event, 'ann_clarke')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'ann_clarke')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="Anne Clarke Trophy">
-                    <h2>Anne Clarke Trophy</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship).</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_ann_clarke" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-estemaid" class="modal-overlay" onclick="closeModal(event, 'estemaid')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'estemaid')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Eistemaid Trophy">
-                    <h2>The Eistemaid Trophy</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_estemaid" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-church_bay" class="modal-overlay" onclick="closeModal(event, 'church_bay')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'church_bay')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Church Bay Cup">
-                    <h2>The Church Bay Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_church_bay" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-boyle" class="modal-overlay" onclick="closeModal(event, 'boyle')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'boyle')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_barge.png" alt="The Boyle Trophy">
-                    <h2>The Boyle Trophy</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_boyle" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-scarriff" class="modal-overlay" onclick="closeModal(event, 'scarriff')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'scarriff')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_barge.png" alt="The Scarriff Perpetual Shield">
-                    <h2>The Scarriff Perpetual Shield</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_scarriff" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-nm_barge" class="modal-overlay" onclick="closeModal(event, 'nm_barge')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'nm_barge')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_barge.png" alt="New Metal Barge Trophy">
-                    <h2>New Metal Barge Trophy</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch for the winner of the Barge Handling competition for modern-built barges.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_nm_barge" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-dennis_byrne" class="modal-overlay" onclick="closeModal(event, 'dennis_byrne')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'dennis_byrne')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Denis Byrne Cup">
-                    <h2>The Denis Byrne Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_dennis_byrne" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-westpark" class="modal-overlay" onclick="closeModal(event, 'westpark')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'westpark')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Westpark Cup">
-                    <h2>The Westpark Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_westpark" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-wynn_juba" class="modal-overlay" onclick="closeModal(event, 'wynn_juba')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'wynn_juba')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Wynn Juba Perpetual Cup">
-                    <h2>The Wynn Juba Perpetual Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_wynn_juba" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-tavern" class="modal-overlay" onclick="closeModal(event, 'tavern')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'tavern')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Tavern Cup">
-                    <h2>The Tavern Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_tavern" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-dennis_juba" class="modal-overlay" onclick="closeModal(event, 'dennis_juba')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'dennis_juba')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Denis Juba Perpetual Cup">
-                    <h2>The Denis Juba Perpetual Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>Awarded to the winner of the Man Overboard competition.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_dennis_juba" class="display responsive nowrap" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th data-priority="1">Year</th>
-                            <th data-priority="3">Rally No.</th>
-                            <th data-priority="2">Winner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-        </div>
-
-        <div id="modal-benjamin" class="modal-overlay" onclick="closeModal(event, 'benjamin')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'benjamin')">&times;</span>
-                <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Benjamin Cup">
-                    <h2>The Benjamin Cup</h2>
-                </div>
-                <div class="modal-history">
-                    <h3>About this Trophy</h3>
-                    <p>This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition.</p>
-                </div>
-                <h3>Past Winners</h3>
-                <table id="table_benjamin" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -739,12 +499,12 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'bob_hughes')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" alt="The Hughes Perpetual Trophy">
-                    <h2>The Hughes Perpetual Trophy</h2>
+                    <img src="https://burked9.github.io/rally50/images/BobHughsSalver.jpg" alt="Hughes Perpetual Trophy">
+                    <h2>Hughes Perpetual Trophy</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Bob and Rita Hughes. Awarded for the Boat Inspection competition.</p>
+                    <p>Presented by Bob and Rita Hughes who were long time rally supporters. Rita was a strong RNLI fundraiser on rallies. This trophy is awarded to the winner of the Boat Inspection competition. (An early description of this states, "points awarded for shipshape and Bristol fashion, completeness of equipment, warps, anchors, fire extinguishers etc...").</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_bob_hughes" class="display responsive nowrap" style="width:100%">
@@ -763,12 +523,12 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'newman')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Newman Perpetual Cup">
-                    <h2>The Newman Perpetual Cup</h2>
+                    <img src="https://burked9.github.io/rally50/images/NewmanPerpetualCup.jpg" alt="Newman Perpetual Cup">
+                    <h2>Newman Perpetual Cup</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Frank and Louise Newman. Awarded to the winner of a surprise boat inspection.</p>
+                    <p>Presented by Frank and Louise Newman, who had returned from England and lived near the "look-out point" overlooking Lough Derg between Garrykennedy and Killaloe. The trophy was awarded to the winner of a surprise boat inspection. Rally #2 committee had Frank as secretary and Louise as treasurer. Awarded to the winner of the Surprise Boat Inspection, (determined by the Commodore on the Rally).</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_newman" class="display responsive nowrap" style="width:100%">
@@ -783,19 +543,19 @@
             </div>
         </div>
 
-        <div id="modal-jh_stimpson" class="modal-overlay" onclick="closeModal(event, 'jh_stimpson')">
+        <div id="modal-tavern" class="modal-overlay" onclick="closeModal(event, 'tavern')">
             <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'jh_stimpson')">&times;</span>
+                <span class="modal-close" onclick="closeModal(event, 'tavern')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Stimpson Cup">
-                    <h2>The Stimpson Cup</h2>
+                    <img src="https://burked9.github.io/rally50/images/TavernCup.jpg" alt="Tavern Cup">
+                    <h2>Tavern Cup</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way.</p>
+                    <p>Presented by Marty Mara, owner of "The Tavern" pub in Ballinderry. Marty would drive to Kilgarvan with groceries for ralliers in the early years. The Tavern cup is awarded to the winner of the Time Trial competition. Open to all boats on the rally.</p>
                 </div>
                 <h3>Past Winners</h3>
-                <table id="table_jh_stimpson" class="display responsive nowrap" style="width:100%">
+                <table id="table_tavern" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -807,19 +567,19 @@
             </div>
         </div>
 
-        <div id="modal-eric_timon" class="modal-overlay" onclick="closeModal(event, 'eric_timon')">
+        <div id="modal-westpark" class="modal-overlay" onclick="closeModal(event, 'westpark')">
             <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'eric_timon')">&times;</span>
+                <span class="modal-close" onclick="closeModal(event, 'westpark')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="The Ditty Cup">
-                    <h2>The Ditty Cup</h2>
+                    <img src="https://burked9.github.io/rally50/images/WestparkCup.jpg" alt="Westpark Cup">
+                    <h2>Westpark Cup</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening.</p>
+                    <p>The trophy was given by the Westpark hotel management in the 1980's in gratitude to the rallies promotion and use of Portumna and its facilities. Presented by the Westpark Hotel Portumna. Awarded to the winner of the Boat Handling competition.</p>
                 </div>
                 <h3>Past Winners</h3>
-                <table id="table_eric_timon" class="display responsive nowrap" style="width:100%">
+                <table id="table_westpark" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -831,19 +591,43 @@
             </div>
         </div>
 
-        <div id="modal-finton_harold" class="modal-overlay" onclick="closeModal(event, 'finton_harold')">
+        <div id="modal-dennis_juba" class="modal-overlay" onclick="closeModal(event, 'dennis_juba')">
             <div class="modal-content" onclick="event.stopPropagation()">
-                <span class="modal-close" onclick="closeModal(event, 'finton_harold')">&times;</span>
+                <span class="modal-close" onclick="closeModal(event, 'dennis_juba')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_shield.png" alt="The Harold Memorial Perpetual Trophy">
-                    <h2>The Harold Memorial Perpetual Trophy</h2>
+                    <img src="https://burked9.github.io/rally50/images/DenisJubaCup.jpg" alt="Denis Juba Perpetual Cup">
+                    <h2>Denis Juba Perpetual Cup</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition.</p>
+                    <p>Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Man Overboard competition.</p>
                 </div>
                 <h3>Past Winners</h3>
-                <table id="table_finton_harold" class="display responsive nowrap" style="width:100%">
+                <table id="table_dennis_juba" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-wynn_juba" class="modal-overlay" onclick="closeModal(event, 'wynn_juba')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'wynn_juba')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/WynnJubaCup.jpg" alt="Wynn Juba Perpetual Cup">
+                    <h2>Wynn Juba Perpetual Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Orienteering competition. Orienteering may take many forms including picture orienteering.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_wynn_juba" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -859,15 +643,207 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'mccormack')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_plaque.png" alt="The Jane McCormack Salver">
-                    <h2>The Jane McCormack Salver</h2>
+                    <img src="https://burked9.github.io/rally50/images/McCormackSalver.jpg" alt="Jane Mc Cormack Salver">
+                    <h2>Jane Mc Cormack Salver</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition.</p>
+                    <p>Presented by Bill McCormack of Cormacruisers, Killaloe, an early hire-boat company. Originally Awarded to the winner of the Ladies Boat Handling competition but for many years now awarded to the winner of Ladies Line Heaving competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_mccormack" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-dennis_byrne" class="modal-overlay" onclick="closeModal(event, 'dennis_byrne')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'dennis_byrne')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/DenisByrneCup.jpg" alt="Denis Byrne Cup">
+                    <h2>Denis Byrne Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by David Knight (Opus 10) and Frank Van Den Berg (Argent Brach) in memory of Denis Byrne who was tragically lost over-board, in the mid-Shannon area. Awarded to the winner of the First Mate Boat Handling competition.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_dennis_byrne" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-finton_harold" class="modal-overlay" onclick="closeModal(event, 'finton_harold')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'finton_harold')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/FintonHaroldCup.jpg" alt="Harold Memorial Perpetual Trophy">
+                    <h2>Harold Memorial Perpetual Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>To commemorate the memory of Fintan Harold, a Lough Derg veteran and founder member of Rally One. Awarded to the winner of the Line-heaving competition. (Later modified to Men's line heaving as a category was added for Ladies line heaving)</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_finton_harold" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-jh_stimpson" class="modal-overlay" onclick="closeModal(event, 'jh_stimpson')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'jh_stimpson')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/StimpsonCup.jpg" alt="Stimpson Cup">
+                    <h2>Stimpson Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented to the winner of the Open Boat competition</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_jh_stimpson" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-nm_barge" class="modal-overlay" onclick="closeModal(event, 'nm_barge')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'nm_barge')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/NewBargeShield.jpg" alt="New Metal Barge Trophy">
+                    <h2>New Metal Barge Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>As the Scarriff Shield is presented to Heritage Boats, the New Metal trophy was designed for Barge Handling for more modern built Barges. Awarded to the winner of Barge Handling Competition (New Metal)</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_nm_barge" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-boyle" class="modal-overlay" onclick="closeModal(event, 'boyle')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'boyle')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/BoyleTrophy.jpg" alt="Boyle Trophy">
+                    <h2>Boyle Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by Chris Boyle in 1986, an original rally organiser, to encourage barge owners to enter the rally. Originally given to the winner of a barge race which for a few rallies involved four to six barges line up and race to another harbour. The start scene was a real spectacle to be observed but in time the participants "grew up". Awarded to the winner of the Barge Race.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_boyle" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-scarriff" class="modal-overlay" onclick="closeModal(event, 'scarriff')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'scarriff')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/ScarriffShield.jpg" alt="Scariff Perpetual Shield">
+                    <h2>Scariff Perpetual Shield</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented to the winner of the Barge Handling competition - Heritage by Dan McInerney who was the owner of the beautiful wooden boat "Scalpa" and an early branch/rally supporter.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_scarriff" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-ann_clarke" class="modal-overlay" onclick="closeModal(event, 'ann_clarke')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'ann_clarke')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/Anne_ClarkeShield.jpg" alt="Anne Clarke Trophy">
+                    <h2>Anne Clarke Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by the family of the late Anne Clarke who attended many rallies with her husband Robert, travelling down from the Lough Erne region often with grandchildren aboard. Awarded to the young person who best represents the spirit of the rally, again by nomination. (Junior Friendship)</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_ann_clarke" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-helen_timon" class="modal-overlay" onclick="closeModal(event, 'helen_timon')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'helen_timon')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="Helen Timon Cup">
+                    <h2>Helen Timon Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>On Rally 46 due to the overwhelming talent shown by the younger generation in the Ditty competition a prize was given for Junior Ditty. A trophy was introduced on Rally 47 for this and was presented by Joe Tracey and Lana Leonard in memory of Helen Timon, daughter of Eric.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_helen_timon" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -883,15 +859,159 @@
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'benson')">&times;</span>
                 <div class="modal-header">
-                    <img src="https://burked9.github.io/rally50/images/trophy_shield.png" alt="The Benson Perpetual Shield">
-                    <h2>The Benson Perpetual Shield</h2>
+                    <img src="https://burked9.github.io/rally50/images/BensonShield.jpg" alt="Benson Perpetual Shield">
+                    <h2>Benson Perpetual Shield</h2>
                 </div>
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
-                    <p>Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition.</p>
+                    <p>Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of "Marlou" a long time rally supporter. Awarded to the winner of the Young Bosun competition.</p>
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_benson" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-benjamin" class="modal-overlay" onclick="closeModal(event, 'benjamin')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'benjamin')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/BenjaminCup.jpg" alt="Benjamin Cup">
+                    <h2>Benjamin Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>In 1979 the Derg Rally was unfortunately cancelled because of a major problem at Ardnacrusha which necessitated the lowering of the lake drastically. The E.S.B. subsequently presented the branch with a trophy to be used at the branches discretion. Awarded to the winner of the Recovery of a Cruiser competition.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_benjamin" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-friendship" class="modal-overlay" onclick="closeModal(event, 'friendship')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'friendship')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/FriendshipCupCleaned.png" alt="Friendship Cup">
+                    <h2>Friendship Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented to the Lough Derg Branch of the IWAI by the Northern Ireland Branch in 2002. This was following reciprocal visits of the branches, Lough Derg to Lough Neagh and River Bann while the NI branch came to Limerick and Lough Derg. Awarded to the person (adult) receiving most nominations for best representing the spirit of the rally. Friendship Cup (Adult)</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_friendship" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-jimmy_leyden" class="modal-overlay" onclick="closeModal(event, 'jimmy_leyden')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'jimmy_leyden')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/JimmyLeydenTrophy.jpg" alt="Leyden Shield">
+                    <h2>Leyden Shield</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented in memory of Jimmy Leyden a past rallier in his boat Geraldine II, and father of Des Leyden a past President of IWAI. Awarded for the Best Endeavour.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_jimmy_leyden" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-eric_timon" class="modal-overlay" onclick="closeModal(event, 'eric_timon')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'eric_timon')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="Ditty Cup">
+                    <h2>Ditty Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by Eric Timon who rallied from the start. Annually Eric wrote a ditty telling the story of the rally and getting as many boat names in as possible. He presented a cup to enable ralliers compose their own ditty and compete. Awarded to the winner of the Ditty competition, and presented on the night, at the ditty competition.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_eric_timon" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-estemaid" class="modal-overlay" onclick="closeModal(event, 'estemaid')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'estemaid')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/trophy_cup.png" alt="Eistamaid Trophy">
+                    <h2>Eistamaid Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Fr. Paddy Dowling on his boat 'Eistamaid' was a long-time rally supporter. He presented this trophy to the rally, for a competition exclusively for committee members. This competition is held on the morning after the dinner dance, the final competition of the rally.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_estemaid" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="modal-church_bay" class="modal-overlay" onclick="closeModal(event, 'church_bay')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'church_bay')">&times;</span>
+                <div class="modal-header">
+                    <img src="https://burked9.github.io/rally50/images/ChurchBayTrophy.jpg" alt="Church Bay Cup">
+                    <h2>Church Bay Cup</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Presented by Gerry Burke and Family in 2018 in honour of Gerry's parents. The Church Bay Cup is awarded to the Best Newcomer.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_church_bay" class="display responsive nowrap" style="width:100%">
                     <thead>
                         <tr>
                             <th data-priority="1">Year</th>
@@ -1054,12 +1174,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_jimmy_leyden').DataTable({
+            $('#table_bob_hughes').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'jimmy_leyden', defaultContent: "" }
+                    { data: 'bob_hughes', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1067,12 +1187,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_friendship').DataTable({
+            $('#table_newman').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'friendship', defaultContent: "" }
+                    { data: 'newman', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1080,12 +1200,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_ann_clarke').DataTable({
+            $('#table_tavern').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'ann_clarke', defaultContent: "" }
+                    { data: 'tavern', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1093,12 +1213,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_estemaid').DataTable({
+            $('#table_westpark').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'estemaid', defaultContent: "" }
+                    { data: 'westpark', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1106,12 +1226,90 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_church_bay').DataTable({
+            $('#table_dennis_juba').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'church_bay', defaultContent: "" }
+                    { data: 'dennis_juba', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_wynn_juba').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'wynn_juba', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_mccormack').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'mccormack', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_dennis_byrne').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'dennis_byrne', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_finton_harold').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'finton_harold', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_jh_stimpson').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'jh_stimpson', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_nm_barge').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'nm_barge', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1145,12 +1343,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_nm_barge').DataTable({
+            $('#table_ann_clarke').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'nm_barge', defaultContent: "" }
+                    { data: 'ann_clarke', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1158,12 +1356,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_dennis_byrne').DataTable({
+            $('#table_helen_timon').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'dennis_byrne', defaultContent: "" }
+                    { data: 'helen_timon', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1171,51 +1369,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_westpark').DataTable({
+            $('#table_benson').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'westpark', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_wynn_juba').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'wynn_juba', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_tavern').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'tavern', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_dennis_juba').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'dennis_juba', defaultContent: "" }
+                    { data: 'benson', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1236,12 +1395,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_bob_hughes').DataTable({
+            $('#table_friendship').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'bob_hughes', defaultContent: "" }
+                    { data: 'friendship', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1249,25 +1408,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_newman').DataTable({
+            $('#table_jimmy_leyden').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'newman', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_jh_stimpson').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'jh_stimpson', defaultContent: "" }
+                    { data: 'jimmy_leyden', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1288,12 +1434,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_finton_harold').DataTable({
+            $('#table_estemaid').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'finton_harold', defaultContent: "" }
+                    { data: 'estemaid', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
@@ -1301,25 +1447,12 @@
                 language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
             });
 
-            $('#table_mccormack').DataTable({
+            $('#table_church_bay').DataTable({
                 data: trophyData,
                 columns: [
                     { data: 'year' },
                     { data: 'rally' },
-                    { data: 'mccormack', defaultContent: "" }
-                ],
-                responsive: true,
-                order: [[ 0, "desc" ]],
-                pageLength: 10,
-                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
-            });
-
-            $('#table_benson').DataTable({
-                data: trophyData,
-                columns: [
-                    { data: 'year' },
-                    { data: 'rally' },
-                    { data: 'benson', defaultContent: "" }
+                    { data: 'church_bay', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],
