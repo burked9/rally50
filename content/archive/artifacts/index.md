@@ -9,7 +9,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
 
 <div class="artifact-grid">
     <a href="{filename}/archive/artifacts/winners.md" class="artifact-tile">
-        <img src="{filename}/images/trophy_cup.png" alt="Hall of Fame" class="tile-image">
+        <img src="{filename}/images/HallofFameThumbnail.jpg" alt="Hall of Fame" class="tile-image">
         <h3>Hall of Fame</h3>
     </a>
     

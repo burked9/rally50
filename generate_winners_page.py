@@ -1,62 +1,62 @@
 # Trophy Definitions with Categories and Descriptions
 trophies = [
-    # Premier
-    {"id": "jj_kineally", "name": "JJ Kenneally Perpetual Challenge Cup", "category": "premier", "image": "trophy_cup.png", 
-     "desc": "This cup was presented by the well-known Limerick jeweller, JJ Kenneally, in the early years of the rally. JJ was a great supporter of the branch and for many years his shop window in Wickham Street, Limerick, displayed all the rally trophies for the week prior to the rally. This is the premier rally trophy and is awarded to the overall winning team of the rally."},
-    
-    # Meaning / Spirit
-    {"id": "jimmy_leyden", "name": "The Jimmy Leyden Perpetual Trophy", "category": "spirit", "image": "trophy_shield.png",
-     "desc": "Presented to the branch in memory of Jimmy Leydon. Jimmy was a founder member of the branch and a regular rally goer. This shield is awarded for 'Best Endeavour' and the recipient is chosen by the Commodore of the rally."},
-    {"id": "friendship", "name": "Friendship Cup", "category": "spirit", "image": "trophy_cup.png",
-     "desc": "Presented to the branch by the Northern Ireland Branch of the IWAI in 2002. This cup is awarded to the person who receives the most nominations from fellow ralliers for representing the spirit of the rally."},
-    {"id": "ann_clarke", "name": "Anne Clarke Trophy", "category": "spirit", "image": "trophy_cup.png",
-     "desc": "Presented to the branch by the Clarke family. Awarded to the young person who best represents the 'Spirit of the Rally' (Junior Friendship)."},
-    {"id": "estemaid", "name": "The Eistemaid Trophy", "category": "spirit", "image": "trophy_cup.png",
-     "desc": "Presented to the branch by Fr. Paddy Dowling, a founder member of the branch. This is a competition for committee members only and is usually held on the morning after the dinner dance!"},
-     
-    # Newcomer
-    {"id": "church_bay", "name": "The Church Bay Cup", "category": "newcomer", "image": "trophy_cup.png",
-     "desc": "Presented to the branch in 2018 by the Burke family in memory of Billy and Moira Burke. Awarded to the 'Best Newcomer' to the rally."},
+    # 1. The Premier Awards & Boat Inspections
+    {"id": "jj_kineally", "name": "JJ Kenneally Perpetual Challenge Cup", "category": "premier", "image": "JJ_KeneallyTrophy.jpg", 
+     "desc": "Generously presented by the Limerick jeweller JJ Kenneally, who served on the committee of early rallies and took part with his cruiser 'Carmel'. This has been the \"Premier\" rally trophy since its inception. (Note: this is a premier cup, and it has a lid). It is awarded to the overall winning team on the rally."},
+    {"id": "bob_hughes", "name": "Hughes Perpetual Trophy", "category": "premier", "image": "BobHughsSalver.jpg",
+     "desc": "Presented by Bob and Rita Hughes who were long time rally supporters. Rita was a strong RNLI fundraiser on rallies. This trophy is awarded to the winner of the Boat Inspection competition. (An early description of this states, \"points awarded for shipshape and Bristol fashion, completeness of equipment, warps, anchors, fire extinguishers etc...\")."},
+    {"id": "newman", "name": "Newman Perpetual Cup", "category": "premier", "image": "NewmanPerpetualCup.jpg",
+     "desc": "Presented by Frank and Louise Newman, who had returned from England and lived near the \"look-out point\" overlooking Lough Derg between Garrykennedy and Killaloe. The trophy was awarded to the winner of a surprise boat inspection. Rally #2 committee had Frank as secretary and Louise as treasurer. Awarded to the winner of the Surprise Boat Inspection, (determined by the Commodore on the Rally)."},
 
-    # Barges
-    {"id": "boyle", "name": "The Boyle Trophy", "category": "barge", "image": "trophy_barge.png",
-     "desc": "Presented to the branch by Chris Boyle in 1986. At that time, many members were beginning to restore old canal boats (barges) and Chris presented the trophy to encourage barge owners to enter the rally. It is awarded to the winner of the Barge Race."},
-    {"id": "scarriff", "name": "The Scarriff Perpetual Shield", "category": "barge", "image": "trophy_barge.png",
-     "desc": "Presented to the branch by Dan McInerney, owner of the 60M (Scalpa). It is awarded for Barge Handling – Heritage."},
-    {"id": "nm_barge", "name": "New Metal Barge Trophy", "category": "barge", "image": "trophy_barge.png",
-     "desc": "Presented to the branch for the winner of the Barge Handling competition for modern-built barges."},
+    # 2. Navigation & Handling Competitions
+    {"id": "tavern", "name": "Tavern Cup", "category": "navigation", "image": "TavernCup.jpg",
+     "desc": "Presented by Marty Mara, owner of \"The Tavern\" pub in Ballinderry. Marty would drive to Kilgarvan with groceries for ralliers in the early years. The Tavern cup is awarded to the winner of the Time Trial competition. Open to all boats on the rally."},
+    {"id": "westpark", "name": "Westpark Cup", "category": "navigation", "image": "WestparkCup.jpg",
+     "desc": "The trophy was given by the Westpark hotel management in the 1980's in gratitude to the rallies promotion and use of Portumna and its facilities. Presented by the Westpark Hotel Portumna. Awarded to the winner of the Boat Handling competition."},
+    {"id": "dennis_juba", "name": "Denis Juba Perpetual Cup", "category": "navigation", "image": "DenisJubaCup.jpg",
+     "desc": "Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Man Overboard competition."},
+    {"id": "wynn_juba", "name": "Wynn Juba Perpetual Cup", "category": "navigation", "image": "WynnJubaCup.jpg",
+     "desc": "Presented by Denis and Wynn Juba of Leicester. Awarded to the winner of the Orienteering competition. Orienteering may take many forms including picture orienteering."},
+    {"id": "mccormack", "name": "Jane Mc Cormack Salver", "category": "navigation", "image": "McCormackSalver.jpg",
+     "desc": "Presented by Bill McCormack of Cormacruisers, Killaloe, an early hire-boat company. Originally Awarded to the winner of the Ladies Boat Handling competition but for many years now awarded to the winner of Ladies Line Heaving competition."},
+    {"id": "dennis_byrne", "name": "Denis Byrne Cup", "category": "navigation", "image": "DenisByrneCup.jpg",
+     "desc": "Presented by David Knight (Opus 10) and Frank Van Den Berg (Argent Brach) in memory of Denis Byrne who was tragically lost over-board, in the mid-Shannon area. Awarded to the winner of the First Mate Boat Handling competition."},
+    {"id": "finton_harold", "name": "Harold Memorial Perpetual Trophy", "category": "navigation", "image": "FintonHaroldCup.jpg",
+     "desc": "To commemorate the memory of Fintan Harold, a Lough Derg veteran and founder member of Rally One. Awarded to the winner of the Line-heaving competition. (Later modified to Men's line heaving as a category was added for Ladies line heaving)"},
+    {"id": "jh_stimpson", "name": "Stimpson Cup", "category": "navigation", "image": "StimpsonCup.jpg",
+     "desc": "Presented to the winner of the Open Boat competition"},
 
-    # Skills / Technical
-    {"id": "dennis_byrne", "name": "The Denis Byrne Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Presented to the branch by David Knight and Frank Van Den Berg in memory of Denis Byrne. Denis was a young man who lived in Whitegate and worked with David and Frank on their boats. He was a regular rally goer until his untimely death in a car accident. This cup is awarded to the winner of the 'First Mate' boat handling competition."},
-    {"id": "westpark", "name": "The Westpark Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "The Westpark Hotel in Portumna was the base for many a rally in the 1980s. The owners presented this cup to the branch to be awarded to the winner of the Boat Handling competition."},
-    {"id": "wynn_juba", "name": "The Wynn Juba Perpetual Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Presented by Denis and Wynn Juba from Leicester, England. Denis and Wynn were regular rally goers in the 1980s and 90s. This cup is awarded to the winner of the Orienteering competition."},
-    {"id": "tavern", "name": "The Tavern Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Marty Mara, owner of The Tavern in Ballinderry, presented this cup to the branch. It is awarded to the winner of the Time Trial."},
-    {"id": "dennis_juba", "name": "The Denis Juba Perpetual Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Awarded to the winner of the Man Overboard competition."},
-    {"id": "benjamin", "name": "The Benjamin Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "This cup was originally intended for Rally One, but as that rally was cancelled in 1979, the ESB presented it to the branch to be awarded for the 'Recovery of a Cruiser' competition."},
-    {"id": "bob_hughes", "name": "The Hughes Perpetual Trophy", "category": "skill", "image": "trophy_plaque.png",
-     "desc": "Presented to the branch by Bob and Rita Hughes. Awarded for the Boat Inspection competition."},
-    {"id": "newman", "name": "The Newman Perpetual Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Presented by Frank and Louise Newman. Awarded to the winner of a surprise boat inspection."},
-    {"id": "jh_stimpson", "name": "The Stimpson Cup", "category": "skill", "image": "trophy_cup.png",
-     "desc": "Awarded to the best 'Open Boat' entrant. In the early years, many ralliers did not have cruisers and took part in the rally using lake boats and camping in tents along the way."},
+    # 3. Barge Competitions
+    {"id": "nm_barge", "name": "New Metal Barge Trophy", "category": "barge", "image": "NewBargeShield.jpg",
+     "desc": "As the Scarriff Shield is presented to Heritage Boats, the New Metal trophy was designed for Barge Handling for more modern built Barges. Awarded to the winner of Barge Handling Competition (New Metal)"},
+    {"id": "boyle", "name": "Boyle Trophy", "category": "barge", "image": "BoyleTrophy.jpg",
+     "desc": "Presented by Chris Boyle in 1986, an original rally organiser, to encourage barge owners to enter the rally. Originally given to the winner of a barge race which for a few rallies involved four to six barges line up and race to another harbour. The start scene was a real spectacle to be observed but in time the participants \"grew up\". Awarded to the winner of the Barge Race."},
+    {"id": "scarriff", "name": "Scariff Perpetual Shield", "category": "barge", "image": "ScarriffShield.jpg",
+     "desc": "Presented to the winner of the Barge Handling competition - Heritage by Dan McInerney who was the owner of the beautiful wooden boat \"Scalpa\" and an early branch/rally supporter."},
 
-    # Fun / Other
-    {"id": "eric_timon", "name": "The Ditty Cup", "category": "fun", "image": "trophy_cup.png",
-     "desc": "Presented by Eric Timon. This is one of the most popular competitions of the rally. Ralliers are invited to compose a 'ditty' (a song or poem) about the rally and perform it at the entertainment evening."},
-    {"id": "finton_harold", "name": "The Harold Memorial Perpetual Trophy", "category": "fun", "image": "trophy_shield.png",
-     "desc": "Presented to the branch in memory of Fintan Harold. Fintan was a long-time member of the branch and a regular rally goer. It is awarded to the winner of the Men's Line Heaving competition."},
-    {"id": "mccormack", "name": "The Jane McCormack Salver", "category": "fun", "image": "trophy_plaque.png",
-     "desc": "Presented to the branch by Bill McCormack of Cormacruisers. Awarded to the winner of the Ladies Line Heaving competition."},
-    {"id": "benson", "name": "The Benson Perpetual Shield", "category": "fun", "image": "trophy_shield.png",
-     "desc": "Presented by Robin Benson of the 'Marlou'. Awarded to the winner of the 'Young Bosun' competition."},
+    # 4. Junior Category
+    {"id": "ann_clarke", "name": "Anne Clarke Trophy", "category": "junior", "image": "Anne_ClarkeShield.jpg",
+     "desc": "Presented by the family of the late Anne Clarke who attended many rallies with her husband Robert, travelling down from the Lough Erne region often with grandchildren aboard. Awarded to the young person who best represents the spirit of the rally, again by nomination. (Junior Friendship)"},
+    {"id": "helen_timon", "name": "Helen Timon Cup", "category": "junior", "image": "trophy_cup.png",
+     "desc": "On Rally 46 due to the overwhelming talent shown by the younger generation in the Ditty competition a prize was given for Junior Ditty. A trophy was introduced on Rally 47 for this and was presented by Joe Tracey and Lana Leonard in memory of Helen Timon, daughter of Eric."},
+    {"id": "benson", "name": "Benson Perpetual Shield", "category": "junior", "image": "BensonShield.jpg",
+     "desc": "Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of \"Marlou\" a long time rally supporter. Awarded to the winner of the Young Bosun competition."},
 
-    # Historical
+    # 5. Community, Spirit & Special Endeavours
+    {"id": "benjamin", "name": "Benjamin Cup", "category": "community", "image": "BenjaminCup.jpg",
+     "desc": "In 1979 the Derg Rally was unfortunately cancelled because of a major problem at Ardnacrusha which necessitated the lowering of the lake drastically. The E.S.B. subsequently presented the branch with a trophy to be used at the branches discretion. Awarded to the winner of the Recovery of a Cruiser competition."},
+    {"id": "friendship", "name": "Friendship Cup", "category": "community", "image": "FriendshipCupCleaned.png",
+     "desc": "Presented to the Lough Derg Branch of the IWAI by the Northern Ireland Branch in 2002. This was following reciprocal visits of the branches, Lough Derg to Lough Neagh and River Bann while the NI branch came to Limerick and Lough Derg. Awarded to the person (adult) receiving most nominations for best representing the spirit of the rally. Friendship Cup (Adult)"},
+    {"id": "jimmy_leyden", "name": "Leyden Shield", "category": "community", "image": "JimmyLeydenTrophy.jpg",
+     "desc": "Presented in memory of Jimmy Leyden a past rallier in his boat Geraldine II, and father of Des Leyden a past President of IWAI. Awarded for the Best Endeavour."},
+    {"id": "eric_timon", "name": "Ditty Cup", "category": "community", "image": "trophy_cup.png",
+     "desc": "Presented by Eric Timon who rallied from the start. Annually Eric wrote a ditty telling the story of the rally and getting as many boat names in as possible. He presented a cup to enable ralliers compose their own ditty and compete. Awarded to the winner of the Ditty competition, and presented on the night, at the ditty competition."},
+    {"id": "estemaid", "name": "Eistamaid Trophy", "category": "community", "image": "trophy_cup.png",
+     "desc": "Fr. Paddy Dowling on his boat 'Eistamaid' was a long-time rally supporter. He presented this trophy to the rally, for a competition exclusively for committee members. This competition is held on the morning after the dinner dance, the final competition of the rally."},
+    {"id": "church_bay", "name": "Church Bay Cup", "category": "community", "image": "ChurchBayTrophy.jpg",
+     "desc": "Presented by Gerry Burke and Family in 2018 in honour of Gerry's parents. The Church Bay Cup is awarded to the Best Newcomer."},
+
+    # 6. Historical
     {"id": "derg_cup", "name": "The Derg Cup", "category": "historical", "image": "trophy_cup.png",
      "desc": "Historical award for Sailing. Currently inactive."},
     {"id": "goosander", "name": "The Goosander Perpetual Trophy", "category": "historical", "image": "trophy_cup.png",
@@ -145,7 +145,16 @@ def generate_markdown():
             text-transform: uppercase;
             letter-spacing: 1px;
             color: #888;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+        }
+        .category-thumb {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
         }
         .trophy-title {
             font-weight: bold;
@@ -209,11 +218,10 @@ def generate_markdown():
         <div class="filters" style="text-align: center; margin-bottom: 40px;">
             <button class="filter-btn active" onclick="filterTrophies('all')">All</button>
             <button class="filter-btn" onclick="filterTrophies('premier')">Premier</button>
+            <button class="filter-btn" onclick="filterTrophies('navigation')">Navigation</button>
             <button class="filter-btn" onclick="filterTrophies('barge')">Barges</button>
-            <button class="filter-btn" onclick="filterTrophies('skill')">Skills</button>
-            <button class="filter-btn" onclick="filterTrophies('spirit')">Spirit</button>
-            <button class="filter-btn" onclick="filterTrophies('newcomer')">Newcomer</button>
-            <button class="filter-btn" onclick="filterTrophies('fun')">Fun</button>
+            <button class="filter-btn" onclick="filterTrophies('junior')">Junior</button>
+            <button class="filter-btn" onclick="filterTrophies('community')">Community</button>
             <button class="filter-btn" onclick="filterTrophies('historical')">Historical</button>
         </div>
 
@@ -221,11 +229,23 @@ def generate_markdown():
         <div class="trophy-grid">
 """
 
+    category_names = {
+        "premier": "Premier Awards & Boat Inspections",
+        "navigation": "Navigation & Handling",
+        "barge": "Barge Competitions",
+        "junior": "Junior Category",
+        "community": "Community & Spirit",
+        "historical": "Historical"
+    }
+
     for t in trophies:
         template_content += f"""
             <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
                 <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
-                <span class="trophy-category">{t['category']}</span>
+                <div class="trophy-category">
+                    <img src="{{{{ SITEURL }}}}/images/category_{t['category']}.png" class="category-thumb" alt="{t['category']}">
+                    <span>{category_names.get(t['category'], t['category'])}</span>
+                </div>
                 <div class="trophy-title">{t['name']}</div>
                 <div class="trophy-short-desc">{t['desc']}</div>
             </div>

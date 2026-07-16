@@ -1,101 +1,12 @@
 import csv
 import json
 
-# Define the columns (Trophy Name / Purpose)
-columns = [
-    {"id": "rally", "name": "Rally No."},
-    {"id": "year", "name": "Year"},
-    {"id": "estemaid", "name": "Estemaid Trophy (Committee Prize)"},
-    {"id": "boyle", "name": "Boyle Trophy (Barge Race)"},
-    {"id": "benjamin", "name": "Benjamin Cup (Recovery)"},
-    {"id": "nm_barge", "name": "NM Barge Trophy (Hand)"},
-    {"id": "wynn_juba", "name": "Wynn Juba Cup (Orienteering)"},
-    {"id": "jj_kineally", "name": "JJ Kineally Cup (Overall Team)"},
-    {"id": "friendship", "name": "Friendship Cup"},
-    {"id": "bob_hughes", "name": "Bob Hughes Trophy (Boat Inspection)"},
-    {"id": "ann_clarke", "name": "Ann Clarke Cup (Jr Friendship)"},
-    {"id": "newman", "name": "Newman Cup (Surprise Inspection)"},
-    {"id": "jimmy_leyden", "name": "Jimmy Leyden Trophy (Best Endeavour)"},
-    {"id": "dennis_byrne", "name": "Dennis Byrne Cup (Best Newcomer)"},
-    {"id": "finton_harold", "name": "Finton Harold Cup (Line Heaving Mens)"},
-    {"id": "mccormack", "name": "McCormack Plate (Line Heaving Womens)"},
-    {"id": "dennis_juba", "name": "Dennis Juba Cup (Man Over Board)"},
-    {"id": "westpark", "name": "Westpark Cup (Boat Handling)"},
-    {"id": "eric_timon", "name": "Eric Timon Ditty Cup"},
-    {"id": "tavern", "name": "Tavern Cup (Time Trial)"},
-    {"id": "scarriff", "name": "Scarriff Shield (Barge Handling)"},
-    {"id": "jh_stimpson", "name": "JH Stimpson Cup (Sailing)"},
-    {"id": "benson", "name": "Benson Shield (Young Bosun)"}
-]
-
-raw_data = """
-39	2014	To Be Found			Me			Matt McGrory											Me		Me	
-38	2013		4B Jeffers	Paradijs	Trust Me Scout	Gareth & Rory Kavanagh, Jack McGrory, Gearoid O'Brien	74M, Carna Bay, Cottesway, Rambler, Schipperke	Liam Power	Ellis Family Reflection	Emily McGrory Lady Diva	Michael Redmond & Family 57M	Shanks Family, Serenity	Lindley Family Lady Lydia	A. Lindley Lady Lydia	Shirley Mullins SeaCat	R. Lindley Lady Lydia, A. Brislane Andante	D. Brislane Andante	Michael Campion	G. Burke	68M		Brian Boland Seagull
-37	2012		68M	El-Roi	Birling	Ben Geraghty, Pearse Cavanagh, Reece Shortt	El-Roi, Birling, Shanice, Namow V	Ellis Family	Pat & Chrissie Mullins Caja	Ben Geraghty Affaja	Morgan O' Brien Family Cottesway	E. Bayly & Family Crew's Inn	Leyden Family Mutual Admiration	C. Smith Coreibh	Mary Burke Teanna	D. Burke Affaja	D. Burke, C. Bayly Kigera	E. Bayly & D. Dunne Crew's Inn	D. Burke	47M		Anna Burke Teanna
-36	2011		4B Cliff & Eunice Jeffers	Adventure	Shanog	Ben Geraghty, Ed Campion, Prarse Kavanagh	Affaja, Black Pearl, Carreras, Shanog, Teanna	Sophie Geraghty	Colin & Genevieve Becker, Chang Sha	Ciara Moore Lady Anne III		Andrew & Emma Clarke Double Dutch	Brislane Family Andante	M. Larkin Adventure	J. Lambert De-Eems	Scallywag (68M Crew)	P. & C. Mullins Caja	Ivan & Evie Thornbury Auburn	Reflection	Chang Sha		Robbie Saunders 41M
-35	2010		4E Ben F. Treacy	Teanna Tinca Tinca	Shanice	Cliff & Andy Jeffers 4B	4B, Chang Sha, De-Eems, Lotus 2, Affaja	Conor Nolan	Gay Knight & S. Anne Argo	Holly Farrell		68M, Tinca Tinca, 41M, Tanjuan	Hollinshead Family Serpa	M. Becker 74M		Kilmore Lass	C. Bayly Kigera	Sam Treacy 4E		76M		Ciara Moore Lady Anne III
-34	2009		4B Cliff & Eunice Jeffers	Shanice			Seagull, Kobold, Shanice, Ocean Froggy	Brian Kavanagh	Archie & Rita Reid Miss Eva		Reflection???	Kavanagh Family		G. Boland Seagull		Teanna Tinca Tinca	M. McGrory Lady Diva	Joe Treacy 4E	B. Treacy	68M		
-33	2008		4E Ben F. Treacy	Chang Sha	Magnet		Chang Sha, Christina, Paragon, 	Damien Buckley	Colin & Genevieve Becker, Chang Sha		Kenny Family		Lowe Family Bare Necessities	G. Boland Seagull	S. Mullins SeaCat	Desparado	J. MacFarlane Paradjsvogel	Sam Treacy 4E	R. Lowe	41M		Ben F. Treacy 4E
-32	2007		Dabu	G. Burke	Trust Me Scout		The Alamo, Shanice, Namow	Winston Family	Robert & Maeve Bayly DABU		Winston Family		Ellis Family Reflection	M. Larkin CastleFrench Lady	A. Dwane 74M	Peggy May, CastleFrech Lady, 4B, Double Dutch	B. & M. O' Brien Morning Mist	D. Burke, R Baker-Kenny, C. Bayly 107B	DABU	Crew 107B		Ciara McGowan Lotus Two
-31	2006		A. Dwane 74M	Brian Kavanagh	Trust Me Scout		Trust Me Scout, Truxton, Seacat, Teanna	Robert & Anne Clarke	Archie & Rita Reid Miss Eva		Barry & Maire O' Brien Morning Mist	Vincent, Catherine, David & John Garty Paragon	Rory & Luke Winston Highlander		A. Dwane 74M	Donal Boland M.V. James & Mary	C. Burke Teanna	S. O' Brolchain & Friends	D. Burke			Jennifer Jordan El-Roi
-30	2005		Chang-Sha Colin Becker		Shanice		74M, Grille, Escape & Emma Jane	Mullins Family			Archie & Rita Reed Nidders		MacFarlanes Paradjsvogel	Sam Stephens Easy Beat	A. Dwane 74M			J. Jordan El-Roi	J. Leonard		D. Killleen	Ruth Bennett-Coady Pyladies
-29	2004		Chang-Sha Colin Becker	Goggin Family			Grille, 68M & Easy Beat	Robert & Anne Clarke				Goggin Family Knocknagow		D. O' Kinneda DABU	S. Boyd Grille	68M, Grille & Easy Beat	Grille, 68M & Easy Beat	Baker-Kenny 76M	Bayly's	68M		Mark Moore Lady Anne III
-28	2003		Dabu	P. Nolan			Lady Anne III, 35M, NAMOW IV	Andy Roche				Tom & Dee Bailey & Crew Mimi	Aoife & Colm Burke	J. Leonard	A. Shanley Celtic Jade - A. Dwane Isolde	M. Moore Lady Anne III, M. & J. Sweeney Elysium	P. Nolan Tinca Tinca	Sam Treacy 4E	Burke's			Mark Moore Lady Anne III
-27	2002		34B Gerry Gavin, Chang-Sha Colin Becker	P. & J. Timon, T. & N. McGowan			Jasmine, 68M & Time Enough					Gerry & Geraldine Burke & Crew 68M	D. & J. Cullen Corncrake	Bayly DABU	G. Burke 68M J. Ray Chang-Sha	Bayly DABU	68M, Jasmine & Time Enough	The Burke's 68M				Ciara Moore Jasmine
-26	2001		35M Andy Roche				A. & G. Roberts Merganser		A. & G. Roberts Merganser			Tom Moore, Eamon Egan Jasmine & Hawthorn	McGrane Family Sally		P. Stephens Yali	Louise Egan Hawthorn, Ciara Moore Jasmine	A. & G. Roberts Merganser		A. & G. Roberts	St. Patrick		Daniel Burke 68M
-25	2000		4E Joe Treacy	R. Carton & A. Hynes			The Beckers Isolde		McCool Family Snark			Michael Devlin Beccles	Greevy's Aine		C. Tucker De-Eems	Aine & 68M	E McLoughney Aquila Nova	Brian Goggin		Neptune		Olivia Egan Hawthorn
-24	1999		De Eems P. Clarke-Hutton	E. Keane			DABU		Robert & Maeve Bayly DABU			Roger & Stef Lorenz Neptune	Baker-Kenny 76M	Joe Leonard	Angela Dwane Chang-Sha	N. Kerrigan Yali	C. Bayly	E. & P.J. Norris Jangada	G. Burke	4E	C. Makin & S. Hopkins	Ciara O'Brien Palo Alto
-23	1998		Dabu	E. Bayly & K. Kendrick					Andy & Cathy Roche 35M				Dywer Laura James	John Treacy	Christine Becker Chang- Sha		C. Bayly DABU		J. Treacy	DABU	C. Becker & G. Bayly	Paul Makim Sunset
-22	1997		35M Andy Roche	E. & C. Bayly			DABU		Tos & Ann Quinn Abigail			Joe Leonard & Lana Tracey, Shanice	Goggin Ciarian	R. Moore Jasmine				P. Moore Jasmine	J. Leonard	DABU	Eoin Bayly	
-21	1996		Chang-Sha Sharon O' Grady	C. O'Brien			Early Dawn		Peter Cagney Celtic Jade			Noel & June Manning & Crew Coral Star	Roche Family 35M	C. Becker Chang Sha		Bayly DABU		Moores on 20 Pence	M. O' Riordan	Palo Alto	Christine Becker	Aisling Moore Jasmine
-20	1995		Dabu	R. Bayley & F. Dwane			Early Dawn		Michael O' Riordan Early Dawn			Joe Treacy & Crew 4E		P. O' Brien Palo Alto			P. Kelehan Viv___	J. & S. Treacy 4E	M. O' Riordan	Palo Alto	Pam O' Brien	E. McLoughney Aquila Nova
-19	1994		Sequoia Jack Roberts	A. & R. Pearson			Downes Family Sapphire					Eamon Egan & Crew Hawthorn	The Moore's Twenty Pence	C. Becker Chang Sha	 J. Craig A. Felion Calypso		P. Smith Tubal	Mayfly	J. Roberts	Calypso		J. Craig & A. Felton Calypso
-18	1993		Palo Alto P. O' Brien				The O' Briens Palo Alto		Tos Quinn Abigail					J. Bagnall 76M	M. Hanna Lady Penlyric		D. & S. Talbot Rindoon Rose	Chang Sha	E. Ganly	Sequoia		
-17	1992						D. Pearson Moody		Peter & Mary Hanna,  Lady Penlyric			Gary Kelly & Mary		J. Fitzgibbon Brigade	B. Fitzgibbon Brigade	T. Gallagher __NOT SURE WHAT YEAR!!__	D. Becker Chang Sha	Whitethorn	M. O' Brien	Sequoia	The Henry's	Daniel Becker Chang-Sha
-16	1991		MV Fox Syd Shine				T. MacBride Kid		Padriac O' Brolchain Barcarole					C. Becker Chang Sha	M. O' Brien Adventurer		V. & P. Henry Paloma	Abigail & Ajenda			Albert Gill	Marcus Quinn Abigail
-15	1990											Pat & Margaret McLoughney & The Mini Crew				D. & K. Killeen Gillaroo	D. Killeen Gillaroo	Sequoia				Marcus Quinn Abigail
-14	1989						K. Walsh Santa Royale					Seamus Kerrigan & Crew	M. Leyden Sheba		M. Hanna Lady Penlyric	S. Anne Hamilton Jacaranda 	P. & J. Gilmore Shannon Rose	41M	T. Mac Bride	Sequoia	Jason Gilmour	Richard Hodgins 34M
-13	1988		Chang-Sha Colin Becker	P. Keane			J. Horan Winsome Wings		J. Horan Winsome Wings			Tiernan MacBride & Sarah	D. Saunders 41M	A. Craig Bolero	R. Martin Dunboyne	C. Benson Ajenda	J. Horan Winsome Wings	Do Do M	B. O' Brien		J. & E. Tomlin	Gerard Keane Whitethorn
-12	1987		De Eems P. Clarke-Hutton	D. Cagney & R. Cagney			J. Roberts Sequoia		C. Scotson Ajenda				A. Roberts Sequoia	J. Horan Winsome Wings	A. Craig Bolero	G. Brislane Vitesse	J. Roberts Sequoia	Do Do M	J. DuMoulin	Sequoia	St. Patrick	George Roberts Sequoia
-11	1986			I. Travers & N. Fleeton			M. Maguire Mann of Derg		Sequoia J. Roberts				M. Maguire Jnr. Maan of Derg	N. Waterhouse Lady Rona	D. Horan Winsome Wings		J. Reynolds Wine Lake	Abigail, Ajenda & Whitethorn	C. Scotson	M.B. Jarra	Galen Brislane	
-10	1985		JARRA	G. Brislane			T. Keane Whitethorn		T. Quinn Abigail				G. Brislane Vitesse	N. Larlin Argo	J. Leydon Geraldine II	T. Quinn Abigail	N. Waterhouse Lady Rona	Sue O' Brolchain	P. Brolchain	Bishop Whelsh		D. Collins
-9	1984		JARRA	B. Henderson & G. Brislane			R. Henneson Mary Frances		R. Henderson, Mary Frances				M. Williams Shanra	L. Benson Marlou	D. Horan Sandpiper	D. Brislane Lady Sarah	P.J. Humphries Blue Moon		D. Brislane			
-8	1983			E. & A. Bracken			???						Ian Kelly Siam III	P. MacNamara Moonshine		R. Henderson Janey Mac			S. Herraghty	Argo		
-7	1982			M. Fleeton & G. Brislane										B. O' Reilly Porter's Eve					A. Dier	4E	David Dier	
-6	1981						R. Benson Marlou		J. Fitzgibbon M.S. Bilbo				D.J. Harrison J.F. Aylmer Eagle	N. Hodgers Aine		R. Benson Marlou				Sequoia		
-5	1980								Christa Lilge, Hein Goodewind II					D. Knight Itty Three		S. Fitzsimons De Iron Lung				De Iron Lung		
-	1979						NO RALLY		NO RALLY				NO RALLY	NO RALLY		NO RALLY			NO RALLY	NO RALLY	NO RALLY	
-4	1978								J.B.H. Johnston, De-Eems				Harbour Belle	J. Roberts Mallard		D.  Killeen 			J. Treacy	DABU	M. Webb Jnr.	
-3	1977								P. Dowling Eistemaid				S. & B. Bayly DABU	R. Benson Marlou		S. McGloughney Elf			M. Mathews	M.V. Fox		
-2	1976						R. Hughes Margarita II		D.G. & A. Abain, M.S. Janey Mac					Fitzgibbon Bilbo		P. Dowling Estemaid			R. Hughes	M.V. St. Patrick		
-1	1975						M. McInerney Scalpa M/Y		D.G. & A. Abain, T.S.D.Y. Cuanna							S. Kerrigan St. Patrick			R. Hughes	Scalpa M/Y		
-"""
-
 def parse_data():
     output = []
-    lines = raw_data.strip().split('\n')
-    
-    for line in lines:
-        if not line.strip(): continue
-        
-        # Split by tab
-        parts = line.split('\t')
-        
-        # Pad parts with empty strings if missing
-        while len(parts) < len(columns):
-            parts.append("")
-            
-        row = {}
-        for i, col in enumerate(columns):
-            if i < len(parts):
-                val = parts[i].strip()
-                # Handle "NO RALLY" logic if needed, but display as is for now
-                row[col["id"]] = val
-            else:
-                row[col["id"]] = ""
-                
-        output.append(row)
-        
+    with open('content/data/all_winners_template.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            output.append(dict(row))
     return output
 
 if __name__ == "__main__":
