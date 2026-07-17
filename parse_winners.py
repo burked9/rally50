@@ -14,9 +14,9 @@ if __name__ == "__main__":
     # Write to a JS file that sets a global variable
     js_content = "var trophyData = " + json.dumps(data, indent=4) + ";"
     
-    with open("theme/static/js/winners_data.js", "w") as f:
-        f.write(js_content)
     with open("content/js/winners_data.js", "w") as f:
         f.write(js_content)
+        
+    print("Generated winners_data.js in content/js")
         
     print("Generated winners_data.js")
