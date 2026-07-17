@@ -42,7 +42,7 @@ trophies = [
     {"id": "benson", "name": "Benson Perpetual Shield", "category": "junior", "image": "BensonShield.jpg",
      "desc": "Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of \"Marlou\" a long time rally supporter. Awarded to the winner of the Young Bosun competition."},
     {"id": "jane_mccormack_trophy", "name": "Jane McCormack Cup", "category": "junior", "image": "JaneMcCormackCup.jpg",
-     "desc": "Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders). Holding trophy. To be added."},
+     "desc": "Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders)."},
 
     # 5. Community, Spirit & Special Endeavours
     {"id": "benjamin", "name": "Benjamin Cup", "category": "community", "image": "BenjaminCup.jpg",
@@ -51,7 +51,7 @@ trophies = [
      "desc": "Presented to the Lough Derg Branch of the IWAI by the Northern Ireland Branch in 2002. This was following reciprocal visits of the branches, Lough Derg to Lough Neagh and River Bann while the NI branch came to Limerick and Lough Derg. Awarded to the person (adult) receiving most nominations for best representing the spirit of the rally. Friendship Cup (Adult)"},
     {"id": "jimmy_leyden", "name": "Leyden Shield", "category": "community", "image": "JimmyLeydenTrophy.jpg",
      "desc": "Presented in memory of Jimmy Leyden a past rallier in his boat Geraldine II, and father of Des Leyden a past President of IWAI. Awarded for the Best Endeavour."},
-    {"id": "eric_timon", "name": "Ditty Cup", "category": "community", "image": "trophy_cup.png",
+    {"id": "eric_timon", "name": "Eric Timon Cup", "category": "community", "image": "trophy_cup.png",
      "desc": "Presented by Eric Timon who rallied from the start. Annually Eric wrote a ditty telling the story of the rally and getting as many boat names in as possible. He presented a cup to enable ralliers compose their own ditty and compete. Awarded to the winner of the Ditty competition, and presented on the night, at the ditty competition."},
     {"id": "estemaid", "name": "Eistamaid Trophy", "category": "community", "image": "trophy_cup.png",
      "desc": "Fr. Paddy Dowling on his boat 'Eistamaid' was a long-time rally supporter. He presented this trophy to the rally, for a competition exclusively for committee members. This competition is held on the morning after the dinner dance, the final competition of the rally."},
