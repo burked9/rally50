@@ -241,7 +241,7 @@ def generate_markdown():
     for t in trophies:
         template_content += f"""
             <div class="trophy-card category-{t['category']}" onclick="openModal('{t['id']}')">
-                <img src="{{{{ SITEURL }}}}/images/{t['image']}" class="trophy-icon" alt="{t['name']}">
+                <img src="{{{{ SITEURL }}}}/images/thumbnails/{t['image'].rsplit('.', 1)[0] + '.jpg'}" class="trophy-icon" alt="{t['name']}">
                 <div class="trophy-category">
                     <img src="{{{{ SITEURL }}}}/images/category_{t['category']}.png" class="category-thumb" alt="{t['category']}">
                     <span>{category_names.get(t['category'], t['category'])}</span>
@@ -263,7 +263,9 @@ def generate_markdown():
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, '{t['id']}')">&times;</span>
                 <div class="modal-header">
-                    <img src="{{{{ SITEURL }}}}/images/{t['image']}" alt="{t['name']}">
+                    <a href="{{{{ SITEURL }}}}/images/{t['image']}" target="_blank" title="Click to view full quality">
+                        <img src="{{{{ SITEURL }}}}/images/thumbnails/{t['image'].rsplit('.', 1)[0] + '.jpg'}" alt="{t['name']}" style="cursor: zoom-in;">
+                    </a>
                     <h2>{t['name']}</h2>
                 </div>
                 <div class="modal-history">
