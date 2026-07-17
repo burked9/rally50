@@ -212,7 +212,38 @@ def generate_markdown():
         }
         .modal-header img { width: 80px; height: 80px; }
         .modal-history { margin-bottom: 30px; line-height: 1.6; color: #444; }
+        .global-search-container {
+            margin: 0 auto 30px auto;
+            max-width: 600px;
+            position: relative;
+        }
+        .global-search-input {
+            width: 100%;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 30px;
+            outline: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .global-search-input:focus {
+            border-color: #007bff;
+            box-shadow: 0 4px 12px rgba(0,123,255,0.2);
+        }
+        #globalSearchResults {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+        }
         </style>
+
+        <!-- Global Search -->
+        <div class="global-search-container">
+            <input type="text" id="globalSearchInput" class="global-search-input" placeholder="Search winners, boats, years across all trophies...">
+        </div>
 
         <!-- Filters -->
         <div class="filters" style="text-align: center; margin-bottom: 40px;">
@@ -252,6 +283,22 @@ def generate_markdown():
 """
     
     template_content += """
+        </div>
+
+        <!-- Global Search Results -->
+        <div id="globalSearchResults" style="display: none;">
+            <h2 style="margin-top: 0; color: #333;">Search Results</h2>
+            <table id="globalSearchTable" class="display responsive nowrap" style="width:100%">
+                <thead>
+                    <tr>
+                        <th data-priority="1">Year</th>
+                        <th data-priority="3">Rally No.</th>
+                        <th data-priority="2">Trophy</th>
+                        <th data-priority="1">Winner</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
 
         <!-- Modals -->
@@ -327,6 +374,65 @@ def generate_markdown():
         }
 
         $(document).ready(function() {
+            // Setup global search table
+            const globalSearchTable = $('#globalSearchTable').DataTable({
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 20,
+                language: { emptyTable: "No matches found" }
+            });
+
+            const trophyMap = {
+"""
+    for t in trophies:
+        safe_name = t['name'].replace("'", "\\'")
+        template_content += f"                '{t['id']}': '{safe_name}',\n"
+    
+    template_content += """
+            };
+
+            $('#globalSearchInput').on('input', function() {
+                const query = $(this).val().toLowerCase();
+                const grid = document.querySelector('.trophy-grid');
+                const filters = document.querySelector('.filters');
+                const resultsDiv = document.getElementById('globalSearchResults');
+
+                if (query.length > 0) {
+                    grid.style.display = 'none';
+                    filters.style.display = 'none';
+                    resultsDiv.style.display = 'block';
+
+                    const results = [];
+                    trophyData.forEach(row => {
+                        Object.keys(trophyMap).forEach(key => {
+                            if (row[key] && row[key] !== '-' && row[key].toLowerCase().includes(query)) {
+                                results.push([
+                                    row.year,
+                                    row.rally,
+                                    trophyMap[key],
+                                    row[key]
+                                ]);
+                            } else if (row.year && row.year.includes(query) && row[key] && row[key] !== '-') {
+                                // Match on year
+                                results.push([
+                                    row.year,
+                                    row.rally,
+                                    trophyMap[key],
+                                    row[key]
+                                ]);
+                            }
+                        });
+                    });
+
+                    globalSearchTable.clear().rows.add(results).draw();
+                    globalSearchTable.columns.adjust().responsive.recalc();
+                } else {
+                    grid.style.display = 'flex';
+                    filters.style.display = 'block';
+                    resultsDiv.style.display = 'none';
+                }
+            });
+
             // Initialize DataTables
 """
 
