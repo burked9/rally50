@@ -55,8 +55,12 @@ trophies = [
      "desc": "Fr. Paddy Dowling on his boat 'Eistamaid' was a long-time rally supporter. He presented this trophy to the rally, for a competition exclusively for committee members. This competition is held on the morning after the dinner dance, the final competition of the rally."},
     {"id": "church_bay", "name": "Church Bay Cup", "category": "community", "image": "ChurchBayTrophy.jpg",
      "desc": "Presented by Gerry Burke and Family in 2018 in honour of Gerry's parents. The Church Bay Cup is awarded to the Best Newcomer."},
+    {"id": "dave_mccabe", "name": "Dave McCabe Award", "category": "community", "image": "DaveMcCabeAward.jpg",
+     "desc": "Holding trophy. To be added."},
 
     # 6. Historical
+    {"id": "skelton_remembrance", "name": "Skelton Remembrance Trophy", "category": "historical", "image": "SkeltonRemembranceTrophy.jpg",
+     "desc": "Holding trophy. To be added."},
     {"id": "derg_cup", "name": "The Derg Cup", "category": "historical", "image": "trophy_cup.png",
      "desc": "Historical award for Sailing. Currently inactive."},
     {"id": "goosander", "name": "The Goosander Perpetual Trophy", "category": "historical", "image": "trophy_cup.png",
@@ -85,8 +89,7 @@ def generate_markdown():
             <a href="{{ SITEURL }}/archive/artifacts/prizegiving/index.html" class="filter-btn" style="background-color: #28a745; color: white; text-decoration: none; border-color: #28a745; display: inline-block; padding: 10px 20px; font-weight: bold;">📸 View Prizegiving Galleries</a>
         </div>
 
-        <p>Welcome to our shiny new Hall of Fame gallery! Click on a trophy to view its history and past winners.</p>
-        <p>Use the buttons below to filter the awards.</p>
+        <p>Search or Click on a trophy to view its history and past winners.</p>
 
         <!-- DataTables CSS -->
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
