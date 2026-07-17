@@ -57,10 +57,10 @@ trophies = [
      "desc": "Presented by Gerry Burke and Family in 2018 in honour of Gerry's parents. The Church Bay Cup is awarded to the Best Newcomer."},
     {"id": "dave_mccabe", "name": "Dave McCabe Award", "category": "community", "image": "DaveMcCabeAward.jpg",
      "desc": "Holding trophy. To be added."},
+    {"id": "skelton_remembrance", "name": "Skelton Remembrance Trophy", "category": "community", "image": "SkeltonRemembranceTrophy.jpg",
+     "desc": "Holding trophy. To be added."},
 
     # 6. Historical
-    {"id": "skelton_remembrance", "name": "Skelton Remembrance Trophy", "category": "historical", "image": "SkeltonRemembranceTrophy.jpg",
-     "desc": "Holding trophy. To be added."},
     {"id": "derg_cup", "name": "The Derg Cup", "category": "historical", "image": "trophy_cup.png",
      "desc": "Historical award for Sailing. Currently inactive."},
     {"id": "goosander", "name": "The Goosander Perpetual Trophy", "category": "historical", "image": "trophy_cup.png",
