@@ -21,7 +21,7 @@ trophies = [
      "desc": "Presented by Bill McCormack of Cormacruisers, Killaloe, an early hire-boat company. Originally Awarded to the winner of the Ladies Boat Handling competition but for many years now awarded to the winner of Ladies Line Heaving competition."},
     {"id": "dennis_byrne", "name": "Denis Byrne Cup", "category": "navigation", "image": "DenisByrneCup.jpg",
      "desc": "Presented by David Knight (Opus 10) and Frank Van Den Berg (Argent Brach) in memory of Denis Byrne who was tragically lost over-board, in the mid-Shannon area. Awarded to the winner of the First Mate Boat Handling competition."},
-    {"id": "finton_harold", "name": "Harold Memorial Perpetual Trophy", "category": "navigation", "image": "FintonHaroldCup.jpg",
+    {"id": "finton_harold", "name": "Harold Memorial Perpetual Trophy", "category": "navigation", "image": "trophy_cup.png",
      "desc": "To commemorate the memory of Fintan Harold, a Lough Derg veteran and founder member of Rally One. Awarded to the winner of the Line-heaving competition. (Later modified to Men's line heaving as a category was added for Ladies line heaving)"},
     {"id": "jh_stimpson", "name": "Stimpson Cup", "category": "navigation", "image": "StimpsonCup.jpg",
      "desc": "Presented to the winner of the Open Boat competition"},
@@ -41,7 +41,7 @@ trophies = [
      "desc": "On Rally 46 due to the overwhelming talent shown by the younger generation in the Ditty competition a prize was given for Junior Ditty. A trophy was introduced on Rally 47 for this and was presented by Joe Tracey and Lana Leonard in memory of Helen Timon, daughter of Eric."},
     {"id": "benson", "name": "Benson Perpetual Shield", "category": "junior", "image": "BensonShield.jpg",
      "desc": "Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of \"Marlou\" a long time rally supporter. Awarded to the winner of the Young Bosun competition."},
-    {"id": "jane_mccormack_trophy", "name": "Jane Mc Cormack Trophy", "category": "junior", "image": "trophy_cup.png",
+    {"id": "jane_mccormack_trophy", "name": "Jane Mc Cormack Trophy", "category": "junior", "image": "JaneMcCormackCup.jpg",
      "desc": "Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders). Holding trophy. To be added."},
 
     # 5. Community, Spirit & Special Endeavours
