@@ -16,5 +16,7 @@ if __name__ == "__main__":
     
     with open("theme/static/js/winners_data.js", "w") as f:
         f.write(js_content)
+    with open("content/js/winners_data.js", "w") as f:
+        f.write(js_content)
         
     print("Generated winners_data.js")
