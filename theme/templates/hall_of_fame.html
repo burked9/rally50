@@ -355,6 +355,16 @@
                 <div class="trophy-short-desc">Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of "Marlou" a long time rally supporter. Awarded to the winner of the Young Bosun competition.</div>
             </div>
 
+            <div class="trophy-card category-junior" onclick="openModal('jane_mccormack_trophy')">
+                <img src="{{ SITEURL }}/images/thumbnails/trophy_cup.jpg" class="trophy-icon" alt="Jane Mc Cormack Trophy">
+                <div class="trophy-category">
+                    <img src="{{ SITEURL }}/images/category_junior.png" class="category-thumb" alt="junior">
+                    <span>Junior Category</span>
+                </div>
+                <div class="trophy-title">Jane Mc Cormack Trophy</div>
+                <div class="trophy-short-desc">Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders). Holding trophy. To be added.</div>
+            </div>
+
             <div class="trophy-card category-community" onclick="openModal('benjamin')">
                 <img src="{{ SITEURL }}/images/thumbnails/BenjaminCup.jpg" class="trophy-icon" alt="Benjamin Cup">
                 <div class="trophy-category">
@@ -937,6 +947,32 @@
             </div>
         </div>
 
+        <div id="modal-jane_mccormack_trophy" class="modal-overlay" onclick="closeModal(event, 'jane_mccormack_trophy')">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <span class="modal-close" onclick="closeModal(event, 'jane_mccormack_trophy')">&times;</span>
+                <div class="modal-header">
+                    <a href="{{ SITEURL }}/images/trophy_cup.png" target="_blank" title="Click to view full quality">
+                        <img src="{{ SITEURL }}/images/thumbnails/trophy_cup.jpg" alt="Jane Mc Cormack Trophy" style="cursor: zoom-in;">
+                    </a>
+                    <h2>Jane Mc Cormack Trophy</h2>
+                </div>
+                <div class="modal-history">
+                    <h3>About this Trophy</h3>
+                    <p>Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders). Holding trophy. To be added.</p>
+                </div>
+                <h3>Past Winners</h3>
+                <table id="table_jane_mccormack_trophy" class="display responsive nowrap" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">Year</th>
+                            <th data-priority="3">Rally No.</th>
+                            <th data-priority="2">Winner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
         <div id="modal-benjamin" class="modal-overlay" onclick="closeModal(event, 'benjamin')">
             <div class="modal-content" onclick="event.stopPropagation()">
                 <span class="modal-close" onclick="closeModal(event, 'benjamin')">&times;</span>
@@ -1315,6 +1351,7 @@
                 'ann_clarke': 'Anne Clarke Trophy',
                 'helen_timon': 'Helen Timon Cup',
                 'benson': 'Benson Perpetual Shield',
+                'jane_mccormack_trophy': 'Jane Mc Cormack Trophy',
                 'benjamin': 'Benjamin Cup',
                 'friendship': 'Friendship Cup',
                 'jimmy_leyden': 'Leyden Shield',
@@ -1588,6 +1625,19 @@
                     { data: 'year' },
                     { data: 'rally' },
                     { data: 'benson', defaultContent: "" }
+                ],
+                responsive: true,
+                order: [[ 0, "desc" ]],
+                pageLength: 10,
+                language: { search: "_INPUT_", searchPlaceholder: "Filter..." }
+            });
+
+            $('#table_jane_mccormack_trophy').DataTable({
+                data: trophyData,
+                columns: [
+                    { data: 'year' },
+                    { data: 'rally' },
+                    { data: 'jane_mccormack_trophy', defaultContent: "" }
                 ],
                 responsive: true,
                 order: [[ 0, "desc" ]],

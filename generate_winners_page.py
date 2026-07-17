@@ -41,6 +41,8 @@ trophies = [
      "desc": "On Rally 46 due to the overwhelming talent shown by the younger generation in the Ditty competition a prize was given for Junior Ditty. A trophy was introduced on Rally 47 for this and was presented by Joe Tracey and Lana Leonard in memory of Helen Timon, daughter of Eric."},
     {"id": "benson", "name": "Benson Perpetual Shield", "category": "junior", "image": "BensonShield.jpg",
      "desc": "Young Bosun competition trophy, presented to the rally for up and coming boat people - by Robin Benson of \"Marlou\" a long time rally supporter. Awarded to the winner of the Young Bosun competition."},
+    {"id": "jane_mccormack_trophy", "name": "Jane Mc Cormack Trophy", "category": "junior", "image": "trophy_cup.png",
+     "desc": "Initially used for other undefined competitions, and recently awarded for Under 14s Line Heaving (both genders). Holding trophy. To be added."},
 
     # 5. Community, Spirit & Special Endeavours
     {"id": "benjamin", "name": "Benjamin Cup", "category": "community", "image": "BenjaminCup.jpg",
