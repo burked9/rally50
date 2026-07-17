@@ -26,7 +26,10 @@ var trophyData = [
         "church_bay": "-",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "-",
+        "dave_mccabe": "-"
     },
     {
         "rally": "48",
@@ -43,7 +46,7 @@ var trophyData = [
         "newman": "Cassandra",
         "jimmy_leyden": "",
         "dennis_byrne": "Carmel Byrne Desperado",
-        "finton_harold": "Anu O Donovan Trivial Pursuit",
+        "finton_harold": "-",
         "mccormack": "Emily McGrory Voyager",
         "dennis_juba": "Brislane Family Gallifrey",
         "westpark": "Dunross",
@@ -55,7 +58,10 @@ var trophyData = [
         "church_bay": "Hamill Family, Aurora",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Anu O Donovan Trivial Pursuit",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "47",
@@ -72,7 +78,7 @@ var trophyData = [
         "newman": "-",
         "jimmy_leyden": "",
         "dennis_byrne": "Sophie Dillon Affaja",
-        "finton_harold": "Anu O Donovan Mallory II",
+        "finton_harold": "-",
         "mccormack": "Shirley Mullins Panga",
         "dennis_juba": "Markie Becker 74M",
         "westpark": "A. Curtin Miss Chief",
@@ -84,7 +90,10 @@ var trophyData = [
         "church_bay": "Hanna Family, Lady Penlyric",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Anu O Donovan Mallory II",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "46",
@@ -101,7 +110,7 @@ var trophyData = [
         "newman": "Samson",
         "jimmy_leyden": "David Garland",
         "dennis_byrne": "Steven Wade Linquenda",
-        "finton_harold": "Aysha Brislane Gallifrey",
+        "finton_harold": "-",
         "mccormack": "Aysha Brislane Gallifrey",
         "dennis_juba": "Aoife Geraghty Linquenda",
         "westpark": "C. Corcoran",
@@ -113,7 +122,10 @@ var trophyData = [
         "church_bay": "Fitzsimons Family, Monah",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Aysha Brislane Gallifrey",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "45",
@@ -130,7 +142,7 @@ var trophyData = [
         "newman": "My Obsession",
         "jimmy_leyden": "Leahy Family, John Paul II",
         "dennis_byrne": "Daniela Leahy John Paul II",
-        "finton_harold": "Emily McGrory",
+        "finton_harold": "-",
         "mccormack": "Arlene Brislane Gallifrey",
         "dennis_juba": "-",
         "westpark": "P Nolan Tinca Tinca",
@@ -142,7 +154,10 @@ var trophyData = [
         "church_bay": "Williams Family",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Emily McGrory",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "-",
@@ -171,7 +186,10 @@ var trophyData = [
         "church_bay": "No Rally (COVID)",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "No Rally (COVID)",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "-",
@@ -200,7 +218,10 @@ var trophyData = [
         "church_bay": "No Rally (COVID)",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "No Rally (COVID)",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "44",
@@ -217,7 +238,7 @@ var trophyData = [
         "newman": "-",
         "jimmy_leyden": "Thread Softly, Nedzey Rose and Crew",
         "dennis_byrne": "Sophie Dillon Affaja",
-        "finton_harold": "Ailish Kearney-Boyle",
+        "finton_harold": "-",
         "mccormack": "Olivia Egan Seacat",
         "dennis_juba": "Eimear Boyle & James Daniels",
         "westpark": "-",
@@ -229,7 +250,10 @@ var trophyData = [
         "church_bay": "McGrath Family",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Ailish Kearney-Boyle",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "43",
@@ -246,7 +270,7 @@ var trophyData = [
         "newman": "Caja",
         "jimmy_leyden": "Connon Crew, Rambler",
         "dennis_byrne": "David Garland Izzymar",
-        "finton_harold": "Aoife Geraghty Kerry Jane",
+        "finton_harold": "-",
         "mccormack": "Eibhlin Smith Coreibh",
         "dennis_juba": "Aoife & Fergus Curtin",
         "westpark": "-",
@@ -258,7 +282,10 @@ var trophyData = [
         "church_bay": "Leahy Family, John Paul II",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Aoife Geraghty Kerry Jane",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "42",
@@ -275,7 +302,7 @@ var trophyData = [
         "newman": "Kittiwake",
         "jimmy_leyden": "",
         "dennis_byrne": "-",
-        "finton_harold": "Denise Byrne Mistral",
+        "finton_harold": "-",
         "mccormack": "Aoife Geraghty Kerry Jane",
         "dennis_juba": "Crew of Stravaiger",
         "westpark": "-",
@@ -287,7 +314,10 @@ var trophyData = [
         "church_bay": "Daniels Family, Carpe Diem",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Denise Byrne Mistral",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "41",
@@ -316,7 +346,10 @@ var trophyData = [
         "church_bay": "Molloy Family, Stravaiger",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "40",
@@ -345,7 +378,10 @@ var trophyData = [
         "church_bay": "Niall O'Dowda, Sonas",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "39",
@@ -374,7 +410,10 @@ var trophyData = [
         "church_bay": "Fortune Family, Come on Eileen",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "38",
@@ -391,7 +430,7 @@ var trophyData = [
         "newman": "Michael Redmond & Family 57M",
         "jimmy_leyden": "Shanks Family, Serenity",
         "dennis_byrne": "Lindley Family Lady Lydia",
-        "finton_harold": "-",
+        "finton_harold": "A. Lindley Lady Lydia",
         "mccormack": "Shirley Mullins SeaCat",
         "dennis_juba": "R. Lindley Lady Lydia, A. Brislane Andante",
         "westpark": "D. Brislane Andante",
@@ -403,7 +442,10 @@ var trophyData = [
         "church_bay": "Lindley Family, Lady Lydia",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "37",
@@ -420,7 +462,7 @@ var trophyData = [
         "newman": "Morgan O' Brien Family Cottesway",
         "jimmy_leyden": "E. Bayly & Family Crew's Inn",
         "dennis_byrne": "Leyden Family Mutual Admiration",
-        "finton_harold": "-",
+        "finton_harold": "C. Smith Coreibh",
         "mccormack": "Mary Burke Teanna",
         "dennis_juba": "D. Burke Affaja",
         "westpark": "D. Burke, C. Bayly Kigera",
@@ -432,7 +474,10 @@ var trophyData = [
         "church_bay": "Leyden Family, Mutual Admiration",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "36",
@@ -449,7 +494,7 @@ var trophyData = [
         "newman": "-",
         "jimmy_leyden": "Andrew & Emma Clarke Double Dutch",
         "dennis_byrne": "Brislane Family Andante",
-        "finton_harold": "-",
+        "finton_harold": "M. Larkin Adventure",
         "mccormack": "J. Lambert De-Eems",
         "dennis_juba": "Scallywag (68M Crew)",
         "westpark": "P. & C. Mullins Caja",
@@ -461,7 +506,10 @@ var trophyData = [
         "church_bay": "Brislane Family, Andante",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "35",
@@ -478,7 +526,7 @@ var trophyData = [
         "newman": "-",
         "jimmy_leyden": "68M, Tinca Tinca, 41M, Tanjuan",
         "dennis_byrne": "Hollinshead Family Serpa",
-        "finton_harold": "-",
+        "finton_harold": "M. Becker 74M",
         "mccormack": "-",
         "dennis_juba": "Kilmore Lass",
         "westpark": "C. Bayly Kigera",
@@ -490,7 +538,10 @@ var trophyData = [
         "church_bay": "Hollinshead Family, Serpa",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "34",
@@ -507,7 +558,7 @@ var trophyData = [
         "newman": "Ellis Family Reflection",
         "jimmy_leyden": "Kavanagh Family",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "G. Boland Seagull",
         "mccormack": "-",
         "dennis_juba": "Teanna Tinca Tinca",
         "westpark": "M. McGrory Lady Diva",
@@ -519,7 +570,10 @@ var trophyData = [
         "church_bay": "-",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "33",
@@ -536,7 +590,7 @@ var trophyData = [
         "newman": "Kenny Family 76M",
         "jimmy_leyden": "-",
         "dennis_byrne": "Lowe Family Bare Necessities",
-        "finton_harold": "-",
+        "finton_harold": "G. Boland Seagull",
         "mccormack": "S. Mullins SeaCat",
         "dennis_juba": "Desparado",
         "westpark": "J. MacFarlane ParadjsVogel",
@@ -548,7 +602,10 @@ var trophyData = [
         "church_bay": "Lowe Family, Bare Necessities",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "32",
@@ -565,7 +622,7 @@ var trophyData = [
         "newman": "Winston Family Highlander",
         "jimmy_leyden": "-",
         "dennis_byrne": "Ellis Family Reflection",
-        "finton_harold": "-",
+        "finton_harold": "M. Larkin CastleFrench Lady",
         "mccormack": "A. Dwane 74M",
         "dennis_juba": "Peggy May, CastleFrech Lady, 4B, Double Dutch",
         "westpark": "B. & M. O' Brien Morning Mist",
@@ -577,7 +634,10 @@ var trophyData = [
         "church_bay": "Ellis Family, Reflection",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "31",
@@ -606,7 +666,10 @@ var trophyData = [
         "church_bay": "Rory & Luke Winston, Highlander",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "30",
@@ -623,7 +686,7 @@ var trophyData = [
         "newman": "Archie & Rita Reed Nidders",
         "jimmy_leyden": "-",
         "dennis_byrne": "MacFarlanes ParadjsVogel",
-        "finton_harold": "-",
+        "finton_harold": "Sam Stephens Easy Beat",
         "mccormack": "A. Dwane 74M",
         "dennis_juba": "-",
         "westpark": "-",
@@ -635,7 +698,10 @@ var trophyData = [
         "church_bay": "MacFarlanes, ParadijsVogel",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "29",
@@ -652,7 +718,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Goggin Family Knocknagow",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "D. O' Kinneda DABU",
         "mccormack": "S. Boyd Grille",
         "dennis_juba": "68M, Grille & Easy Beat",
         "westpark": "Grille, 68M & Easy Beat",
@@ -664,7 +730,10 @@ var trophyData = [
         "church_bay": "-",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "28",
@@ -681,7 +750,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Tom & Dee Bailey & Crew Mimi",
         "dennis_byrne": "Aoife & Colm Burke",
-        "finton_harold": "-",
+        "finton_harold": "Joe Leonard",
         "mccormack": "A. Shanley Celtic Jade - A. Dwane Isolde",
         "dennis_juba": "M. Moore Lady Anne III, M. & J. Sweeney Elysium",
         "westpark": "P. Nolan Tinca Tinca",
@@ -693,7 +762,10 @@ var trophyData = [
         "church_bay": "-",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "27",
@@ -710,7 +782,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Gerry & Geraldine Burke & Crew 68M",
         "dennis_byrne": "D. & J. Cullen Corncrake",
-        "finton_harold": "-",
+        "finton_harold": "Bayly DABU",
         "mccormack": "G. Burke 68M J. Ray Chang-Sha",
         "dennis_juba": "Bayly DABU",
         "westpark": "68M, Jasmine & Time Enough",
@@ -722,7 +794,10 @@ var trophyData = [
         "church_bay": "D & J Cullen, Corkcrake",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "26",
@@ -751,7 +826,10 @@ var trophyData = [
         "church_bay": "McGrane Family, Sally",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "25",
@@ -768,7 +846,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Michael Devlin Beccles",
         "dennis_byrne": "Greevy's Aine",
-        "finton_harold": "P. Cagney Desiree",
+        "finton_harold": "-",
         "mccormack": "C. Tucker De-Eems",
         "dennis_juba": "Aine & 68M",
         "westpark": "E McLoughney Aquila Nova",
@@ -780,7 +858,10 @@ var trophyData = [
         "church_bay": "Greevy Family, Aine",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "P. Cagney Desiree",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "24",
@@ -797,7 +878,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Roger & Stef Lorenz Neptune",
         "dennis_byrne": "Baker-Kenny 76M",
-        "finton_harold": "Early Dawn",
+        "finton_harold": "Joe Leonard",
         "mccormack": "Angela Dwane Chang-Sha",
         "dennis_juba": "N. Kerrigan Yali",
         "westpark": "C. Bayly",
@@ -809,7 +890,10 @@ var trophyData = [
         "church_bay": "Baker-Kenny Family, 76M",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Early Dawn",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "23",
@@ -826,7 +910,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "-",
         "dennis_byrne": "Dywer Laura James",
-        "finton_harold": "Paddy McLoughney Aquila Nova",
+        "finton_harold": "John Treacey",
         "mccormack": "Christine Becker Chang- Sha",
         "dennis_juba": "-",
         "westpark": "C. Bayly DABU",
@@ -838,7 +922,10 @@ var trophyData = [
         "church_bay": "Dywer Family",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Paddy McLoughney Aquila Nova",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "22",
@@ -855,7 +942,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Joe Leonard & Lana Tracey, Shanice",
         "dennis_byrne": "Ciaran Goggin",
-        "finton_harold": "Ged Molloy Siou Eile",
+        "finton_harold": "R. Moore Jasmine",
         "mccormack": "-",
         "dennis_juba": "-",
         "westpark": "-",
@@ -867,7 +954,10 @@ var trophyData = [
         "church_bay": "Goggin Family",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Ged Molloy Siou Eile",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "21",
@@ -884,7 +974,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Noel & June Manning & Crew Coral Star",
         "dennis_byrne": "Roche Family 35M",
-        "finton_harold": "Brendan Hassett Condor",
+        "finton_harold": "C. Becker Chang Sha",
         "mccormack": "-",
         "dennis_juba": "Bayly, DABU",
         "westpark": "-",
@@ -896,7 +986,10 @@ var trophyData = [
         "church_bay": "Roche Family, 35M",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "Brendan Hassett Condor",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "20",
@@ -913,7 +1006,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Joe Treacy & Crew 4E",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "P. O' Brien Palo Alto",
         "mccormack": "-",
         "dennis_juba": "-",
         "westpark": "P. Kelehan Viv___",
@@ -925,7 +1018,10 @@ var trophyData = [
         "church_bay": "-",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "19",
@@ -942,7 +1038,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Eamon Egan & Crew Hawthorn",
         "dennis_byrne": "The Moore's Twenty Pence",
-        "finton_harold": "-",
+        "finton_harold": "C. Becker Chang Sha",
         "mccormack": "J. Craig A. Felion Calypso",
         "dennis_juba": "-",
         "westpark": "P. Smith Tubal",
@@ -954,7 +1050,10 @@ var trophyData = [
         "church_bay": "Moore Family, Twenty Pence",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "18",
@@ -971,7 +1070,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "-",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "J. Bagnall 76M",
         "mccormack": "M. Hanna Lady Penlyric",
         "dennis_juba": "-",
         "westpark": "D. & S. Talbot Rindoon Rose",
@@ -983,7 +1082,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "17",
@@ -1000,7 +1102,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Gary Kelly & Mary",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "J. Fitzgibbon Brigade",
         "mccormack": "B. Fitzgibbon Brigade",
         "dennis_juba": "T. Gallagher __NOT SURE WHAT YEAR!!__",
         "westpark": "D. Becker Chang Sha",
@@ -1012,7 +1114,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "16",
@@ -1029,7 +1134,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "-",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "C. Becker Chang Sha",
         "mccormack": "M. O' Brien Adventurer",
         "dennis_juba": "-",
         "westpark": "V. & P. Henry Paloma",
@@ -1041,7 +1146,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "15",
@@ -1070,7 +1178,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "14",
@@ -1099,7 +1210,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "13",
@@ -1116,7 +1230,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "Tiernan MacBride & Sarah",
         "dennis_byrne": "D. Saunders 41M",
-        "finton_harold": "-",
+        "finton_harold": "A. Craig Bolero",
         "mccormack": "R. Martin Dunboyne",
         "dennis_juba": "C. Benson Ajenda",
         "westpark": "J. Horan Winsome Wings",
@@ -1128,7 +1242,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "12",
@@ -1145,7 +1262,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "A. Roberts Sequoia",
-        "finton_harold": "-",
+        "finton_harold": "J. Horan Winsome Wings",
         "mccormack": "A. Craig Bolero",
         "dennis_juba": "G. Brislane Vitesse",
         "westpark": "J. Roberts Sequoia",
@@ -1157,7 +1274,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "11",
@@ -1174,7 +1294,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "M. Maguire Jnr. Maan of Derg",
-        "finton_harold": "-",
+        "finton_harold": "N. Waterhouse Lady Rona",
         "mccormack": "D. Horan Winsome Wings",
         "dennis_juba": "-",
         "westpark": "J. Reynolds Wine Lake",
@@ -1186,7 +1306,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "10",
@@ -1203,7 +1326,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "G. Brislane Vitesse",
-        "finton_harold": "-",
+        "finton_harold": "N. Larlin Argo",
         "mccormack": "J. Leydon Geraldine II",
         "dennis_juba": "T. Quinn Abigail",
         "westpark": "N. Waterhouse Lady Rona",
@@ -1215,7 +1338,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "9",
@@ -1232,7 +1358,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "M. Williams Shanra",
-        "finton_harold": "-",
+        "finton_harold": "L. Benson Marlou",
         "mccormack": "D. Horan Sandpiper",
         "dennis_juba": "D. Brislane Lady Sarah",
         "westpark": "P.J. Humphries Blue Moon",
@@ -1244,7 +1370,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "8",
@@ -1261,7 +1390,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "Ian Kelly Siam III",
-        "finton_harold": "-",
+        "finton_harold": "P. MacNamara Moonshine",
         "mccormack": "-",
         "dennis_juba": "R. Henderson Janey Mac",
         "westpark": "-",
@@ -1273,7 +1402,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "7",
@@ -1290,7 +1422,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "B. O' Reilly Porter's Eve",
         "mccormack": "-",
         "dennis_juba": "-",
         "westpark": "-",
@@ -1302,7 +1434,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "6",
@@ -1319,7 +1454,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "D.J. Harrison J.F. Aylmer Eagle",
-        "finton_harold": "-",
+        "finton_harold": "N. Hodgers Aine",
         "mccormack": "-",
         "dennis_juba": "R. Benson Marlou",
         "westpark": "-",
@@ -1331,7 +1466,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "5",
@@ -1348,7 +1486,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "D. Knight Itty Three",
         "mccormack": "-",
         "dennis_juba": "S. Fitzsimons Ye Iron Lung",
         "westpark": "-",
@@ -1360,7 +1498,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "",
@@ -1377,7 +1518,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "No Rally (Low Water)",
-        "finton_harold": "-",
+        "finton_harold": "No Rally (Low Water)",
         "mccormack": "-",
         "dennis_juba": "No Rally (Low Water)",
         "westpark": "-",
@@ -1389,7 +1530,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "4",
@@ -1406,7 +1550,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "Harbour Belle",
-        "finton_harold": "-",
+        "finton_harold": "J. Roberts Mallard",
         "mccormack": "-",
         "dennis_juba": "D.  Killeen",
         "westpark": "-",
@@ -1418,7 +1562,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "3",
@@ -1435,7 +1582,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "S. & B. Bayly DABU",
-        "finton_harold": "-",
+        "finton_harold": "R. Benson Marlou",
         "mccormack": "-",
         "dennis_juba": "S. McGloughney Elf",
         "westpark": "-",
@@ -1447,7 +1594,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "2",
@@ -1464,7 +1614,7 @@ var trophyData = [
         "newman": "",
         "jimmy_leyden": "",
         "dennis_byrne": "-",
-        "finton_harold": "-",
+        "finton_harold": "Fitzgibbon Bilbo",
         "mccormack": "-",
         "dennis_juba": "P. Dowling Estemaid",
         "westpark": "-",
@@ -1476,7 +1626,10 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     },
     {
         "rally": "1",
@@ -1505,6 +1658,9 @@ var trophyData = [
         "church_bay": "",
         "derg_cup": "",
         "goosander": "",
-        "oconnor": ""
+        "oconnor": "",
+        "jane_mccormack_trophy": "-",
+        "skelton_remembrance": "",
+        "dave_mccabe": ""
     }
 ];
