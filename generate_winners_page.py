@@ -60,7 +60,7 @@ trophies = [
     {"id": "dave_mccabe", "name": "Dave McCabe Award", "category": "community", "image": "DaveMcCabeAward.jpg",
      "desc": "Holding trophy. To be added."},
     {"id": "skelton_remembrance", "name": "Skelton Remembrance Trophy", "category": "community", "image": "SkeltonRemembranceTrophy.jpg",
-     "desc": "Holding trophy. To be added."},
+     "desc": "The James Skelton Remembrance Trophy, donated in memory of the late James Skelton in 2026, who passed away in tragic circumstances. Each year the trophy will be awarded to a rally goer who shows the spirit and community values which James possessed, nominated by his family members."},
 
     # 6. Historical
     {"id": "derg_cup", "name": "The Derg Cup", "category": "historical", "image": "trophy_cup.png",
