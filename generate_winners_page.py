@@ -24,7 +24,8 @@ trophies = [
     {"id": "finton_harold", "name": "Harold Memorial Perpetual Trophy", "category": "navigation", "image": "FintonHaroldCup.jpg",
      "desc": "To commemorate the memory of Fintan Harold, a Lough Derg veteran and founder member of Rally One. Awarded to the winner of the Line-heaving competition. (Later modified to Men's line heaving as a category was added for Ladies line heaving)"},
     {"id": "jh_stimpson", "name": "Stimpson Cup", "category": "navigation", "image": "StimpsonCup.jpg",
-     "desc": "Presented to the winner of the Open Boat competition"},
+     "desc": "The Stimpson Cup celebrates the 'Open Boat' tradition of the Lough Derg Rally, honouring crews who embrace simplicity, practical boat handling, and self-reliance by camping and travelling independently. The competition recognises environmental stewardship, good humour, resilience, and contribution to the rally atmosphere.",
+     "article_link": "archive/artifacts/stimpson_cup/index.html"},
 
     # 3. Barge Competitions
     {"id": "nm_barge", "name": "New Metal Barge Trophy", "category": "barge", "image": "NewBargeShield.jpg",
@@ -310,6 +311,8 @@ def generate_markdown():
 """
 
     for t in trophies:
+        article_html = f'<p style="margin-top: 15px;"><a href="{{{{ SITEURL }}}}/{t["article_link"]}" style="background-color: #007bff; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">📖 Read Full Article</a></p>' if 'article_link' in t else ''
+        
         template_content += f"""
         <div id="modal-{t['id']}" class="modal-overlay" onclick="closeModal(event, '{t['id']}')">
             <div class="modal-content" onclick="event.stopPropagation()">
@@ -323,6 +326,7 @@ def generate_markdown():
                 <div class="modal-history">
                     <h3>About this Trophy</h3>
                     <p>{t['desc']}</p>
+                    {article_html}
                 </div>
                 <h3>Past Winners</h3>
                 <table id="table_{t['id']}" class="display responsive nowrap" style="width:100%">
