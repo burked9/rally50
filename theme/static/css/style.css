@@ -1,13 +1,13 @@
 :root {
-  --color-text: #0a0a0a;
-  --color-bg: #fcfcfc;
-  --color-bg-secondary: #f0f0f0;
-  --font-main: "Borna", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-text: #000000;
+  --color-bg: #ffffff;
+  --color-bg-secondary: #E3F9FF;
+  --font-main: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --container-width: 870px;
   --spacing-stack: 66px;
-  --primary-color: #0a0a0a;
-  --secondary-color: #666;
-  --accent-color: #000;
+  --primary-color: #1AD4FF;
+  --secondary-color: #333333;
+  --accent-color: #1AD4FF;
 }
 
 body {
