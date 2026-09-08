@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Era 9: Rallies 41 - 45 (2016 - 2022) - IWAI Lough Derg Rally 50</title>
+    <link rel="icon" type="image/png" href="https://burked9.github.io/rally50/theme/images/logo.png">
+    <link rel="apple-touch-icon" href="https://burked9.github.io/rally50/theme/images/logo.png">
+    <link rel="stylesheet" href="https://burked9.github.io/rally50/theme/css/style.css" />
+    <!-- Geist font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-main: 'Geist', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="l-container">
+        <header class="l-site-head">
+            <a href="https://burked9.github.io/rally50/" class="site-title">
+                IWAI Lough Derg Rally 50
+            </a>
+
+            <nav>
+                <ul class="l-navigation">
+                    <li><a href="https://burked9.github.io/rally50/">Home</a></li>
+                    <li><a href="https://burked9.github.io/rally50/pages/about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="https://burked9.github.io/rally50/pages/archive.html" class="dropbtn">Archive ▾</a>
+                        <div class="dropdown-content">
+                            <a href="https://burked9.github.io/rally50/archive/eras/index.html">Eras</a>
+                            <a href="https://burked9.github.io/rally50/archive/rallies/index.html">Rallies</a>
+                            <a href="https://burked9.github.io/rally50/archive/artifacts/index.html">Artifacts</a>
+                            <a href="https://burked9.github.io/rally50/archive/people/index.html">People</a>
+                        </div>
+                    </li>
+                    <li><a href="https://burked9.github.io/rally50/category/articles.html">Articles</a></li>
+                    <li><a href="https://burked9.github.io/rally50/category/announcements.html">Announcements</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+<div class="l-container">
+    <div class="entry-content">
+        <h2>Overview</h2>
+<p>A curated look back at Rallies 41 - 45 (2016 - 2022).</p>
+
+        <div id="era-content-container">
+            <div id="loading-indicator" style="text-align:center; padding: 20px;">Loading timeline...</div>
+            <div id="era-timeline"></div>
+        </div>
+
+        <style>
+            .year-section {
+                margin-bottom: 60px;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #eaeaea;
+            }
+            .year-section:last-child {
+                border-bottom: none;
+            }
+            .year-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .year-title {
+                font-size: 2rem;
+                font-weight: 700;
+                margin: 0;
+                color: #004a99; /* Aviation blue */
+            }
+            .rally-badge {
+                background: #f0f0f0;
+                color: #555;
+                padding: 4px 12px;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            
+            .era-gallery-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+            .era-gallery-item-wrapper {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 1/1;
+                overflow: hidden;
+                background-color: #f0f0f0;
+                border-radius: 8px;
+            }
+            .era-gallery-item {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+                cursor: pointer;
+            }
+            .era-gallery-item:hover {
+                transform: scale(1.05);
+            }
+            
+            .brochure-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                background: #fdfdfd;
+                border: 1px solid #ccc;
+                padding: 12px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #333;
+                font-weight: 600;
+                transition: background 0.2s, box-shadow 0.2s;
+            }
+            .brochure-link:hover {
+                background: #fff;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            }
+            .brochure-icon {
+                font-size: 1.2rem;
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const pathSegments = window.location.pathname.split('/');
+                // In archive/eras/1/index.html, the era_num is the segment before 'index.html' (or just the number)
+                let eraNum = null;
+                for (let i = 0; i < pathSegments.length; i++) {
+                    if (pathSegments[i] === 'eras' && i + 1 < pathSegments.length) {
+                        eraNum = pathSegments[i + 1];
+                        break;
+                    }
+                }
+
+                if (!eraNum || isNaN(parseInt(eraNum))) {
+                    document.getElementById('loading-indicator').innerText = "Could not determine Era from URL.";
+                    return;
+                }
+
+                const dataUrl = `https://burked9.github.io/rally50/data/era_${eraNum}.json`;
+                const container = document.getElementById('era-timeline');
+                const loading = document.getElementById('loading-indicator');
+
+                fetch(dataUrl)
+                    .then(response => {
+                        if (!response.ok) throw new Error('Data not found');
+                        return response.json();
+                    })
+                    .then(data => {
+                        loading.style.display = 'none';
+                        
+                        data.years.forEach(yearData => {
+                            const section = document.createElement('div');
+                            section.className = 'year-section';
+                            
+                            // Header
+                            let html = `
+                                <div class="year-header">
+                                    <h3 class="year-title">${yearData.year}</h3>
+                                    <span class="rally-badge">Rally ${yearData.rally_num}</span>
+                                </div>
+                            `;
+                            
+                            // Photos Grid
+                            if (yearData.photos && yearData.photos.length > 0) {
+                                html += `<div class="era-gallery-grid">`;
+                                yearData.photos.forEach(photo => {
+                                    const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`;
+                                    const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
+                                    html += `
+                                        <div class="era-gallery-item-wrapper">
+                                            <a href="${fullUrl}" target="_blank">
+                                                <img class="era-gallery-item" src="${thumbUrl}" alt="${photo.alt}" loading="lazy">
+                                            </a>
+                                        </div>
+                                    `;
+                                });
+                                html += `</div>`;
+                            } else {
+                                html += `<p><em>No photos available yet for this year.</em></p>`;
+                            }
+                            
+                            // Brochure
+                            if (yearData.brochure_id) {
+                                const brochureUrl = `https://drive.google.com/file/d/${yearData.brochure_id}/view`;
+                                html += `
+                                    <div style="margin-top: 15px;">
+                                        <a href="${brochureUrl}" target="_blank" class="brochure-link">
+                                            <span class="brochure-icon">📄</span> 
+                                            View ${yearData.year} Brochure
+                                        </a>
+                                    </div>
+                                `;
+                            }
+                            
+                            section.innerHTML = html;
+                            container.appendChild(section);
+                        });
+                        
+                    })
+                    .catch(err => {
+                        loading.innerText = "Failed to load timeline data. " + err.message;
+                    });
+            });
+        </script>
+    </div>
+</div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="l-container">
+            <p>&copy; 2027 IWAI Lough Derg Rally 50. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

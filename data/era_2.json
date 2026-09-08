@@ -1,0 +1,35 @@
+{
+    "title": "Rallies 6 - 10 (1981 - 1985)",
+    "years": [
+        {
+            "year": 1981,
+            "rally_num": 6,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTcmFheWphX1ZZUjQ"
+        },
+        {
+            "year": 1982,
+            "rally_num": 7,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTeklUc0FZQXJjVEU"
+        },
+        {
+            "year": 1983,
+            "rally_num": 8,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTYUl5ckdvWnlFZHc"
+        },
+        {
+            "year": 1984,
+            "rally_num": 9,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTZTZaeVVGMjFJR2s"
+        },
+        {
+            "year": 1985,
+            "rally_num": 10,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTZ2FrVXhoVHV5ejQ"
+        }
+    ]
+}

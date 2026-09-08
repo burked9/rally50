@@ -1,0 +1,35 @@
+{
+    "title": "Rallies 16 - 20 (1991 - 1995)",
+    "years": [
+        {
+            "year": 1991,
+            "rally_num": 16,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTN29uckVick1UeUk"
+        },
+        {
+            "year": 1992,
+            "rally_num": 17,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTQ0ZHdVBlOGlpbkU"
+        },
+        {
+            "year": 1993,
+            "rally_num": 18,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTemRxa29EN3hKX1E"
+        },
+        {
+            "year": 1994,
+            "rally_num": 19,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTQXlhel9XNG0tUHc"
+        },
+        {
+            "year": 1995,
+            "rally_num": 20,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTVHJDalF2Wi1zYmc"
+        }
+    ]
+}

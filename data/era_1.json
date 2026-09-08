@@ -1,0 +1,35 @@
+{
+    "title": "Rallies 1 - 5 (1975 - 1980)",
+    "years": [
+        {
+            "year": 1975,
+            "rally_num": 1,
+            "photos": [],
+            "brochure_id": null
+        },
+        {
+            "year": 1976,
+            "rally_num": 2,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTMnNzS0lXTy1FQWM"
+        },
+        {
+            "year": 1977,
+            "rally_num": 3,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTbWRBTndEeW43ekk"
+        },
+        {
+            "year": 1978,
+            "rally_num": 4,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTWE5uR3FMaWVUNWc"
+        },
+        {
+            "year": 1980,
+            "rally_num": 5,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTTzc4eC1jXzU0QVU"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "title": "Rallies 26 - 30 (2001 - 2005)",
+    "years": [
+        {
+            "year": 2001,
+            "rally_num": 26,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTTUhQSklPTjZvSk0"
+        },
+        {
+            "year": 2002,
+            "rally_num": 27,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTWWFaakR5QUstRlU"
+        },
+        {
+            "year": 2003,
+            "rally_num": 28,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTUWpRS3haTks5NXc"
+        },
+        {
+            "year": 2004,
+            "rally_num": 29,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTc3FXaVBkNXlVZzA"
+        },
+        {
+            "year": 2005,
+            "rally_num": 30,
+            "photos": [],
+            "brochure_id": "0B4ubLJPS0mdTMmFUOC16d2dkcEE"
+        }
+    ]
+}
