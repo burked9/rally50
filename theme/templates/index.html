@@ -1,44 +1,156 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- Intro / Jumbo Section -->
-<section class="theme-secondary theme-bg">
-    <div class="l-container l-jumbo">
-        <div class="bg-rainbow-avatar">
-            <!-- Using logo as avatar -->
+<style>
+/* Full width override for the homepage */
+main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Hero Section with faded background */
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url('{{ SITEURL }}/theme/images/hero_background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.hero-avatar img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* 4-Widget Archive Row */
+.archive-widget-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.widget-card {
+    flex: 1 1 200px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none !important;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.widget-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.widget-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.widget-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #222;
+}
+.widget-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+</style>
+
+<section class="hero-section">
+    <div class="hero-content">
+        <div class="hero-avatar">
             <img src="{{ SITEURL }}/theme/images/logo.png" alt="Rally 50 Logo">
         </div>
-        <div class="l-stack l-measure">
-            <p style="font-size: 1.5rem; font-weight: 700;">Welcome to the 50th Anniversary Rally.</p>
-            <p>Celebrating 50 years of the IWAI Lough Derg Rally in 2027. Join us as we look back at our history and
-                look forward to the future.</p>
-            <p>
-                <a href="{{ SITEURL }}/pages/archive.html"
-                    style="display: inline-block; background: #000; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: 700;">Explore
-                    the Archive &rarr;</a>
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- Featured Content -->
-<section class="l-container" style="margin-top: 66px;">
-    <div class="l-stack">
-        <h2 class="h1">Latest Updates</h2>
-        <ul class="l-post-stack">
-            {% for article in articles %}
-            <li class="post-stack-item">
-                <h3 class="h4">
-                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
-                </h3>
-                <p class="post-meta"><time datetime="{{ article.date }}">{{ article.date|strftime('%d %B %Y') }}</time>
-                </p>
-                <div class="post-summary">
-                    {{ article.summary }}
+        <h1 class="hero-title">Welcome to the 50th Anniversary Rally</h1>
+        <p class="hero-subtitle">
+            Celebrating 50 years of the IWAI Lough Derg Rally in 2027. Join us as we look back at our history and look forward to the future.
+        </p>
+        
+        <div class="archive-widget-row">
+            <!-- Eras Widget -->
+            <a href="{{ SITEURL }}/archive/eras/index.html" class="widget-card">
+                <img src="{{ SITEURL }}/images/category_historical.png" alt="Eras & Decades">
+                <div class="widget-content">
+                    <h3>Eras & Decades</h3>
+                    <p>Curated Highlights</p>
                 </div>
-            </li>
-            {% endfor %}
-        </ul>
+            </a>
+
+            <!-- Rallies Widget -->
+            <a href="{{ SITEURL }}/archive/rallies/index.html" class="widget-card">
+                <img src="{{ SITEURL }}/images/rallies_placeholder.png" alt="All Rallies">
+                <div class="widget-content">
+                    <h3>All Rallies</h3>
+                    <p>Full Photo Galleries</p>
+                </div>
+            </a>
+
+            <!-- Artifacts Widget -->
+            <a href="{{ SITEURL }}/archive/artifacts/index.html" class="widget-card">
+                <img src="{{ SITEURL }}/images/artifacts_placeholder.png" alt="Artifacts">
+                <div class="widget-content">
+                    <h3>Artifacts</h3>
+                    <p>Plaques & Memorabilia</p>
+                </div>
+            </a>
+
+            <!-- People Widget -->
+            <a href="{{ SITEURL }}/archive/people/index.html" class="widget-card">
+                <img src="{{ SITEURL }}/images/people_placeholder.png" alt="People">
+                <div class="widget-content">
+                    <h3>People</h3>
+                    <p>Commodores & Memories</p>
+                </div>
+            </a>
+        </div>
     </div>
 </section>
 {% endblock %}
