@@ -47,94 +47,99 @@
     </div>
 
     <main>
-<div class="l-container">
-    <div class="entry-content">
-        <h2>Overview</h2>
-<p>A curated look back at Rallies 1 - 5 (1975 - 1980).</p>
+<style>
+/* Full width override */
+main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.era-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 40px;
+    margin: 0;
+}
+.year-section {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+}
+.year-section:last-child {
+    border-bottom: none;
+}
+.year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.year-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: #004a99;
+}
+.rally-badge {
+    background: #f0f0f0;
+    color: #555;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-        <div id="era-content-container">
-            <div id="loading-indicator" style="text-align:center; padding: 20px;">Loading timeline...</div>
-            <div id="era-timeline"></div>
-        </div>
+.era-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.era-gallery-item-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+.era-gallery-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.era-gallery-item:hover {
+    transform: scale(1.05);
+}
 
-        <style>
-            .year-section {
-                margin-bottom: 60px;
-                padding-bottom: 40px;
-                border-bottom: 1px solid #eaeaea;
-            }
-            .year-section:last-child {
-                border-bottom: none;
-            }
-            .year-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 20px;
-            }
-            .year-title {
-                font-size: 2rem;
-                font-weight: 700;
-                margin: 0;
-                color: #004a99; /* Aviation blue */
-            }
-            .rally-badge {
-                background: #f0f0f0;
-                color: #555;
-                padding: 4px 12px;
-                border-radius: 20px;
-                font-size: 0.9rem;
-                font-weight: 600;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-            }
-            
-            .era-gallery-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-                gap: 15px;
-                margin-bottom: 20px;
-            }
-            .era-gallery-item-wrapper {
-                position: relative;
-                width: 100%;
-                aspect-ratio: 1/1;
-                overflow: hidden;
-                background-color: #f0f0f0;
-                border-radius: 8px;
-            }
-            .era-gallery-item {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: transform 0.3s ease;
-                cursor: pointer;
-            }
-            .era-gallery-item:hover {
-                transform: scale(1.05);
-            }
-            
-            .brochure-link {
-                display: inline-flex;
-                align-items: center;
-                gap: 10px;
-                background: #fdfdfd;
-                border: 1px solid #ccc;
-                padding: 12px 20px;
-                border-radius: 8px;
-                text-decoration: none;
-                color: #333;
-                font-weight: 600;
-                transition: background 0.2s, box-shadow 0.2s;
-            }
-            .brochure-link:hover {
-                background: #fff;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-            }
-            .brochure-icon {
-                font-size: 1.2rem;
-            }
-        </style>
+.brochure-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fdfdfd;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.brochure-link:hover {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.brochure-icon {
+    font-size: 1.2rem;
+}
+</style>
+
+<div class="era-container">
+    <div class="entry-content" style="max-width: 100%;">
 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
@@ -224,8 +229,9 @@
     </main>
 
     <footer class="site-footer">
-        <div class="l-container">
+        <div class="l-container" style="display: flex; justify-content: space-between; align-items: center;">
             <p>&copy; 2027 IWAI Lough Derg Rally 50. All rights reserved.</p>
+            <a href="https://burked9.github.io/rally50/pages/admin.html" style="color: #ccc; text-decoration: none; font-size: 1.2rem;" title="Admin Portal">⚙️</a>
         </div>
     </footer>
 </body>
