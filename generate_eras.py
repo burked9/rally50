@@ -99,6 +99,9 @@ for i in range(0, len(rallies), 5):
         'bucket': bucket
     })
 
+# Reverse the eras so newest appears first
+eras.reverse()
+
 def generate_era_pages():
     for era in eras:
         era_num = era['era_num']
@@ -185,7 +188,21 @@ Template: eras_gallery
     template_content = """{% extends "page.html" %}
 
 {% block content %}
-<div class="l-container">
+<style>
+/* Full width override */
+main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.era-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 40px;
+    margin: 0;
+}
+</style>
+<div class="era-container">
     <div class="entry-content">
         <p>A curated journey through time. Explore highlights and brochures grouped in 5-year chapters.</p>
 
