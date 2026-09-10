@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ SITENAME }}</title>
+    <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/logo.png">
+    <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/logo.png">
+    <!-- Geist font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --font-main: 'Geist', sans-serif;
+            --primary: #004a99;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: var(--font-main);
+            color: #333;
+            /* Same global background but with less white fade to let the glassmorphism pop */
+            background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('{{ SITEURL }}/theme/images/hero_background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .splash-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 50px 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
+            animation: floatUp 0.8s ease-out;
+        }
+        @keyframes floatUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .splash-logo {
+            height: 100px;
+            width: auto;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+        .splash-title {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            letter-spacing: -0.02em;
+        }
+        .splash-content {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 30px;
+        }
+        .splash-content p {
+            margin-bottom: 15px;
+        }
+        .splash-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .btn-primary, .btn-secondary {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,74,153,0.3);
+        }
+        .btn-primary:hover {
+            background: #003366;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: rgba(0,0,0,0.05);
+            color: #333;
+        }
+        .btn-secondary:hover {
+            background: rgba(0,0,0,0.1);
+        }
+        .deadline {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #d32f2f;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .copyright {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="splash-card">
+        <img src="{{ SITEURL }}/theme/images/logo.png" alt="Rally 50 Logo" class="splash-logo">
+        <h1 class="splash-title">The 50th Anniversary is Coming.</h1>
+        
+        <div class="splash-content">
+            {{ page.content }}
+        </div>
+        
+        <div class="splash-actions">
+            <a href="mailto:loughdergrally50@gmail.com" class="btn-primary">✉️ Email loughdergrally50@gmail.com</a>
+            <a href="mailto:burked9@gmail.com" class="btn-secondary">✉️ Email Daniel Burke Directly</a>
+        </div>
+        
+        <div class="deadline">
+            Deadline for Material: November 30th, 2026
+        </div>
+        <div class="copyright">
+            &copy; 2027 IWAI Lough Derg Rally
+        </div>
+    </div>
+</body>
+</html>
