@@ -102,6 +102,77 @@ main {
     font-size: 0.9rem;
     color: #666;
 }
+
+/* Past Rallies Vintage Table */
+.past-rallies-section {
+    width: 100%;
+    background-color: #fcf9f2; /* soft parchment color */
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #eaddcf;
+}
+.vintage-title {
+    font-family: "Georgia", serif;
+    font-size: 2.5rem;
+    color: #4a3f35;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px solid #d4c4b7;
+    padding-bottom: 10px;
+}
+.vintage-table-container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #d4c4b7;
+    border-radius: 4px;
+    background: #fffdf9;
+    box-shadow: inset 0 0 20px rgba(139, 115, 85, 0.1);
+    padding: 20px;
+    
+    /* Scrollbar styling for webkit */
+    scrollbar-width: thin;
+    scrollbar-color: #d4c4b7 #fffdf9;
+}
+.vintage-table-container::-webkit-scrollbar {
+    width: 8px;
+}
+.vintage-table-container::-webkit-scrollbar-track {
+    background: #fffdf9;
+}
+.vintage-table-container::-webkit-scrollbar-thumb {
+    background-color: #d4c4b7;
+    border-radius: 4px;
+}
+
+.vintage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Georgia", serif;
+    color: #5c4d40;
+    font-size: 1.1rem;
+}
+.vintage-table th {
+    text-align: left;
+    padding: 12px 8px;
+    border-bottom: 2px solid #d4c4b7;
+    font-weight: bold;
+    color: #3b3129;
+    position: sticky;
+    top: -20px;
+    background: #fffdf9;
+}
+.vintage-table td {
+    padding: 10px 8px;
+    border-bottom: 1px dashed #eaddcf;
+}
+.vintage-table tr:hover td {
+    background-color: #f7f0e6;
+}
 </style>
 
 <section class="hero-section">
@@ -151,6 +222,14 @@ main {
                 </div>
             </a>
         </div>
+    </div>
+</section>
+
+<!-- Past Rallies Artifact Section -->
+<section class="past-rallies-section">
+    <h2 class="vintage-title">The Roll Call of Commodores</h2>
+    <div class="vintage-table-container">
+        {% include 'commodores_table.html' %}
     </div>
 </section>
 {% endblock %}
