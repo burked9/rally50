@@ -5,31 +5,51 @@
             "year": 2016,
             "rally_num": 41,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTRGZMLTlYSUNIaG8"
+            "brochure_id": "0B4ubLJPS0mdTRGZMLTlYSUNIaG8",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2017,
             "rally_num": 42,
             "photos": [],
-            "brochure_id": "1e9QjP4ojAxLjnj2m_nmTnvkDyisMOtHr"
+            "brochure_id": "1e9QjP4ojAxLjnj2m_nmTnvkDyisMOtHr",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2018,
             "rally_num": 43,
             "photos": [],
-            "brochure_id": "1YI7sgI0LnIK91tf6X_M9hELcCHhdF0SV"
+            "brochure_id": "1YI7sgI0LnIK91tf6X_M9hELcCHhdF0SV",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2019,
             "rally_num": 44,
             "photos": [],
-            "brochure_id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH"
+            "brochure_id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2022,
             "rally_num": 45,
             "photos": [],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         }
     ]
 }

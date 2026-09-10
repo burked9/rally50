@@ -5,31 +5,59 @@
             "year": 2001,
             "rally_num": 26,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTTUhQSklPTjZvSk0"
+            "brochure_id": "0B4ubLJPS0mdTTUhQSklPTjZvSk0",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2002,
             "rally_num": 27,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTWWFaakR5QUstRlU"
+            "brochure_id": "0B4ubLJPS0mdTWWFaakR5QUstRlU",
+            "artifacts": [
+                "mug.jpg",
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2003,
             "rally_num": 28,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTUWpRS3haTks5NXc"
+            "brochure_id": "0B4ubLJPS0mdTUWpRS3haTks5NXc",
+            "artifacts": [
+                "mug.jpg",
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2004,
             "rally_num": 29,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTc3FXaVBkNXlVZzA"
+            "brochure_id": "0B4ubLJPS0mdTc3FXaVBkNXlVZzA",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2005,
             "rally_num": 30,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTMmFUOC16d2dkcEE"
+            "brochure_id": "0B4ubLJPS0mdTMmFUOC16d2dkcEE",
+            "artifacts": [
+                "hibernia_old.jpg",
+                "ESB2.jpg",
+                "68m.jpg",
+                "ESB1.jpg",
+                "mug.jpg",
+                "plaque.png",
+                "77m.jpg"
+            ],
+            "brochure_pages": []
         }
     ]
 }

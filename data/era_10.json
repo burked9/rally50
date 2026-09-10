@@ -6,64 +6,83 @@
             "rally_num": 46,
             "photos": [
                 {
-                    "id": "12PMalXGkMw73V1JxhMHHpGqWkWNj6DxE",
-                    "alt": "IMG_4054.jpg"
+                    "id": "1_tdZd-s6sxCZsyXmEIbBVxovGaU5T1mu",
+                    "alt": "20230710_194659.jpg"
                 },
                 {
-                    "id": "1xWzeZMqPjmCGBOO4aFt51MiPr7nbjYpo",
-                    "alt": "IMG_8966.jpg"
+                    "id": "1oSacjzgn0yyfO-wDMNvHO2OyfZa_0LJr",
+                    "alt": "20230712_162339.jpg"
                 },
                 {
-                    "id": "1D_xw_Bl0e2i0FQTwbGgxjV4sgC6RKhru",
-                    "alt": "IMG_4203.jpg"
+                    "id": "1Dz4xdEvEcAdBwE8l2bk3AKYYA6x_SSAZ",
+                    "alt": "IMG_8964.jpg"
                 },
                 {
-                    "id": "13sp9MaKEnhX_86QymN2UGejgtsXHHK0Y",
-                    "alt": "20230709_010129.jpg"
+                    "id": "1jQVZA9CtjfjOxYz-LOzVvoWeSHSDSmIT",
+                    "alt": "IMG_4231.jpg"
                 }
             ],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2024,
             "rally_num": 47,
             "photos": [
                 {
-                    "id": "1K8ff9js-1axDdnn63aIi7Hy_FYdduvBX",
-                    "alt": "24-07-08_12-39-26.jpg"
+                    "id": "1Vvbu_mIiWQYYcNYcKVuS5flyzpqRX0On",
+                    "alt": "24-07-09_17-41-54.jpg"
                 },
                 {
-                    "id": "1Ddaw1rY4NJquhP8fUcGOnZ5KiGgByYxc",
-                    "alt": "24-07-12_02-34-34.jpg"
+                    "id": "1rTYJA19dvJaoveMJFmgohS8RaD2HyhcJ",
+                    "alt": "24-07-10_17-18-08.jpg"
                 },
                 {
-                    "id": "1uZERsUubr29QKrRgBmarLZ49z-3KQHD0",
-                    "alt": "24-07-08_22-00-20.jpg"
+                    "id": "1xC-Q_-JLvMPk9_7xMvt-Ut3HM6aYo9T1",
+                    "alt": "24-07-12_02-33-04.jpg"
                 },
                 {
-                    "id": "1tmkkduT68869JlZvzIhDkawqcSx6l9xf",
-                    "alt": "24-07-09_23-40-10.jpg"
+                    "id": "1tf94lVA1KBuFAgAbPf54jV0k4zHjEZ3a",
+                    "alt": "24-07-12_13-32-59.jpg"
                 }
             ],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2025,
             "rally_num": 48,
             "photos": [],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2026,
             "rally_num": 49,
             "photos": [],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [
+                "rally49_mugs.jpg",
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2027,
             "rally_num": 50,
             "photos": [],
-            "brochure_id": null
+            "brochure_id": null,
+            "artifacts": [],
+            "brochure_pages": []
         }
     ]
 }
