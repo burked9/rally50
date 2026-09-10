@@ -7,7 +7,7 @@ Template: page
 
 This is the hidden administrative checklist for tracking our upcoming feature builds.
 
-## [ ] Phase 1: Eras Gallery Upgrades
+## [x] Phase 1: Eras Gallery Upgrades
 - Implement reverse chronological ordering.
 - Implement full-width design.
 - Automate pulling physical artifacts (plaques, mugs) into the timeline.
@@ -16,7 +16,7 @@ This is the hidden administrative checklist for tracking our upcoming feature bu
 ## [ ] Phase 2: Eras Thumbnails
 - Update the thumbnails for each individual Era card, and the main Eras section thumbnail itself.
 
-## [ ] Phase 3: Background Images
+## [x] Phase 3: Background Images
 - Implement dynamic/striking background images across the site.
 
 ## [ ] Phase 4: Committee Page
