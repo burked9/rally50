@@ -83,12 +83,57 @@ main {
     font-weight: 600;
     transition: background 0.2s, box-shadow 0.2s;
 }
-.brochure-link:hover {
-    background: #fff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 .brochure-icon {
     font-size: 1.2rem;
+}
+.artifact-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+.artifact-item {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 30px 0 10px 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+</style>
+
+<style>
+.era-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.era-nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #004a99;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+.era-nav a:hover {
+    background: #f0f0f0;
+}
+.era-nav .nav-center {
+    flex-grow: 1;
+    text-align: center;
 }
 </style>
 
@@ -96,10 +141,14 @@ main {
     <div class="entry-content" style="max-width: 100%;">
         {{ page.content }}
 
+        <div class="era-nav" id="era-nav-top"></div>
+
         <div id="era-content-container">
             <div id="loading-indicator" style="text-align:center; padding: 20px;">Loading timeline...</div>
             <div id="era-timeline"></div>
         </div>
+
+        <div class="era-nav" id="era-nav-bottom"></div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
@@ -117,6 +166,23 @@ main {
                     document.getElementById('loading-indicator').innerText = "Could not determine Era from URL.";
                     return;
                 }
+                
+                const currentEra = parseInt(eraNum);
+                
+                // Populate Navigation
+                const navHtml = `
+                    <div style="flex: 1; text-align: left;">
+                        ${currentEra < 10 ? `<a href="{{ SITEURL }}/archive/eras/${currentEra + 1}/index.html">&larr; Newer Eras</a>` : ''}
+                    </div>
+                    <div class="nav-center">
+                        <a href="{{ SITEURL }}/archive/eras/index.html">Back to All Eras</a>
+                    </div>
+                    <div style="flex: 1; text-align: right;">
+                        ${currentEra > 1 ? `<a href="{{ SITEURL }}/archive/eras/${currentEra - 1}/index.html">Older Eras &rarr;</a>` : ''}
+                    </div>
+                `;
+                document.getElementById('era-nav-top').innerHTML = navHtml;
+                document.getElementById('era-nav-bottom').innerHTML = navHtml;
 
                 const dataUrl = `{{ SITEURL }}/data/era_${eraNum}.json`;
                 const container = document.getElementById('era-timeline');
@@ -160,15 +226,46 @@ main {
                             } else {
                                 html += `<p><em>No photos available yet for this year.</em></p>`;
                             }
+                            // Artifacts
+                            if (yearData.artifacts && yearData.artifacts.length > 0) {
+                                html += `<h4 class="section-subtitle">Artifacts</h4>`;
+                                html += `<div class="artifact-gallery-grid">`;
+                                yearData.artifacts.forEach(artifact => {
+                                    const imgUrl = `{{ SITEURL }}/images/rallies/${yearData.year}/${artifact}`;
+                                    html += `
+                                        <a href="${imgUrl}" target="_blank">
+                                            <img class="artifact-item" src="${imgUrl}" alt="${artifact}" loading="lazy" title="${artifact}">
+                                        </a>
+                                    `;
+                                });
+                                html += `</div>`;
+                            }
                             
-                            // Brochure
+                            // Brochure Pages
+                            if (yearData.brochure_pages && yearData.brochure_pages.length > 0) {
+                                html += `<h4 class="section-subtitle">Brochure Highlights</h4>`;
+                                html += `<div class="era-gallery-grid">`;
+                                yearData.brochure_pages.forEach(page => {
+                                    const imgUrl = `{{ SITEURL }}/images/brochures/${yearData.year}/${page}`;
+                                    html += `
+                                        <div class="era-gallery-item-wrapper" style="background-color: transparent;">
+                                            <a href="${imgUrl}" target="_blank">
+                                                <img class="era-gallery-item" src="${imgUrl}" style="object-fit: contain;" alt="${page}" loading="lazy" title="${page}">
+                                            </a>
+                                        </div>
+                                    `;
+                                });
+                                html += `</div>`;
+                            }
+                            
+                            // Full Brochure PDF Link
                             if (yearData.brochure_id) {
                                 const brochureUrl = `https://drive.google.com/file/d/${yearData.brochure_id}/view`;
                                 html += `
                                     <div style="margin-top: 15px;">
                                         <a href="${brochureUrl}" target="_blank" class="brochure-link">
                                             <span class="brochure-icon">📄</span> 
-                                            View ${yearData.year} Brochure
+                                            View ${yearData.year} Full Brochure (PDF)
                                         </a>
                                     </div>
                                 `;

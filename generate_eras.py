@@ -6,6 +6,8 @@ import re
 # Configuration
 ERAS_DIR = 'content/archive/eras'
 DATA_DIR = 'content/data'
+RALLIES_IMG_DIR = 'content/images/rallies'
+BROCHURES_IMG_DIR = 'content/images/brochures'
 TEMPLATE_FILE = 'theme/templates/eras_index.html'
 INDEX_MD_FILE = os.path.join(ERAS_DIR, 'index.md')
 
@@ -138,8 +140,24 @@ A curated look back at {era['title']}.
                 "year": year,
                 "rally_num": num,
                 "photos": [],
-                "brochure_id": brochure_map.get(num, None)
+                "brochure_id": brochure_map.get(num, None),
+                "artifacts": [],
+                "brochure_pages": []
             }
+            
+            # Scan for artifacts
+            year_rallies_dir = os.path.join(RALLIES_IMG_DIR, str(year))
+            if os.path.exists(year_rallies_dir):
+                for f in os.listdir(year_rallies_dir):
+                    if f.lower().endswith(('.png', '.jpg', '.jpeg')) and not f.endswith('_thumb.png') and not f.endswith('_thumb.jpg'):
+                        year_data['artifacts'].append(f)
+                        
+            # Scan for brochure pages
+            year_brochures_dir = os.path.join(BROCHURES_IMG_DIR, str(year))
+            if os.path.exists(year_brochures_dir):
+                for f in os.listdir(year_brochures_dir):
+                    if f.lower().endswith(('.png', '.jpg', '.jpeg')):
+                        year_data['brochure_pages'].append(f)
             
             # Look for photos
             json_file = os.path.join(DATA_DIR, f'rally_{year}.json')

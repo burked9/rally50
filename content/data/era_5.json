@@ -5,31 +5,51 @@
             "year": 1996,
             "rally_num": 21,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTMTYwUTM2MVNWVnM"
+            "brochure_id": "0B4ubLJPS0mdTMTYwUTM2MVNWVnM",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 1997,
             "rally_num": 22,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTSzdwMjhrbEFId2c"
+            "brochure_id": "0B4ubLJPS0mdTSzdwMjhrbEFId2c",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 1998,
             "rally_num": 23,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTZUpCSkRCWE04Vkk"
+            "brochure_id": "0B4ubLJPS0mdTZUpCSkRCWE04Vkk",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 1999,
             "rally_num": 24,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTTXR4RXMtSmhfWXc"
+            "brochure_id": "0B4ubLJPS0mdTTXR4RXMtSmhfWXc",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         },
         {
             "year": 2000,
             "rally_num": 25,
             "photos": [],
-            "brochure_id": "0B4ubLJPS0mdTMy14eG4wNkxVM3c"
+            "brochure_id": "0B4ubLJPS0mdTMy14eG4wNkxVM3c",
+            "artifacts": [
+                "plaque.png"
+            ],
+            "brochure_pages": []
         }
     ]
 }
