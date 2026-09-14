@@ -9,7 +9,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1992,
@@ -19,7 +24,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1993,
@@ -29,7 +39,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1994,
@@ -39,7 +54,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1995,
@@ -49,7 +69,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         }
     ]
 }

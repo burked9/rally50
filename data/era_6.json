@@ -9,7 +9,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 2002,
@@ -20,7 +25,12 @@
                 "mug.jpg",
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 2003,
@@ -31,7 +41,12 @@
                 "mug.jpg",
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 2004,
@@ -41,7 +56,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 2005,
@@ -57,7 +77,12 @@
                 "plaque.png",
                 "77m.jpg"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         }
     ]
 }
