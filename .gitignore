@@ -5,3 +5,4 @@ venv/
 *.pyc
 cache/
 *.pid
+raw_brochures/
