@@ -7,7 +7,12 @@
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTMDhPNktIQVZueXM",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1987,
@@ -40,7 +45,12 @@
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1990,

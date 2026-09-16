@@ -7,7 +7,12 @@
             "photos": [],
             "brochure_id": null,
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1976,
@@ -23,7 +28,12 @@
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTbWRBTndEeW43ekk",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [
+                "page_3.png",
+                "page_1.png",
+                "page_4.png",
+                "page_6.png"
+            ]
         },
         {
             "year": 1978,
@@ -31,12 +41,7 @@
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTWE5uR3FMaWVUNWc",
             "artifacts": [],
-            "brochure_pages": [
-                "page_3.png",
-                "page_1.png",
-                "page_4.png",
-                "page_6.png"
-            ]
+            "brochure_pages": []
         },
         {
             "year": 1980,
@@ -44,12 +49,7 @@
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTTzc4eC1jXzU0QVU",
             "artifacts": [],
-            "brochure_pages": [
-                "page_3.png",
-                "page_1.png",
-                "page_4.png",
-                "page_6.png"
-            ]
+            "brochure_pages": []
         }
     ]
 }
