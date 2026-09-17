@@ -1,6 +1,8 @@
 Title: Announcements
 Date: 2024-01-28
 Slug: announcements
+Save_as: category/announcements.html
+URL: category/announcements.html
 Template: splash
 
 <p>We are building a permanent digital archive to preserve the legacy of the Lough Derg Rally, but we can't do it without you.</p>
