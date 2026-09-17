@@ -6,7 +6,9 @@
             "rally_num": 11,
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTMDhPNktIQVZueXM",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1986.jpg"
+            ],
             "brochure_pages": [
                 "page_3.jpg",
                 "page_1.jpg",
@@ -19,7 +21,9 @@
             "rally_num": 12,
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTaVo1NW5sQnNPbFk",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1987.jpg"
+            ],
             "brochure_pages": []
         },
         {
