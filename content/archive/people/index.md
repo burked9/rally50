@@ -5,9 +5,14 @@ Save_as: archive/people/index.html
 URL: archive/people/index.html
 
 
+## Our Commodores
 
-## [List of Commodores]({filename}/archive/people/commodores.md)
-
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/commodores.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="List of Commodores">
+        <div class="gallery-caption">List of Commodores</div>
+    </a>
+</div>
 ## Commodore's Welcomes
 
 <div class="gallery-grid">
@@ -49,6 +54,15 @@ URL: archive/people/index.html
     <a href="{filename}/archive/people/memories/mark-shanley.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="Mark Shanley">
         <div class="gallery-caption">Rally 37 (2012): Mark Shanley</div>
+    </a>
+</div>
+
+## Records of Boat Entries
+
+<div class="gallery-grid">
+    <a href="#" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Records of Boat Entries">
+        <div class="gallery-caption">Historical Boat Entries (Gallery Coming Soon)</div>
     </a>
 </div>
 

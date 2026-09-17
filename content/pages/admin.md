@@ -24,3 +24,13 @@ This is the hidden administrative checklist for tracking our upcoming feature bu
 
 ## [x] Phase 5: Homepage
 - Final polish and overhaul of the main landing page (Completed).
+
+## [ ] Phase 6: Missing Brochures & Magazines
+- [ ] Address missing access/permissions for ~10 PDF brochures that failed to download.
+- [ ] Add the magazines from the last five years.
+
+## [ ] Phase 7: Brochure Deep Extraction
+- [ ] Extract articles, people, and images from each rally brochure.
+
+## [ ] Phase 8: Commodores Gallery
+- [ ] Create Commodores gallery and commodore photos section (placement TBD).

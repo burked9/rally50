@@ -7,6 +7,17 @@ Summary: A collection of various artifacts from the Rally history.
 
 Welcome to the Artifacts Archive. Explore our collection of historical items below.
 
+<style>
+/* Hide the page title to surface content faster */
+h1.entry-title, .page-title {
+    display: none;
+}
+/* Expand main container to allow 3-wide grid */
+main {
+    max-width: 900px !important;
+}
+</style>
+
 <div class="artifact-grid">
     <a href="{filename}/archive/artifacts/winners.md" class="artifact-tile">
         <img src="{filename}/images/HallofFameThumbnail.jpg" alt="Hall of Fame" class="tile-image">
@@ -67,7 +78,7 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
 <style>
     .artifact-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 30px;
         margin-top: 40px;
     }
@@ -102,6 +113,6 @@ Welcome to the Artifacts Archive. Explore our collection of historical items bel
         margin: 15px;
         font-size: 1.1rem;
         text-align: center;
-        color: var(--primary-color);
+        color: #001f3f; /* Deep Navy Blue */
     }
 </style>
