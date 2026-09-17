@@ -6,6 +6,18 @@ URL: archive/artifacts/plaques/index.html
 Summary: Archive of Rally Plaques.
 
 <div class="gallery-grid">
+    <a href="{filename}/images/rallies/1985/plaque_1985.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 10 (1985)">
+        <img src="{filename}/images/rallies/1985/plaque_1985.jpg" alt="Rally 10 Plaque">
+        <div class="gallery-caption">Rally 10 (1985)</div>
+    </a>
+    <a href="{filename}/images/rallies/1986/plaque_1986.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 11 (1986)">
+        <img src="{filename}/images/rallies/1986/plaque_1986.jpg" alt="Rally 11 Plaque">
+        <div class="gallery-caption">Rally 11 (1986)</div>
+    </a>
+    <a href="{filename}/images/rallies/1987/plaque_1987.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 12 (1987)">
+        <img src="{filename}/images/rallies/1987/plaque_1987.jpg" alt="Rally 12 Plaque">
+        <div class="gallery-caption">Rally 12 (1987)</div>
+    </a>
     <a href="{filename}/images/rallies/1988/plaque.png" class="gallery-item" data-lightbox="plaques" data-title="Rally 13 (1988)">
         <img src="{filename}/images/rallies/1988/plaque_thumb.png" alt="Rally 13 Plaque">
         <div class="gallery-caption">Rally 13 (1988)</div>
