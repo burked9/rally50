@@ -17,7 +17,7 @@ main, .l-measure {
 /* Match the artifacts page styling exactly */
 .gallery-grid {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
     gap: 30px !important;
     margin-top: 20px !important;
 }
@@ -63,7 +63,7 @@ main, .l-measure {
 
 <div class="gallery-grid">
     <a href="{filename}/archive/people/commodores.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="List of Commodores">
+        <img src="{static}/images/people/memorials/bill_knight.png" alt="List of Commodores">
         <div class="gallery-caption">List of Commodores</div>
     </a>
 </div>
