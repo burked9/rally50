@@ -38,7 +38,9 @@
             "rally_num": 10,
             "photos": [],
             "brochure_id": "0B4ubLJPS0mdTZ2FrVXhoVHV5ejQ",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1985.jpg"
+            ],
             "brochure_pages": []
         }
     ]
