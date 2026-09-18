@@ -78,6 +78,26 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/frank_van_den_berg_rally5.jpg" alt="Frank Van Den Berg">
         <div class="gallery-caption">Rally 5 (1980): Frank Van Den Berg</div>
     </a>
+    <a href="{static}/images/people/commodores-welcomes/tom_duffy_rally6.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 6 (1981): Tom Duffy">
+        <img src="{static}/images/people/commodores-welcomes/tom_duffy_rally6.jpg" alt="Tom Duffy">
+        <div class="gallery-caption">Rally 6 (1981): Tom Duffy</div>
+    </a>
+    <a href="{static}/images/people/commodores-welcomes/bryan_brislane_rally7.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 7 (1982): Bryan Brislane">
+        <img src="{static}/images/people/commodores-welcomes/bryan_brislane_rally7.jpg" alt="Bryan Brislane">
+        <div class="gallery-caption">Rally 7 (1982): Bryan Brislane</div>
+    </a>
+    <a href="{static}/images/people/commodores-welcomes/colin_becker_rally8.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 8 (1983): Colin Becker">
+        <img src="{static}/images/people/commodores-welcomes/colin_becker_rally8.jpg" alt="Colin Becker">
+        <div class="gallery-caption">Rally 8 (1983): Colin Becker</div>
+    </a>
+    <a href="{static}/images/people/commodores-welcomes/maureen_duffy_rally9.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 9 (1984): Maureen Duffy">
+        <img src="{static}/images/people/commodores-welcomes/maureen_duffy_rally9.jpg" alt="Maureen Duffy">
+        <div class="gallery-caption">Rally 9 (1984): Maureen Duffy</div>
+    </a>
+    <a href="{static}/images/people/commodores-welcomes/e_bogle_rally10.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 10 (1985): E. Bogle">
+        <img src="{static}/images/people/commodores-welcomes/e_bogle_rally10.jpg" alt="E. Bogle">
+        <div class="gallery-caption">Rally 10 (1985): E. Bogle</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
