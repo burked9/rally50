@@ -114,9 +114,13 @@ main, .l-measure {
 ## Records of Boat Entries
 
 <div class="gallery-grid">
-    <a href="#" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Records of Boat Entries">
-        <div class="gallery-caption">Historical Boat Entries (Gallery Coming Soon)</div>
+    <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries">
+        <img src="{static}/images/people/entries/rally1_entries.jpg" alt="Rally 1 Entries">
+        <div class="gallery-caption">Rally 1 Entries</div>
+    </a>
+    <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries">
+        <img src="{static}/images/people/entries/rally3_entries.jpg" alt="Rally 3 Entries">
+        <div class="gallery-caption">Rally 3 Entries</div>
     </a>
 </div>
 
