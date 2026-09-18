@@ -6,6 +6,10 @@ URL: archive/artifacts/plaques/index.html
 Summary: Archive of Rally Plaques.
 
 <div class="gallery-grid">
+    <a href="{filename}/images/rallies/1980/plaque_1980.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 5 (1980)">
+        <img src="{filename}/images/rallies/1980/plaque_1980_thumb.jpg" alt="Rally 5 Plaque">
+        <div class="gallery-caption">Rally 5 (1980)</div>
+    </a>
     <a href="{filename}/images/rallies/1985/plaque_1985.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 10 (1985)">
         <img src="{filename}/images/rallies/1985/plaque_1985.jpg" alt="Rally 10 Plaque">
         <div class="gallery-caption">Rally 10 (1985)</div>
@@ -196,11 +200,6 @@ Summary: Archive of Rally Plaques.
     <a href="{filename}/images/prizes/winners_plaque_rally2.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 2">
         <img src="{filename}/images/prizes/winners_plaque_rally2_thumb.jpg" alt="Winners Plaque Rally 2">
         <div class="gallery-caption">Winners Plaque Rally 2</div>
-    </a>
-    <a href="{filename}/images/prizes/winners_plaque_rally5.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 5">
-        <img src="{filename}/images/prizes/winners_plaque_rally5_thumb.jpg" alt="Winners Plaque Rally 5">
-        <div class="gallery-caption">Winners Plaque Rally 5</div>
-    </a>
 </div>
 
 <style>
