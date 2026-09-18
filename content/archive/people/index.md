@@ -67,6 +67,19 @@ main, .l-measure {
         <div class="gallery-caption">List of Commodores</div>
     </a>
 </div>
+
+## Records of Boat Entries
+
+<div class="gallery-grid">
+    <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries">
+        <img src="{static}/images/people/entries/rally1_entries.jpg" alt="Rally 1 Entries">
+        <div class="gallery-caption">Rally 1 Entries</div>
+    </a>
+    <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries">
+        <img src="{static}/images/people/entries/rally3_entries.jpg" alt="Rally 3 Entries">
+        <div class="gallery-caption">Rally 3 Entries</div>
+    </a>
+</div>
 ## Commodore's Welcomes
 
 <div class="gallery-grid">
@@ -94,9 +107,9 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/maureen_duffy_rally9.jpg" alt="Maureen Duffy">
         <div class="gallery-caption">Rally 9 (1984): Maureen Duffy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/e_bogle_rally10.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 10 (1985): E. Bogle">
-        <img src="{static}/images/people/commodores-welcomes/e_bogle_rally10.jpg" alt="E. Bogle">
-        <div class="gallery-caption">Rally 10 (1985): E. Bogle</div>
+    <a href="{static}/images/people/commodores-welcomes/chris_boyle_rally10.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 10 (1985): Chris Boyle">
+        <img src="{static}/images/people/commodores-welcomes/chris_boyle_rally10.jpg" alt="Chris Boyle">
+        <div class="gallery-caption">Rally 10 (1985): Chris Boyle</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
@@ -139,18 +152,7 @@ main, .l-measure {
     </a>
 </div>
 
-## Records of Boat Entries
 
-<div class="gallery-grid">
-    <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries">
-        <img src="{static}/images/people/entries/rally1_entries.jpg" alt="Rally 1 Entries">
-        <div class="gallery-caption">Rally 1 Entries</div>
-    </a>
-    <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries">
-        <img src="{static}/images/people/entries/rally3_entries.jpg" alt="Rally 3 Entries">
-        <div class="gallery-caption">Rally 3 Entries</div>
-    </a>
-</div>
 
 ## Memorials
 
