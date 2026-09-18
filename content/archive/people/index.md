@@ -70,6 +70,10 @@ main, .l-measure {
 ## Commodore's Welcomes
 
 <div class="gallery-grid">
+    <a href="{static}/images/people/commodores-welcomes/david_knight_rally3.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 3 (1977): David J. Knight">
+        <img src="{static}/images/people/commodores-welcomes/david_knight_rally3.jpg" alt="David J. Knight">
+        <div class="gallery-caption">Rally 3 (1977): David J. Knight</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
