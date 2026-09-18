@@ -176,7 +176,14 @@ main, .l-measure {
     </a>
 </div>
 
+## Rally Stories
 
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/stories/halloween.md" class="gallery-item">
+        <img src="{static}/images/pookas/Pooka41m_thumb.jpg" alt="Halloween by Eric Timon" style="object-position: top;">
+        <div class="gallery-caption">Halloween by Eric Timon</div>
+    </a>
+</div>
 
 ## Memorials
 
