@@ -127,7 +127,7 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/mark_maguire_rally14.jpg" alt="Mark Maguire">
         <div class="gallery-caption">Rally 14 (1989): Mark Maguire</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/martin_obrien_rally15_letter.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Martin O Brien onboard Ce na Ri">
+    <a href="{static}/images/people/commodores-welcomes/martin_obrien_rally15_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Martin O Brien onboard Ce na Ri">
         <img src="{static}/images/people/commodores-welcomes/martin_obrien_rally15_boat.jpg" alt="Commodores Boat - Martin O Brien onboard Ce na Ri">
         <div class="gallery-caption">Rally 15 (1990): Martin O'Brien</div>
     </a>
