@@ -69,7 +69,7 @@ main, .l-measure {
     </a>
 
     <a href="{filename}/archive/magazines/fish-of-the-shannon.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="The Fish of the Shannon">
+        <img src="{static}/images/archive/magazines/fish_of_the_shannon.png" alt="The Fish of the Shannon">
         <div class="gallery-caption">Rally Magazine 17 (1992): Fish of the Shannon</div>
     </a>
 
