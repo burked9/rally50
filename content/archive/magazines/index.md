@@ -87,6 +87,11 @@ main, .l-measure {
 ## Magazine Articles: History of the Lake and River
 
 <div class="gallery-grid">
+    <a href="{filename}/archive/magazines/tranquillity.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Tranquillity">
+        <div class="gallery-caption">Rally Magazine 17 (1992): Tranquillity</div>
+    </a>
+
     <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
