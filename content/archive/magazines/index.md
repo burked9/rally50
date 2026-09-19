@@ -11,7 +11,7 @@ h1.entry-title, .page-title, h1.h1 {
     display: none;
 }
 /* Expand main container to allow 3-wide grid */
-main, .l-measure {
+main, .l-measure, .l-container {
     max-width: 1000px !important;
 }
 
