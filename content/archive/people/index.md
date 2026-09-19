@@ -147,6 +147,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/les_saunders_rally19.jpg" alt="Les Saunders">
         <div class="gallery-caption">Rally 19 (1994): Les Saunders</div>
     </a>
+    <a href="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 20 (1995): Mark Maguire II">
+        <img src="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20.jpg" alt="Mark Maguire II">
+        <div class="gallery-caption">Rally 20 (1995): Mark Maguire II</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
