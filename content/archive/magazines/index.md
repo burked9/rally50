@@ -92,6 +92,11 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally Magazine 17 (1992): Tranquillity</div>
     </a>
 
+    <a href="{filename}/archive/magazines/secret-places-clonrush.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/clonrush_secret_place.jpg" alt="Secret Places of Lough Derg">
+        <div class="gallery-caption">Rally Magazine 18 (1993): Secret Places of Lough Derg</div>
+    </a>
+
     <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
