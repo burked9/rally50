@@ -181,6 +181,15 @@ main, .l-measure {
     </a>
 </div>
 
+## Magazine Articles
+
+<div class="gallery-grid">
+    <a href="{filename}/archive/magazines/index.md" class="gallery-item">
+        <img src="{filename}/images/archive/magazines/kingfisher.png" alt="Magazine Articles">
+        <div class="gallery-caption">Magazine Articles</div>
+    </a>
+</div>
+
 ## Memorials
 
 <div class="gallery-grid">

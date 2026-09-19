@@ -54,10 +54,7 @@ main, .l-measure {
         <h3>Flags</h3>
     </a>
 
-    <a href="{filename}/archive/magazines/index.md" class="artifact-tile">
-        <img src="{filename}/images/archive/magazines/kingfisher.png" alt="Magazine Articles" class="tile-image">
-        <h3>Magazine Articles</h3>
-    </a>
+
 
     <a href="{filename}/archive/artifacts/commodores-plaques/index.md" class="artifact-tile">
         <img src="{filename}/images/commodores_tankard_placeholder.png" alt="Commodores Plaques" class="tile-image">
