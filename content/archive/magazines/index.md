@@ -77,6 +77,11 @@ main, .l-measure {
         <img src="{static}/images/people_placeholder.png" alt="The Year of the Corncrake">
         <div class="gallery-caption">Rally Magazine 16 (1991): The Corncrake</div>
     </a>
+
+    <a href="{filename}/archive/magazines/fish-of-the-shannon.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="The Fish of the Shannon">
+        <div class="gallery-caption">Rally Magazine 17 (1992): Fish of the Shannon</div>
+    </a>
 </div>
 
 ## Magazine Articles: History of the Lake and River
