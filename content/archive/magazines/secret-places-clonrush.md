@@ -5,7 +5,7 @@ Slug: archive/magazines/secret-places-clonrush
 
 *Featured in Rally 18 Magazine.*
 
-![A Magistrate and an honest man...]({static}/images/archive/magazines/clonrush_secret_place.jpg)
+<img src="{static}/images/archive/magazines/clonrush_secret_place.jpg" alt="A Magistrate and an honest man..." style="float: right; margin: 0 0 20px 20px; width: 33%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 > "A Magistrate and an honest man
 > Who never took a bribe or a favour
 > In his life to give dishonest judgement

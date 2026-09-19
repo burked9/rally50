@@ -3,7 +3,7 @@ Date: 2024-02-15
 Category: People
 Slug: archive/people/stories/tranquillity
 
-*This article was extracted from the Rally 17 magazine. Author: Unknown.*
+*This poem by William Slator was published in the Rally 17 and Rally 20 magazines.*
 
 Boats and barges, barges and boats,  
 Down on the river everything floats,  
@@ -35,3 +35,5 @@ But moore twenty vessels beside the quay wall,
 Just leave them alone as the night shadows fall.  
 Strif and commotion and envy will cease  
 Why can't we, like them, live together in peace?
+
+**William Slator**
