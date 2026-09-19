@@ -131,6 +131,10 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/martin_obrien_rally15_boat.jpg" alt="Commodores Boat - Martin O Brien onboard Ce na Ri">
         <div class="gallery-caption">Rally 15 (1990): Martin O'Brien</div>
     </a>
+    <a href="{static}/images/people/commodores-welcomes/eric_makim_rally16.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 16 (1991): Eric Makim">
+        <img src="{static}/images/people/commodores-welcomes/eric_makim_rally16.jpg" alt="Eric Makim">
+        <div class="gallery-caption">Rally 16 (1991): Eric Makim</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
@@ -158,6 +162,10 @@ main, .l-measure {
 
 <div class="gallery-grid">
     <!-- Items will be added here -->
+    <a href="{filename}/archive/people/memories/rally16-eric-makim.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Eric Makim">
+        <div class="gallery-caption">Rally 16 (1991): Eric Makim</div>
+    </a>
     <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
         <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
         <div class="gallery-caption">Rally 37 (2012): Darrell Brislane</div>
