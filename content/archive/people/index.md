@@ -9,15 +9,15 @@ URL: archive/people/index.html
 h1.entry-title, .page-title, h1.h1 {
     display: none;
 }
-/* Expand main container to allow 3-wide grid */
+/* Expand main container to allow 4-wide grid */
 main, .l-measure {
-    max-width: 1000px !important;
+    max-width: 1200px !important;
 }
 
 /* Match the artifacts page styling exactly */
 .gallery-grid {
     display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
     gap: 30px !important;
     margin-top: 20px !important;
 }
@@ -190,6 +190,10 @@ main, .l-measure {
     <a href="{filename}/archive/people/stories/halloween.md" class="gallery-item">
         <img src="{static}/images/pookas/Pooka41m_thumb.jpg" alt="Halloween by Eric Timon" style="object-position: top;">
         <div class="gallery-caption">Halloween by Eric Timon</div>
+    </a>
+    <a href="{filename}/archive/people/stories/that-bates-banagher.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="That Bates Banagher">
+        <div class="gallery-caption">That Bates Banagher by Eric Timon</div>
     </a>
 </div>
 
