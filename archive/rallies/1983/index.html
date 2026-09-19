@@ -24,10 +24,53 @@
             background-position: center;
             background-attachment: fixed;
         }
+        /* Quick Navigation Sidebar */
+        #quick-nav {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+        #quick-nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+            border: 1px solid #eee;
+        }
+        #quick-nav a:hover {
+            background-color: #333;
+            color: #fff;
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
 <body>
+    <!-- Floating Quick Navigation Sidebar -->
+    <nav id="quick-nav">
+        <a href="https://burked9.github.io/rally50/" title="Home">Ho</a>
+        <a href="https://burked9.github.io/rally50/pages/about.html" title="About">Ab</a>
+        <a href="https://burked9.github.io/rally50/archive/eras/index.html" title="Eras">Er</a>
+        <a href="https://burked9.github.io/rally50/archive/rallies/index.html" title="Rallies">Ra</a>
+        <a href="https://burked9.github.io/rally50/archive/artifacts/index.html" title="Artifacts">Ar</a>
+        <a href="https://burked9.github.io/rally50/archive/people/index.html" title="People">Pe</a>
+        <a href="https://burked9.github.io/rally50/archive/magazines/index.html" title="Articles">Mg</a>
+    </nav>
+
     <div class="l-container">
         <header class="l-site-head">
             <a href="https://burked9.github.io/rally50/" class="site-title" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
