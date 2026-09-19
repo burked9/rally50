@@ -63,16 +63,6 @@ main, .l-measure {
 ## Magazine Articles: Flora and Fauna
 
 <div class="gallery-grid">
-    <a href="{filename}/archive/magazines/the-kingfisher.md" class="gallery-item">
-        <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher">
-        <div class="gallery-caption">Rally Magazine 28 (2003): The Kingfisher</div>
-    </a>
-    
-    <a href="{filename}/archive/magazines/irish-fleabane.md" class="gallery-item">
-        <img src="{static}/images/archive/magazines/irish_fleabane.png" alt="Irish Fleabane">
-        <div class="gallery-caption">Rally Magazine 37 (2012): Irish Fleabane</div>
-    </a>
-
     <a href="{filename}/archive/magazines/the-year-of-the-corncrake.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="The Year of the Corncrake">
         <div class="gallery-caption">Rally Magazine 16 (1991): The Corncrake</div>
@@ -81,6 +71,16 @@ main, .l-measure {
     <a href="{filename}/archive/magazines/fish-of-the-shannon.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="The Fish of the Shannon">
         <div class="gallery-caption">Rally Magazine 17 (1992): Fish of the Shannon</div>
+    </a>
+
+    <a href="{filename}/archive/magazines/the-kingfisher.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher">
+        <div class="gallery-caption">Rally Magazine 28 (2003): The Kingfisher</div>
+    </a>
+    
+    <a href="{filename}/archive/magazines/irish-fleabane.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/irish_fleabane.png" alt="Irish Fleabane">
+        <div class="gallery-caption">Rally Magazine 37 (2012): Irish Fleabane</div>
     </a>
 </div>
 

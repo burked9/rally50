@@ -9,7 +9,7 @@ Summary: Darrell Brislane shares his memories of past rallies.
 
 *This was written for the Magazine for Rally 37 in 2012*
 
-# Rally Memories
+As the first entry into the memories we introduce you to Darrell Brislane, who has been to all 37 Lough Derg Rallies!
 
 When Michael asked me to do a short piece on my memories of rallies past, I was the picture of calm saying to Michael “sure, not a problem” but underneath it all I was a little worried. The old memory is just not what it used to be. Unlike the brother (see elsewhere in this brochure), who can remember all the registrations of cars we ever owned, what particular event happened in what year and all the girls he kissed, for me memory is a jumble of images with no order to it.
 

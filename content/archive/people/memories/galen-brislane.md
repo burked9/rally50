@@ -9,8 +9,6 @@ Summary: Galen Brislane reminisces about his childhood spent on the River Shanno
 
 *This was written for rally 37 in 2012*
 
-# More Rally Memories
-
 **Galen Brislane** - **Crescendo**
 
 My lovely wife, Kerry, constantly ribs me regarding the rose-tinted glasses I wear when reminiscing about my childhood spent on the River Shannon. She's South African. She grew up in the shadow of Table Mountain in Cape Town and her parents now live in Durban where the worst days of their winters are better than the best days of our summers. In 2001 I entered Kerry's name in a competition at the Dublin Boat Show. She won a week on a Tara Cruiser, courtesy of Mr Des Gillet. While I was ecstatic to have won a week on one of the beautiful, steel cruisers, Kerry's most vivid memory of the week was steering, from the fly-bridge, in June, wearing full offshore Hely Hansen gear. That’s all very well, but there's a very good reason for my harking back to early days on the Shannon. Quite simply, that reason is the Lough Derg Boat Rallies.

@@ -5,8 +5,6 @@ Slug: archive/magazines/fish-of-the-shannon
 
 *This article was extracted from the Rally 17 magazine.*
 
-# The Fish of the Shannon
-
 **SALMON**
 *(Salmo salar). Ir. Bradán; Fr. Saumon; Ge. Lachs; Du. Zalm; It. Salmone de reno; Sp. Salmón.*
 

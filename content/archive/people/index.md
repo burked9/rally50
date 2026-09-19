@@ -135,6 +135,10 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/eric_makim_rally16.jpg" alt="Eric Makim">
         <div class="gallery-caption">Rally 16 (1991): Eric Makim</div>
     </a>
+    <a href="{static}/images/people/commodores-welcomes/cathy_scotson_rally17.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 17 (1992): Cathy Scotson">
+        <img src="{static}/images/people/commodores-welcomes/cathy_scotson_rally17.jpg" alt="Cathy Scotson">
+        <div class="gallery-caption">Rally 17 (1992): Cathy Scotson</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>

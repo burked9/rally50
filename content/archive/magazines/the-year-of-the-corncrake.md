@@ -5,8 +5,6 @@ Slug: archive/magazines/the-year-of-the-corncrake
 
 *This article was extracted from the Rally 16 brochure in 1991.*
 
-THE YEAR OF THE CORNCRAKE – 1991
-
 Corncrakes are rarely seen once they arrive from their long migration because they seek the cover of long vegetation and are reluctant to fly. The harsh 'crek crek' repetitive call of the male corncrake, heard mostly at night, is often the only indication that the bird is present. Corncrakes have short stumpy tails and trail their legs when flying. Both sexes are alike, basically brown with grey on the head and neck, chestnut on the wings and black streaks on the back.
 
 Corncrakes spend the winter in marsh and long grassland in Africa. When they arrive in April they use what cover is available mostly on agricultural land, rushy pastures, reeds and marshy areas and tall vegetation like nettles and hogweed. They eat slugs, snails, worms, beetles, flies and caterpillars.
