@@ -8,6 +8,8 @@ Status: published
 
 <img src="{static}/images/people/memorials/bill_knight.png" alt="Bill Knight" style="float: right; margin: 0 0 20px 20px; width: 400px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
+*Featured in the Derg Rally 19 Rally Magazine (1994)*
+
 Shortly after the Rally last year, members of IWAI were saddened to hear of the passing of one of the Derg Branch's earliest members. The wish of the retired sea captain Bill Knight to be buried surrounded by water was fulfilled when he was laid to rest on Holy Island near Mountshannon.
 
 Well known to IWAI members and Commodore of the first Lough Derg Rally in 1975, his boat "Golden Hours" was often to be found tucked into the corner of the harbour in Mountshannon with Bill sitting in the wheelhouse ready with a word of greeting for all who passed by.
