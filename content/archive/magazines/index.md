@@ -115,4 +115,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/archive/magazines/old_sailing_barge_1896_rally19.jpg" alt="Old Sailing Barge 1896">
         <div class="gallery-caption">Old Sailing Barge 1896: Rally 19 Mag</div>
     </a>
+    <a href="{filename}/archive/magazines/history-of-4e.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/4e_after_restoration.jpg" alt="History of 4E">
+        <div class="gallery-caption">History of 4E</div>
+    </a>
 </div>
