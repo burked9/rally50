@@ -24,7 +24,7 @@ MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
     ('Archive', '/pages/archive.html'),
-    ('Articles', '/category/articles.html'),
+    ('Articles', '/archive/people/index.html'),
     ('Announcements', '/category/announcements.html'),
 )
 

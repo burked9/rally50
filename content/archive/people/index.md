@@ -119,21 +119,17 @@ main, .l-measure {
         <img src="{static}/images/people/commodores-welcomes/a_gill_rally12.jpg" alt="A. Gill">
         <div class="gallery-caption">Rally 12 (1987): A. Gill</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/tossy_quinn_rally13.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 13 (1988): Tossy Quinn">
-        <img src="{static}/images/people/commodores-welcomes/tossy_quinn_rally13.jpg" alt="Tossy Quinn">
-        <div class="gallery-caption">Rally 13 (1988): Tossy Quinn</div>
+    <a href="{static}/images/people/commodores-welcomes/tos_quinn_rally13.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 13 (1988): Tos Quinn">
+        <img src="{static}/images/people/commodores-welcomes/tos_quinn_rally13.jpg" alt="Tos Quinn">
+        <div class="gallery-caption">Rally 13 (1988): Tos Quinn</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/mark_maguire_rally14.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 14 (1989): Mark Maguire">
         <img src="{static}/images/people/commodores-welcomes/mark_maguire_rally14.jpg" alt="Mark Maguire">
         <div class="gallery-caption">Rally 14 (1989): Mark Maguire</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/martin_obrien_rally15_letter.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 15 (1990): Martin O'Brien">
-        <img src="{static}/images/people/commodores-welcomes/martin_obrien_rally15_letter.jpg" alt="Martin O'Brien">
-        <div class="gallery-caption">Rally 15 (1990): Martin O'Brien</div>
-    </a>
-    <a href="{static}/images/people/commodores-welcomes/martin_obrien_rally15_boat.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Martin O Brien onboard Ce na Ri">
+    <a href="{static}/images/people/commodores-welcomes/martin_obrien_rally15_letter.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Martin O Brien onboard Ce na Ri">
         <img src="{static}/images/people/commodores-welcomes/martin_obrien_rally15_boat.jpg" alt="Commodores Boat - Martin O Brien onboard Ce na Ri">
-        <div class="gallery-caption">Commodores Boat (Rally 15)</div>
+        <div class="gallery-caption">Rally 15 (1990): Martin O'Brien</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
