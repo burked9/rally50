@@ -102,3 +102,12 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
     </a>
 </div>
+
+## Magazine Articles: Snippets & Snapshots
+
+<div class="gallery-grid">
+    <a href="{static}/images/archive/magazines/barge_race_rally19.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Barge Race Rally 19 Mag">
+        <img src="{static}/images/archive/magazines/barge_race_rally19.jpg" alt="Barge Race">
+        <div class="gallery-caption">Barge Race Rally 19 Mag</div>
+    </a>
+</div>
