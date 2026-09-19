@@ -87,10 +87,6 @@ main, .l-measure, .l-container {
 ## Magazine Articles: History of the Lake and River
 
 <div class="gallery-grid">
-    <a href="{filename}/archive/magazines/tranquillity.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Tranquillity">
-        <div class="gallery-caption">Rally Magazine 17 (1992): Tranquillity</div>
-    </a>
 
     <a href="{filename}/archive/magazines/secret-places-clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush_secret_place.jpg" alt="Secret Places of Lough Derg">
