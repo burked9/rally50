@@ -73,6 +73,11 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally Magazine 17 (1992): Fish of the Shannon</div>
     </a>
 
+    <a href="{filename}/archive/magazines/the-heron.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/heron_rally19.jpg" alt="The Heron">
+        <div class="gallery-caption">Rally Magazine 19 (1994): The Heron</div>
+    </a>
+
     <a href="{filename}/archive/magazines/the-kingfisher.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher">
         <div class="gallery-caption">Rally Magazine 28 (2003): The Kingfisher</div>
