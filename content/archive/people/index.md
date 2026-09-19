@@ -139,8 +139,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/cathy_scotson_rally17.jpg" alt="Cathy Scotson">
         <div class="gallery-caption">Rally 17 (1992): Cathy Scotson</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/joe_treacy_rally18.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 18 (1993): Joe Treacy">
-        <img src="{static}/images/people/commodores-welcomes/joe_treacy_rally18.jpg" alt="Joe Treacy">
+    <a href="{static}/images/people/commodores-welcomes/joe_treacy_rally18_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - 4E">
+        <img src="{static}/images/archive/magazines/4e_after_restoration.jpg" alt="Commodores Boat - 4E">
         <div class="gallery-caption">Rally 18 (1993): Joe Treacy</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/les_saunders_rally19.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 19 (1994): Les Saunders">

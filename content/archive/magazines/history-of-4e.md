@@ -14,7 +14,10 @@ The Grand Canal Company was the first in the British Isles to use Motor Barges a
 
 Joe Kane worked for Odlums Mills on their canal boats and in 1934 he was encouraged to go-it-alone and he bought "49B". The following year he bought "23M" which was the boat he was to use the rest of his working life. He is said to have had a great attachment to her and when asked the number always replied, "Three Ones". Noted for his honesty and integrity, he lived aboard although the family home was only a short distance from where he tied up on the Blackwood feeder.
 
-*(Image Caption: Before alterations.)*
+<figure style="margin: 20px 0;">
+    <img src="{static}/images/archive/magazines/4e_before_alterations.jpg" alt="4E Before alterations" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.85em; color: #555; text-align: center; margin-top: 8px;">Before alterations.</figcaption>
+</figure>
 
 Paddy Kane (Joe's nephew) has told me the stories about "111B" and believe me, there are many. Paddy was the boy on board along with Joe's married brother and of course Joe himself as skipper (a life long bachelor and teetotaller). The original "Nose Job" occurred when she was being towed by "41M" into the inner basin in Ringsend with a cargo of 45 tons of wheat aboard. On approaching the lifting bridge, "41M" slowed down and "111B" veered out of control (no brakes). Joe ran to the bow with a straw bag which had little effect as she hit the bridge. The stem post and some bow plates were buckled forever. Joe sold "49B" in 1937 and the following year had an engine installed in "111B" at a cost of £300. The main cargoes were turf into Dublin and wheat back to Odlums at Sallins. A load of wheat paid six pounds five shillings out of which wages, fuel, tolls, etc. had to come. In the busy milling season, the crew often stayed working up to three weeks at a stretch without getting back to families.
 
