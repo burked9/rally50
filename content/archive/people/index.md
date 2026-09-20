@@ -250,4 +250,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/the_two_toms_rally22.jpg" alt="The Two Toms">
         <div class="gallery-caption">Rally 22 (1997): The Two Toms</div>
     </a>
+    <a href="{static}/images/people/snippets/ged_malloy_rally22.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 22 (1997): Ged Malloy going for a Hole in One!">
+        <img src="{static}/images/people/snippets/ged_malloy_rally22.jpg" alt="Ged Malloy going for a Hole in One!">
+        <div class="gallery-caption">Rally 22 (1997): Ged Malloy going for a Hole in One!</div>
+    </a>
 </div>
