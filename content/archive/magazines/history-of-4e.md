@@ -6,6 +6,8 @@ Save_as: archive/magazines/history-of-4e.html
 URL: archive/magazines/history-of-4e.html
 Summary: The history of the Canal Boat 4E across its century of life.
 
+*Published in the Derg Rally 20 Magazine.*
+
 The Canal Boat which presently carries the number 4E, has in its century of life so far carried four different numbers marking different roles. These numbers were: "53" (1895-1913), "23M" (1913-1935), "111B" (1935-1952), "4E" (1952- ).
 
 Horse boat 53 was built in 1895 at the Passage Dock Company and first weighed at Killaloe 24th June 1896 by P. Killeen. Dimensions were: Length 60 ft. 8 inches, Beam 13 ft., Height at Stem 6 ft. 10½ inches, Height at Stern 6ft 8 inches. She drew 4 ft. 2¼ inches when loaded to 50 tons. Stores on board when weighed were: 18 hatches, 6 tarpaulins, 8 ropes, 1 cork fender, 2 rope fenders, 6 skids, 7 planks, 2 poles and 1 boathook. Of iron rivetted construction with wooden decks, the only remnant of her horse-drawn days is part of the tow-post about half way along the port side — inside the hull.

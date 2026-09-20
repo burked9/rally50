@@ -151,6 +151,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_boat.jpg" alt="Commodores Boat - Maan of Derg">
         <div class="gallery-caption">Rally 20 (1995): Mark Maguire II</div>
     </a>
+    <a href="{static}/images/people/commodores-welcomes/eamon_egan_rally21.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 21 (1996): Eamon Egan">
+        <img src="{static}/images/people/commodores-welcomes/eamon_egan_rally21.jpg" alt="Eamon Egan">
+        <div class="gallery-caption">Rally 21 (1996): Eamon Egan</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
