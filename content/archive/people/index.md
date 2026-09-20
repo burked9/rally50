@@ -215,6 +215,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people_placeholder.png" alt="That Bates Banagher">
         <div class="gallery-caption">That Bates Banagher by Eric Timon</div>
     </a>
+    <a href="{filename}/archive/people/stories/the-boat.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="The Boat">
+        <div class="gallery-caption">The Boat by Eric Timon</div>
+    </a>
 </div>
 
 
