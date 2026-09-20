@@ -155,6 +155,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/eamon_egan_rally21.jpg" alt="Eamon Egan">
         <div class="gallery-caption">Rally 21 (1996): Eamon Egan</div>
     </a>
+    <a href="{filename}/archive/people/commodores-welcomes/john-moore-1997.md" class="gallery-item">
+        <img src="{static}/images/people/commodores-welcomes/john_moore_rally22.jpg" alt="John Moore">
+        <div class="gallery-caption">Rally 22 (1997): John Moore</div>
+    </a>
     <a href="{filename}/archive/people/commodores-welcomes/michael-geraghty-2012.md" class="gallery-item">
         <img src="{static}/images/people/commodores-welcomes/michael_geraghty_2012.png" alt="Michael Geraghty">
         <div class="gallery-caption">Rally 37 (2012): Michael Geraghty</div>
