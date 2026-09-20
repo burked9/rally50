@@ -238,3 +238,12 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">First Rally Commodore: Bill Knight</div>
     </a>
 </div>
+
+## Snippets & Snapshots
+
+<div class="gallery-grid">
+    <a href="{static}/images/people/snippets/the_two_toms_rally22.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 22 (1997): The Two Toms">
+        <img src="{static}/images/people/snippets/the_two_toms_rally22.jpg" alt="The Two Toms">
+        <div class="gallery-caption">Rally 22 (1997): The Two Toms</div>
+    </a>
+</div>
