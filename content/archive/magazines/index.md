@@ -102,6 +102,11 @@ main, .l-measure, .l-container {
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
     </a>
+
+    <a href="{filename}/archive/magazines/clonrush-churchyard.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Clonrush Churchyard">
+        <div class="gallery-caption">Some Interesting Features in Clonrush Churchyard</div>
+    </a>
 </div>
 
 ## Magazine Articles: Snippets & Snapshots
