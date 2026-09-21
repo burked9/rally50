@@ -267,8 +267,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/ged_malloy_rally22.jpg" alt="Ged Malloy going for a Hole in One!">
         <div class="gallery-caption">Rally 22 (1997): Ged Malloy going for a Hole in One!</div>
     </a>
-    <a href="{static}/images/people/snippets/beckers_on_tour_rally22.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 22 (1997): Beckers On Tour!">
-        <img src="{static}/images/people/snippets/beckers_on_tour_rally22.jpg" alt="Beckers On Tour!">
-        <div class="gallery-caption">Rally 22 (1997): Beckers On Tour!</div>
+    <a href="{static}/images/people/snippets/beckers_on_tour_rally23.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 23 (1998): Beckers On Tour!">
+        <img src="{static}/images/people/snippets/beckers_on_tour_rally23.jpg" alt="Beckers On Tour!">
+        <div class="gallery-caption">Rally 23 (1998): Beckers On Tour!</div>
     </a>
 </div>
