@@ -247,6 +247,15 @@ main, .l-measure, .l-container {
     </a>
 </div>
 
+## Rally Committees
+
+<div class="gallery-grid">
+    <a href="{filename}/archive/people/committees/committee-rally23.md" class="gallery-item">
+        <img src="{static}/images/people/committees/committee_rally23_1998.jpg" alt="Rally 23 Committee">
+        <div class="gallery-caption">Rally 23 Committee (1998)</div>
+    </a>
+</div>
+
 ## Snippets & Snapshots
 
 <div class="gallery-grid">
