@@ -18,3 +18,50 @@ On the East Gable there is a small rectangular window 12 inches high by 6 inches
 In the Summer of 1988 The Clonrush Heritage Group undertook the task of restoring this building. It had disintegrated almost beyond repair. It was covered with ivy and bushes and an Ash Tree with a diameter of 10 inches grew from the roof. Work began here under the expert advice of Mr. Peter Geraghty, retired Head of the Monuments Section of the Board of Works to whom we owe a great debt of gratitude. In the Summer of 1989, Bill Tierney a local stone-mason undertook the re-building and the finished product is a lasting monument to his undoubted talents. See sketch of building on the back cover and figure 1.
 
 *(Image Caption: Bill Tierney at work on the Oratory at Clonrush)*
+
+There are the remains of two Churches still to be seen in the graveyard. One is called Tigh na Mbrathair i.e. the House of the Friars and the other is known simply as the Parish Church. The House of the Friars is marked on the Ordinance Map as Tinamraher. Only the lowest courses remain and because of the huge cyclopian masonry we can date it to the 10th or 11th Century. Like Island More a short distance from here in Lough Derg, where there are the remains of a monastic settlement still called the Friary, Clonrush was at one time called Meelick Abbey. There is, however, no record of Franciscans or Dominicans ever been in either place.
+
+On recumbent stone within the precincts of this Church, there is an interesting Epitaph which reads:
+
+*Oratory at Clonrush before re-construction.*
+
+*John A. Burke Tintrim*
+*A magistrate and an honest man*
+*Who never took a bribe or a favour*
+*In his life to give dishonest judgement*
+*If any matter that came before him*
+*And who first established*
+*Petty sessions at Whitegate*
+*For the public benefit*
+*And always prayed to God for his*
+*Blessing direction and judgement*
+*To worship him to serve him and*
+*To obey him as in duty bound*
+*October 1857.*
+
+Suffice to say for now that John Anthony did not die until 1863.
+
+The other building served as the Parish Church from the 12th Century to about 1750. Only the East gable and parts of the North and South walls survive. On the inside of the East gable can be seen a typical 12th Century undecorated Romanesque Window. The outside has been altered to include a beautiful 16th Century cut limestone window in two divisions. This Church probably served as a Protestant Church from the time of Henry VIII and the dissolution of the Monasteries. There are the remains of no Protestant Church in the area, even though it was heavily populated by them. The alterations of this Church and the Oratory would have been made by them. Con Halloran a local historian remembers being told in his youth that by placing your back to this window and looking towards the road, all graves to your left once contained only Protestant families.
+
+The oldest recumbent grave marker in the place, lies within this Church it is wedge shaped and a faint impression of a cross can still be seen on it. The oldest inscribed Grave-Marker is also here. It reads:
+
+*Here lies the body of*
+*Edmond Touhy son to*
+*Michael Touhy and Winefrid*
+*Minagus Who Died the 19th*
+*of March A.D. 1758 in the*
+*22nd year of his age. Requi*
+*Escat in Pace. Amen.*
+
+At the bottom, a skull and crossbones is depicted along with two angelic figures. At the top there is a hole similar to ones found at Clonmacnoise. The significance of these holes still baffles Historians.
+
+To the South West of this Church there is an Archway of chiselled stones which is 7 feet high and 5 feet 6 inches broad. It belongs to the same period as the re-construction work on the Church and Oratory. All burials in Clonrush pass through this Arch and turn right before returning to their allotted plot. This custom is very ancient and like many other Irish customs has descended from Pagan to Christian times. Celtic people always approached a Holy location from the North side and are still accustomed to turn sunwise, i.e. from left to right in the performance of certain rites, particularly with regard to burials. The word deiseal was used to designate this way of turning. From left to right is considered lucky, the opposite direction unlucky. By far the most interesting and most beautiful Grave marker is one commemorating Martin Power. This is situated in the centre of the Churchyard and is constructed in Killaloe slate. It reads:
+
+*Erected by Martin Power*
+*In memory of his son*
+*Edmond Power who*
+*Departed Life May 1829*
+*Aged 22 yrs May He*
+*Rest in Peace. Amen.*
+
+The Powers lived at Derainey Whitegate. Martin was a soldier in the British Army and while on leave in 1829 his son died. Being filled with remorse Martin refused to return to his regiment and so became a deserter. Con Halloran tell me that he constructed this Tomb Stone on the Hobart Island in Church Bay while on the run. The stone was brought across the Lake from Portroe and for twelve months Martin worked on the intricate
