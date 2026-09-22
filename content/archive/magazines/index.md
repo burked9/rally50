@@ -105,7 +105,12 @@ main, .l-measure, .l-container {
 
     <a href="{filename}/archive/magazines/clonrush-churchyard.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush_oratory_before.jpg" alt="Clonrush Churchyard">
-        <div class="gallery-caption">Some Interesting Features in Clonrush Churchyard</div>
+        <div class="gallery-caption">Derg Rally 23 (1998): Some Interesting Features in Clonrush Churchyard</div>
+    </a>
+
+    <a href="{filename}/archive/magazines/lest-we-forget.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/tuamgraney_famine_memorial.jpg" alt="Lest We Forget - Tuamgraney Famine Memorial">
+        <div class="gallery-caption">Derg Rally 23 (1998): "Lest We Forget" - The Famine Memorial Park in Tuamgraney</div>
     </a>
 </div>
 
