@@ -104,7 +104,7 @@ main, .l-measure, .l-container {
     </a>
 
     <a href="{filename}/archive/magazines/clonrush-churchyard.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Clonrush Churchyard">
+        <img src="{static}/images/archive/magazines/clonrush_oratory_before.jpg" alt="Clonrush Churchyard">
         <div class="gallery-caption">Some Interesting Features in Clonrush Churchyard</div>
     </a>
 </div>

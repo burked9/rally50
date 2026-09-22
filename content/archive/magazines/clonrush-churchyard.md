@@ -1,11 +1,15 @@
-Title: Some Interesting Features in Clonrush Churchyard
-Date: 2026-01-01
+Title: Derg Rally 23 (1998): Some Interesting Features in Clonrush Churchyard
+Date: 1998-01-01
 Slug: archive/magazines/clonrush-churchyard
 Save_as: archive/magazines/clonrush-churchyard.html
 URL: archive/magazines/clonrush-churchyard.html
-Summary: A look into the history and features of the Clonrush Churchyard.
+Summary: A look into the history and features of the Clonrush Churchyard. Written by Gerard Madden for the Derg Rally 23 Magazine (1998).
 
-*Published in the Derg Rally 23 Magazine in 1998.*
+*Published in the Derg Rally 23 Magazine in 1998 by Gerard Madden.*
+
+<div style="float: right; margin: 0 0 20px 20px; width: 300px; text-align: center;">
+    <img src="{static}/images/archive/magazines/clonrush_oratory_after.jpg" alt="Oratory at Clonrush" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 **Some Interesting Features in Clonrush Churchyard**
 
@@ -18,14 +22,18 @@ The Cell Colman is a small oblong building 10 ft. 4 inches by 8 ft. 6 inches on 
 On the East Gable there is a small rectangular window 12 inches high by 6 inches in width. In 1838 there seem to have been a Double Bullaun Stone, placed beneath this window on the inside. The impressions on the stone were said to have been made by St. Colman's knees, who according to tradition could hear Mass being celebrated in Rome from here. The incredible acoustics within the building, no doubt accounts for this tall tale. Around this time too the building was called the 'Confessional', a purpose to which it was ideally suited. Later in the Century it became known as Boltons House. Bolton was a small tenant farmer nearby who is supposed to have raised pigs within this building. In modern times it was known as the Skull House because of the careless and abominable practice of depositing bones etc. there by grave diggers.
 
 In the Summer of 1988 The Clonrush Heritage Group undertook the task of restoring this building. It had disintegrated almost beyond repair. It was covered with ivy and bushes and an Ash Tree with a diameter of 10 inches grew from the roof. Work began here under the expert advice of Mr. Peter Geraghty, retired Head of the Monuments Section of the Board of Works to whom we owe a great debt of gratitude. In the Summer of 1989, Bill Tierney a local stone-mason undertook the re-building and the finished product is a lasting monument to his undoubted talents. See sketch of building on the back cover and figure 1.
-
-*(Image Caption: Bill Tierney at work on the Oratory at Clonrush)*
-
+<figure style="margin: 20px 0;">
+    <img src="{static}/images/archive/magazines/clonrush_bill_tierney.jpg" alt="Bill Tierney at work on the Oratory at Clonrush" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.85em; color: #555; text-align: center; margin-top: 8px;">Bill Tierney at work on the Oratory at Clonrush.</figcaption>
+</figure>
 There are the remains of two Churches still to be seen in the graveyard. One is called Tigh na Mbrathair i.e. the House of the Friars and the other is known simply as the Parish Church. The House of the Friars is marked on the Ordinance Map as Tinamraher. Only the lowest courses remain and because of the huge cyclopian masonry we can date it to the 10th or 11th Century. Like Island More a short distance from here in Lough Derg, where there are the remains of a monastic settlement still called the Friary, Clonrush was at one time called Meelick Abbey. There is, however, no record of Franciscans or Dominicans ever been in either place.
 
 On recumbent stone within the precincts of this Church, there is an interesting Epitaph which reads:
 
-*Oratory at Clonrush before re-construction.*
+<figure style="margin: 20px 0;">
+    <img src="{static}/images/archive/magazines/clonrush_oratory_before.jpg" alt="Oratory at Clonrush before re-construction" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <figcaption style="font-size: 0.85em; color: #555; text-align: center; margin-top: 8px;">Oratory at Clonrush before re-construction.</figcaption>
+</figure>
 
 *John A. Burke Tintrim*
 *A magistrate and an honest man*
@@ -65,6 +73,10 @@ To the South West of this Church there is an Archway of chiselled stones which i
 *Departed Life May 1829*
 *Aged 22 yrs May He*
 *Rest in Peace. Amen.*
+
+<figure style="margin: 20px 0;">
+    <img src="{static}/images/archive/magazines/clonrush_edmond_power_tombstone.jpg" alt="Edmond Power's Tombstone" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</figure>
 
 The Powers lived at Derainey Whitegate. Martin was a soldier in the British Army and while on leave in 1829 his son died. Being filled with remorse Martin refused to return to his regiment and so became a deserter. Con Halloran tell me that he constructed this Tomb Stone on the Hobart Island in Church Bay while on the run. The stone was brought across the Lake from Portroe and for twelve months Martin worked on the intricate designs. It shows St. Michael with his Trumpet, a Skeleton with the face of a bird holding the scales of justice, two Doves with Olive branches, one in flight the other stationary, two Angels, two Roosters and two Baskets of Flowers. Christ is Depicted on the Cross and by his sides can be seen nails, pincers and hammer. All the designs are in relief and so well constructed that the artist must have been of the highest order. Figure 2.
 
