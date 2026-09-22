@@ -93,14 +93,14 @@ main, .l-measure, .l-container {
 
 <div class="gallery-grid">
 
+    <a href="{filename}/archive/magazines/castlebawn.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/bally_kelly_castle.jpg" alt="Castlebawn">
+        <div class="gallery-caption">Castlebawn</div>
+    </a>
+
     <a href="{filename}/archive/magazines/secret-places-clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush_secret_place.jpg" alt="Secret Places of Lough Derg">
         <div class="gallery-caption">Rally Magazine 18 (1993): Secret Places of Lough Derg</div>
-    </a>
-
-    <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
-        <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
-        <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
     </a>
 
     <a href="{filename}/archive/magazines/clonrush-churchyard.md" class="gallery-item">
@@ -111,6 +111,11 @@ main, .l-measure, .l-container {
     <a href="{filename}/archive/magazines/lest-we-forget.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/tuamgraney_famine_memorial.jpg" alt="Lest We Forget - Tuamgraney Famine Memorial">
         <div class="gallery-caption">Derg Rally 23 (1998): "Lest We Forget" - The Famine Memorial Park in Tuamgraney</div>
+    </a>
+
+    <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
+        <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
     </a>
 </div>
 
