@@ -231,6 +231,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people_placeholder.png" alt="Lotus Two to Lough Erne">
         <div class="gallery-caption">Lotus Two to Lough Erne by Brendan McMahon</div>
     </a>
+    <a href="{filename}/archive/people/stories/the-fourth-rock.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="The Fourth Rock">
+        <div class="gallery-caption">Rally 23 (1998): The Fourth Rock by John Moore</div>
+    </a>
 </div>
 
 
