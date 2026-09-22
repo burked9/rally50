@@ -1,9 +1,11 @@
-Title: Castlebawn
-Date: 1990-01-01
+Title: Derg Rally 23 (1998): Castlebawn
+Date: 1998-01-01
 Slug: archive/magazines/castlebawn
 Save_as: archive/magazines/castlebawn.html
 URL: archive/magazines/castlebawn.html
 Summary: A historical look at Castlebawn, a 16th century Towerhouse on Lough Derg. Written by Pat Cody.
+
+*Published in the Derg Rally 23 Magazine in 1998 by Pat Cody.*
 
 <div style="float: right; margin: 0 0 20px 20px; width: 300px; text-align: center;">
     <img src="{static}/images/archive/magazines/bally_kelly_castle.jpg" alt="Bally Kelly Castle, Scariff Bay" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
