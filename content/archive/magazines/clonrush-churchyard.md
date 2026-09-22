@@ -5,6 +5,8 @@ Save_as: archive/magazines/clonrush-churchyard.html
 URL: archive/magazines/clonrush-churchyard.html
 Summary: A look into the history and features of the Clonrush Churchyard.
 
+*Published in the Derg Rally 23 Magazine in 1998.*
+
 **Some Interesting Features in Clonrush Churchyard**
 
 **T**he parish of Whitegate from earliest times up to the last Century was known as Clonrush, a name that has significant ecclesiastical connotations. 'Cluain', according to Joyce, means a fertile piece of land surrounded or nearly surrounded by bog or marsh on one side and water on the other. Its frequent occurrence in our ecclesiastical names, i.e. Clonard, Clonmacnoise, Clonfert, etc., is explained by the custom of the early Irish Saints to select lonely places for their religious establishments. Rush i.e. Ros, meant in this instance wood. The Hinterland was heavily wooded up to the 17th Century when most of the trees were indiscriminately cut to provide charcoal for the Iron works at Meelick, Whitegate. The furnace is still to be seen. Thus, Clonrush loosely translated means meadow in the wood.
@@ -64,4 +66,23 @@ To the South West of this Church there is an Archway of chiselled stones which i
 *Aged 22 yrs May He*
 *Rest in Peace. Amen.*
 
-The Powers lived at Derainey Whitegate. Martin was a soldier in the British Army and while on leave in 1829 his son died. Being filled with remorse Martin refused to return to his regiment and so became a deserter. Con Halloran tell me that he constructed this Tomb Stone on the Hobart Island in Church Bay while on the run. The stone was brought across the Lake from Portroe and for twelve months Martin worked on the intricate
+The Powers lived at Derainey Whitegate. Martin was a soldier in the British Army and while on leave in 1829 his son died. Being filled with remorse Martin refused to return to his regiment and so became a deserter. Con Halloran tell me that he constructed this Tomb Stone on the Hobart Island in Church Bay while on the run. The stone was brought across the Lake from Portroe and for twelve months Martin worked on the intricate designs. It shows St. Michael with his Trumpet, a Skeleton with the face of a bird holding the scales of justice, two Doves with Olive branches, one in flight the other stationary, two Angels, two Roosters and two Baskets of Flowers. Christ is Depicted on the Cross and by his sides can be seen nails, pincers and hammer. All the designs are in relief and so well constructed that the artist must have been of the highest order. Figure 2.
+
+There are many more interesting Vaults and Grave Markers in this very Historic and well kept grave-yard which we will write about in the future. The condition of the grave-yard is a credit to the caring families whose ancestors are interred there, but above all to Joe Dunlea - The Caretaker who takes special pride in keeping it one of the best kept grave-yards in the country.
+
+"Beneath those rugged elms,
+that yew — tree's shade,
+Where heaves the turf in many
+a mouldering heap,
+Each in his narrow cell for ever laid,
+The rude forefathers of the Hamlet sleep".
+
+Elegy written in a country Churchyard
+by Thomas Gray.
+
+**References**
+
+1. The Ordinance Survey Letters Galway Volume 2 Donovan.
+2. "The Parishes of Iniscealtra and Clonrush" in Molua. By D.F. Gleeson. M.A.
+
+Gerard Madden
