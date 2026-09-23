@@ -284,7 +284,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally 24 (1999): Presentation of Derg Perpetual Cup c1981</div>
     </a>
     <a href="{static}/images/people/snippets/chris_boyle_rally24.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 24 (1999): Chris, checking that everything is running properly!!">
-        <img src="{static}/images/people/snippets/chris_boyle_rally24.jpg" alt="Chris Boyle">
+        <img src="{static}/images/people/snippets/chris_boyle_rally24.jpg" alt="Chris Boyle" style="object-position: top;">
         <div class="gallery-caption">Rally 24 (1999): Chris Boyle</div>
     </a>
 </div>
