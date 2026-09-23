@@ -291,4 +291,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/chris_boyle_rally24.jpg" alt="Chris Boyle" style="object-position: top;">
         <div class="gallery-caption">Rally 24 (1999): Chris Boyle</div>
     </a>
+    <a href="{static}/images/people/snippets/rory_stevens_rally24.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 24 (1999): Rory Stevens: Next Years Commodore">
+        <img src="{static}/images/people/snippets/rory_stevens_rally24.jpg" alt="Rory Stevens: Next Years Commodore" style="object-position: top;">
+        <div class="gallery-caption">Rally 24 (1999): Rory Stevens: Next Years Commodore</div>
+    </a>
 </div>
