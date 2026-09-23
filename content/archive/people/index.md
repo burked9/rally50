@@ -160,7 +160,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally 22 (1997): John Moore</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/oliver-kennedy-1998.md" class="gallery-item">
-        <img src="{static}/images/people/commodores-welcomes/oliver_kennedy_rally23.jpg" alt="Oliver Kennedy">
+        <img src="{static}/images/people/commodores-welcomes/oliver_kennedy_rally23.jpg" alt="Oliver Kennedy" style="object-position: top;">
         <div class="gallery-caption">Rally 23 (1998): Oliver Kennedy</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/tom_moore_rally24.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 24 (1999): Tom Moore">
@@ -217,27 +217,31 @@ main, .l-measure, .l-container {
 <div class="gallery-grid">
     <a href="{filename}/archive/people/stories/tranquillity.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="Tranquillity">
-        <div class="gallery-caption">Tranquillity by William Slator</div>
+        <div class="gallery-caption">Rally 17 (1992): Tranquillity by William Slator</div>
     </a>
     <a href="{filename}/archive/people/stories/halloween.md" class="gallery-item">
         <img src="{static}/images/pookas/Pooka41m_thumb.jpg" alt="Halloween by Eric Timon" style="object-position: top;">
-        <div class="gallery-caption">Halloween by Eric Timon</div>
+        <div class="gallery-caption">Rally 15 (1990): Halloween by Eric Timon</div>
     </a>
     <a href="{filename}/archive/people/stories/that-bates-banagher.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="That Bates Banagher">
-        <div class="gallery-caption">That Bates Banagher by Eric Timon</div>
+        <div class="gallery-caption">Rally 17 (1992): That Bates Banagher by Eric Timon</div>
     </a>
     <a href="{filename}/archive/people/stories/the-boat.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="The Boat">
-        <div class="gallery-caption">The Boat by Eric Timon</div>
+        <div class="gallery-caption">Rally 21 (1996): The Boat by Eric Timon</div>
     </a>
     <a href="{filename}/archive/people/stories/lotus-two.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="Lotus Two to Lough Erne">
-        <div class="gallery-caption">Lotus Two to Lough Erne by Brendan McMahon</div>
+        <div class="gallery-caption">Rally 21 (1996): Lotus Two to Lough Erne by Brendan McMahon</div>
     </a>
     <a href="{filename}/archive/people/stories/the-fourth-rock.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="The Fourth Rock">
         <div class="gallery-caption">Rally 23 (1998): The Fourth Rock by John Moore</div>
+    </a>
+    <a href="{filename}/archive/people/stories/back-to-the-water.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Back To The Water">
+        <div class="gallery-caption">Rally 24 (1999): Back To The Water by Brian J Goggin</div>
     </a>
 </div>
 
@@ -268,7 +272,7 @@ main, .l-measure, .l-container {
 
 <div class="gallery-grid">
     <a href="{static}/images/people/snippets/the_two_toms_rally22.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 22 (1997): The Two Toms">
-        <img src="{static}/images/people/snippets/the_two_toms_rally22.jpg" alt="The Two Toms">
+        <img src="{static}/images/people/snippets/the_two_toms_rally22.jpg" alt="The Two Toms" style="object-position: top;">
         <div class="gallery-caption">Rally 22 (1997): The Two Toms</div>
     </a>
     <a href="{static}/images/people/snippets/ged_malloy_rally22.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 22 (1997): Ged Malloy going for a Hole in One!">
