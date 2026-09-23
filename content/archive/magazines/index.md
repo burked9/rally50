@@ -113,6 +113,11 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Derg Rally 23 (1998): "Lest We Forget" - The Famine Memorial Park in Tuamgraney</div>
     </a>
 
+    <a href="{filename}/archive/magazines/limerick-fishing-hooks.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="An Account of Limerick Fishing Hooks, Flies, etc. May 1833">
+        <div class="gallery-caption">Derg Rally 24 (1999): An Account of Limerick Fishing Hooks, Flies, etc. May 1833</div>
+    </a>
+
     <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>

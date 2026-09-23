@@ -270,7 +270,7 @@ main, .l-measure, .l-container {
 
 ## Rally Photo Collages
 
-<div class="gallery-grid">
+<div class="gallery-grid-large">
     <a href="{static}/images/people/snippets/rally23_photo_collage_1_rally24_mag.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 24 (1999): Photo Collage of Rally 23 (1998)">
         <img src="{static}/images/people/snippets/rally23_photo_collage_1_rally24_mag.jpg" alt="Rally 23 Photo Collage">
         <div class="gallery-caption">Rally 24 (1999): Photo Collage of Rally 23 (1998)</div>
