@@ -275,6 +275,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/rally23_photo_collage_1_rally24_mag.jpg" alt="Rally 23 Photo Collage">
         <div class="gallery-caption">Rally 24 (1999): Photo Collage of Rally 23 (1998)</div>
     </a>
+    <a href="{static}/images/people/snippets/rally23_photo_collage_2_rally24_mag_combined.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 24 (1999): Photo Collage 2 of Rally 23 (1998)">
+        <img src="{static}/images/people/snippets/rally23_photo_collage_2_rally24_mag_thumb.jpg" alt="Rally 23 Photo Collage 2" style="object-position: top;">
+        <div class="gallery-caption">Rally 24 (1999): Photo Collage 2 of Rally 23 (1998)</div>
+    </a>
 </div>
 
 ## Snippets & Snapshots
