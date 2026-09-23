@@ -82,7 +82,7 @@ Welcome to the digital archive of the IWAI Lough Derg Rally. Here you will find 
 
     <!-- People Widget -->
     <a href="{filename}/archive/people/index.md" class="archive-widget">
-        <img src="{filename}/images/people_placeholder.png" alt="People">
+        <img src="{filename}/images/people/snippets/derg_perpetual_cup_rally24.jpg" alt="People">
         <div class="archive-widget-content">
             <h3>People</h3>
             <p>Remembering those who made the rally, including commodores, memorials, and Hall of Fame.</p>

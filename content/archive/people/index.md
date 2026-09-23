@@ -279,4 +279,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/beckers_on_tour_rally23.jpg" alt="Beckers On Tour!">
         <div class="gallery-caption">Rally 23 (1998): Beckers On Tour!</div>
     </a>
+    <a href="{static}/images/people/snippets/derg_perpetual_cup_rally24.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 24 (1999): Presentation of Derg Perpetual Cup c1981">
+        <img src="{static}/images/people/snippets/derg_perpetual_cup_rally24.jpg" alt="Presentation of Derg Perpetual Cup c1981">
+        <div class="gallery-caption">Rally 24 (1999): Presentation of Derg Perpetual Cup c1981</div>
+    </a>
 </div>
