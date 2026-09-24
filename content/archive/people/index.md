@@ -163,8 +163,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/oliver_kennedy_rally23.jpg" alt="Oliver Kennedy" style="object-position: top;">
         <div class="gallery-caption">Rally 23 (1998): Oliver Kennedy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/tom_moore_rally24.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 24 (1999): Tom Moore">
-        <img src="{static}/images/people/commodores-welcomes/tom_moore_rally24.jpg" alt="Tom Moore">
+    <a href="{static}/images/people/commodores-welcomes/tom_moore_rally24_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 24 (1999): Tom Moore">
+        <img src="{static}/images/people/commodores-welcomes/tom_moore_rally24_thumb.jpg" alt="Tom Moore" style="object-position: top;">
         <div class="gallery-caption">Rally 24 (1999): Tom Moore</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/rory-stephens-2000.md" class="gallery-item">
