@@ -352,4 +352,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/chris_boyle_paula_stevens_rally25.jpg" alt="Chris Boyle &amp; Paula Stevens" style="object-position: top;">
         <div class="gallery-caption">Rally 25 (2000): Chris Boyle &amp; Paula Stevens</div>
     </a>
+    <a href="{static}/images/people/snippets/chris_boyle_4e_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): Chris Boyle on 4E">
+        <img src="{static}/images/people/snippets/chris_boyle_4e_rally26.jpg" alt="Chris Boyle on 4E" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Chris Boyle on 4E</div>
+    </a>
 </div>
