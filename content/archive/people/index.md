@@ -156,7 +156,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally 21 (1996): Eamon Egan</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/john-moore-1997.md" class="gallery-item">
-        <img src="{static}/images/people/commodores-welcomes/john_moore_rally22.jpg" alt="John Moore">
+        <img src="{static}/images/people/commodores-welcomes/john_moore_rally22_thumb.jpg" alt="John Moore" style="object-position: top;">
         <div class="gallery-caption">Rally 22 (1997): John Moore</div>
     </a>
     <a href="{filename}/archive/people/commodores-welcomes/oliver-kennedy-1998.md" class="gallery-item">

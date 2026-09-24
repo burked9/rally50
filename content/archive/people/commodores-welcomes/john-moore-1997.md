@@ -7,7 +7,10 @@ Summary: "It gives me great pleasure to welcome you all to this, our Annual Rall
 
 *Commodore’s Letter Published for Derg Rally 22 in 1997*
 
-<img src="{static}/images/people/commodores-welcomes/john_moore_rally22.jpg" alt="John Moore" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div style="float: right; margin: 0 0 20px 20px; display: flex; flex-direction: column; gap: 20px; width: 300px;">
+    <img src="{static}/images/people/commodores-welcomes/john_moore_rally22_thumb.jpg" alt="John Moore" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <img src="{static}/images/people/commodores-welcomes/john_moore_rally22.jpg" alt="John Moore" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</div>
 
 Dear Friends, 
 
