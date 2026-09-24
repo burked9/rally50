@@ -137,16 +137,20 @@ main, .l-measure, .l-container {
 ## Magazine Articles: Snippets & Snapshots
 
 <div class="gallery-grid">
-    <a href="{static}/images/archive/magazines/barge_race_rally19.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Barge Race Rally 19 Mag">
+    <a href="{static}/images/archive/magazines/barge_race_rally19.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Rally Magazine 19 (1994): Barge Race">
         <img src="{static}/images/archive/magazines/barge_race_rally19.jpg" alt="Barge Race">
-        <div class="gallery-caption">Barge Race Rally 19 Mag</div>
+        <div class="gallery-caption">Rally Magazine 19 (1994): Barge Race</div>
     </a>
-    <a href="{static}/images/archive/magazines/old_sailing_barge_1896_rally19.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Old Sailing Barge 1896: Rally 19 Mag">
+    <a href="{static}/images/archive/magazines/old_sailing_barge_1896_rally19.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Rally Magazine 19 (1994): Old Sailing Barge 1896">
         <img src="{static}/images/archive/magazines/old_sailing_barge_1896_rally19.jpg" alt="Old Sailing Barge 1896">
-        <div class="gallery-caption">Old Sailing Barge 1896: Rally 19 Mag</div>
+        <div class="gallery-caption">Rally Magazine 19 (1994): Old Sailing Barge 1896</div>
     </a>
     <a href="{filename}/archive/magazines/history-of-4e.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/4e_after_restoration.jpg" alt="History of 4E">
-        <div class="gallery-caption">History of 4E</div>
+        <div class="gallery-caption">Rally Magazine 20 (1995): History of 4E (1895-1995)</div>
+    </a>
+    <a href="{static}/images/archive/magazines/parts_and_rigging_rally25.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Rally Magazine 25 (2000): Parts &amp; Rigging of a Motor Cruiser">
+        <img src="{static}/images/archive/magazines/parts_and_rigging_rally25.jpg" alt="Parts &amp; Rigging of a Motor Cruiser">
+        <div class="gallery-caption">Rally Magazine 25 (2000): Parts &amp; Rigging of a Motor Cruiser</div>
     </a>
 </div>
