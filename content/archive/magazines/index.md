@@ -110,27 +110,27 @@ main, .l-measure, .l-container {
 
     <a href="{filename}/archive/magazines/clonrush-churchyard.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush_oratory_before.jpg" alt="Clonrush Churchyard">
-        <div class="gallery-caption">Derg Rally 23 (1998): Some Interesting Features in Clonrush Churchyard</div>
+        <div class="gallery-caption">Rally Magazine 23 (1998): Some Interesting Features in Clonrush Churchyard</div>
     </a>
 
     <a href="{filename}/archive/magazines/lest-we-forget.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/tuamgraney_famine_memorial.jpg" alt="Lest We Forget - Tuamgraney Famine Memorial">
-        <div class="gallery-caption">Derg Rally 23 (1998): "Lest We Forget" - The Famine Memorial Park in Tuamgraney</div>
+        <div class="gallery-caption">Rally Magazine 23 (1998): "Lest We Forget" - The Famine Memorial Park in Tuamgraney</div>
     </a>
 
     <a href="{filename}/archive/magazines/limerick-fishing-hooks.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="An Account of Limerick Fishing Hooks, Flies, etc. May 1833">
-        <div class="gallery-caption">Derg Rally 24 (1999): An Account of Limerick Fishing Hooks, Flies, etc. May 1833</div>
+        <div class="gallery-caption">Rally Magazine 24 (1999): An Account of Limerick FIshing - Hooks, Flies etc. May 1833</div>
     </a>
 
     <a href="{filename}/archive/magazines/lough-derg-rallies.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/babes_rally8.jpg" alt="Lough Derg Rallies (A Potted History)">
-        <div class="gallery-caption">Derg Rally 25 (2000): Lough Derg Rallies (A Potted History)</div>
+        <div class="gallery-caption">Rally Magazine 25 (2000): Lough Derg Rallies (A Potted History)</div>
     </a>
 
     <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
-        <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
+        <div class="gallery-caption">Rally Magazine 28 (2003): Clonrush</div>
     </a>
 </div>
 
