@@ -336,4 +336,12 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/foreign_visitors_rally25.jpg" alt="Foreign Visitors - Colin Becker, Roger Lorentz, Steph Lorentz" style="object-position: top;">
         <div class="gallery-caption">Rally 25 (2000): "Foreign Visitors" - Colin Becker, Roger Lorentz, Steph Lorentz</div>
     </a>
+    <a href="{static}/images/people/snippets/the_megaphonics_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 25 (2000): &quot;The Megaphonics&quot; - Rally 7 1982">
+        <img src="{static}/images/people/snippets/the_megaphonics_rally25.jpg" alt="The Megaphonics - Rally 7 1982" style="object-position: top;">
+        <div class="gallery-caption">Rally 25 (2000): "The Megaphonics" - Rally 7 1982</div>
+    </a>
+    <a href="{static}/images/people/snippets/chris_boyle_paula_stevens_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 25 (2000): Chris Boyle &amp; Paula Stevens">
+        <img src="{static}/images/people/snippets/chris_boyle_paula_stevens_rally25.jpg" alt="Chris Boyle &amp; Paula Stevens" style="object-position: top;">
+        <div class="gallery-caption">Rally 25 (2000): Chris Boyle &amp; Paula Stevens</div>
+    </a>
 </div>
