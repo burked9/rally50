@@ -143,8 +143,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/archive/magazines/4e_after_restoration.jpg" alt="Commodores Boat - 4E">
         <div class="gallery-caption">Rally 18 (1993): Joe Treacy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/les_saunders_rally19.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 19 (1994): Les Saunders">
-        <img src="{static}/images/people/commodores-welcomes/les_saunders_rally19.jpg" alt="Les Saunders">
+    <a href="{static}/images/people/commodores-welcomes/les_saunders_rally19_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 19 (1994): Les Saunders">
+        <img src="{static}/images/people/commodores-welcomes/les_saunders_rally19_thumb.jpg" alt="Les Saunders" style="object-position: top;">
         <div class="gallery-caption">Rally 19 (1994): Les Saunders</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Maan of Derg">
