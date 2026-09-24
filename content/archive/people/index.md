@@ -95,8 +95,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/tom_duffy_rally6.jpg" alt="Tom Duffy">
         <div class="gallery-caption">Rally 6 (1981): Tom Duffy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/bryan_brislane_rally7.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 7 (1982): Bryan Brislane">
-        <img src="{static}/images/people/commodores-welcomes/bryan_brislane_rally7.jpg" alt="Bryan Brislane">
+    <a href="{static}/images/people/commodores-welcomes/bryan_brislane_rally7_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 7 (1982): Bryan Brislane">
+        <img src="{static}/images/people/commodores-welcomes/bryan_brislane_rally7_thumb.jpg" alt="Bryan Brislane" style="object-position: top;">
         <div class="gallery-caption">Rally 7 (1982): Bryan Brislane</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/colin_becker_rally8.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 8 (1983): Colin Becker">
@@ -107,12 +107,12 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/maureen_duffy_rally9.jpg" alt="Maureen Duffy">
         <div class="gallery-caption">Rally 9 (1984): Maureen Duffy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/chris_boyle_rally10.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 10 (1985): Chris Boyle">
-        <img src="{static}/images/people/commodores-welcomes/chris_boyle_rally10.jpg" alt="Chris Boyle">
+    <a href="{static}/images/people/commodores-welcomes/chris_boyle_rally10_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 10 (1985): Chris Boyle">
+        <img src="{static}/images/people/commodores-welcomes/chris_boyle_rally10_thumb.jpg" alt="Chris Boyle" style="object-position: top;">
         <div class="gallery-caption">Rally 10 (1985): Chris Boyle</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/joe_treacy_rally11.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 11 (1986): Joe Treacy">
-        <img src="{static}/images/people/commodores-welcomes/joe_treacy_rally11.jpg" alt="Joe Treacy">
+    <a href="{static}/images/people/commodores-welcomes/joe_treacy_rally11_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 11 (1986): Joe Treacy">
+        <img src="{static}/images/people/commodores-welcomes/joe_treacy_rally11_thumb.jpg" alt="Joe Treacy" style="object-position: top;">
         <div class="gallery-caption">Rally 11 (1986): Joe Treacy</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/a_gill_rally12_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 12 (1987): A. Gill">
