@@ -123,6 +123,11 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Derg Rally 24 (1999): An Account of Limerick Fishing Hooks, Flies, etc. May 1833</div>
     </a>
 
+    <a href="{filename}/archive/magazines/lough-derg-rallies.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Lough Derg Rallies (A Potted History)">
+        <div class="gallery-caption">Derg Rally 25 (2000): Lough Derg Rallies (A Potted History)</div>
+    </a>
+
     <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
         <div class="gallery-caption">Derg Rally 28 (2003): Clonrush</div>
