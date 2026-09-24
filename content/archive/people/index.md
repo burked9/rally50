@@ -328,4 +328,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/birds_eye_view_rally25.jpg" alt="Birds Eye View - Seamus Kerrigan, St. Patrick" style="object-position: top;">
         <div class="gallery-caption">Rally 25 (2000): "Birds Eye View" - Seamus Kerrigan, St. Patrick</div>
     </a>
+    <a href="{static}/images/people/snippets/foreign_visitors_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 25 (2000): &quot;Foreign Visitors&quot; - Colin Becker, Roger Lorentz, Steph Lorentz">
+        <img src="{static}/images/people/snippets/foreign_visitors_rally25.jpg" alt="Foreign Visitors - Colin Becker, Roger Lorentz, Steph Lorentz" style="object-position: top;">
+        <div class="gallery-caption">Rally 25 (2000): "Foreign Visitors" - Colin Becker, Roger Lorentz, Steph Lorentz</div>
+    </a>
 </div>
