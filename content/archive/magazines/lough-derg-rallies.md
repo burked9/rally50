@@ -10,6 +10,9 @@ Summary: A potted history of Lough Derg Rallies by Joe Treacy for Rally 25 (2000
 **Lough Derg Rallies**
 **(A Potted History)**
 
+<img src="{static}/images/archive/magazines/babes_rally8.jpg" alt="&quot;Babes&quot; - Rally 8, 1983" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+<p style="text-align: center; font-style: italic;">"Babes" - Rally 8, 1983</p>
+
 Although Rally One was in 1975, from the branch minute books early "stirrings" can be found as far back as February 1971. At that meeting the Chairman, John Ryan, considered that the Shannon Rally had outlived its attractions and it was time that Lough Derg should become better known by boat hirers. Possible sponsors of a rally on Lough Derg would be Esso and Carroll's Cigarettes. A sub-committee was formed and quickly decided on the weekend of 26/27 June for a rally of 15 to 20 boats at Kilgarvan. The owner of Fool's Island and Mr Huskisson of Waterloo Lodge were approached to cater for over-spill from the tiny Kilgarvan Quay and it was felt that all three could accommodate 15 boats overnight. Kilgarvan Angling Club were creating extra moorings at the time and a collection through the rally raised £13 for the club in appreciation of the hospitality shown to the rally. At the AGM of October 1971, it was reported that members had joined in a week-long rally of Emerald Star boat.
 
 In 1972 it was planned to visit Dromineer, Kilgarvan and Scariff and it was felt 10/11 boats might well be the maximum that could be comfortably moored during night stops — additional boats would be welcome but would have to face the risk of finding alternative moorings for the nights. A second rally was held that year on 8/9 September visiting Scariff and Kilgarvan. The difficulty experienced in finding the entrance to the Scariff river in the face of a setting sun prompted the Branch to complain to the O.P.W. and look for improvements in markers and buoys.

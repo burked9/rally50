@@ -124,7 +124,7 @@ main, .l-measure, .l-container {
     </a>
 
     <a href="{filename}/archive/magazines/lough-derg-rallies.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Lough Derg Rallies (A Potted History)">
+        <img src="{static}/images/archive/magazines/babes_rally8.jpg" alt="Lough Derg Rallies (A Potted History)">
         <div class="gallery-caption">Derg Rally 25 (2000): Lough Derg Rallies (A Potted History)</div>
     </a>
 
