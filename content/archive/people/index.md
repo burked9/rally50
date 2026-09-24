@@ -115,8 +115,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/joe_treacy_rally11.jpg" alt="Joe Treacy">
         <div class="gallery-caption">Rally 11 (1986): Joe Treacy</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/a_gill_rally12.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 12 (1987): A. Gill">
-        <img src="{static}/images/people/commodores-welcomes/a_gill_rally12.jpg" alt="A. Gill">
+    <a href="{static}/images/people/commodores-welcomes/a_gill_rally12_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 12 (1987): A. Gill">
+        <img src="{static}/images/people/commodores-welcomes/a_gill_rally12_thumb.jpg" alt="A. Gill" style="object-position: top;">
         <div class="gallery-caption">Rally 12 (1987): A. Gill</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/tos_quinn_rally13_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 13 (1988): Tos Quinn">
