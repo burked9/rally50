@@ -5,6 +5,8 @@ Slug: archive/people/memories/rally16-eric-makim
 
 *This article was written by Eric Makim for the Brochure for Rally 17.*
 
+<img src="{static}/images/people/memories/memories_rally16.jpg" alt="Memories of Rally 16" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
 It's been a short year since last year's Rally. Rally 16 was to be our second fun rally, also we decided to break new ground and head north to Meelick for the unofficial start on Sunday night. Having nervously negotiated "Sunset", with its masts in place, under the electric power cables we arrived in Meelick to spend a very wet miserable night in the local hostelry with a few hundred Rally goers.
 
 My God, I thought, was this a sample of what was to come for the rest of the week. Monday morning the sun shone and the sight of the boats arriving from the north having finished the Shannon Rally the previous Saturday was a welcome relief.

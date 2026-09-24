@@ -203,7 +203,7 @@ main, .l-measure, .l-container {
 <div class="gallery-grid">
     <!-- Items will be added here -->
     <a href="{filename}/archive/people/memories/rally16-eric-makim.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Eric Makim">
+        <img src="{static}/images/people/memories/memories_rally16.jpg" alt="Eric Makim">
         <div class="gallery-caption">Rally 16 (1991): Eric Makim</div>
     </a>
     <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
