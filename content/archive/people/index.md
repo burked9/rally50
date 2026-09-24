@@ -316,12 +316,12 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/gerrys_island_cleanup_rally24_thumb.jpg" alt="Gerry's Island Clean up May 1999" style="object-position: top;">
         <div class="gallery-caption">Rally 24 (1999) - Gerry's Island Clean up May 1999</div>
     </a>
-    <a href="{static}/images/people/snippets/lotus_two_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Derg Rally 25: &quot;Lotus Two getting a helping hand&quot;">
+    <a href="{static}/images/people/snippets/lotus_two_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 25 (2000): &quot;Lotus Two getting a helping hand&quot;">
         <img src="{static}/images/people/snippets/lotus_two_rally25.jpg" alt="Lotus Two getting a helping hand" style="object-position: top;">
-        <div class="gallery-caption">Derg Rally 25: "Lotus Two getting a helping hand"</div>
+        <div class="gallery-caption">Rally 25 (2000): "Lotus Two getting a helping hand"</div>
     </a>
-    <a href="{static}/images/people/snippets/birds_eye_view_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Derg Rally 25: &quot;Birds Eye View&quot; - Seamus Kerrigan, St. Patrick">
+    <a href="{static}/images/people/snippets/birds_eye_view_rally25.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 25 (2000): &quot;Birds Eye View&quot; - Seamus Kerrigan, St. Patrick">
         <img src="{static}/images/people/snippets/birds_eye_view_rally25.jpg" alt="Birds Eye View - Seamus Kerrigan, St. Patrick" style="object-position: top;">
-        <div class="gallery-caption">Derg Rally 25: "Birds Eye View" - Seamus Kerrigan, St. Patrick</div>
+        <div class="gallery-caption">Rally 25 (2000): "Birds Eye View" - Seamus Kerrigan, St. Patrick</div>
     </a>
 </div>
