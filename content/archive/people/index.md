@@ -147,8 +147,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/commodores-welcomes/les_saunders_rally19_thumb.jpg" alt="Les Saunders" style="object-position: top;">
         <div class="gallery-caption">Rally 19 (1994): Les Saunders</div>
     </a>
-    <a href="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Commodores Boat - Maan of Derg">
-        <img src="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_boat.jpg" alt="Commodores Boat - Maan of Derg">
+    <a href="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 20 (1995): Mark Maguire II">
+        <img src="{static}/images/people/commodores-welcomes/mark_maguire_ii_rally20_thumb.jpg" alt="Mark Maguire II" style="object-position: top;">
         <div class="gallery-caption">Rally 20 (1995): Mark Maguire II</div>
     </a>
     <a href="{static}/images/people/commodores-welcomes/eamon_egan_rally21_combined.jpg" class="gallery-item" data-lightbox="commodore-welcomes" data-title="Rally 21 (1996): Eamon Egan">
