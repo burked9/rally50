@@ -219,7 +219,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally 37 (2012): Galen Brislane</div>
     </a>
     <a href="{filename}/archive/people/memories/mark-shanley.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="Mark Shanley">
+        <img src="{static}/images/people/memories/st_patrick_rally26.jpg" alt="Mark Shanley - St Patrick" style="object-position: top;">
         <div class="gallery-caption">Rally 37 (2012): Mark Shanley</div>
     </a>
 </div>
@@ -359,5 +359,9 @@ main, .l-measure, .l-container {
     <a href="{static}/images/people/snippets/chris_boyle_4e_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): Chris Boyle on 4E">
         <img src="{static}/images/people/snippets/chris_boyle_4e_rally26.jpg" alt="Chris Boyle on 4E" style="object-position: top;">
         <div class="gallery-caption">Rally 26 (2001): Chris Boyle on 4E</div>
+    </a>
+    <a href="{static}/images/people/snippets/st_patrick_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): St. Patrick &quot;&quot;">
+        <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="St. Patrick" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): St. Patrick ""</div>
     </a>
 </div>

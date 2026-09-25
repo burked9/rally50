@@ -7,6 +7,7 @@ Summary: Mark Shanley shares his memories of the Rally, including a memorable mi
 
 *This was written for the Magazine for Rally 37 in 2012*
 
+<img src="{static}/images/people/memories/st_patrick_rally26.jpg" alt="The St. Patrick" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 For years the St Patrick was a fixture on Lough Derg Rallys and I’m delighted to say that after a four year absence we’re back. I’ve been doing the Rally for as long as I can remember and it holds a lot of great memories for me: my first time at the wheel of a barge, my first eskimo roll, even my first pint (or at least my first pint in front of my parents). But despite all of these firsts, when our illustrious commodore asked me to put a few words about my Rally memories down on paper my mind went straight to my last Rally, in 2007. The irony about this is – I can’t remember it. Not because it wasn’t memorable, but because for some inexplicable reason I found my head between a barge and a hard place and wound up in the intensive care unit of Nenagh General.
 
