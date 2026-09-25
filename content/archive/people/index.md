@@ -206,6 +206,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/memories/memories_rally16.jpg" alt="Eric Makim">
         <div class="gallery-caption">Rally 16 (1991): Eric Makim</div>
     </a>
+    <a href="{filename}/archive/people/memories/rory-stevens-2001.md" class="gallery-item">
+        <img src="{static}/images/people/memories/rory_stevens_rally26.jpg" alt="Rory Stevens - Millennium Memories" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Rory Stevens - Millennium Memories</div>
+    </a>
     <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
         <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
         <div class="gallery-caption">Rally 37 (2012): Darrell Brislane</div>
