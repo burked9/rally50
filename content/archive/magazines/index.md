@@ -83,6 +83,11 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally Magazine 24 (1999): Wildlife of the Canal</div>
     </a>
 
+    <a href="{filename}/archive/magazines/the-mayfly.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/mayfly_large_rally26.jpg" alt="The Mayfly" style="object-position: top;">
+        <div class="gallery-caption">Rally Magazine 26 (2001): The Mayfly</div>
+    </a>
+
     <a href="{filename}/archive/magazines/the-kingfisher.md" class="gallery-item">
         <img src="{static}/images/archive/magazines/kingfisher.png" alt="The Kingfisher">
         <div class="gallery-caption">Rally Magazine 28 (2003): The Kingfisher</div>
