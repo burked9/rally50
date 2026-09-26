@@ -157,4 +157,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="Is St. Patrick Really Dead?" style="object-position: top;">
         <div class="gallery-caption">Rally Magazine 26 (2001): Is St. Patrick Really Dead?</div>
     </a>
+    <a href="{static}/images/archive/magazines/irish_floatels_rally26.jpg" class="gallery-item" data-lightbox="magazines-extras" data-title="Rally Magazine 26 (2001): Irish Floatels">
+        <img src="{static}/images/archive/magazines/irish_floatels_rally26.jpg" alt="Irish Floatels">
+        <div class="gallery-caption">Rally Magazine 26 (2001): Irish Floatels</div>
+    </a>
 </div>
