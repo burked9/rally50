@@ -153,4 +153,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/archive/magazines/parts_and_rigging_rally25.jpg" alt="Parts &amp; Rigging of a Motor Cruiser">
         <div class="gallery-caption">Rally Magazine 25 (2000): Parts &amp; Rigging of a Motor Cruiser</div>
     </a>
+    <a href="{filename}/archive/magazines/is-st-patrick-really-dead.md" class="gallery-item">
+        <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="Is St. Patrick Really Dead?" style="object-position: top;">
+        <div class="gallery-caption">Rally Magazine 26 (2001): Is St. Patrick Really Dead?</div>
+    </a>
 </div>
