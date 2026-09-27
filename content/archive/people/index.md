@@ -299,6 +299,22 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/rally24_photo_collage_2_rally25_mag.jpg" alt="Rally 24 Photo Collage 2" style="object-position: top;">
         <div class="gallery-caption">Rally 25 (2000): Photo Collage 2 of Rally 24 (1999)</div>
     </a>
+    <a href="{static}/images/people/snippets/rally25_photo_collage_1_rally26.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 26 (2001): Photo Collage 1 of Rally 25 (Millenium Rally)">
+        <img src="{static}/images/people/snippets/rally25_photo_collage_1_rally26.jpg" alt="Rally 26 Photo Collage 1" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Photo Collage 1 of Rally 25 (Millenium Rally)</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally25_photo_collage_2_rally26.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 26 (2001): Photo Collage 2 of Rally 25 (Millenium Rally)">
+        <img src="{static}/images/people/snippets/rally25_photo_collage_2_rally26.jpg" alt="Rally 26 Photo Collage 2" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Photo Collage 2 of Rally 25 (Millenium Rally)</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally25_photo_collage_3_rally26.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 26 (2001): Photo Collage 3 of Rally 25 (Millenium Rally)">
+        <img src="{static}/images/people/snippets/rally25_photo_collage_3_rally26.jpg" alt="Rally 26 Photo Collage 3" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Photo Collage 3 of Rally 25 (Millenium Rally)</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally25_photo_collage_4_rally26.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 26 (2001): Photo Collage 4 of Rally 25 (Millenium Rally)">
+        <img src="{static}/images/people/snippets/rally25_photo_collage_4_rally26.jpg" alt="Rally 26 Photo Collage 4" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Photo Collage 4 of Rally 25 (Millenium Rally)</div>
+    </a>
     <a href="{static}/images/people/snippets/past_commodores_rally25_mag.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 25 (2000): Past Commodores">
         <img src="{static}/images/people/snippets/past_commodores_rally25_mag.jpg" alt="Past Commodores" style="object-position: top;">
         <div class="gallery-caption">Rally 25 (2000): Past Commodores</div>
@@ -360,8 +376,12 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/snippets/chris_boyle_4e_rally26.jpg" alt="Chris Boyle on 4E" style="object-position: top;">
         <div class="gallery-caption">Rally 26 (2001): Chris Boyle on 4E</div>
     </a>
-    <a href="{static}/images/people/snippets/st_patrick_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): St. Patrick &quot;&quot;">
+    <a href="{static}/images/people/snippets/st_patrick_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): St. Patrick">
         <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="St. Patrick" style="object-position: top;">
-        <div class="gallery-caption">Rally 26 (2001): St. Patrick ""</div>
+        <div class="gallery-caption">Rally 26 (2001): St. Patrick</div>
+    </a>
+    <a href="{static}/images/people/snippets/judy_fay_cathy_dwane_geraldine_burke_rally26.jpg" class="gallery-item" data-lightbox="people-snippets" data-title="Rally 26 (2001): Judy Fay, Cathy Dwane &amp; Geraldine Burke at Kilgarvan">
+        <img src="{static}/images/people/snippets/judy_fay_cathy_dwane_geraldine_burke_rally26.jpg" alt="Judy Fay, Cathy Dwane &amp; Geraldine Burke at Kilgarvan" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Judy Fay, Cathy Dwane &amp; Geraldine Burke at Kilgarvan</div>
     </a>
 </div>
