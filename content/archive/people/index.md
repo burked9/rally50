@@ -214,6 +214,14 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/memories/rory_stevens_rally26.jpg" alt="Rory Stevens - Millennium Memories" style="object-position: top;">
         <div class="gallery-caption">Rally 26 (2001): Rory Stevens - Millennium Memories</div>
     </a>
+    <a href="{filename}/archive/people/memories/lana-leonard-2002.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Lana Leonard Reflections">
+        <div class="gallery-caption">Rally 27 (2002): Lana Leonard Rally 26 Reflections</div>
+    </a>
+    <a href="{filename}/archive/people/memories/judy-fay-eistamaid-2002.md" class="gallery-item">
+        <img src="{static}/images/people/memories/judy_fay_eistamaid_rally27.jpg" alt="Judy Fay - Eistamaid Morning" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Judy Fay - Eistamaid Morning</div>
+    </a>
     <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
         <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
         <div class="gallery-caption">Rally 37 (2012): Darrell Brislane</div>
