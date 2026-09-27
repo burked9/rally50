@@ -1,7 +1,7 @@
 Title: Rally 27 (2002): Living on Twenty Pence by John Moore
 Date: 2002-01-01
 Category: People
-Tags: Rally Memories, Rally 27, 2002
+Tags: Rally Stories and Poems, Rally 27, 2002
 Slug: john-moore-2002
 Authors: John Moore
 

@@ -1,7 +1,7 @@
 Title: Rally 26 (2001): Is St. Patrick Really Dead? by Seamus Kerrigan
 Date: 2001-01-01
 Category: People
-Tags: Rally Memories, Rally 26, 2001, Seamus Kerrigan, St. Patrick
+Tags: Rally Stories and Poems, Rally 26, 2001, Seamus Kerrigan, St. Patrick
 Slug: seamus-kerrigan-2001
 Authors: Seamus Kerrigan
 
