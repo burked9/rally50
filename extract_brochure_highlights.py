@@ -30,13 +30,22 @@ def extract_highlights():
 
     for pdf_path in pdf_files:
         filename = os.path.basename(pdf_path)
-        # Try to extract the year from the filename (e.g. "1985.pdf" -> "1985")
-        year_match = re.search(r'(19\d{2}|20\d{2})', filename)
-        if not year_match:
-            print(f"Skipping '{filename}': Could not find a year in the filename.")
+        # Extract the rally number from the filename (e.g. "Derg Rally 44.pdf" -> 44)
+        num_match = re.search(r'(\d+)', filename)
+        if not num_match:
+            print(f"Skipping '{filename}': Could not find a rally number in the filename.")
             continue
             
-        year_str = year_match.group(1)
+        rally_num = int(num_match.group(1))
+        
+        if rally_num <= 4:
+            year = 1974 + rally_num
+        elif rally_num <= 44:
+            year = 1975 + rally_num
+        else:
+            year = 1977 + rally_num
+            
+        year_str = str(year)
         
         # Ensure output directory exists for this year
         year_out_dir = os.path.join(OUTPUT_DIR, year_str)

@@ -1,8 +1,8 @@
-Title: Rally Magazine 26 (2001): Is St. Patrick Really Dead?
+Title: Rally 26 (2001): Is St. Patrick Really Dead? by Seamus Kerrigan
 Date: 2001-01-01
-Category: Magazines
-Tags: Snippets & Snapshots, Rally 26, 2001, Seamus Kerrigan, St. Patrick
-Slug: is-st-patrick-really-dead
+Category: People
+Tags: Rally Memories, Rally 26, 2001, Seamus Kerrigan, St. Patrick
+Slug: seamus-kerrigan-2001
 Authors: Seamus Kerrigan
 
 <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="The St. Patrick" style="float: right; margin: 0 0 20px 20px; width: 300px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">

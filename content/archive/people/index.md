@@ -214,6 +214,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/memories/rory_stevens_rally26.jpg" alt="Rory Stevens - Millennium Memories" style="object-position: top;">
         <div class="gallery-caption">Rally 26 (2001): Rory Stevens - Millennium Memories</div>
     </a>
+    <a href="{filename}/archive/people/memories/seamus-kerrigan-2001.md" class="gallery-item">
+        <img src="{static}/images/people/snippets/st_patrick_rally26.jpg" alt="Is St. Patrick Really Dead?" style="object-position: top;">
+        <div class="gallery-caption">Rally 26 (2001): Is St. Patrick Really Dead? by Seamus Kerrigan</div>
+    </a>
     <a href="{filename}/archive/people/memories/lana-leonard-2002.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="Lana Leonard Reflections">
         <div class="gallery-caption">Rally 27 (2002): Lana Leonard Rally 26 Reflections</div>
@@ -221,6 +225,10 @@ main, .l-measure, .l-container {
     <a href="{filename}/archive/people/memories/judy-fay-eistamaid-2002.md" class="gallery-item">
         <img src="{static}/images/people/memories/judy_fay_eistamaid_rally27.jpg" alt="Judy Fay - Eistamaid Morning" style="object-position: top;">
         <div class="gallery-caption">Rally 27 (2002): Judy Fay - Eistamaid Morning</div>
+    </a>
+    <a href="{filename}/archive/people/memories/john-moore-2002.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="Living on Twenty Pence">
+        <div class="gallery-caption">Rally 27 (2002): Living on Twenty Pence by John Moore</div>
     </a>
     <a href="{filename}/archive/people/memories/darrell-brislane.md" class="gallery-item">
         <img src="{static}/images/people/memories/darrell_brislane.png" alt="Darrell Brislane">
@@ -326,6 +334,26 @@ main, .l-measure, .l-container {
     <a href="{static}/images/people/snippets/rally25_photo_collage_4_rally26.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 26 (2001): Photo Collage 4 of Rally 25 (Millenium Rally)">
         <img src="{static}/images/people/snippets/rally25_photo_collage_4_rally26.jpg" alt="Rally 26 Photo Collage 4" style="object-position: top;">
         <div class="gallery-caption">Rally 26 (2001): Photo Collage 4 of Rally 25 (Millenium Rally)</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally26_photo_collage_1_rally27.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 27 (2002): Photo Collage 1 of Rally 26">
+        <img src="{static}/images/people/snippets/rally26_photo_collage_1_rally27.jpg" alt="Rally 27 Photo Collage 1" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Photo Collage 1 of Rally 26</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally26_photo_collage_2_rally27.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 27 (2002): Photo Collage 2 of Rally 26">
+        <img src="{static}/images/people/snippets/rally26_photo_collage_2_rally27.jpg" alt="Rally 27 Photo Collage 2" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Photo Collage 2 of Rally 26</div>
+    </a>
+    <a href="{static}/images/people/snippets/rally26_photo_collage_3_rally27.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 27 (2002): Photo Collage 3 of Rally 26">
+        <img src="{static}/images/people/snippets/rally26_photo_collage_3_rally27.jpg" alt="Rally 27 Photo Collage 3" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Photo Collage 3 of Rally 26</div>
+    </a>
+    <a href="{static}/images/people/snippets/future_rally_commodores_1_rally27.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 27 (2002): Future Rally Commodores 1">
+        <img src="{static}/images/people/snippets/future_rally_commodores_1_rally27.jpg" alt="Future Rally Commodores 1" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Future Rally Commodores 1</div>
+    </a>
+    <a href="{static}/images/people/snippets/future_rally_commodores_2_rally27.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 27 (2002): Future Rally Commodores 2">
+        <img src="{static}/images/people/snippets/future_rally_commodores_2_rally27.jpg" alt="Future Rally Commodores 2" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 (2002): Future Rally Commodores 2</div>
     </a>
     <a href="{static}/images/people/snippets/past_commodores_rally25_mag.jpg" class="gallery-item" data-lightbox="people-collages" data-title="Rally 25 (2000): Past Commodores">
         <img src="{static}/images/people/snippets/past_commodores_rally25_mag.jpg" alt="Past Commodores" style="object-position: top;">
