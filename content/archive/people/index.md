@@ -57,6 +57,12 @@ main, .l-measure, .l-container {
     background: transparent !important;
     border: none !important;
 }
+
+.gallery-grid-large .gallery-item img {
+    height: 600px !important;
+    object-fit: contain !important;
+    background-color: #f9f9f9 !important;
+}
 </style>
 
 ## Our Commodores
