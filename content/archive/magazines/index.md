@@ -168,4 +168,8 @@ main, .l-measure, .l-container {
         <img src="{static}/images/archive/magazines/irish_floatels_rally26.jpg" alt="Irish Floatels">
         <div class="gallery-caption">Rally Magazine 26 (2001): Irish Floatels</div>
     </a>
+    <a href="{filename}/archive/magazines/history-of-68m-2003.md" class="gallery-item">
+        <img src="{static}/images/archive/magazines/history_of_68m_rally28_thumb.jpg" alt="History of 68M">
+        <div class="gallery-caption">Rally Magazine 28 (2003): History of 68M</div>
+    </a>
 </div>
