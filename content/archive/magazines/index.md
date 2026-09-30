@@ -138,10 +138,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally Magazine 25 (2000): Lough Derg Rallies (A Potted History)</div>
     </a>
 
-    <a href="{filename}/archive/magazines/clonrush.md" class="gallery-item">
-        <img src="{static}/images/archive/magazines/clonrush.png" alt="Clonrush">
-        <div class="gallery-caption">Rally Magazine 28 (2003): Clonrush</div>
-    </a>
+
 </div>
 
 ## Magazine Articles: Snippets & Snapshots

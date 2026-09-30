@@ -1,4 +1,5 @@
 Title: Clonrush
+Status: draft
 Date: 2003-01-01
 Slug: archive/magazines/clonrush
 Save_as: archive/magazines/clonrush.html
