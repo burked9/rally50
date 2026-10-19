@@ -258,9 +258,7 @@ A curated look back at {era['title']}.
                     
                     if photos:
                         year_data["photo_count"] = len(photos)
-                        # Pick up to 4 random photos
-                        selected = random.sample(photos, min(4, len(photos)))
-                        for p in selected:
+                        for p in photos:
                             year_data["photos"].append({
                                 "id": p.get("id"),
                                 "alt": p.get("alt", f"Rally {year}")
