@@ -19,7 +19,24 @@
         {
             "year": 2002,
             "rally_num": 27,
-            "photos": [],
+            "photos": [
+                {
+                    "id": "1p9-48rC1ldWaTvroA_EndwHGgcGuKte_",
+                    "alt": "talent competition.jpg"
+                },
+                {
+                    "id": "19mdXH7G_4SjAfmFsLGhKNxCHxhHBMTm-",
+                    "alt": "hm5.jpg"
+                },
+                {
+                    "id": "1-bsa6FVHGnwgjyNOBbaBjBJaDrcheVRS",
+                    "alt": "dinner.jpg"
+                },
+                {
+                    "id": "1hjCF4Djk1U8HBriIT_gcX_pkOl9iewjd",
+                    "alt": "chang sha saviors!.jpg"
+                }
+            ],
             "brochure_id": "0B4ubLJPS0mdTWWFaakR5QUstRlU",
             "artifacts": [
                 "mug.jpg",
@@ -35,7 +52,24 @@
         {
             "year": 2003,
             "rally_num": 28,
-            "photos": [],
+            "photos": [
+                {
+                    "id": "1XxEoRO7r4WVFfnAkAHyqupYISE3cS0cc",
+                    "alt": "DSCN1422.JPG"
+                },
+                {
+                    "id": "1WAvBEUtFpy3_1wVo2C1VUwc404JAqxsM",
+                    "alt": "DSCN1437.JPG"
+                },
+                {
+                    "id": "18LP2OvutnCiHvrLkdkQQHBXLpZjfctzb",
+                    "alt": "DSCN1481.JPG"
+                },
+                {
+                    "id": "1aYts2gfc6-NaGpkH6eaEfdFMpwVHdLeL",
+                    "alt": "DSCN1432.JPG"
+                }
+            ],
             "brochure_id": "0B4ubLJPS0mdTUWpRS3haTks5NXc",
             "artifacts": [
                 "mug.jpg",
