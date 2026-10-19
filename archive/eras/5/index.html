@@ -369,10 +369,17 @@ main {
                                 </div>
                             `;
                             
-                            // Photos Grid
+                            // Photos Grid (pick up to 4 random photos on every page load)
                             if (yearData.photos && yearData.photos.length > 0) {
+                                const shuffledPhotos = [...yearData.photos];
+                                for (let i = shuffledPhotos.length - 1; i > 0; i--) {
+                                    const j = Math.floor(Math.random() * (i + 1));
+                                    [shuffledPhotos[i], shuffledPhotos[j]] = [shuffledPhotos[j], shuffledPhotos[i]];
+                                }
+                                const randomPhotos = shuffledPhotos.slice(0, 4);
+
                                 html += `<div class="era-gallery-grid">`;
-                                yearData.photos.forEach(photo => {
+                                randomPhotos.forEach(photo => {
                                     const thumbUrl = `https://drive.google.com/thumbnail?id=${photo.id}&sz=w400`;
                                     const fullUrl = `https://drive.google.com/uc?export=view&id=${photo.id}`;
                                     html += `
