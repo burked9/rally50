@@ -5,71 +5,81 @@
             "year": 2016,
             "rally_num": 41,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTRGZMLTlYSUNIaG8",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 2017,
             "rally_num": 42,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "1e9QjP4ojAxLjnj2m_nmTnvkDyisMOtHr",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 2018,
             "rally_num": 43,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "1YI7sgI0LnIK91tf6X_M9hELcCHhdF0SV",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 2019,
             "rally_num": 44,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "1vEz4SuCDEkr4Q28cl4cCw7quWwzK-dzH",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 2022,
             "rally_num": 45,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": null,
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         }
     ]
 }

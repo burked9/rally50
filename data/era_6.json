@@ -5,15 +5,74 @@
             "year": 2001,
             "rally_num": 26,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTTUhQSklPTjZvSk0",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 26 (2001): Rory Stevens - Millennium Memories",
+                    "section": "Rally Memories",
+                    "href": "/rory-stevens-2001.html",
+                    "thumb": "/images/people/memories/rory_stevens_rally26.jpg",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 26 (2001): Photo Collage 1 of Rally 25 (Millenium Rally)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally25_photo_collage_1_rally26.jpg",
+                    "thumb": "/images/people/snippets/rally25_photo_collage_1_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): Photo Collage 2 of Rally 25 (Millenium Rally)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally25_photo_collage_2_rally26.jpg",
+                    "thumb": "/images/people/snippets/rally25_photo_collage_2_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): Photo Collage 3 of Rally 25 (Millenium Rally)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally25_photo_collage_3_rally26.jpg",
+                    "thumb": "/images/people/snippets/rally25_photo_collage_3_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): Photo Collage 4 of Rally 25 (Millenium Rally)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally25_photo_collage_4_rally26.jpg",
+                    "thumb": "/images/people/snippets/rally25_photo_collage_4_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): Chris Boyle on 4E",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/chris_boyle_4e_rally26.jpg",
+                    "thumb": "/images/people/snippets/chris_boyle_4e_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): St. Patrick",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/st_patrick_rally26.jpg",
+                    "thumb": "/images/people/snippets/st_patrick_rally26.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 26 (2001): Judy Fay, Cathy Dwane &amp; Geraldine Burke at Kilgarvan",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/judy_fay_cathy_dwane_geraldine_burke_rally26.jpg",
+                    "thumb": "/images/people/snippets/judy_fay_cathy_dwane_geraldine_burke_rally26.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
@@ -21,32 +80,84 @@
             "rally_num": 27,
             "photos": [
                 {
-                    "id": "1p9-48rC1ldWaTvroA_EndwHGgcGuKte_",
-                    "alt": "talent competition.jpg"
+                    "id": "1l471x7hbwhMVIf-2np_j7SVjZoSNn-Qi",
+                    "alt": "committee.jpg"
                 },
                 {
-                    "id": "19mdXH7G_4SjAfmFsLGhKNxCHxhHBMTm-",
-                    "alt": "hm5.jpg"
+                    "id": "1RgcLtTELhCmYUbeSZunYYYwuHQL1URtP",
+                    "alt": "heavy metal 2.jpg"
                 },
                 {
-                    "id": "1-bsa6FVHGnwgjyNOBbaBjBJaDrcheVRS",
-                    "alt": "dinner.jpg"
+                    "id": "1X82LLz4khM-G89cwHKt1ALus5q4EyA_b",
+                    "alt": "cheese and wine.jpg"
                 },
                 {
-                    "id": "1hjCF4Djk1U8HBriIT_gcX_pkOl9iewjd",
-                    "alt": "chang sha saviors!.jpg"
+                    "id": "1h44kYck4MurwoQhMrDfOUeT7cBn7ZD_v",
+                    "alt": "last day.jpg"
                 }
             ],
+            "photo_count": 14,
             "brochure_id": "0B4ubLJPS0mdTWWFaakR5QUstRlU",
             "artifacts": [
                 "mug.jpg",
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 27 (2002): Lana Leonard Rally 26 Reflections",
+                    "section": "Rally Memories",
+                    "href": "/lana-leonard-2002.html",
+                    "thumb": "/images/people_placeholder.png",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 27 (2002): Judy Fay - Eistamaid Morning",
+                    "section": "Rally Memories",
+                    "href": "/judy-fay-eistamaid-2002.html",
+                    "thumb": "/images/people/memories/judy_fay_eistamaid_rally27.jpg",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 27 (2002): Photo Collage 1 of Rally 26",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally26_photo_collage_1_rally27.jpg",
+                    "thumb": "/images/people/snippets/rally26_photo_collage_1_rally27.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 27 (2002): Photo Collage 2 of Rally 26",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally26_photo_collage_2_rally27.jpg",
+                    "thumb": "/images/people/snippets/rally26_photo_collage_2_rally27.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 27 (2002): Photo Collage 3 of Rally 26",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally26_photo_collage_3_rally27.jpg",
+                    "thumb": "/images/people/snippets/rally26_photo_collage_3_rally27.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 27 (2002): Future Rally Commodores 1",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/future_rally_commodores_1_rally27.jpg",
+                    "thumb": "/images/people/snippets/future_rally_commodores_1_rally27.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 27 (2002): Future Rally Commodores 2",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/future_rally_commodores_2_rally27.jpg",
+                    "thumb": "/images/people/snippets/future_rally_commodores_2_rally27.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
@@ -54,69 +165,90 @@
             "rally_num": 28,
             "photos": [
                 {
-                    "id": "1XxEoRO7r4WVFfnAkAHyqupYISE3cS0cc",
-                    "alt": "DSCN1422.JPG"
+                    "id": "1xEXk7cc86ZBcSOhUhmqOT9z8_5t5-OrI",
+                    "alt": "DSCN1470.JPG"
                 },
                 {
-                    "id": "1WAvBEUtFpy3_1wVo2C1VUwc404JAqxsM",
-                    "alt": "DSCN1437.JPG"
+                    "id": "1HxNaBdlwReu6cu1BLRoPgMJFOoMqwDfl",
+                    "alt": "DSCN1479.JPG"
                 },
                 {
-                    "id": "18LP2OvutnCiHvrLkdkQQHBXLpZjfctzb",
-                    "alt": "DSCN1481.JPG"
+                    "id": "1ww1RbKEZFjXRya0IOFuuMcuc5Cnjd3Ol",
+                    "alt": "DSCN1415.JPG"
                 },
                 {
-                    "id": "1aYts2gfc6-NaGpkH6eaEfdFMpwVHdLeL",
-                    "alt": "DSCN1432.JPG"
+                    "id": "1FBWKmts9uOWVeRi6evUqx6Usq_lA9HSu",
+                    "alt": "DSCN1485.JPG"
                 }
             ],
+            "photo_count": 70,
             "brochure_id": "0B4ubLJPS0mdTUWpRS3haTks5NXc",
             "artifacts": [
                 "mug.jpg",
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 28 (2003): Photo Collage 1 of Rally 27",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally27_photo_collage_1_rally28.jpg",
+                    "thumb": "/images/people/snippets/rally27_photo_collage_1_rally28.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 28 (2003): Photo Collage 2 of Rally 27",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally27_photo_collage_2_rally28.jpg",
+                    "thumb": "/images/people/snippets/rally27_photo_collage_2_rally28.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
             "year": 2004,
             "rally_num": 29,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTc3FXaVBkNXlVZzA",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 2005,
             "rally_num": 30,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTMmFUOC16d2dkcEE",
             "artifacts": [
-                "hibernia_old.jpg",
-                "ESB2.jpg",
                 "68m.jpg",
+                "77m.jpg",
                 "ESB1.jpg",
+                "ESB2.jpg",
+                "hibernia_old.jpg",
                 "mug.jpg",
-                "plaque.png",
-                "77m.jpg"
+                "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         }
     ]
 }

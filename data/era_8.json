@@ -5,53 +5,85 @@
             "year": 2011,
             "rally_num": 36,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTTGdXazVtbVNXYjA",
             "artifacts": [
                 "mug.jpg",
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 2012,
             "rally_num": 37,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTMFZNaHcySWhOWmc",
             "artifacts": [
                 "mug.jpg",
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": [
+                {
+                    "title": "Rally 37 (2012): Darrell Brislane",
+                    "section": "Rally Memories",
+                    "href": "/archive/people/memories/darrell-brislane.html",
+                    "thumb": "/images/people/memories/darrell_brislane.png",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 37 (2012): Galen Brislane",
+                    "section": "Rally Memories",
+                    "href": "/archive/people/memories/galen-brislane.html",
+                    "thumb": "/images/people/memories/galen_brislane.png",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 37 (2012): Mark Shanley",
+                    "section": "Rally Memories",
+                    "href": "/archive/people/memories/mark-shanley.html",
+                    "thumb": "/images/people/memories/st_patrick_rally26.jpg",
+                    "is_image": false
+                }
+            ]
         },
         {
             "year": 2013,
             "rally_num": 38,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTTmROUlBGTHpFbGc",
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 2014,
             "rally_num": 39,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTY05IQ3BaR2dpQ3c",
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 2015,
             "rally_num": 40,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTTFFWMUZzalJtaDg",
             "artifacts": [
                 "plaque.png"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         }
     ]
 }

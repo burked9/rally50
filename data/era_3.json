@@ -5,71 +5,81 @@
             "year": 1986,
             "rally_num": 11,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTMDhPNktIQVZueXM",
             "artifacts": [
                 "plaque_1986.jpg"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 1987,
             "rally_num": 12,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTaVo1NW5sQnNPbFk",
             "artifacts": [
                 "plaque_1987.jpg"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 1988,
             "rally_num": 13,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTU1dUbnd0Q2pjb1k",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 1989,
             "rally_num": 14,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTeHR4NThVd2sxS0U",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 1990,
             "rally_num": 15,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTVEdpMXFqNjhTbmc",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         }
     ]
 }
