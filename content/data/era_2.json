@@ -5,43 +5,53 @@
             "year": 1981,
             "rally_num": 6,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTcmFheWphX1ZZUjQ",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 1982,
             "rally_num": 7,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTeklUc0FZQXJjVEU",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 1983,
             "rally_num": 8,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTYUl5ckdvWnlFZHc",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 1984,
             "rally_num": 9,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTZTZaeVVGMjFJR2s",
             "artifacts": [],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         },
         {
             "year": 1985,
             "rally_num": 10,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTZ2FrVXhoVHV5ejQ",
             "artifacts": [
                 "plaque_1985.jpg"
             ],
-            "brochure_pages": []
+            "brochure_pages": [],
+            "people_items": []
         }
     ]
 }

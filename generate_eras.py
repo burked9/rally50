@@ -104,7 +104,95 @@ for i in range(0, len(rallies), 5):
 # Reverse the eras so newest appears first
 eras.reverse()
 
+def resolve_md_url(md_rel_path):
+    """Resolve the generated HTML URL from a markdown file's frontmatter."""
+    full_path = os.path.join('content', md_rel_path.lstrip('/'))
+    url = None
+    slug = None
+    if os.path.exists(full_path):
+        with open(full_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line_s = line.strip()
+                if not line_s:
+                    break
+                if line_s.lower().startswith('url:'):
+                    url = line_s.split(':', 1)[1].strip()
+                elif line_s.lower().startswith('slug:'):
+                    slug = line_s.split(':', 1)[1].strip()
+    if url:
+        return '/' + url.lstrip('/')
+    if slug:
+        return '/' + slug.lstrip('/') + '.html'
+    return '/' + md_rel_path.lstrip('/').replace('.md', '.html')
+
+def parse_people_items():
+    """Parse included subsections of content/archive/people/index.md and group by rally number."""
+    people_md_path = 'content/archive/people/index.md'
+    included_sections = {
+        'Rally Memories',
+        'Rally Committees',
+        'Rally Photo Collages',
+        'Snippets & Snapshots'
+    }
+    by_rally = {}
+    if not os.path.exists(people_md_path):
+        return by_rally
+
+    with open(people_md_path, 'r', encoding='utf-8') as f:
+        text = f.read()
+
+    # Split by ## headings
+    sections = re.split(r'^##\s+(.+)$', text, flags=re.MULTILINE)
+    # sections[0] is preamble, then pairs of (heading, body)
+    for i in range(1, len(sections), 2):
+        heading = sections[i].strip()
+        body = sections[i + 1]
+        if heading not in included_sections:
+            continue
+
+        # Find all <a ...>...</a> blocks
+        anchors = re.findall(r'<a\s+([^>]+)>(.*?)</a>', body, flags=re.DOTALL)
+        for attrs, inner in anchors:
+            href_m = re.search(r'href="([^"]+)"', attrs)
+            img_m = re.search(r'<img\s+[^>]*src="([^"]+)"', inner)
+            cap_m = re.search(r'<div class="gallery-caption">(.*?)</div>', inner, flags=re.DOTALL)
+            if not (href_m and img_m and cap_m):
+                continue
+
+            raw_href = href_m.group(1).strip()
+            raw_img = img_m.group(1).strip()
+            caption = cap_m.group(1).strip()
+
+            # Match first Rally number in caption
+            rally_m = re.search(r'Rally\s+(\d+)', caption, flags=re.IGNORECASE)
+            if not rally_m:
+                continue
+            rally_num = int(rally_m.group(1))
+
+            # Resolve href
+            is_image = True
+            if raw_href.startswith('{filename}'):
+                rel_md = raw_href.replace('{filename}', '')
+                resolved_href = resolve_md_url(rel_md)
+                is_image = False
+            else:
+                resolved_href = raw_href.replace('{static}', '')
+
+            resolved_thumb = raw_img.replace('{static}', '').replace('{filename}', '')
+
+            by_rally.setdefault(rally_num, []).append({
+                'title': caption,
+                'section': heading,
+                'href': resolved_href,
+                'thumb': resolved_thumb,
+                'is_image': is_image
+            })
+
+    return by_rally
+
 def generate_era_pages():
+    people_by_rally = parse_people_items()
+
     for era in eras:
         era_num = era['era_num']
         dir_path = os.path.join(ERAS_DIR, str(era_num))
@@ -140,22 +228,24 @@ A curated look back at {era['title']}.
                 "year": year,
                 "rally_num": num,
                 "photos": [],
+                "photo_count": 0,
                 "brochure_id": brochure_map.get(num, None),
                 "artifacts": [],
-                "brochure_pages": []
+                "brochure_pages": [],
+                "people_items": people_by_rally.get(num, [])
             }
             
             # Scan for artifacts
             year_rallies_dir = os.path.join(RALLIES_IMG_DIR, str(year))
             if os.path.exists(year_rallies_dir):
-                for f in os.listdir(year_rallies_dir):
+                for f in sorted(os.listdir(year_rallies_dir)):
                     if f.lower().endswith(('.png', '.jpg', '.jpeg')) and not f.endswith('_thumb.png') and not f.endswith('_thumb.jpg'):
                         year_data['artifacts'].append(f)
                         
             # Scan for brochure pages
             year_brochures_dir = os.path.join(BROCHURES_IMG_DIR, str(year))
             if os.path.exists(year_brochures_dir):
-                for f in os.listdir(year_brochures_dir):
+                for f in sorted(os.listdir(year_brochures_dir)):
                     if f.lower().endswith(('.png', '.jpg', '.jpeg')):
                         year_data['brochure_pages'].append(f)
             
@@ -167,6 +257,7 @@ A curated look back at {era['title']}.
                         photos = json.load(f)
                     
                     if photos:
+                        year_data["photo_count"] = len(photos)
                         # Pick up to 4 random photos
                         selected = random.sample(photos, min(4, len(photos)))
                         for p in selected:

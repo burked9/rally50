@@ -5,75 +5,215 @@
             "year": 1996,
             "rally_num": 21,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTMTYwUTM2MVNWVnM",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
-            ]
+            ],
+            "people_items": []
         },
         {
             "year": 1997,
             "rally_num": 22,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTSzdwMjhrbEFId2c",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 22 (1997): The Two Toms",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/the_two_toms_rally22.jpg",
+                    "thumb": "/images/people/snippets/the_two_toms_rally22.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 22 (1997): Ged Malloy going for a Hole in One!",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/ged_malloy_rally22.jpg",
+                    "thumb": "/images/people/snippets/ged_malloy_rally22.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
             "year": 1998,
             "rally_num": 23,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTZUpCSkRCWE04Vkk",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 23 Committee (1998)",
+                    "section": "Rally Committees",
+                    "href": "/archive/people/committees/committee-rally23.html",
+                    "thumb": "/images/people/committees/committee_rally23_1998.jpg",
+                    "is_image": false
+                },
+                {
+                    "title": "Rally 23 (1998): Beckers On Tour!",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/beckers_on_tour_rally23.jpg",
+                    "thumb": "/images/people/snippets/beckers_on_tour_rally23.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
             "year": 1999,
             "rally_num": 24,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTTXR4RXMtSmhfWXc",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 24 (1999): Photo Collage of Rally 23 (1998)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally23_photo_collage_1_rally24_mag.jpg",
+                    "thumb": "/images/people/snippets/rally23_photo_collage_1_rally24_mag.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 24 (1999): Photo Collage 2 of Rally 23 (1998)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally23_photo_collage_2_rally24_mag_new.jpg",
+                    "thumb": "/images/people/snippets/rally23_photo_collage_2_rally24_mag_new.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 24 (1999): Presentation of Derg Perpetual Cup c1981",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/derg_perpetual_cup_rally24.jpg",
+                    "thumb": "/images/people/snippets/derg_perpetual_cup_rally24.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 24 (1999): Chris Boyle",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/chris_boyle_rally24.jpg",
+                    "thumb": "/images/people/snippets/chris_boyle_rally24.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 24 (1999): Rory Stevens: Next Years Commodore",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/rory_stevens_rally24.jpg",
+                    "thumb": "/images/people/snippets/rory_stevens_rally24.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 24 (1999) - Gerry's Island Clean up May 1999",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/gerrys_island_cleanup_rally24_combined.jpg",
+                    "thumb": "/images/people/snippets/gerrys_island_cleanup_rally24_thumb.jpg",
+                    "is_image": true
+                }
             ]
         },
         {
             "year": 2000,
             "rally_num": 25,
             "photos": [],
+            "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTMy14eG4wNkxVM3c",
             "artifacts": [
                 "plaque.png"
             ],
             "brochure_pages": [
-                "page_3.jpg",
                 "page_1.jpg",
+                "page_3.jpg",
                 "page_4.jpg",
                 "page_6.jpg"
+            ],
+            "people_items": [
+                {
+                    "title": "Rally 25 (2000): Photo Collage of Rally 24 (1999)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally24_photo_collage_1_rally25_mag.jpg",
+                    "thumb": "/images/people/snippets/rally24_photo_collage_1_rally25_mag.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): Photo Collage 2 of Rally 24 (1999)",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/rally24_photo_collage_2_rally25_mag.jpg",
+                    "thumb": "/images/people/snippets/rally24_photo_collage_2_rally25_mag.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): Past Commodores",
+                    "section": "Rally Photo Collages",
+                    "href": "/images/people/snippets/past_commodores_rally25_mag.jpg",
+                    "thumb": "/images/people/snippets/past_commodores_rally25_mag.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): \"Lotus Two getting a helping hand\"",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/lotus_two_rally25.jpg",
+                    "thumb": "/images/people/snippets/lotus_two_rally25.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): \"Birds Eye View\" - Seamus Kerrigan, St. Patrick",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/birds_eye_view_rally25.jpg",
+                    "thumb": "/images/people/snippets/birds_eye_view_rally25.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): \"Foreign Visitors\" - Colin Becker, Roger Lorentz, Steph Lorentz",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/foreign_visitors_rally25.jpg",
+                    "thumb": "/images/people/snippets/foreign_visitors_rally25.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): \"The Megaphonics\" - Rally 7 1982",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/the_megaphonics_rally25.jpg",
+                    "thumb": "/images/people/snippets/the_megaphonics_rally25.jpg",
+                    "is_image": true
+                },
+                {
+                    "title": "Rally 25 (2000): Chris Boyle &amp; Paula Stevens",
+                    "section": "Snippets & Snapshots",
+                    "href": "/images/people/snippets/chris_boyle_paula_stevens_rally25.jpg",
+                    "thumb": "/images/people/snippets/chris_boyle_paula_stevens_rally25.jpg",
+                    "is_image": true
+                }
             ]
         }
     ]
