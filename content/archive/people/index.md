@@ -244,7 +244,7 @@ main, .l-measure, .l-container {
     </a>
 </div>
 
-## Rally Stories and Poems
+## Rally Stories, Poems & Songs
 
 <div class="gallery-grid">
     <a href="{filename}/archive/people/stories/tranquillity.md" class="gallery-item">
@@ -282,6 +282,10 @@ main, .l-measure, .l-container {
     <a href="{filename}/archive/people/stories/john-moore-2002.md" class="gallery-item">
         <img src="{static}/images/people_placeholder.png" alt="Living on Twenty Pence">
         <div class="gallery-caption">Rally 27 (2002): Living on Twenty Pence by John Moore</div>
+    </a>
+    <a href="{filename}/archive/people/stories/the-lough-derg-rally-song.md" class="gallery-item">
+        <img src="{static}/images/people_placeholder.png" alt="The Lough Derg Rally Song – Martin Burke">
+        <div class="gallery-caption">The Lough Derg Rally Song – Martin Burke</div>
     </a>
 </div>
 

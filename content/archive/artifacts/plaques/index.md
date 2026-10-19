@@ -11,7 +11,7 @@ Summary: Archive of Rally Plaques.
         <div class="gallery-caption">Rally 5 (1980)</div>
     </a>
     <a href="{filename}/images/rallies/1985/plaque_1985.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 10 (1985)">
-        <img src="{filename}/images/rallies/1985/plaque_1985.jpg" alt="Rally 10 Plaque">
+        <img src="{filename}/images/rallies/1985/plaque_1985_thumb.jpg" alt="Rally 10 Plaque">
         <div class="gallery-caption">Rally 10 (1985)</div>
     </a>
     <a href="{filename}/images/rallies/1986/plaque_1986.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 11 (1986)">
@@ -200,6 +200,7 @@ Summary: Archive of Rally Plaques.
     <a href="{filename}/images/prizes/winners_plaque_rally2.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 2">
         <img src="{filename}/images/prizes/winners_plaque_rally2_thumb.jpg" alt="Winners Plaque Rally 2">
         <div class="gallery-caption">Winners Plaque Rally 2</div>
+    </a>
 </div>
 
 <style>
@@ -235,12 +236,10 @@ We are currently missing photos for the following early Rally Plaques. If you ha
     <li>Rally 2 (1976)</li>
     <li>Rally 3 (1977)</li>
     <li>Rally 4 (1978)</li>
-    <li>Rally 5 (1980)</li>
     <li>Rally 6 (1981)</li>
     <li>Rally 7 (1982)</li>
     <li>Rally 8 (1983)</li>
     <li>Rally 9 (1984)</li>
-    <li>Rally 10 (1985)</li>
     <li>Rally 11 (1986)</li>
     <li>Rally 12 (1987)</li>
 </ul>
