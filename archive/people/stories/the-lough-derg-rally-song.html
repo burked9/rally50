@@ -163,8 +163,14 @@ Out in the deep, far out from the shore, where my youthful days were all passed 
             <a href="https://burked9.github.io/rally50/pages/admin.html" style="color: #ccc; text-decoration: none; font-size: 1.2rem;" title="Admin Portal">⚙️</a>
         </div>
     </footer>
-    <!-- Lightbox2 JS (includes jQuery) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+    <!-- Lightbox2 JS -->
+    <script>
+        if (typeof window.jQuery === 'undefined') {
+            document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"><\/script>');
+        } else {
+            document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"><\/script>');
+        }
+    </script>
 </body>
 
 </html>
