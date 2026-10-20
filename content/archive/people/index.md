@@ -72,6 +72,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/memorials/bill_knight.png" alt="List of Commodores">
         <div class="gallery-caption">List of Commodores</div>
     </a>
+    <a href="{filename}/archive/people/commodores-gathering-2015.md" class="gallery-item">
+        <img src="{static}/images/people/commodores-gathering-2015/2015-07-12_17-59-52_thumb.jpg" alt="Rally 40 (2015): Gathering of the Commodores & Flag Presentation">
+        <div class="gallery-caption">Rally 40 (2015): Gathering of the Commodores & Flag Presentation</div>
+    </a>
 </div>
 
 ## Records of Boat Entries

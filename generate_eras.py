@@ -129,6 +129,7 @@ def parse_people_items():
     """Parse included subsections of content/archive/people/index.md and group by rally number."""
     people_md_path = 'content/archive/people/index.md'
     included_sections = {
+        'Our Commodores',
         'Rally Memories',
         'Rally Committees',
         'Rally Photo Collages',

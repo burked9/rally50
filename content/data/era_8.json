@@ -83,7 +83,15 @@
                 "plaque.png"
             ],
             "brochure_pages": [],
-            "people_items": []
+            "people_items": [
+                {
+                    "title": "Rally 40 (2015): Gathering of the Commodores & Flag Presentation",
+                    "section": "Our Commodores",
+                    "href": "/archive/people/commodores-gathering-2015.html",
+                    "thumb": "/images/people/commodores-gathering-2015/2015-07-12_17-59-52_thumb.jpg",
+                    "is_image": false
+                }
+            ]
         }
     ]
 }
