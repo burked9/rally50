@@ -7,7 +7,9 @@
             "photos": [],
             "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTcmFheWphX1ZZUjQ",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1981.jpg"
+            ],
             "brochure_pages": [],
             "people_items": []
         },

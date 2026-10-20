@@ -1,14 +1,33 @@
-Title: Rally Flags
+Title: Rally Flags & Burgees
 Date: 2024-01-29
 Slug: archive/artifacts/flags
 Save_as: archive/artifacts/flags/index.html
 URL: archive/artifacts/flags/index.html
-Summary: Archive of historical flags from the Lough Derg Rally.
+Summary: Archive of historical flags and burgees from the Lough Derg Rally.
 
-Welcome to the Rally Flags archive. Below is a collection of the beautiful flags that have flown over the Lough Derg Rally over the years.
+Welcome to the Rally Flags & Burgees archive. Below is a collection of the flags and burgees that have flown over the Lough Derg Rally over the years.
+
+## Flags
 
 <div class="gallery-grid" id="flags-grid">
-    <a href="{filename}/images/flags/burgee_rally39.jpg" class="gallery-item" data-lightbox="flags" data-title="Burgee, Rally 39">
+    <a href="{filename}/images/flags/royal_bog_of_allen_pooka_club_lotus_two.jpg" class="gallery-item" data-lightbox="flags" data-title="Royal Bog of Allen Pooka club - Lotus Two">
+        <img src="{filename}/images/flags/royal_bog_of_allen_pooka_club_lotus_two_thumb.jpg" alt="Royal Bog of Allen Pooka club - Lotus Two">
+        <div class="gallery-caption">Royal Bog of Allen Pooka club - Lotus Two</div>
+    </a>
+    <a href="{filename}/images/flags/rally25_millenium_flag_athlone_2000_lotus_two.jpg" class="gallery-item" data-lightbox="flags" data-title="Rally 25 Millenium Flag Athlone 2000 - Lotus Two">
+        <img src="{filename}/images/flags/rally25_millenium_flag_athlone_2000_lotus_two_thumb.jpg" alt="Rally 25 Millenium Flag Athlone 2000 - Lotus Two">
+        <div class="gallery-caption">Rally 25 Millenium Flag Athlone 2000 - Lotus Two</div>
+    </a>
+</div>
+
+<br>
+<hr>
+<br>
+
+## Burgees
+
+<div class="gallery-grid" id="burgees-grid">
+    <a href="{filename}/images/flags/burgee_rally39.jpg" class="gallery-item" data-lightbox="burgees" data-title="Burgee, Rally 39">
         <img src="{filename}/images/flags/burgee_rally39_thumb.jpg" alt="Burgee, Rally 39">
         <div class="gallery-caption">Burgee, Rally 39</div>
     </a>

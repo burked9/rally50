@@ -6,9 +6,29 @@ URL: archive/artifacts/plaques/index.html
 Summary: Archive of Rally Plaques.
 
 <div class="gallery-grid">
+    <a href="{filename}/images/rallies/1975/plaque_1975.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 1 (1975)">
+        <img src="{filename}/images/rallies/1975/plaque_1975_thumb.jpg" alt="Rally 1 Plaque">
+        <div class="gallery-caption">Rally 1 (1975)</div>
+    </a>
+    <a href="{filename}/images/rallies/1976/plaque_1976.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 2 (1976)">
+        <img src="{filename}/images/rallies/1976/plaque_1976_thumb.jpg" alt="Rally 2 Plaque">
+        <div class="gallery-caption">Rally 2 (1976)</div>
+    </a>
+    <a href="{filename}/images/rallies/1977/plaque_1977.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 3 (1977)">
+        <img src="{filename}/images/rallies/1977/plaque_1977_thumb.jpg" alt="Rally 3 Plaque">
+        <div class="gallery-caption">Rally 3 (1977)</div>
+    </a>
+    <a href="{filename}/images/rallies/1978/plaque_1978.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 4 (1978) (unconfirmed)">
+        <img src="{filename}/images/rallies/1978/plaque_1978_thumb.jpg" alt="Rally 4 Plaque (unconfirmed)">
+        <div class="gallery-caption">Rally 4 (1978) (unconfirmed)</div>
+    </a>
     <a href="{filename}/images/rallies/1980/plaque_1980.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 5 (1980)">
         <img src="{filename}/images/rallies/1980/plaque_1980_thumb.jpg" alt="Rally 5 Plaque">
         <div class="gallery-caption">Rally 5 (1980)</div>
+    </a>
+    <a href="{filename}/images/rallies/1981/plaque_1981.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 6 (1981)">
+        <img src="{filename}/images/rallies/1981/plaque_1981_thumb.jpg" alt="Rally 6 Plaque">
+        <div class="gallery-caption">Rally 6 (1981)</div>
     </a>
     <a href="{filename}/images/rallies/1985/plaque_1985.jpg" class="gallery-item" data-lightbox="plaques" data-title="Rally 10 (1985)">
         <img src="{filename}/images/rallies/1985/plaque_1985_thumb.jpg" alt="Rally 10 Plaque">
@@ -185,22 +205,6 @@ Summary: Archive of Rally Plaques.
         <img src="{filename}/images/prizes/rally13_barge_race_prize_ChangSha_thumb.jpg" alt="Rally 13 Barge Race Prize Changsha">
         <div class="gallery-caption">Rally 13 Barge Race Prize Changsha</div>
     </a>
-    <a href="{filename}/images/prizes/rally6_prize_plaque.jpg" class="gallery-item" data-lightbox="prizes" data-title="Rally 6 Prize Plaque">
-        <img src="{filename}/images/prizes/rally6_prize_plaque_thumb.jpg" alt="Rally 6 Prize Plaque">
-        <div class="gallery-caption">Rally 6 Prize Plaque</div>
-    </a>
-    <a href="{filename}/images/prizes/winners_plaque_earlyrally.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Early Unconfirmed Rally, 40M.">
-        <img src="{filename}/images/prizes/winners_plaque_earlyrally_thumb.jpg" alt="Winners Plaque Early Unconfirmed Rally, 40M.">
-        <div class="gallery-caption">Winners Plaque Early Unconfirmed Rally, 40M.</div>
-    </a>
-    <a href="{filename}/images/prizes/winners_plaque_rally1.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 1">
-        <img src="{filename}/images/prizes/winners_plaque_rally1_thumb.jpg" alt="Winners Plaque Rally 1">
-        <div class="gallery-caption">Winners Plaque Rally 1</div>
-    </a>
-    <a href="{filename}/images/prizes/winners_plaque_rally2.jpg" class="gallery-item" data-lightbox="prizes" data-title="Winners Plaque Rally 2">
-        <img src="{filename}/images/prizes/winners_plaque_rally2_thumb.jpg" alt="Winners Plaque Rally 2">
-        <div class="gallery-caption">Winners Plaque Rally 2</div>
-    </a>
 </div>
 
 <style>
@@ -232,11 +236,6 @@ Summary: Archive of Rally Plaques.
 ## Missing Plaques
 We are currently missing photos for the following early Rally Plaques. If you have any of these, please let us know!
 <ul>
-    <li>Rally 1 (1975)</li>
-    <li>Rally 2 (1976)</li>
-    <li>Rally 3 (1977)</li>
-    <li>Rally 4 (1978)</li>
-    <li>Rally 6 (1981)</li>
     <li>Rally 7 (1982)</li>
     <li>Rally 8 (1983)</li>
     <li>Rally 9 (1984)</li>

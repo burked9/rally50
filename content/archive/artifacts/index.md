@@ -50,8 +50,8 @@ main, .l-measure, .l-container {
     </a>
 
      <a href="{filename}/archive/artifacts/flags/index.md" class="artifact-tile">
-        <img src="{filename}/images/flags/burgee_rally39_thumb.jpg" alt="Flags" class="tile-image">
-        <h3>Flags</h3>
+        <img src="{filename}/images/flags/royal_bog_of_allen_pooka_club_lotus_two_thumb.jpg" alt="Flags" class="tile-image">
+        <h3>Flags & Burgees</h3>
     </a>
 
 
