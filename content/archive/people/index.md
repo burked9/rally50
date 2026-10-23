@@ -288,7 +288,7 @@ main, .l-measure, .l-container {
         <div class="gallery-caption">Rally 27 (2002): Living on Twenty Pence by John Moore</div>
     </a>
     <a href="{filename}/archive/people/stories/the-lough-derg-rally-song.md" class="gallery-item">
-        <img src="{static}/images/people_placeholder.png" alt="The Lough Derg Rally Song – Martin Burke">
+        <img src="{static}/images/people/stories/martin_burke_jj_kennelly_1980_thumb.jpg" alt="The Lough Derg Rally Song – Martin Burke" style="object-position: top;">
         <div class="gallery-caption">The Lough Derg Rally Song – Martin Burke</div>
     </a>
 </div>

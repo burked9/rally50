@@ -17,6 +17,13 @@ Summary: A recording and lyrics of the Lough Derg Rally Song by Martin Burke, th
     </audio>
 </div>
 
+<figure style="margin: 0 auto 30px auto; max-width: 640px; text-align: center;">
+    <a href="{static}/images/people/stories/martin_burke_jj_kennelly_1980.jpg" data-lightbox="martin-burke" data-title="From the left: Martin Burke, JJ Kennelly and two other unidentified c. 1980">
+        <img src="{static}/images/people/stories/martin_burke_jj_kennelly_1980.jpg" alt="From the left: Martin Burke, JJ Kennelly and two other unidentified c. 1980" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    </a>
+    <figcaption style="font-size: 0.9rem; color: #555; margin-top: 10px; font-style: italic;">From the left: Martin Burke, JJ Kennelly and two other unidentified c. 1980</figcaption>
+</figure>
+
 This recording was made by **Martin Burke**, who was the piper aboard JJ Kenneally's boat *Carmel*, and was kindly shared by his son, Ronan. Martin Burke was the first to start the beloved Rally tradition of waking everyone up in the morning with the pipes.
 
 Martin used to play the Irish War Pipes, which Ronan had restored recently, having originally been made in 1890.

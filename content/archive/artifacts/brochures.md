@@ -6,7 +6,7 @@ URL: archive/artifacts/brochures/index.html
 
 Browse through the digital collection of rally brochures from the past. Click on a cover to view the full PDF.
 
-<div id="magazine-grid" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px;"></div>
+<div id="magazine-grid"></div>
 
 <script>
 // Data: List of Rally Magazines
@@ -194,10 +194,10 @@ magazines.forEach(mag => {
     const viewUrl = `https://drive.google.com/file/d/${mag.id}/view?usp=sharing`;
 
     const card = `
-        <div class="mag-card" style="width: 200px; text-align: center; font-family: sans-serif;">
-            <a href="${viewUrl}" target="_blank" style="text-decoration: none; color: inherit;">
-                <img src="${thumbUrl}" alt="${mag.name}" style="width: 100%; border: 1px solid #ddd; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); border-radius: 4px; transition: transform 0.2s;">
-                <p style="margin-top: 10px; font-weight: bold; font-size: 0.9rem;">${mag.name}</p>
+        <div class="mag-card">
+            <a href="${viewUrl}" target="_blank">
+                <img src="${thumbUrl}" alt="${mag.name}" loading="lazy">
+                <p>${mag.name}</p>
             </a>
         </div>
     `;
@@ -206,9 +206,52 @@ magazines.forEach(mag => {
 </script>
 
 <style>
+    /* Expand page container so 5 columns fit comfortably and stay centered */
+    main, .l-measure, .l-container, .entry-content {
+        max-width: 1200px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    #magazine-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        margin: 40px auto 0 auto;
+        max-width: 1150px;
+    }
+    .mag-card {
+        width: calc((100% - 96px) / 5);
+        min-width: 170px;
+        max-width: 210px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .mag-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .mag-card img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        background: #f8f8f8;
+    }
+    .mag-card p {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 0.95rem;
+        color: #1D2545;
+    }
     /* Subtle hover effect for the magazines */
     .mag-card img:hover {
-        transform: scale(1.05);
+        transform: translateY(-4px) scale(1.03);
         border-color: #004a99;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
     }
 </style>
