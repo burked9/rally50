@@ -111,9 +111,11 @@
 h1.entry-title, .page-title, h1.h1 {
     display: none;
 }
-/* Expand main container to allow 3-wide grid */
-main, .l-measure, .l-container {
-    max-width: 1000px !important;
+/* Expand main container so 5 columns fit comfortably and stay centered */
+main, .l-measure, .l-container, .entry-content {
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 </style>
 
@@ -153,8 +155,6 @@ main, .l-measure, .l-container {
         <h3>Flags & Burgees</h3>
     </a>
 
-
-
     <a href="https://burked9.github.io/rally50/archive/artifacts/commodores-plaques/index.html" class="artifact-tile">
         <img src="https://burked9.github.io/rally50/images/commodores_tankard_placeholder.png" alt="Commodores Plaques" class="tile-image">
         <h3>Commodores Plaques</h3>
@@ -173,13 +173,18 @@ main, .l-measure, .l-container {
 
 <style>
     .artifact-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 30px;
-        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        margin: 40px auto 0 auto;
+        max-width: 1150px;
     }
 
     .artifact-tile {
+        width: calc((100% - 96px) / 5);
+        min-width: 185px;
+        max-width: 215px;
         display: flex;
         flex-direction: column;
         text-decoration: none;
@@ -187,27 +192,29 @@ main, .l-measure, .l-container {
         border: 1px solid #eee;
         border-radius: 8px;
         overflow: hidden;
-        transition: transform 0.2s, box-shadow 0.2s;
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
         background: #fff;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.06);
     }
 
     .artifact-tile:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transform: translateY(-4px) scale(1.02);
+        border-color: #004a99;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12);
         text-decoration: none;
     }
 
     .tile-image {
         width: 100%;
-        height: 180px;
+        height: 170px;
         object-fit: cover;
         display: block;
         border-bottom: 1px solid #f0f0f0;
     }
 
     .artifact-tile h3 {
-        margin: 15px;
-        font-size: 1.1rem;
+        margin: 14px 10px;
+        font-size: 1rem;
         text-align: center;
         color: #1D2545; /* Dark Navy as requested */
     }
