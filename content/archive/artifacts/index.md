@@ -62,7 +62,7 @@ main, .l-measure, .l-container, .entry-content {
     </a>
 
     <a href="{filename}/archive/artifacts/misc/index.md" class="artifact-tile">
-        <img src="{filename}/images/rally_flag_placeholder.png" alt="Misc Artefacts" class="tile-image">
+        <img src="{filename}/images/misc/toms_crew_rally24_1999_thumb.jpg" alt="Misc Artefacts" class="tile-image">
         <h3>Misc Artefacts</h3>
     </a>
 

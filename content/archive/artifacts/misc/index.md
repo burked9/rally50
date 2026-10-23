@@ -9,6 +9,10 @@ Welcome to the Miscellaneous Artefacts archive. Below is a collection of various
 
 <div class="gallery-grid" id="misc-grid">
     <!-- Items will be added here as images are provided -->
+    <a href="{filename}/images/misc/toms_crew_rally24_1999.jpg" class="gallery-item" data-lightbox="misc" data-title="Toms Crew, Rally 24 1999">
+        <img src="{filename}/images/misc/toms_crew_rally24_1999_thumb.jpg" alt="Toms Crew, Rally 24 1999">
+        <div class="gallery-caption">Toms Crew, Rally 24 1999</div>
+    </a>
     <a href="{filename}/images/misc/rally45_card.jpg" class="gallery-item" data-lightbox="misc" data-title="Rally 45 Card">
         <img src="{filename}/images/misc/rally45_card_thumb.jpg" alt="Rally 45 Card">
         <div class="gallery-caption">Rally 45 Card</div>
