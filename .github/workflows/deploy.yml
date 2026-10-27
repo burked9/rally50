@@ -28,8 +28,23 @@ jobs:
             pelican content -o output -s publishconf.py
             touch output/.nojekyll
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (Internal Working Site)
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
+
+      - name: Build Public Splash Site (loughdergrally50.com)
+        run: |
+            pelican content -o output_public -s publishconf_public.py
+            touch output_public/.nojekyll
+
+      - name: Deploy to Public GitHub Pages (loughdergrally50-public)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PUBLIC_DEPLOY_TOKEN }}
+          external_repository: burked9/loughdergrally50-public
+          publish_branch: gh-pages
+          publish_dir: ./output_public
+          cname: www.loughdergrally50.com
+
