@@ -12,6 +12,10 @@ Browse through the digital collection of rally brochures from the past. Click on
 // Data: List of Rally Magazines
 const magazines = [
     {
+        "name": "Derg Rally 01",
+        "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU"
+    },
+    {
         "name": "Derg Rally 02",
         "id": "0B4ubLJPS0mdTMnNzS0lXTy1FQWM"
     },
