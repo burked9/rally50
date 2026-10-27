@@ -3,7 +3,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://www.loughdergrally50.com'
+SITEURL = 'https://loughdergrally50.com'
 RELATIVE_URLS = False
 
 # Only build the standalone announcements splash page, no archive or articles
