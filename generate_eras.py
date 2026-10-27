@@ -13,7 +13,7 @@ INDEX_MD_FILE = os.path.join(ERAS_DIR, 'index.md')
 
 # Brochure data from parse_brochures.py (manually integrated here)
 BROCHURES_RAW = [
-  { "name": "Derg Rally 01", "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU" },
+  { "name": "Derg Rally 01", "id": "1hJhY54jR-8p8cMKKosr_zxLMXDJQ2I-1" },
   { "name": "Derg Rally 02", "id": "0B4ubLJPS0mdTMnNzS0lXTy1FQWM" },
   { "name": "Derg Rally 03", "id": "0B4ubLJPS0mdTbWRBTndEeW43ekk" },
   { "name": "Derg Rally 04", "id": "0B4ubLJPS0mdTWE5uR3FMaWVUNWc" },

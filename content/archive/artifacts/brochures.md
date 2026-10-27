@@ -13,7 +13,7 @@ Browse through the digital collection of rally brochures from the past. Click on
 const magazines = [
     {
         "name": "Derg Rally 01",
-        "id": "0B4ubLJPS0mdTSmk3b25PUmlrbFU"
+        "id": "1hJhY54jR-8p8cMKKosr_zxLMXDJQ2I-1"
     },
     {
         "name": "Derg Rally 02",
