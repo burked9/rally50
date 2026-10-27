@@ -10,11 +10,15 @@ RELATIVE_URLS = False
 ARTICLE_PATHS = []
 PAGE_PATHS = ['pages/announcements.md']
 
+# Disable Pelican's default index.html generator so it doesn't overwrite our splash page!
+DIRECT_TEMPLATES = []
+PAGINATED_TEMPLATES = {}
+
 # Make announcements.md render directly as the root homepage (index.html)
 EXTRA_PATH_METADATA = {
     'pages/announcements.md': {
-        'save_as': 'index.html',
-        'url': '',
+        'Save_as': 'index.html',
+        'URL': '',
     },
 }
 
@@ -24,3 +28,4 @@ STATIC_PATHS = []
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 DELETE_OUTPUT_DIRECTORY = True
+

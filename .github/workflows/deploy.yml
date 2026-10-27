@@ -37,6 +37,8 @@ jobs:
       - name: Build Public Splash Site (loughdergrally50.com)
         run: |
             pelican content -o output_public -s publishconf_public.py
+            cp output_public/category/announcements.html output_public/index.html
+            rm -rf output_public/category
             touch output_public/.nojekyll
 
       - name: Deploy to Public GitHub Pages (loughdergrally50-public)
