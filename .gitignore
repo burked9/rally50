@@ -6,3 +6,6 @@ venv/
 cache/
 *.pid
 raw_brochures/
+output_public/
+handover.html
+
