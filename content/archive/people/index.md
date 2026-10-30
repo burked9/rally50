@@ -80,15 +80,27 @@ main, .l-measure, .l-container {
 
 ## Boat Entries & Entry Forms
 
+<p style="margin: 8px 0 18px 0;">
+    <a href="{filename}/archive/people/entries/transcribed-boat-entries.md" style="display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; background: #1D2545; color: #fff !important; text-decoration: none !important; border-radius: 6px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+        📋 View Full Transcribed Boat Entry Lists (Rallies 1, 3 &amp; 5) →
+    </a>
+</p>
+
 <div class="gallery-grid">
-    <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries">
+    <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries (1975)">
         <img src="{static}/images/people/entries/rally1_entries.jpg" alt="Rally 1 Entries">
         <div class="gallery-caption">Rally 1 Entries</div>
     </a>
-    <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries">
+    <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries (1977)">
         <img src="{static}/images/people/entries/rally3_entries.jpg" alt="Rally 3 Entries">
         <div class="gallery-caption">Rally 3 Entries</div>
     </a>
+    <a href="{static}/images/people/entries/rally5_entries_p1.jpg" class="gallery-item" data-lightbox="rally5-entries" data-title="Rally 5 Entries (1980) — Page 1 of 3 (Boats 1–32)">
+        <img src="{static}/images/people/entries/rally5_entries_p1_thumb.jpg" alt="Rally 5 Entries" style="object-position: top;">
+        <div class="gallery-caption">Rally 5 Entries (3 Pages)</div>
+    </a>
+    <a href="{static}/images/people/entries/rally5_entries_p2.jpg" data-lightbox="rally5-entries" data-title="Rally 5 Entries (1980) — Page 2 of 3 (Boats 33–63)" style="display: none;"></a>
+    <a href="{static}/images/people/entries/rally5_entries_p3.jpg" data-lightbox="rally5-entries" data-title="Rally 5 Entries (1980) — Page 3 of 3 (Boats 64–89)" style="display: none;"></a>
 </div>
 
 <div class="gallery-grid">
