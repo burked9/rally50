@@ -100,6 +100,10 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/entries/rally4_entry_form_thumb.jpg" alt="Rally 4 Entry Form" style="object-position: top;">
         <div class="gallery-caption">Rally 4 Entry Form</div>
     </a>
+    <a href="{static}/images/people/entries/rally5_entry_form.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 5 Entry Form (1980)">
+        <img src="{static}/images/people/entries/rally5_entry_form_thumb.jpg" alt="Rally 5 Entry Form" style="object-position: top;">
+        <div class="gallery-caption">Rally 5 Entry Form</div>
+    </a>
 </div>
 ## Commodore's Welcomes
 
