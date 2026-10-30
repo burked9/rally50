@@ -78,7 +78,7 @@ main, .l-measure, .l-container {
     </a>
 </div>
 
-## Records of Boat Entries
+## Boat Entries & Entry Forms
 
 <div class="gallery-grid">
     <a href="{static}/images/people/entries/rally1_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 1 Entries">
@@ -88,6 +88,17 @@ main, .l-measure, .l-container {
     <a href="{static}/images/people/entries/rally3_entries.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 3 Entries">
         <img src="{static}/images/people/entries/rally3_entries.jpg" alt="Rally 3 Entries">
         <div class="gallery-caption">Rally 3 Entries</div>
+    </a>
+</div>
+
+<div class="gallery-grid">
+    <a href="{static}/images/people/entries/rally2_entry_form.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 2 Entry Form (1976)">
+        <img src="{static}/images/people/entries/rally2_entry_form_thumb.jpg" alt="Rally 2 Entry Form" style="object-position: top;">
+        <div class="gallery-caption">Rally 2 Entry Form</div>
+    </a>
+    <a href="{static}/images/people/entries/rally4_entry_form.jpg" class="gallery-item" data-lightbox="boat-entries" data-title="Rally 4 Entry Form (1978)">
+        <img src="{static}/images/people/entries/rally4_entry_form_thumb.jpg" alt="Rally 4 Entry Form" style="object-position: top;">
+        <div class="gallery-caption">Rally 4 Entry Form</div>
     </a>
 </div>
 ## Commodore's Welcomes
