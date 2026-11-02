@@ -116,6 +116,11 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/entries/rally5_entry_form_thumb.jpg" alt="Rally 5 Entry Form" style="object-position: top;">
         <div class="gallery-caption">Rally 5 Entry Form</div>
     </a>
+    <a href="{static}/images/people/entries/rally27_entry_form_p1.jpg" class="gallery-item" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Cover">
+        <img src="{static}/images/people/entries/rally27_entry_form_p1_thumb.jpg" alt="Rally 27 Entry Form" style="object-position: top;">
+        <div class="gallery-caption">Rally 27 Entry Form</div>
+    </a>
+    <a href="{static}/images/people/entries/rally27_entry_form_p2.jpg" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Itinerary &amp; Details" style="display: none;"></a>
 </div>
 ## Commodore's Welcomes
 
