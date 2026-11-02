@@ -116,11 +116,17 @@ main, .l-measure, .l-container {
         <img src="{static}/images/people/entries/rally5_entry_form_thumb.jpg" alt="Rally 5 Entry Form" style="object-position: top;">
         <div class="gallery-caption">Rally 5 Entry Form</div>
     </a>
-    <a href="{static}/images/people/entries/rally27_entry_form_p1.jpg" class="gallery-item" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Cover">
+    <a href="{static}/images/people/entries/rally27_entry_form_p1.jpg" class="gallery-item" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Page 1 of 3 (Cover)">
         <img src="{static}/images/people/entries/rally27_entry_form_p1_thumb.jpg" alt="Rally 27 Entry Form" style="object-position: top;">
         <div class="gallery-caption">Rally 27 Entry Form</div>
     </a>
-    <a href="{static}/images/people/entries/rally27_entry_form_p2.jpg" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Itinerary &amp; Details" style="display: none;"></a>
+    <a href="{static}/images/people/entries/rally27_entry_form_p2.jpg" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Page 2 of 3 (Itinerary &amp; Details)" style="display: none;"></a>
+    <a href="{static}/images/people/entries/rally27_entry_form_p3.jpg" data-lightbox="rally27-entry-form" data-title="Rally 27 Entry Form (2002) — Page 3 of 3 (Entry Form)" style="display: none;"></a>
+    <a href="{static}/images/people/entries/treaty_press_receipts_1980_p1.jpg" class="gallery-item" data-lightbox="treaty-press-1980" data-title="Treaty Press Receipts 1980 — Page 1 of 2">
+        <img src="{static}/images/people/entries/treaty_press_receipts_1980_p1_thumb.jpg" alt="Treaty Press Receipts 1980" style="object-position: top;">
+        <div class="gallery-caption">Treaty Press Receipts 1980</div>
+    </a>
+    <a href="{static}/images/people/entries/treaty_press_receipts_1980_p2.jpg" data-lightbox="treaty-press-1980" data-title="Treaty Press Receipts 1980 — Page 2 of 2" style="display: none;"></a>
 </div>
 ## Commodore's Welcomes
 
