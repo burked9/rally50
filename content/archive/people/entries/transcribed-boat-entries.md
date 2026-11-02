@@ -14,7 +14,7 @@ main, .l-measure, .l-container, .entry-content {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 24px 0;
 }
 .entries-nav a {
     display: inline-block;
@@ -34,8 +34,73 @@ main, .l-measure, .l-container, .entry-content {
     border-left: 4px solid #d4a72c;
     padding: 12px 16px;
     border-radius: 6px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-size: 0.95rem;
+}
+.filter-toolbar {
+    position: sticky;
+    top: 10px;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(8px);
+    border: 1px solid #d0d7de;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box-wrap {
+    flex: 1 1 260px;
+    position: relative;
+}
+.search-box-wrap input {
+    width: 100%;
+    padding: 9px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-box-wrap input:focus {
+    border-color: #004a99;
+    box-shadow: 0 0 0 3px rgba(0, 74, 153, 0.15);
+}
+.class-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+.class-pill {
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: #1D2545;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.class-pill:hover {
+    background: #e2e8f0;
+}
+.class-pill.active {
+    background: #1D2545;
+    color: #fff;
+    border-color: #1D2545;
+}
+.filter-count {
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 600;
+    margin-left: 4px;
 }
 .entries-table {
     width: 100%;
@@ -99,10 +164,24 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
 </div>
 
 <div class="entries-nav">
-    <a href="#rally-1">Jump to Rally 1 (1975) — 58 Boats</a>
-    <a href="#rally-3">Jump to Rally 3 (1977) — 68 Boats</a>
     <a href="#rally-5">Jump to Rally 5 (1980) — 89 Boats</a>
+    <a href="#rally-3">Jump to Rally 3 (1977) — 68 Boats</a>
+    <a href="#rally-1">Jump to Rally 1 (1975) — 58 Boats</a>
     <a href="{filename}/archive/people/index.md" style="background: #6c757d;">← Back to People Archive</a>
+</div>
+
+<div class="filter-toolbar">
+    <div class="search-box-wrap">
+        <input type="text" id="entries-search" placeholder="🔍 Search by skipper name, boat name, or number..." autocomplete="off">
+    </div>
+    <div class="class-pills" id="class-pills">
+        <button type="button" class="class-pill active" data-filter="all">All Classes</button>
+        <button type="button" class="class-pill" data-filter="barge">Barge</button>
+        <button type="button" class="class-pill" data-filter="cruiser">Cruiser</button>
+        <button type="button" class="class-pill" data-filter="sailer">Sailer / Motor Sailer</button>
+        <button type="button" class="class-pill" data-filter="open">Open / Speed / Dinghy</button>
+        <span class="filter-count" id="entries-count">Showing 215 entries</span>
+    </div>
 </div>
 
 ---
@@ -126,7 +205,7 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         </tr>
     </thead>
     <tbody>
-        <tr><td>1</td><td>Frank Van Den Berg</td><td>Argent Brash <span class="flag-uncertain">[#? Brach / Brash]</span></td><td>Cruiser</td></tr>
+        <tr><td>1</td><td>Frank Van Den Berg</td><td>Argent Brach</td><td>Cruiser</td></tr>
         <tr><td>2</td><td>Tom Duffy</td><td>Lotus Two</td><td>Cruiser</td></tr>
         <tr><td>3</td><td>Bryan Brislane</td><td>Tempest</td><td>Cruiser</td></tr>
         <tr><td>4</td><td>R. Donoghue</td><td>Brijella</td><td>Cruiser</td></tr>
@@ -140,7 +219,7 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         <tr><td>12</td><td>Tom Bracken</td><td>Earendil</td><td>Sailing Cruiser</td></tr>
         <tr><td>13</td><td>Robin Benson</td><td>Marlou</td><td>Cruiser</td></tr>
         <tr><td>14</td><td>Alan Waterhouse</td><td>Molly B</td><td>Cruiser</td></tr>
-        <tr><td>15</td><td>John Webb</td><td>30 B <span class="flag-uncertain">[#? typed 3D B. / 30 B.]</span></td><td>Barge</td></tr>
+        <tr><td>15</td><td>John Webb</td><td>30B</td><td>Barge</td></tr>
         <tr><td>16</td><td>Albert Gill</td><td>Paloma</td><td>Motor Sailer</td></tr>
         <tr><td>17</td><td>John Fitzgerald</td><td>Miss Ruth</td><td>Cruiser</td></tr>
         <tr><td>18</td><td>P. Lawless</td><td>Lady Law</td><td>Motor Sailer</td></tr>
@@ -149,21 +228,21 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         <tr><td>21</td><td>Mrs P. O'Leary</td><td>San Martin II</td><td>Cruiser</td></tr>
         <tr><td>22</td><td>T. Abramson</td><td>Grey Goose</td><td>Motor Sailer</td></tr>
         <tr><td>23</td><td>Joe Treacy</td><td>Nousha II</td><td>Cruiser</td></tr>
-        <tr><td>24</td><td>Christa Lilge</td><td>Hein Goodewind II <span class="flag-uncertain">[#? Goodewind II]</span></td><td>Motor Sailer</td></tr>
+        <tr><td>24</td><td>Christa Lilge</td><td>Hein Goodewind II</td><td>Motor Sailer</td></tr>
         <tr><td>25</td><td>Tom McGuire</td><td>Wild Rover</td><td>Cruiser</td></tr>
-        <tr><td>26</td><td>Kevin Feely</td><td>Grenoville <span class="flag-uncertain">[#? overtyped Grenoville / Greneville]</span></td><td>Motor Sailer</td></tr>
+        <tr><td>26</td><td>Kevin Feely</td><td>Grenouille</td><td>Motor Sailer</td></tr>
         <tr><td>27</td><td>Jim Bagnall</td><td>Lady Be Good</td><td>Cruiser</td></tr>
         <tr><td>28</td><td>Jim Leyden</td><td>Geraldine II</td><td>Cruiser</td></tr>
         <tr><td>29</td><td>Bob Hughes</td><td>Margarita II</td><td>Cruiser</td></tr>
-        <tr><td>30</td><td>Mark Maguire</td><td>Wiadrinave <span class="flag-uncertain">[#? Wiadrinave / Windrimave]</span></td><td>Cruiser</td></tr>
+        <tr><td>30</td><td>Mark Maguire</td><td>Wiadrimave</td><td>Cruiser</td></tr>
         <tr><td>31</td><td>J. M'Lean - Roberts</td><td>Mallard</td><td>Motor Sailer</td></tr>
         <tr><td>32</td><td>Kieran Walsh</td><td>Sundancer</td><td>Cruiser</td></tr>
         <tr><td>33</td><td>Fr. Jim Colleran</td><td>Moon Raker</td><td>Motor Sailer</td></tr>
         <tr><td>34</td><td>J. B. H. Johnston</td><td>De. Eems</td><td>Barge</td></tr>
-        <tr><td>35</td><td>Evans Dier <span class="flag-uncertain">[#? Dier]</span></td><td>Jennine</td><td>Cruiser</td></tr>
-        <tr><td>36</td><td>James Lyons</td><td>"Mrs Squecis" <span class="flag-uncertain">[#? Squecis]</span></td><td>Cruiser</td></tr>
+        <tr><td>35</td><td>Evans Dier</td><td>Jennine</td><td>Cruiser</td></tr>
+        <tr><td>36</td><td>James Lyons</td><td>"Mrs Squecis"</td><td>Cruiser</td></tr>
         <tr><td>37</td><td>Brendan Travers</td><td>Sea Maiden</td><td>Sailing Cruiser</td></tr>
-        <tr><td>38</td><td>Gay Boylan</td><td>Couilsare 43M <span class="flag-uncertain">[#? Couilsare 43M]</span></td><td>Barge</td></tr>
+        <tr><td>38</td><td>Gay Boylan</td><td>Couilsare 43M</td><td>Barge</td></tr>
         <tr><td>39</td><td>Desmond Scott</td><td>Poseidon <span class="flag-uncertain">[#? typed Poseidoh]</span></td><td>Motor Sailer</td></tr>
         <tr><td>40</td><td>Thomas Monahan</td><td>Jemmy X</td><td>Cruiser</td></tr>
         <tr><td>41</td><td>Patrick T. Brady</td><td>Mako</td><td>Cruiser</td></tr>
@@ -179,8 +258,8 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         <tr><td>51</td><td>Murragh O'Brien</td><td>Medusa</td><td>Motor Sailer</td></tr>
         <tr><td>52</td><td>Paddy Dowling</td><td>Eistamaid</td><td>Cruiser</td></tr>
         <tr><td>53</td><td>Philip Wm. Despard</td><td>Snipe</td><td>Open Boat</td></tr>
-        <tr><td>54</td><td>R. &amp; D. Vincen <span class="flag-uncertain">[#? Vincen / Vincent]</span></td><td>Club Killaloe</td><td>Speed Boat</td></tr>
-        <tr><td>55</td><td>— Keown <span class="flag-uncertain">[#? initial unclear]</span></td><td>— <span class="flag-uncertain">[#? dash on sheet]</span></td><td>Cruiser</td></tr>
+        <tr><td>54</td><td>R. &amp; D. Vincen</td><td>Club Killaloe</td><td>Speed Boat</td></tr>
+        <tr><td>55</td><td>Keown</td><td>-</td><td>Cruiser</td></tr>
         <tr><td>56</td><td>L. Sherin</td><td>Kingfisher</td><td>Cruiser</td></tr>
         <tr><td>57</td><td>Tom Corry</td><td>Margaret II</td><td>Cruiser</td></tr>
         <tr><td>58</td><td>Gabriel Busher <span class="flag-uncertain">[#? Busher / Bushev]</span></td><td>Manta</td><td>Cruiser</td></tr>
@@ -192,29 +271,29 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         <tr><td>64</td><td>Brian &amp; Anne Goggin</td><td>Jaquella</td><td>Open Boat</td></tr>
         <tr><td>65</td><td>Gerry Oakman</td><td>73M</td><td>Barge</td></tr>
         <tr><td>66</td><td>John Young</td><td>— <span class="flag-uncertain">[#? blank on sheet]</span></td><td>Cruiser</td></tr>
-        <tr><td>67</td><td>Percy Hewitt <span class="flag-uncertain">[#? "John" crossed out, "Percy" written above]</span></td><td>Kylemore</td><td>Cruiser</td></tr>
+        <tr><td>67</td><td>Percy Hewitt</td><td>Kylemore</td><td>Cruiser</td></tr>
         <tr><td>68</td><td>B. O'Reilly</td><td>Porters Eve</td><td>Cruiser</td></tr>
         <tr><td>69</td><td>Tim Keane</td><td>Vivienne</td><td>Cruiser</td></tr>
         <tr><td>70</td><td>L. Saunders</td><td>Callisto</td><td>Cruiser</td></tr>
-        <tr><td>71</td><td>Paul Glandillon <span class="flag-uncertain">[#? Glandillon / Blandillon]</span></td><td>Kukri</td><td>Cruiser</td></tr>
-        <tr><td>72</td><td>James O'Flanagan</td><td>Cophur <span class="flag-uncertain">[#? Cophur / Cophue]</span></td><td>Motor Sailer</td></tr>
+        <tr><td>71</td><td>Paul Glandillon</td><td>Kukri</td><td>Cruiser</td></tr>
+        <tr><td>72</td><td>James O'Flanagan</td><td>Cophue</td><td>Motor Sailer</td></tr>
         <tr><td>73</td><td>P. Costigan</td><td>Bad Eile</td><td>Cruiser</td></tr>
         <tr><td>74</td><td>D. Harrison</td><td>Eagle</td><td>Sailer</td></tr>
-        <tr><td>75</td><td>Syd Shine</td><td>"My Fox"</td><td>Barge</td></tr>
+        <tr><td>75</td><td>Syd Shine</td><td>M.V. Fox</td><td>Barge</td></tr>
         <tr><td>76</td><td>Mr. Earle</td><td>Whitethorn</td><td>Motor Sailer</td></tr>
         <tr><td>77</td><td>D. Delaney</td><td>Philos</td><td>Motor Sailer</td></tr>
         <tr><td>78</td><td>Eugene Matthews</td><td>Maeve II</td><td>Open Boat</td></tr>
         <tr><td>79</td><td>Seán Matthews</td><td>Sequoia</td><td>Barge</td></tr>
         <tr><td>80</td><td>Larry Byrne</td><td>Kim</td><td>Cruiser</td></tr>
         <tr><td>81</td><td>Brendan Thompson</td><td>Gillian Too</td><td>Cruiser</td></tr>
-        <tr><td>82</td><td>Declan Stout</td><td>Weiden Lung <span class="flag-uncertain">[#? Weiden Lung]</span></td><td>Cabin Boat</td></tr>
+        <tr><td>82</td><td>Declan Stout</td><td>Weiden Lung</td><td>Cabin Boat</td></tr>
         <tr><td>83</td><td>John Pullen</td><td>Sophia</td><td>Barge</td></tr>
         <tr><td>84</td><td>Sean Fitzsimons</td><td>Iron Lung</td><td>Barge</td></tr>
         <tr><td>85</td><td>David Killeen</td><td>Gillaroo Too</td><td>Motor Sailer</td></tr>
         <tr><td>86</td><td>Jack McKinney</td><td>Kyrstie</td><td>Cruiser</td></tr>
         <tr><td>87</td><td>David Henshaw</td><td>Liscannor Lass</td><td>Motor Sailer</td></tr>
         <tr><td>88</td><td>Donal Burke</td><td>Ciara</td><td>Cruiser</td></tr>
-        <tr><td>89</td><td>Tom Joyce</td><td>Lady Penlyric <span class="flag-uncertain">[#? Ladypenlyric]</span></td><td>Cruiser</td></tr>
+        <tr><td>89</td><td>Tom Joyce</td><td>Lady Penlyric</td><td>Cruiser</td></tr>
     </tbody>
 </table>
 
@@ -387,3 +466,66 @@ Below is the complete, searchable transcription of the historical Boat Entry rec
         <tr><td>58</td><td>D. Lysaght</td><td>— <span class="flag-uncertain">[#? blank on sheet]</span></td><td>Open</td></tr>
     </tbody>
 </table>
+
+<script>
+(function() {
+    const searchInput = document.getElementById('entries-search');
+    const pills = document.querySelectorAll('.class-pill');
+    const countLabel = document.getElementById('entries-count');
+    const rows = Array.from(document.querySelectorAll('.entries-table tbody tr'));
+    let activeClass = 'all';
+
+    function matchesClass(classText, filter) {
+        if (filter === 'all') return true;
+        const c = classText.toLowerCase();
+        if (filter === 'barge') {
+            return c.includes('barge') || c.includes('canal');
+        }
+        if (filter === 'cruiser') {
+            return c.includes('cruiser') || c === 'cr.' || c === 'cr' || c.includes('cabin') || c.includes('tsmy');
+        }
+        if (filter === 'sailer') {
+            return c.includes('sail') || c.includes('slr');
+        }
+        if (filter === 'open') {
+            return c.includes('open') || c.includes('speed') || c.includes('dinghy') || c.includes('dory');
+        }
+        return true;
+    }
+
+    function applyFilters() {
+        const query = (searchInput.value || '').trim().toLowerCase();
+        let visibleCount = 0;
+
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            if (cells.length < 4) return;
+            const rowText = row.textContent.toLowerCase();
+            const classText = cells[3].textContent.trim();
+
+            const passSearch = !query || rowText.includes(query);
+            const passClass = matchesClass(classText, activeClass);
+
+            if (passSearch && passClass) {
+                row.style.display = '';
+                visibleCount++;
+            } else {
+                row.style.display = 'none';
+            }
+        });
+
+        countLabel.textContent = `Showing ${visibleCount} ${visibleCount === 1 ? 'entry' : 'entries'}`;
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+
+    pills.forEach(pill => {
+        pill.addEventListener('click', function() {
+            pills.forEach(p => p.classList.remove('active'));
+            this.classList.add('active');
+            activeClass = this.getAttribute('data-filter');
+            applyFilters();
+        });
+    });
+})();
+</script>
