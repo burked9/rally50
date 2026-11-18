@@ -6,6 +6,7 @@ import os
 pairs = [
     ('content/data/rally_2002.json', 'rally_2002_metadata.csv'),
     ('content/data/rally_2003.json', 'rally_2003_metadata.csv'),
+    ('content/data/rally_2015.json', 'rally_2015_metadata.csv'),
     ('content/data/rally_2023.json', 'rally_2023_metadata.csv'),
     ('content/data/rally_2024.json', 'rally_2024_metadata.csv')
 ]

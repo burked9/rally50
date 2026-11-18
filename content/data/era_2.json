@@ -19,7 +19,9 @@
             "photos": [],
             "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTeklUc0FZQXJjVEU",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1982.jpg"
+            ],
             "brochure_pages": [],
             "people_items": []
         },
@@ -29,7 +31,9 @@
             "photos": [],
             "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTYUl5ckdvWnlFZHc",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1983.jpg"
+            ],
             "brochure_pages": [],
             "people_items": []
         },
@@ -39,7 +43,9 @@
             "photos": [],
             "photo_count": 0,
             "brochure_id": "0B4ubLJPS0mdTZTZaeVVGMjFJR2s",
-            "artifacts": [],
+            "artifacts": [
+                "plaque_1984.jpg"
+            ],
             "brochure_pages": [],
             "people_items": []
         },
